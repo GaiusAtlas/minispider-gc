@@ -8,24 +8,32 @@
 #########################################################
 
 '''
-minispier
+minispider
 '''
+import argparse
+import conf_load
+import log
 
-import os
-import argparse    # 字符串处理库
-import conf_load   # 载入配置文件
 
-def parse_args():
+def parse_args_init():
     parser = argparse.ArgumentParser(description='To get spider configuration.')
     parser.add_argument('--conf', '-c', help='get config file',required=True)
+    parser.add_argument('--sect', '-s', help='get section from file', required=True)
     parser.add_argument('--integers', '-i', type=int, nargs='+', help='传入的数字')
     args_p = parser.parse_args()
     return args_p
 
+class MiniSpider(object):
+    def __init__(self):
+        pass
+
 
 if __name__ == '__main__':
     try:
-        args = parse_args()
-        conf_load.get_conf(args.conf)
+        args = parse_args_init()
+        spider_log = log.LogManager()
+        SpiderConf = conf_load.GetConf(args.conf,args.sect)
+        print(SpiderConf.name)
+        print(SpiderConf.output_path)
     except Exception as e:
         print(e)
