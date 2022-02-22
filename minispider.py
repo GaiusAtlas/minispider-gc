@@ -18,8 +18,8 @@ import log
 def parse_args_init():
     parser = argparse.ArgumentParser(description='To get spider configuration.')
     parser.add_argument('--conf', '-c', help='get config file',required=True)
-    parser.add_argument('--sect', '-s', help='get section from file', required=True)
-    parser.add_argument('--integers', '-i', type=int, nargs='+', help='传入的数字')
+    parser.add_argument('--sect', '-s', help='get section from file',default='spider')
+    parser.add_argument('--version','-v',action='version',version='1.0.0',help='显示版本信息')
     args_p = parser.parse_args()
     return args_p
 
@@ -29,6 +29,7 @@ class MiniSpider(object):
 
 
 if __name__ == '__main__':
+    import crawler
     try:
         args = parse_args_init()
         spider_log = log.LogManager()

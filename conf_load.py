@@ -46,25 +46,25 @@ class GetConf(object):
             self.spider_log.logger.error('url_list_file option does not exist')
 
         try:
-            self.output_path = cg.get(section_name, 'output_path')
+            self.output_directory = cg.get(section_name, 'output_directory')
         except configparser.NoOptionError as se:
-            print ('output_path option does not exist')
-            self.spider_log.logger.error('output_path option does not exist')
+            print ('output_directory option does not exist')
+            self.spider_log.logger.error('output_directory option does not exist')
 
         try:
-            self.crawl_depth = cg.getint(section_name, 'crawl_depth')
+            self.max_depth = cg.getint(section_name, 'max_depth')
         except configparser.NoOptionError as se:
-            print ('No such crawl_depth option in config')
-            self.spider_log.logger.error('crawl_depth option does not exist')
+            print ('No such max_depth option in config')
+            self.spider_log.logger.error('max_depth option does not exist')
         except ValueError as ve:
             print('crawl_depth config is not a number')
             self.spider_log.logger.error('crawl_depth config is not a number')
 
         try:
-            self.crawl_inter = cg.getint(section_name, 'crawl_inter')
+            self.crawl_interval = cg.getint(section_name, 'crawl_interval')
         except configparser.NoOptionError as se:
-            print ('No crawl_inter option in config')
-            self.spider_log.logger.error('crawl_inter option does not exist')
+            print ('No crawl_interval option in config')
+            self.spider_log.logger.error('crawl_interval option does not exist')
         except ValueError as ve:
             print('crawl_inter config is not a number')
             self.spider_log.logger.error('crawl_inter config is not a number')
@@ -101,16 +101,12 @@ class GetConf(object):
 
 def get_conf(conf_file):
     conf_url_path = os.path.join('./conf/', conf_file)
-    # with open(url, 'r') as f:
-    #     print(f.readlines())
+
     cg = configparser.ConfigParser()
     file_name = cg.read(conf_url_path)
     print (file_name)
-    try:
-        url_list_path = cg.get('spider', 'url_list_file')
-        print(url_list_path)
-    except:
-        pass
+    url_list_path = cg.get('spider', 'url_list_file')
+    print(url_list_path)
 
     with open(url_list_path, 'r') as f:
         for line in f:
