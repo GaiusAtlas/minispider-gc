@@ -21,7 +21,7 @@ def pingme(i,queue):
         queue.task_done()
 
 for i in range(num_threads):
-    t = Thread(target=pingme, args=(i,q))
+    t = Thread(target=pingme, args=(i, q))
     t.setDaemon(True)
     t.start()
 

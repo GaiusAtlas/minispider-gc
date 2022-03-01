@@ -21,7 +21,7 @@ class GetConf(object):
     get option from configuration file
     """
 
-    def __init__(self, conf_file, section_name):
+    def __init__(self, conf_file, section_name='spider'):
         cg = configparser.ConfigParser()
         conf_file_path = os.path.join('./conf/', conf_file)
 
