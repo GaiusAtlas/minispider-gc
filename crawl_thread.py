@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import threading
+import time
 
 import URL_List
 import conf_load
@@ -24,6 +25,7 @@ class CrawlThreadManager(threading.Thread):
         self.crawl_interval = conf.crawl_interval
         self.crawl_timeout = conf.crawl_timeout
         self.thread_count = conf.thread_count
+        self.daemon = True            #will be terminated by ctrl+C
 
     def run(self):
         while 1:
@@ -37,8 +39,8 @@ class CrawlThreadManager(threading.Thread):
 
             if url_to_process:
                 if url_to_process.depth < self.max_depth:
-                    self.res_list = html_parse.getpic(url_to_process.url)
-                    self.url_list_o = html_parse.geturladd(url_to_process, url_to_process.depth+1)
+                    self.res_list = html_parse.getpic(url_to_process.url,self.crawl_timeout)
+                    self.url_list_o = html_parse.geturladd(url_to_process, url_to_process.depth+1,self.crawl_timeout)
 
                     self.input_url_queue.put_url_list_o(self.url_list_o)
                     self.res_url_queue.put_res_list(self.res_list)
@@ -46,7 +48,7 @@ class CrawlThreadManager(threading.Thread):
                     self.input_url_queue.task_done()
                 elif url_to_process.depth == self.max_depth:
                     print '**************************max _depth**********************************'
-                    self.res_list = html_parse.getpic(url_to_process.url)
+                    self.res_list = html_parse.getpic(url_to_process.url,self.crawl_timeout)
                     if self.res_list:
                         self.res_url_queue.put_res_list(self.res_list)
 
@@ -56,8 +58,11 @@ class CrawlThreadManager(threading.Thread):
 
             if res_to_process:
                 print 'thread{}'.format(threading.currentThread().name), 'will download', res_to_process
-                html_parse.downloadpic(res_to_process)
+                html_parse.downloadpic(res_to_process,self.crawl_timeout)
                 self.res_url_queue.task_done()
+
+            time.sleep(self.crawl_interval)
+
 
 def initCrawlThread(conf,input_queue,res_queue):
     for i in range(0, conf.thread_count):
@@ -66,6 +71,8 @@ def initCrawlThread(conf,input_queue,res_queue):
         thread1.start()
 
         print thread_name, 'start '
+    input_queue.join()
+    res_queue.join()
 
 
 if __name__=='__main__':
