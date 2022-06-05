@@ -8,6 +8,7 @@ import os
 import re
 import configparser
 import log
+import const
 
 class GetConf(object):
     """
@@ -28,10 +29,10 @@ class GetConf(object):
                 self.name = self.cg.read(self.conf_file_path)
             else:
                 self.spider_log.error('config file "%s" does not exist' % self.conf_file_path)
-                return False       
+                return const.ERROR       
         except Exception as e:
             self.spider_log.error('Config-file error:' + str(e))
-            return False
+            return const.ERROR
         try:
             self.url_list_file = self.cg.get(self.section_name, 'url_list_file')
             self.output_directory = self.cg.get(self.section_name, 'output_directory')
@@ -43,17 +44,17 @@ class GetConf(object):
             self.log_path = self.cg.get(self.section_name, 'log_path')
         except configparser.NoSectionError as e:
             self.spider_log.error(e)
-            return False 
+            return const.ERROR 
         except configparser.NoOptionError as e:
             self.spider_log.error(e)
-            return False
+            return const.ERROR
         except ValueError as ve:
             self.spider_log.error('Load int value error, check conf file')
-            return False
+            return const.ERROR
         except Exception as e:
             self.spider_log.error('Config-file Load error:' + e)
-            return False
-        return True
+            return const.ERROR
+        return const.OK
 
 if __name__ == '__main__':
     c_test = GetConf('spider.conf', 'spider')

@@ -20,7 +20,7 @@ class LogManager(object):
     log example :2022-03-30 11:00:14,596 - INFO - test - log.py
     '''
     def __init__(self, ):
-        LOG_FORMAT = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s - %(filename)s")
+        LOG_FORMAT = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
         localtime = time.strftime(r"%Y-%m-%d", time.localtime())
         log_filename = 'spider_' + localtime + '.log'
         log_path = './log'

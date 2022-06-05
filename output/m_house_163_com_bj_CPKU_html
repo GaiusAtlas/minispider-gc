@@ -1,0 +1,1819 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=750, user-scalable=no">
+    <meta name="keywords" content="中建·宸庐，北京中建·宸庐，中建·宸庐楼盘详情，中建·宸庐户型图，中建·宸庐房价走势" />
+    <meta name="description" content="北京网易房产为您提供中建·宸庐楼盘售楼处电话： 转 11677、最新房价参考：42000元/㎡、户型图、实景图和周边配套等最新楼盘详情信息，买新房尽在北京网易房产！" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-eval' 'unsafe-inline' https: *.netease.com *.163.com *.126.net 163.wrating.com api.map.baidu.com *.nosdn.127.net echarts.baidu.com *.map.bdimg.com" /> -->
+    <title>中建·宸庐</title>
+    <!-- ab测试 开始 -->
+<script language="javascript">	
+		
+</script>
+<!-- ab测试 结束 -->
+    <script  type="text/javascript">
+    var M_LP_INIT_DATA = {
+        city: 'bj',
+        cityChina: '北京',
+        productid: 'CPKU',
+        productname: '中建·宸庐',
+        lpTel: '4001-666-163', //主机
+        fenjiTel: '11677',
+        housePrice: '42000元/㎡',
+        district:'顺义',
+        plate:'马坡乡',
+        dz:'北京市顺义区马坡镇健盛街与乾安路交叉口西侧',
+        formername:'琼华观园',
+        kpsj:'2021年6月28日',
+        rzsj:'预计2024年初',
+        metro:'S6号线',
+        topphoto:'http://pic-bucket.ws.126.net/photo/0007/2021-10-11/GM1ANU6ARFNR0007NOS.jpg?imageView&thumbnail=400y300'
+    };
+</script>    <script type="text/javascript">
+        var Calculator = {
+            pointX:
+                            116.659009,//longitude经度
+                        pointY:
+                            40.184991,//latitude纬度
+                        buildingName: "中建·宸庐"
+        };
+        var isIndexDetail = true;
+        var isHasKFT = true; //当前城市是否有看房团
+        var isHasZTC = true; //当前城市是否有直通车
+        var isDatacenter ='1';
+        var isDevPrice = '1';
+
+    </script>
+</head>
+<body>
+
+<!-- 样式是基于750宽设计稿尺寸 首页单独片段 在index_head.html-->
+<div style="display:none" id="__newsapp_sharetext">楼盘名-城市名楼盘名当前页-城市名网易房产</div>
+<div style="display:none" id="__newsapp_sharephotourl">http://img1.cache.netease.com/lady/luoma/001jifen/00bingo/0314/00.jpg</div><!--微博分享图片-->
+<div style="display:none" id="__newsapp_sharewxtext">【楼盘名-城市名楼盘名】描述-城市名网易房产</div>
+<div style="display:none" id="__newsapp_sharewxtitle">楼盘名-城市名楼盘名当前页-城市名网易房产</div>
+<div style="display:none" id="__newsapp_sharewxurl">http://m.163.com/newsapp</div>
+<div style="display:none" id="__newsapp_sharewxthumburl">http://img1.cache.netease.com/3g/newsapp/newapp201312/images/news_app_download_logo.png</div><!--微信分享图片-->
+<script type="text/javascript">
+  var __newsapp_sharetext = document.getElementById('__newsapp_sharetext')
+  var __newsapp_sharephotourl = document.getElementById('__newsapp_sharephotourl')
+  var __newsapp_sharewxtext = document.getElementById('__newsapp_sharewxtext')
+  var __newsapp_sharewxtitle = document.getElementById('__newsapp_sharewxtitle')
+  var __newsapp_sharewxurl = document.getElementById('__newsapp_sharewxurl')
+  var __newsapp_sharewxthumburl = document.getElementById('__newsapp_sharewxthumburl')
+  var pageName = "", desc = "", url = location.href.replace(/\?.*/, "")
+  if(url.indexOf("detail") > -1) {
+    pageName = "楼盘详情"
+    desc = "详细信息|售楼处电话|开发商详情"
+  }
+  else if(url.indexOf("news") > -1) {
+    pageName = "楼盘快讯"
+    desc = "最新活动|施工进度|优惠信息"
+  }
+  else if(url.indexOf("huxing") > -1) {
+    pageName = "户型列表"
+    desc = "房价|户型|开盘时间"
+  }
+  else if(url.indexOf("nearby") > -1) {
+    pageName = "周边地图"
+    desc = "周边环境|配套信息"
+  }
+  else if(url.indexOf("photo") > -1) {
+    pageName = "相册列表"
+    desc = "效果图|户型|实景图"
+  }
+  else if(url.indexOf("comment") > -1) {
+    pageName = "用户点评"
+    desc = "怎么样|评价|用户点评"
+  }
+  else {
+    pageName = "楼盘首页"
+    desc = "房价|户型|开盘时间"
+  }
+  __newsapp_sharetext.innerHTML = __newsapp_sharetext.innerHTML.replace(/楼盘名/g, M_LP_INIT_DATA.productname).replace(/城市名/g, M_LP_INIT_DATA.cityChina).replace(/当前页/g, pageName)
+  __newsapp_sharephotourl.innerHTML = M_LP_INIT_DATA.topphoto
+  __newsapp_sharewxtitle.innerHTML = __newsapp_sharetext.innerHTML  
+  __newsapp_sharewxthumburl.innerHTML = __newsapp_sharephotourl.innerHTML
+  __newsapp_sharewxtext.innerHTML = __newsapp_sharewxtext.innerHTML.replace(/楼盘名/g, M_LP_INIT_DATA.productname).replace(/城市名/g, M_LP_INIT_DATA.cityChina).replace(/描述/g, desc)
+  __newsapp_sharewxurl.innerHTML = url
+</script>
+<!--header增加class hasLocal，不显示定位图标 -->
+<header class="hasLocal" id="hasLocal">
+  <div class="return commonBg" onclick="javascript:history.go(-1);"></div>
+  <div class="titlebox">
+    <a href="//m.house.163.com/bj/lpkmobile/index.html#/city" class="local" id="headLocal"><i class="commonBg"></i><!-- <span class="city" id="curHeadCity">北京</span> --></a>
+    <div class="title" id="pageTitle">网易新房</div>
+  </div>
+  <span class="more commonBg" id="showMore"></span>
+</header>
+<div id="share">
+  <div class="buttons">
+    <div class="shotMask commonBg" id="shotMask">
+      <div class="iknow" id="iknow"></div>
+    </div>
+    <ul class="share-btn">
+      <li id="shareBtn1"><i></i><p>微信好友</p></li>
+      <li id="shareBtn2"><i></i><p>朋友圈</p></li>
+      <li id="shareBtn6"><i class="commonBg"></i><p>生成截屏</p></li>
+      <li id="shareBtn4"><i></i><p>QQ空间</p></li>
+      <li id="shareBtn5"><i></i><p>新浪微博</p></li>
+      <li id="shareBtn3"><i></i><p>QQ好友</p></li>
+    </ul>
+    <ul class="urls" id="shareUrls">  
+      <li><a href="//m.house.163.com/bj/xf/index.html?refresh=true">返回首页</a></li>
+    </ul>
+  </div>
+  <div class="bg" id="shareBg"></div>
+</div>
+
+<div id="shareImg">
+  <div class="sharebox">
+    <i></i>
+    <span class="close" id="shareClose"></span>
+  </div>
+</div>
+
+<div class="canvasbox">
+  <div class="mask"></div>
+  <div class="composebox">
+    <canvas id="canvas" width="690" height="1000" class="composeImg"></canvas>
+    <img src="https://fps-pro.ws.126.net/fps-pro/temp/39c06c6a6b49a97b0ba8f1cda74b2def/eruiurier.jpg" id="resultimg" class="composeImg">
+    <div class="tips">长按保存图片</div>
+  </div>
+</div>
+<img src="" class="ewmbox" id="ewm" style="display: none;" />
+<style type="text/css">
+body,h1,h2,h3,h4,h5,h6,p,ul,li,div{margin:0;padding:0}a{text-decoration:none}ul,li{list-style:none}.canvasbox{position:fixed;top:0;left:0;width:100%;height:100%;z-index:9991;display:none}.composebox{width:690px;height:1000px;position:absolute;top:50%;left:50%;z-index:101;margin:-500px 0 0 -345px}.canvasbox .composeImg{width:690px;height:1000px;position:absolute;top:0;left:0;border-radius:8px;border:0}.canvasbox .tips{height:50px;line-height:50px;position:absolute;bottom:0;left:0;width:100%;font-size:20px;text-align:center;color:#7b818f}.canvasbox .mask{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.8);display:block}.commonBg{background-image:url('https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/images/common_sprite.png?hehe=1666');background-repeat:no-repeat}header{z-index: 2; font-size:38px;text-align:center;position:relative;height:40px;line-height:40px;padding:28px 0;background: url(https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/images/topbg.jpg?hehe=1666);display:none}header .return{background-position:-120px -275px;width:19px;height:35px;position:absolute;left:20px;top:50%;margin-top:-18px}header .local{line-height:40px;height:40px;color:#fff;font-size:32px;float:left;display:none}.hasLocal .local{margin-left: 40px;display:block}header .local i{display:none; background-position:-120px -207px;width:30px;height:32px;margin-right:8px;vertical-align:middle}header .local>span{line-height:40px;height:40px; width: 130px; display: inline-block;}header .more{transform: scale(0.9);background-position:-120px -485px;width:47px;height:47px;position:absolute;right:20px;top:18px}header .titlebox{width: 100%; margin-left:0px;display:inline-block;overflow:hidden;clear:both;line-height:40px;height:40px}header .titlebox .title{text-align: center; padding-right:0px;line-height:40px;height:40px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;float:left;width:605px;color:#fff;font-size:38px}.hasLocal .titlebox .title{width:667px}#share{position:fixed;left:0;top:0;width:100%;height:100%;z-index:99;display:none}#share .bg{position:fixed;background:rgba(0,0,0,0.8);left:0;top:0;width:100%;height:100%;z-index:1}#share .buttons{padding-top:30px;padding-bottom:20px;position:absolute;left:0;bottom:0;width:100%;background:#fff;font-size:24px;z-index:2}#share .buttons .share-btn{clear:both;overflow:hidden;margin-left:115px;padding-bottom:20px;border-bottom:1px solid #eee}#share .buttons .share-btn li{float:left;width:98px;margin-right:110px;margin-bottom:14px;text-align:center}#share .buttons .share-btn li p{font-size:24px;color:#666}#share .buttons .share-btn li i{margin-bottom:6px}#share .buttons .share-btn li:nth-child(6) i{background-image:url('https://fps-pro.ws.126.net/fps-pro/frontends/lpk_mobile/static/share_3.png?hehe=1666');background-size:100% 100%;z-index:999}#share .buttons .share-btn li:nth-child(5) i{background-image:url('https://fps-pro.ws.126.net/fps-pro/frontends/lpk_mobile/static/share_5.png?hehe=1666');background-size:100% 100%}#share .buttons .share-btn li:nth-child(4) i{background-image:url('https://fps-pro.ws.126.net/fps-pro/frontends/lpk_mobile/static/share_4.png?hehe=1666');background-size:100% 100%}#share .buttons .share-btn li:nth-child(3) i{background-position:0 -518px}#share .buttons .share-btn li:nth-child(2) i{background-image:url('https://fps-pro.ws.126.net/fps-pro/frontends/lpk_mobile/static/share_2.png?hehe=1666');background-size:100% 100%}#share .buttons .share-btn li:nth-child(1) i{background-image:url('https://fps-pro.ws.126.net/fps-pro/frontends/lpk_mobile/static/share_1.png?hehe=1666');background-size:100% 100%}#share .buttons .share-btn li i{display:block;width:92px;height:92px}#share .buttons .urls{clear:both;overflow:hidden;padding:30px 0 0 40px}#share .buttons .urls li{float:left;width:203px;border-radius:5px;background:#f5f5f5;color:#999;text-align:center;margin:0 33px 22px 0;line-height:60px}#share .buttons .urls li a{color:#999;display:block}#share .shotMask{width:244px;height:134px;background-position:-120px 0;position:fixed;right:40px;bottom:550px;display:none}#share .shotMask .iknow{width:124px;height:40px;position:absolute;bottom:30px;right:64px}#shareImg{position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:100;display:none}#shareImg .sharebox{width:100%;display:block;height:767px;position:absolute;left:0;top:50%;margin-top:-383px}#shareImg i{background:url(https://fps-pro.ws.126.net/fps-pro/frontends/lpk_mobile/static/share_img.png?hehe=1667);background-size:100% auto;height:767px;position:relative;top:0;left:0;display:block}#shareImg span{background:url(https://fps-pro.ws.126.net/fps-pro/frontends/lpk_mobile/static/share_close.png?hehe=1666);background-size:100% auto;width:48px;display:block;height:48px;position:absolute;bottom:-48px;left:50%;margin-left:-24px}
+</style>
+<script type="text/javascript"> 
+  //document.getElementById("curHeadCity").innerHTML = M_LP_INIT_DATA.cityChina;
+  if(isNetEaseApp()){
+    document.getElementById("pageTitle").innerHTML = typeof M_LP_INIT_DATA !=="undefined" && M_LP_INIT_DATA.productname || "网易新房";
+  }else{
+    document.getElementById("pageTitle").innerHTML = "网易新房";
+  }
+  
+
+  // 检测是否是在网易新闻客户端下运行的
+  function isNetEaseApp() {
+    //return true;
+    var ua = window.navigator.userAgent;
+    if(/netease_news/gi.test(ua) || /NewsApp/gi.test(ua)){
+      return true;
+    }
+    return false;
+  }
+  /*如果是新闻客户端就不显示头部，否则显示。默认头部是display：none*/
+  (function() {
+    var GLOBLE_PARAMS = (function() {
+      var args = {};
+      var query = location.search.substring(1);
+      var pairs = query.split("&"); // Break at ampersand
+      for (var i = 0; i < pairs.length; i++) {
+        var pos = pairs[i].indexOf('=');
+        if (pos == -1) continue;
+        var argname = pairs[i].substring(0, pos);
+        var value = pairs[i].substring(pos + 1);
+        value = decodeURIComponent(value);
+        args[argname] = value;
+      }
+      return args;
+    })();
+    // 检测是否是在网易新闻客户端下运行的
+    function isNetEaseApp() {
+        //return true;
+        var ua = window.navigator.userAgent;
+        if(/netease_news/gi.test(ua) || /NewsApp/gi.test(ua)){
+          return true;
+        }
+        return false;
+    }
+
+    //是否小程序打開
+    function isWeChatApplet() {
+      /*function ready() {
+          let flag = window.__wxjs_environment === 'miniprogram' ? true : false
+          document.removeEventListener('WeixinJSBridgeReady', ready)
+          callback && callback(flag)
+      }
+      if (!window.WeixinJSBridge || !WeixinJSBridge.invoke) {
+        document.addEventListener('WeixinJSBridgeReady', ready, false)
+      } else {
+        ready()
+      }*/
+      return GLOBLE_PARAMS['wxApp'] === 'true'
+    }
+    var objHead = document.getElementsByTagName("header")[0];
+    if(!isNetEaseApp() && typeof showTopHead === "undefined" && !isWeChatApplet()) {
+      objHead.style.display = 'block';
+      objHead.setAttribute("class", 'hasLocal');
+    } else {
+      objHead.style.display = 'none';
+      
+    }
+    var txt = ''
+    var icon = {
+          'bj': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/bj/xf/search.html'
+          },{
+            'name': '约车看房',
+            'no': 2,
+            'url': '//m.house.163.com/bj/xf/ztc/list/'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/bj/xf/calculator.html'
+          },{
+            'name': '地图找房',
+            'no': 7,
+            'url': '//m.house.163.com/bj/housemap/'
+          },{
+            'name': '北京买房人',
+            'no': 5,
+            'url': 'https://c.m.163.com/news/sub/T1511169428677.html?spss=newsapp'
+          }],
+          'sh': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/sh/xf/search.html'
+          },{
+            'name': '约车看房',
+            'no': 2,
+            'url': '//m.house.163.com/sh/xf/ztc/list/'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/sh/xf/calculator.html'
+          },{
+            'name': '地图找房',
+            'no': 7,
+            'url': '//m.house.163.com/sh/housemap/'
+          },{
+            'name': '易眼看房',
+            'no': 8,
+            'url': 'https://c.m.163.com/news/sub/T1502173973874.html?spss=newsapp'
+          }],
+          'gz': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/gz/xf/search.html'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/gz/xf/calculator.html'
+          },{
+            'name': '房价榜',
+            'no': 6,
+            'url': '//m.data.house.163.com/gz/housing/index.html'
+          },{
+            'name': '地图找房',
+            'no': 7,
+            'url': '//m.house.163.com/gz/housemap/'
+          },{
+            'name': '关爱买房',
+            'no': 9,
+            'url': 'https://c.m.163.com/news/sub/T1491903303413.html?spss=newsapp'
+          }],
+          'fs': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/fs/xf/search.html'
+          },{
+            'name': '约车看房',
+            'no': 2,
+            'url': '//m.house.163.com/fs/xf/ztc/list/'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/fs/xf/calculator.html'
+          },{
+            'name': '地图找房',
+            'no': 7,
+            'url': '//m.house.163.com/fs/housemap/'
+          },{
+            'name': '佛山了不起',
+            'no': 10,
+            'url': 'https://c.m.163.com/news/sub/T1521789595932.html?spss=newsapp'
+          }],
+          'hn': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/hn/xf/search.html'
+          },{
+            'name': '约车看房',
+            'no': 2,
+            'url': '//m.house.163.com/hn/xf/ztc/list/'
+          },{
+            'name': '优惠楼盘',
+            'no': 3,
+            'url': '//m.house.163.com/hn/xf/discount.html'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/hn/xf/calculator.html'
+          },{
+            'name': '地图找房',
+            'no': 7,
+            'url': '//m.house.163.com/hn/housemap/'
+          }],
+          'sz': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/sz/xf/search.html'
+          },{
+            'name': '约车看房',
+            'no': 2,
+            'url': '//m.house.163.com/sz/xf/ztc/list/'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/sz/xf/calculator.html'
+          },{
+            'name': '地图找房',
+            'no': 7,
+            'url': '//m.house.163.com/sz/housemap/'
+          },{
+            'name': '见圳',
+            'no': 12,
+            'url': 'https://c.m.163.com/news/sub/T1472462086370.html'
+          }],
+          'cd': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/cd/xf/search.html'
+          },{
+            'name': '优惠楼盘',
+            'no': 3,
+            'url': '//m.house.163.com/cd/xf/discount.html'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/cd/xf/calculator.html'
+          },{
+            'name': '地图找房',
+            'no': 7,
+            'url': '//m.house.163.com/cd/housemap/'
+          },{
+            'name': '干货资讯',
+            'no': 11,
+            'url': 'https://c.m.163.com/news/sub/T1510829967404.html?spss=newsapp'
+          }],
+          'tj': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/tj/xf/search.html'
+          },{
+            'name': '优惠楼盘',
+            'no': 3,
+            'url': '//m.house.163.com/tj/xf/discount.html'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/bj/tj/calculator.html'
+          }],
+          'other': [{
+            'name': '全部楼盘',
+            'no': 1,
+            'url': '//m.house.163.com/{city}/xf/search.html'
+          },{
+            'name': '优惠楼盘',
+            'no': 3,
+            'url': '//m.house.163.com/{city}/xf/discount.html'
+          },{
+            'name': '房贷计算器',
+            'no': 4,
+            'url': '//m.house.163.com/{city}/xf/calculator.html'
+          }]
+      }
+      var city = typeof M_LP_INIT_DATA !=="undefined" && M_LP_INIT_DATA.city || 'other'
+      if(!icon[city]) {
+          city = 'other'
+        }
+
+      for(var i = 0;i < icon[city].length;i++) {
+        txt += '<li><a href="' + icon[city][i].url.replace('{city}', city) + '">' + icon[city][i].name + '</a></li>' 
+      }
+      //alert(icon[city])
+      txt += '<li><a href="//m.house.163.com/' + city + '/xf/index.html?refresh=true">返回首页</a></li>'
+      document.getElementById("shareUrls").innerHTML = isWeChatApplet() ? '' : txt
+      document.getElementById("shareBg").onclick = function(){
+        document.getElementById("share").style.display = 'none'
+      }
+      document.getElementById("showMore").onclick = function(){
+        if(isNetEaseApp()){
+          window.location.href = "share://";
+        }else{
+          document.getElementById("share").style.display = 'block';
+        }
+      }
+
+      document.getElementById("shareClose").onclick = function(){
+        document.getElementById("shareImg").style.display = 'none'
+      }
+      document.getElementById("shareBtn1").onclick = function(){
+        document.getElementById("shareImg").style.display = 'block'
+      }
+      document.getElementById("shareBtn2").onclick = function(){
+        document.getElementById("shareImg").style.display = 'block'
+      }
+      document.getElementById("shareBtn3").onclick = function(){
+        document.getElementById("shareImg").style.display = 'block'
+      }
+      document.getElementById("shareBtn4").onclick = function(){
+        document.getElementById("shareImg").style.display = 'block'
+      }
+      document.getElementById("shareBtn5").onclick = function(){
+        document.getElementById("shareImg").style.display = 'block'
+      }
+      document.getElementById("shareBtn6").onclick = function(){
+        if(!localStorage.getItem('wapDetailShare')){
+          document.getElementById("shotMask").style.display = 'block';
+        }
+      }
+      document.getElementById("iknow").onclick = function(){
+        document.getElementById("share").style.display = 'none'
+      }
+
+  })();
+</script>
+<meta content="always" name="referrer">
+<!-- 手机浏览自动跳转到触屏版 开始 -->
+<script language="javascript">	
+	function initIsMobile() {
+		var u = navigator.userAgent;
+		var isMobile = false;
+		var mobileList =  ['MIDP','WAP','UP.Browser','Smartphone','Obigo','Mobile','AU.Browser','wxd.Mms','WxdB.Browser','CLDC','UP.Link','KM.Browser','UCWEB','UCBrowser','SEMC-Browser','Mini','Symbian','Palm','Nokia','Panasonic','MOT-','SonyEricsson','NEC-','Alcatel','Ericsson','BENQ','BenQ','Amoisonic','Amoi-','Capitel','PHILIPS','SAMSUNG','Lenovo','Mitsu','Motorola','SHARP','WAPPER','LG-','LG/','EG900','CECT','Compal','kejian','Bird','BIRD','G900/V1.0','Arima','CTL','TDG','Daxian','DAXIAN','DBTEL','Eastcom','EASTCOM','PANTECH','Dopod','Haier','HAIER','KONKA','KEJIAN','LENOVO','Soutec','SOUTEC','SAGEM','SEC-','SED-','EMOL-','INNO55','ZTE','iPhone','Android','Windows CE','Wget','Java','curl','Opera','MicroMessenger'];
+		for (var i = mobileList.length - 1; i >= 0; i--) {
+			if(u.indexOf(mobileList[i]) > -1){
+				isMobile = true;
+				break;
+			}
+		}
+		if (!isMobile) {
+			window.location.href = "//xf.house.163.com/"+M_LP_INIT_DATA.city+"/"+M_LP_INIT_DATA.productid+".html";
+		}
+	}
+	initIsMobile();
+	
+</script>
+<!--手机浏览自动跳转到触屏版 结束 -->
+</script>
+<!--手机浏览自动跳转到触屏版 结束 -->
+
+<link rel="stylesheet" href="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/css/common.css">
+<link rel="stylesheet" href="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/css/index.css">
+<script type="text/javascript">
+/*查看大图的图片放缩 首页户型缩放 loadImg.js*/
+function imageOnload(img, iWidth, iHeight, isMinSize ) {
+	var curClientHeight =  iHeight ? iHeight : document.documentElement.clientHeight - 170;//目前设备可允许展示最大高度
+	var clientWidth = iWidth ? iWidth : 750;
+	var standardRadio = (clientWidth / curClientHeight).toFixed(0); //屏幕宽高比
+	var oriWidth = img.width, oriHeight = img.height; //图片真实尺寸
+	var realRadio = (oriWidth / oriHeight).toFixed(2); //图片真实尺寸比例
+	var realWidth = 0, realHeight = 0;
+	var marginTop = 0, marginLeft = 0;
+	if(typeof isMinSize === "undefined"){
+		if(clientWidth < oriWidth || curClientHeight < oriHeight){ //有一边尺寸超过可展示尺寸
+			if(realRadio > standardRadio){ //宽图
+				realWidth = clientWidth;
+				marginLeft = 0;
+				realHeight = clientWidth * oriHeight / oriWidth;
+				marginTop = (curClientHeight - realHeight) / 2;
+			}else{
+				realHeight = curClientHeight;
+				marginTop = 0;
+				realWidth = curClientHeight * oriWidth / oriHeight;
+				marginLeft = (clientWidth - realWidth) / 2;
+			}
+		}else{
+			realWidth = oriWidth;
+			realHeight = oriHeight;
+			marginLeft = (clientWidth - oriWidth) / 2;
+			marginTop = (curClientHeight - oriHeight) / 2;
+		}
+	}else{
+		if(isMinSize === 1){ //定宽展示
+			realWidth = clientWidth;
+			realHeight = clientWidth * oriHeight / oriWidth;
+			marginTop = curClientHeight - realHeight > 0 ? (curClientHeight - realHeight) / 2 :- (realHeight - curClientHeight) / 2;
+		}
+	}
+	img.style.marginTop = marginTop + "px";
+	img.style.marginLeft = marginLeft + "px";
+	img.style.width = realWidth + "px";
+	img.style.height = realHeight + "px";
+}
+
+
+/*户型图的图片放缩*/
+function imageHuxingOnload(img) {
+	//console.log(img);
+	var clientWidth = 670;
+	var curClientHeight2 = 892;
+	var standardRadio = clientWidth / curClientHeight2; //屏幕宽高比
+	var oriWidth = img.width, oriHeight = img.height; //图片真实尺寸
+	var realRadio = img.width / oriHeight; //图片真实尺寸比例
+	var realWidth = 0, realHeight = 0;
+	var marginTop = 0, marginLeft = 0;
+
+	if(clientWidth < oriWidth || curClientHeight2 < oriHeight){ //有一边尺寸超过可展示尺寸
+		if(realRadio > standardRadio){ //宽图
+			realWidth = clientWidth;
+			marginLeft = 0;
+			realHeight = clientWidth * oriHeight / oriWidth;
+			marginTop = (curClientHeight2 - realHeight) / 2;
+		}else{
+			realHeight = curClientHeight2;
+			marginTop = 0;
+			realWidth = curClientHeight2 * oriWidth / oriHeight;
+			marginLeft = (clientWidth - realWidth) / 2;
+		}
+	}else{
+		realWidth = oriWidth;
+		realHeight = oriHeight;
+		marginLeft = (clientWidth - oriWidth) / 2;
+		marginTop = (curClientHeight2 - oriHeight) / 2;
+	}
+	img.style.marginTop = marginTop + "px";
+	img.style.marginLeft = marginLeft + "px";
+	img.style.width = realWidth + "px";
+	img.style.height = realHeight + "px";
+}
+
+</script>
+<script type="text/javascript" src="//www.cmpassport.com/NumberAbility/jssdk/jssdk.min.js"></script>
+<script> 
+	var _udata = window._udata||[]; 
+	var _udataobject = _udata;
+	_udata.push(["setAutoPageView",false]); 
+	_udata.push( [ "setAppIdRZ" , '300011996897' ] );
+	_udata.push( [ "setChannel" , window.location.href ] );
+	if(Object.prototype.toString.call(_udata) === "[object Array]"){
+	_udata = _udataobject 
+	};
+
+</script>
+<div class="nav-bar">
+    <ul class="nav-list clearfix">
+        <li class="nav-content" id="topNav1">
+            <a class="aNav" href="/bj/xf/detail/CPKU.html">详情</a>
+            <span class="line">/</span>
+        </li>
+        <li class="nav-content" id="topNav2">
+            <a class="aNav" href="/bj/news/CPKU.html">快讯</a>
+            <span class="line">/</span>
+        </li>
+        <li class="nav-content" id="topNav3">
+            <a class="aNav" href="/bj/huxing/CPKU.html">户型</a>
+            <span class="line">/</span>
+        </li>
+        <li class="nav-content" id="topNav7" style="display: none;">
+            <a class="aNav" href="#pricebox">房价</a>
+            <span class="line">/</span>
+        </li>
+        <li class="nav-content" id="topNav4">
+            <a class="aNav" href="/bj/nearby/CPKU.html">配套</a>
+            <span class="line">/</span>
+        </li>
+                <li class="nav-content" id="topNav5">
+            <a class="aNav" href="/bj/photo/CPKU.html">相册</a>
+            <span class="line">/</span>
+        </li>
+                <li class="nav-content indexNav6">
+            <a class="aNav" href="/bj/comment/CPKU.html">点评</a>
+            <span class="line">/</span>
+        </li>
+            </ul>
+</div>
+<!-- 头部基础信息 begin -->
+<div class="lpInfo model" id="lpInfo">
+    <a class="headImg" id="headImg" href="/bj/photo/CPKU.html">
+    <!-- 定宽不定高，上下居中，js效果 -->
+            <img src="http://pic-bucket.ws.126.net/photo/0007/2021-10-11/GM1ANU6ARFNR0007NOS.jpg?imageView" onload="imageOnload(this, 690, 390, 1)" />
+            <div class="num">24张</div>
+    </a>
+
+    <div class="detailInfo">
+    <!-- 在售、待售加 current，售完加 current2 -->
+    <h1 class="lpTit">中建·宸庐 <span class="aFeature  current ">在售</span><!-- <span class="aFeature current2">售完</span> --></h1>
+    <a href="/bj/xf/calculator.html#mobile_detail" class="calculator"></a>
+            <p class="lpsubTit" id="lpsubTit"><span>别名：</span>琼华观园</p>
+        <div class="headPricebox">
+        <span class="price" id="headPriceboxprice">
+                            均价42000元/㎡
+                    </span><span class="unit"></span>
+        <!-- 沿用pc逻辑，有变价显示此a标签 -->
+                <a class="btnChangePrice remindIcon" href="javascript:void(0)" id="btnChangePrice">变价提醒</a>
+            </div>
+    <ul>
+        <li  id="topAddress">
+                        <a href="/bj/nearby/CPKU.html" class="line">
+                <i class="address icon"></i>
+                <span>
+                                            北京市顺义区马坡镇健盛街与乾安路交叉口西侧
+                                    </span>
+                <i class="rightArrow"></i>
+            </a>
+                    </li>
+        <li  id="topTime">
+            <i class="time icon"></i>
+            <span>
+                                    2021年6月28日开盘
+                            </span>
+            <!-- 沿用pc逻辑，有开盘显示此a标签 -->
+                        <a class="btnOpen remindIcon" href="javascript:void(0)" id="remindIcon">开盘通知</a>
+                        <a href="/bj/xf/detail/CPKU.html" id="topToDetail"></a>
+        </li>
+                <li id="topsubway">
+            <i class="subway icon"></i>
+            <span>
+                S6号线
+                            </span>
+        </li>
+                        <li class="certificate" id="certificate">
+                                    <a href="http://bjjs.zjw.beijing.gov.cn/eportal/ui?pageId=320794&projectID=7044713&systemID=2&srcId=1" class="line">
+                <span>
+                                            预售证：京房售证字（2021）74号
+                                    </span>
+                <i class="certificateIcon icon"></i>
+                <i class="rightArrow"></i>
+            </a>
+        </li>
+                    </ul>
+    <a class="lookMoreLP" href="/bj/xf/detail/CPKU.html" id="lookMoreLP">查看更多楼盘详情</a>
+</div>
+
+</div>
+<!-- 头部基础信息 begin -->
+<!-- 选房阶段 仅成都 有 begin -->
+<div class="model chooseHousebox" id="chooseHousebox">
+    <div class="chHead">
+        <h4>选房阶段<i class="i1"></i></h4>
+        <i class="i2"></i>
+    </div>
+    <div class="chWrap">
+        <ul class="timeLine" id="cdtimeLine">
+        </ul>
+        <div class="linebox">
+            <div class="line"></div>
+            <i class="i i1"><i></i></i>
+            <i class="i i2"><i></i></i>
+            <i class="i i3"><i></i></i>
+            <i class="i i4"><i></i></i>
+            <i class="i i5"><i></i></i>
+            <i class="i i6"><i></i></i>
+        </div>
+        <div class="detailInfo" id="cddetailInfo">
+        </div>
+        <table class="info" id="cdinfo">
+            <tr>
+                <th class="gray"></th>
+                <th class="gray">全部</th>
+                <th class="gray">棚改</th>
+                <th class="gray">刚需</th>
+                <th class="gray">普通</th>
+            </tr>
+            <tr>
+                <td class="gray">房源套数</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="gray">报名人数</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="gray">摇中概率<i></i></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- 选房阶段 end -->
+<!-- 团购 begin -->
+<div class="model tuangoubox" id="tuangoubox">
+    <a class="phone2 commonBg module_tel" href="javascript:void(0)" id="tuangoucommonBg">
+        <i></i>
+        <p><span></span></p>
+        <div class="tips">致电售楼处了解最新信息</div>
+    </a>
+    <!-- 有时间团购文案： 网易看房 优惠信息，没时间：免费获取 网易房产楼盘优惠及免费看房服务 -->
+    <div class="tgbox" id="tuangoutgbox">
+        <div class="tgbg" id="tuangoutgbg">
+            <span class="tit1">网易看房</span>
+            <span class="tit2" id="tuangoutit2">无</span>
+        </div>
+        <div class="countdown tgCountdown" end-time=""  id="tuangoutgCountdown">
+            <span class="tit">距结束：</span>
+            <span class="time day">0</span>
+            <span class="txt">天</span>
+            <span class="time hour">0</span>
+            <span class="txt">时</span>
+            <span class="time minute">0</span>
+            <span class="txt">分</span>
+            <span class="time second">0</span>
+            <span class="txt">秒</span>
+        </div>
+        <div class="tgSignbox" id="tuangoutgSignbox">
+            <input class="tgTel" type="number" placeholder="请输入您的手机号">
+            <div class="btnTg"><span class="t1">报名看房</span><span class="t2"><span class="num"></span>人报名</span></div>
+        </div>
+    </div>
+    <div class="tgbox2">
+        <span class="icon">购房优惠</span>
+        <input class="tgTel" type="text" placeholder="请输入您的手机号" />
+        <button class="btnTg">立即获取</button>
+    </div>
+</div>
+<!-- 团购 end -->
+<!-- 快讯 begin 走接口还是刷静态？ -->
+<div class="model trendBox" id="trendBox">
+    <div class="modelTitbox">
+        <a href="/bj/news/CPKU.html" class="titlink" id="trendBoxtitlink">
+            <h4>快讯</h4>
+            <i class="rightArrow"></i>
+        </a>
+    </div>
+    <div class="kx-list" style="display: block;" id="trendBoxkx-list">
+        <!-- 单个快讯  刷begin -->
+        <!-- 单个快讯 end -->
+    </div>
+</div>
+<!-- 快讯 end -->
+<!-- 相关活动 此模块走接口，后端不用管 begin -->
+<div class="model activebox" id="activebox">
+    <div class="modelTitbox">
+        <h4>相关活动</h4>
+    </div>
+    <div class="aSwiper swiper-container" id="activeSwiper">
+        <div class="activeWrap swiper-wrapper">
+            <div class="swiper-slide kft" id="kftbox">
+                <h4 class="lineTit">免费看房团正在召集，成团即发车，<br>赶紧来报名吧</h4>
+                <div class="countdown kftCountdown" end-time="2018-12-31">
+                    <span class="tit">距结束：</span>
+                    <span class="time day">0</span>
+                    <span class="txt">天</span>
+                    <span class="time hour">0</span>
+                    <span class="txt">时</span>
+                    <span class="time minute">0</span>
+                    <span class="txt">分</span>
+                    <span class="time second">0</span>
+                    <span class="txt">秒</span>
+                </div>
+                <i class="icon"></i>
+                <!-- 属性 kftType 1为真看房团，0为假看房团 js加 -->
+                <div class="btnSignIn"></div>
+            </div>
+            <div class="swiper-slide ztc" id="ztcbox">
+                <h4 class="lineTit">预约成功即享受免费专车接送，专人接待</h4>
+                <div class="countdown ztcCountdown" end-time="2018-12-31">
+                    <span class="tit">距结束：</span>
+                    <span class="time day">0</span>
+                    <span class="txt">天</span>
+                    <span class="time hour">0</span>
+                    <span class="txt">时</span>
+                    <span class="time minute">0</span>
+                    <span class="txt">分</span>
+                    <span class="time second">0</span>
+                    <span class="txt">秒</span>
+                </div>
+                <i class="icon"></i>
+                <!-- 属性 ztcType 1为真直通车，0为假直通车 js加 -->
+                <div class="btnSignIn"></div>
+            </div>
+        </div>
+        <div class="pagination"></div>
+    </div>
+
+</div>
+<!-- 相关活动 end -->
+<!-- 户型 begin -->
+<div class="model huxingbox" id="huxingbox">
+    <div class="modelTitbox">
+        <a href="/bj/huxing/CPKU.html" class="titlink" id="huxingboxtitlink">
+            <h4>户型</h4>
+            <span>共5张<i class="rightArrow"></i></span>
+        </a>
+    </div>
+    <div class="aSwiper swiper-container" id="huxingSwiper">
+        <div class="huxingWrap swiper-wrapper">
+                                                <div class="swiper-slide">
+                        <a class="wrap1" href="/bj/huxing/CPKU.html">
+                            <div class="imgbox">
+                                <img src="http://pic-bucket.ws.126.net/photo/0007/2021-10-11/GM1APJ4TRFNQ0007NOS.jpg"   onload="imageOnload(this, 560, 743)" />
+                            </div>
+                            <div class="bottom">
+                                <div class="line" id="huxingSwiperline">
+                                    <span class="tit">
+                                                                            叠拼户型-上叠
+                                                                        </span>
+                                    <span class="price" data-price="41645" data-area="暂无数据"> <span class="unit"></span></span>
+                                </div>
+                                <div class="feature" id="huxingSwiperfeature">
+                                    <!-- 在售待售加 current -->
+                                                                        
+                                </div>
+                            </div>
+                        </a>
+                        <div class="wrap2"></div>
+                        <div class="wrap3"></div>
+                    </div>
+                                                                <div class="swiper-slide">
+                        <a class="wrap1" href="/bj/huxing/CPKU.html">
+                            <div class="imgbox">
+                                <img src="http://pic-bucket.ws.126.net/photo/0007/2021-10-11/GM1APJ4URFNQ0007NOS.jpg"   onload="imageOnload(this, 560, 743)" />
+                            </div>
+                            <div class="bottom">
+                                <div class="line" id="huxingSwiperline">
+                                    <span class="tit">
+                                                                            叠拼户型-下叠
+                                                                        </span>
+                                    <span class="price" data-price="41645" data-area="暂无数据"> <span class="unit"></span></span>
+                                </div>
+                                <div class="feature" id="huxingSwiperfeature">
+                                    <!-- 在售待售加 current -->
+                                                                        
+                                </div>
+                            </div>
+                        </a>
+                        <div class="wrap2"></div>
+                        <div class="wrap3"></div>
+                    </div>
+                                                                <div class="swiper-slide">
+                        <a class="wrap1" href="/bj/huxing/CPKU.html">
+                            <div class="imgbox">
+                                <img src="http://pic-bucket.ws.126.net/photo/0007/2021-10-11/GM1APJ4SRFNQ0007NOS.jpg"   onload="imageOnload(this, 560, 743)" />
+                            </div>
+                            <div class="bottom">
+                                <div class="line" id="huxingSwiperline">
+                                    <span class="tit">
+                                                                            0807洋房户型-03（135平三居）
+                                                                        </span>
+                                    <span class="price" data-price="41645" data-area="暂无数据"> <span class="unit"></span></span>
+                                </div>
+                                <div class="feature" id="huxingSwiperfeature">
+                                    <!-- 在售待售加 current -->
+                                                                        
+                                </div>
+                            </div>
+                        </a>
+                        <div class="wrap2"></div>
+                        <div class="wrap3"></div>
+                    </div>
+                                                                <div class="swiper-slide">
+                        <a class="wrap1" href="/bj/huxing/CPKU.html">
+                            <div class="imgbox">
+                                <img  data-src="http://pic-bucket.ws.126.net/photo/0007/2021-10-11/GM1APJ4QRFNQ0007NOS.jpg"   onload="imageOnload(this, 560, 743)" />
+                            </div>
+                            <div class="bottom">
+                                <div class="line" id="huxingSwiperline">
+                                    <span class="tit">
+                                                                            0807洋房户型-01（120平三居）
+                                                                        </span>
+                                    <span class="price" data-price="41645" data-area="暂无数据"> <span class="unit"></span></span>
+                                </div>
+                                <div class="feature" id="huxingSwiperfeature">
+                                    <!-- 在售待售加 current -->
+                                                                        
+                                </div>
+                            </div>
+                        </a>
+                        <div class="wrap2"></div>
+                        <div class="wrap3"></div>
+                    </div>
+                                                                <div class="swiper-slide">
+                        <a class="wrap1" href="/bj/huxing/CPKU.html">
+                            <div class="imgbox">
+                                <img  data-src="http://pic-bucket.ws.126.net/photo/0007/2021-10-11/GM1APJ4RRFNQ0007NOS.jpg"   onload="imageOnload(this, 560, 743)" />
+                            </div>
+                            <div class="bottom">
+                                <div class="line" id="huxingSwiperline">
+                                    <span class="tit">
+                                                                            0807洋房户型-02（135平四居）
+                                                                        </span>
+                                    <span class="price" data-price="41645" data-area="暂无数据"> <span class="unit"></span></span>
+                                </div>
+                                <div class="feature" id="huxingSwiperfeature">
+                                    <!-- 在售待售加 current -->
+                                                                        
+                                </div>
+                            </div>
+                        </a>
+                        <div class="wrap2"></div>
+                        <div class="wrap3"></div>
+                    </div>
+                                    </div>
+    </div>
+</div>
+
+<!-- 户型 end -->
+
+<!-- 成交房价走势 纯走接口 begin -->
+<div class="pricebox model" id="pricebox">
+    <div class="modelTitbox">
+        <h4>房价</h4>
+        <a href="" class="time-tab2">近半年<i></i></a>
+    </div>
+    <div class="tab">
+        <span class="tabCtr tabCtr1" id="priceboxtabCtr1">成交均价</span>
+        <span class="tabCtr tabCtr2" id="priceboxtabCtr2">开发商报价</span>
+    </div>
+    <div class="priceWrap" id="priceWrap">
+        <div class="tabcon price-chart" id="price-chart"></div>
+        <div class="tabcon dev-chart" id="dev-chart"></div>
+        <div class="tips">该楼盘成交价格数据来自住建委网站，仅供参考，最新销售价格请致电售楼处</div>
+    </div>
+</div>
+<!-- 成交房价走势 end -->
+
+<!-- 配套 只需刷四个链接begin -->
+<div class="mapbox model" id="mapbox">
+    <div class="modelTitbox">
+        <a href="/bj/nearby/CPKU.html" class="titlink" id="mapboxtitlink">
+            <h4>配套</h4>
+            <i class="rightArrow"></i>
+        </a>
+    </div>
+    <a href="/bj/nearby/CPKU.html"><div class="mapWrap" id="mapWrap"></div></a>
+    <div class="mapHover">
+        <!-- 链接需要携带参数 1,2,3,4 -->
+        <a href="/bj/nearby/CPKU.html?type=1" id="mapboxtype1">
+            <i class="mapIcon bus"></i>
+            <div class="tit">公路交通</div>
+        </a>
+        <a href="/bj/nearby/CPKU.html?type=2" id="mapboxtype2">
+            <i class="mapIcon school"></i>
+            <div class="tit">学校教育</div>
+        </a>
+        <a href="/bj/nearby/CPKU.html?type=3" id="mapboxtype3">
+            <i class="mapIcon shopping"></i>
+            <div class="tit">美食购物</div>
+        </a>
+        <a href="/bj/nearby/CPKU.html?type=4" id="mapboxtype4">
+            <i class="mapIcon hospital"></i>
+            <div class="tit">医院银行</div>
+        </a>
+    </div>
+</div>
+<!-- 配套 end -->
+
+<!--评测  begin -->
+<!-- 评测 end -->
+
+<!-- 点评  begin -->
+<div class="model commentBox" id="commentBox">
+    <div class="modelTitbox">
+        <a href="/bj/comment/CPKU.html" class="titlink" id="commentBoxtitlink">
+            <h4>点评</h4>
+            <i class="rightArrow"></i>
+        </a>
+    </div>
+    <!-- 有点评 begin -->
+    <div class="hasComment">
+        <ul class="commmentList">
+                        <li class="aComment" id="aCommentDefault">
+                <img src="http://house-public.ws.126.net/house-public/35712633fc036c7d726282ec013d5500.png?imageView" alt="" class="head">
+                <div class="topIcon icon"></div>
+                <div class="comment-right">
+                    <div class="cr-tit">
+                        <span class="name">匿名用户</span>
+                        <span class="device">来自web端</span>
+                    </div>
+                    <div class="starbox">
+                        <div class="star current"></div>
+                        <div class="star current"></div>
+                        <div class="star current"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <div class="cr-con">
+                                                优点：低密社区、改善楼盘、花园洋房 &nbsp;&nbsp;
+                                                                            缺点：有待发现 &nbsp;&nbsp;
+                                            </div>
+                    <div class="end">
+                        <span class="time">2022-06-03 &nbsp;13:28:18</span>
+                    </div>
+                </div>
+            </li>
+                    </ul>
+        <a href="/bj/remark/CPKU.html" class="toComment">马上点评</a>
+    </div>
+    <!-- 有点评 end -->
+    <!--无用户点评 展示效果 begin-->
+    <div class="noComment displaynone" id="noComment">
+        <div class="comment-tip">暂时还没有人来点评过</div>
+        <a href="/bj/remark/CPKU.html" class="toComment">马上点评</a>
+    </div>
+    <!--无用户点评 展示效果 end-->
+</div>
+<!-- 点评 end -->
+<!-- 置业顾问 begin -->
+<!-- 置业顾问 end -->
+<!-- 购房交流 begin -->
+<div class="model communicationBox" id="communicationBox">
+    <div class="modelTitbox">
+        <h4>购房交流</h4>
+    </div>
+        <div class="communicate1 communicate" id="communicate1">
+        <i></i>
+        <!-- 点击有查看大图效果，读的是属性 data-hoverImg的值 -->
+        <div data-hoverImg="http://cms-bucket.ws.126.net/2022/0411/2419231ej00ra6797000vc000760076c.jpg" data-detail="北京楼市一手消息">楼盘一手消息</div>
+    </div>
+            <div class="communicate2 communicate" id="communicate2">
+        <div data-hoverImg="http://cms-bucket.ws.126.net/2022/0412/3039b35dj00ra7r1r0005c0009k009kc.jpg" data-detail="买房攻略 严肃报告 轻松解读">买房攻略报告</div>
+    </div>
+            <div class="communicate3">
+        <div data-hoverImg="http://fps-pro.ws.126.net/fps-pro/temp/23e87541703a580190ed5ee5ef1eca1b/comuniteImg2.png" data-detail="">微信扫一扫  小程序直接严选好房</div>
+    </div>
+    </div>
+<!-- 购房交流 end -->
+
+<!-- 周边楼盘 begin -->
+<div class="model aroundPriceLP endSwiper" id="aroundPriceLP">
+    <div class="modelTitbox">
+        <h4>周边楼盘</h4>
+    </div>
+    <div class="aSwiper swiper-container" id="aroundPriceLPlist">
+        <div class="swiper-wrapper">
+                                                <a class="swiper-slide" href="/bj/CPbJ.html">
+                        <div class="box">
+                            <img src="http://pic-bucket.ws.126.net/photo/0007/2021-09-16/GK11MU4GRKUH0007NOS.jpg?imageView&thumbnail=400y300" title=""/>
+                            <div class="bottom">顺义
+                                                        -顺义新城
+                                                    </div>
+                        </div>
+                        <h5>和锦华宸</h5>
+                        <div class="price">均价40000元/㎡</div>
+                    </a>
+                                                                <a class="swiper-slide" href="/bj/BTcI.html">
+                        <div class="box">
+                            <img src="http://pic-bucket.ws.126.net/photo/0007/2021-07-14/GESLS96S78IF0007NOS.png?imageView&thumbnail=400y300" title=""/>
+                            <div class="bottom">顺义
+                                                        -顺义新城
+                                                    </div>
+                        </div>
+                        <h5>顺鑫·颐和天璟禧润</h5>
+                        <div class="price">均价30000元/㎡</div>
+                    </a>
+                                                                <a class="swiper-slide" href="/bj/CNHP.html">
+                        <div class="box">
+                            <img src="http://pic-bucket.ws.126.net/photo/0007/2021-01-04/FVGQDOV2QQ3T0007NOS.jpg?imageView&thumbnail=400y300" title=""/>
+                            <div class="bottom">顺义
+                                                    </div>
+                        </div>
+                        <h5>恒大上和府</h5>
+                        <div class="price">均价38900元/㎡</div>
+                    </a>
+                                                                <a class="swiper-slide" href="/bj/CPdG.html">
+                        <div class="box">
+                            <img src="http://pic-bucket.ws.126.net/photo/0007/2021-09-17/GK3ASB30RLHB0007NOS.jpg?imageView&thumbnail=400y300" title=""/>
+                            <div class="bottom">顺义
+                                                    </div>
+                        </div>
+                        <h5>招商中建·顺义臻珑府</h5>
+                        <div class="price">均价39500元/㎡</div>
+                    </a>
+                                    </div>
+    </div>
+</div>
+
+<!-- 周边楼盘 end -->
+
+<!-- 同价楼盘 begin -->
+
+<div class="model samePriceLP endSwiper" id="samePriceLP">
+    <div class="modelTitbox">
+        <h4>同价楼盘</h4>
+    </div>
+    <div class="aSwiper swiper-container" id="samePriceLPlist">
+        <div class="swiper-wrapper">
+                                <a class="swiper-slide" href="/bj/0SBU.html">
+                <div class="box">
+                    <img src="http://img4.cache.netease.com/photo/0007/2013-10-28/400x300_9C9QL5HU5GAB0007.jpg" title=""/>
+                    <div class="bottom">
+                        通州
+                                            </div>
+                </div>
+                <h5>首开香溪郡</h5>
+                <div class="price">
+                    最低价400
+                                        万元/套
+                                    </div>
+            </a>
+                                            <a class="swiper-slide" href="/bj/0SOd.html">
+                <div class="box">
+                    <img src="http://img3.cache.netease.com/photo/0007/2014-06-19/400x300_9V4N9DD55M1A0007.jpg" title=""/>
+                    <div class="bottom">
+                        昌平
+                                                    -昌平县城
+                                            </div>
+                </div>
+                <h5>北京怡园</h5>
+                <div class="price">
+                    46000-48000
+                                        元/㎡
+                                    </div>
+            </a>
+                                            <a class="swiper-slide" href="/bj/BNPT.html">
+                <div class="box">
+                    <img src="http://img3.cache.netease.com/photo/0007/2015-09-01/400x300_B2ELGMUP6C390007.jpg" title=""/>
+                    <div class="bottom">
+                        房山
+                                                    -阎村
+                                            </div>
+                </div>
+                <h5>天恒·乐墅</h5>
+                <div class="price">
+                    最低价678
+                                        万元/套
+                                    </div>
+            </a>
+                                            <a class="swiper-slide" href="/bj/0SLL.html">
+                <div class="box">
+                    <img src="http://img4.cache.netease.com/photo/0007/2017-01-05/400x300_CA0UUG9N5KIA0007.jpg" title=""/>
+                    <div class="bottom">
+                        通州
+                                                    -台湖
+                                            </div>
+                </div>
+                <h5>东亚尚品台湖</h5>
+                <div class="price">
+                    最低价46900
+                                        元/㎡
+                                    </div>
+            </a>
+                                            <a class="swiper-slide" href="/bj/BZNQ.html">
+                <div class="box">
+                    <img src="http://pic-bucket.ws.126.net/photo/0007/2019-05-22/EFPVFT25IKQH0007NOS.jpg?imageView&thumbnail=400y300" title=""/>
+                    <div class="bottom">
+                        丰台
+                                                    -长辛店
+                                            </div>
+                </div>
+                <h5>珠光御景西园</h5>
+                <div class="price">
+                    最低价475
+                                        万元/套
+                                    </div>
+            </a>
+                            </div>
+    </div>
+</div>
+
+<!-- 同价楼盘 end -->
+
+<!-- 同城活动 走的接口，后端不用管begin -->
+<div class="model sameCity" id="communicationBox">
+    <div class="modelTitbox">
+        <h4>同城活动</h4>
+    </div>
+    <a class="box" href="">
+        <img src="http://img3.cache.netease.com/photo/0007/2017-02-20/CDNJTDE169LU0007.jpg" />
+        <div class="tit"></div>
+    </a>
+</div>
+<!-- 同城活动 end -->
+<div class="floatLayer" id="floatLayer">
+    <div class="mask"></div>
+    <div class="activefloatbox">
+        <canvas id="canvasActive" width="560" height="743" class="composeImg" style="border: 0px;"></canvas>
+        <img class="compoundImg" src="http://fps-pro.ws.126.net/fps-pro/temp/7a83dd071b6acbb7addde4241528cce4/comuniteImg.png" />
+    </div>
+
+</div>
+<div class="wx-code">
+    <div class="bg">
+        <img src="http://house-public.ws.126.net/house-public/683e9f4e5596e1a2e33e3471981ea659.jpg" />
+        <img class="hide-img" src="http://house-public.ws.126.net/house-public/683e9f4e5596e1a2e33e3471981ea659.jpg" />
+    </div>
+    <div class="close"></div>
+</div>
+<script type="text/javascript" src="//da.mmarket.com/udata_v2/udata_v2.js?aid=300012040856"></script>
+<!-- 开盘变价弹框inc/changePriceDialog.html begin 为了降低请求，直接放页面上 begin-->
+<div class="dialog2 priceRemind" id="verifyCodeBox" style="display: none;">
+    <p class="title" style="margin-bottom: 15px;">手机号快捷登录</p>
+    <p class="tips">手机快捷登录</p>
+    <ul class="enroll-list">
+      <li>
+        <input type="number" name="tel_number" class="tel" placeholder="请输入手机号" value="">
+      </li>
+      <li>
+         <input type="number" name="tel_captcha" class="inpCaptcha" placeholder="请输入验证码"> <span class="captcha">获取验证码</span>
+      </li>
+      <li class="error error-reminds"><div class="hint"><i></i><span class="error-words">请输入正确的手机号</span></div></li>
+    </ul>
+    <div class="submit">确认</div>
+    <i class="close" id="btnCaptchaClose"></i>
+</div>
+
+<div class="alertDialog" id="alertDialog" style="display: none;">
+    <div class="title">已提交成功</div>
+    <div class="tips">您点评的内容会在审核通过后显示</div>
+    <div class="btn">我知道了</div>
+</div>
+<div class="mask" id="alertBg" style="display: none;"></div>
+<!-- 开盘变价弹框 end -->
+<script src="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/js/indexLib.js"></script>
+<script src="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/js/common.js"></script>
+<!-- foot.html 为了降低请求，直接放页面上 begin -->
+<footer id="endFooter">
+  <div class="noDuty">免责申明：页面所载内容及数据仅供用户参考和借鉴，最终以开发商实际公示为准。</div>
+  <div class="clearfix"><span class="foot-left"><a href="javascript:void(0)" id="footCity"><i></i></a><a href="javascript:void(0)" id="footList">北京房产</a> > <a href="javascript:void(0)" id="curLp">当前楼盘</a> </span><ul><li><a href="https://3g.163.com/newsapp#!/scene-1">客户端</a></li><li><a href="" id="footPcUrl">电脑版</a></li><li class="last"><a href="https://m.house.163.com/fps/frontends/feedback/fankui/index.html">反馈意见</a></li></ul></div>
+  <p>&copy;1997-2022 网易公司版权所有</p>
+</footer>
+<style type="text/css">
+  .noDuty{
+    padding: 20px 20px 20px 30px;
+    line-height: 28px;
+  }
+  .clearfix:after {
+    height: 0;
+    content: " ";
+    display: block;
+    visibility: hidden;
+    font-size: 0;
+    clear: both;
+  }
+
+  footer {
+    font-size: 24px;
+    color: #b0b7bb;
+    background: #f4f6f7;
+    margin-bottom: 110px;
+  }
+  #endFooter.forx{
+    margin-bottom: 160px;
+  }
+  footer .clearfix {
+    padding: 15px;
+  }
+  footer p {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e2e5e9;
+  }
+  footer a {
+    color: #b0b7bb;
+  }
+  footer #curLp{
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  footer .foot-left {
+    float: left;
+    line-height: 24px;
+  }
+  footer .foot-left i {
+    background: url('http://fps-pro.ws.126.net/fps-pro/frontends/lpk_mobile/static/house.png?hehe=1666') no-repeat;
+    background-size: 100% 100%;
+    width: 24px;
+    height: 21px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  footer ul {
+    float: right;
+  }
+  footer ul li {
+    float: left;
+    padding: 0 20px;
+    line-height: 1;
+    border-right: 1px solid #b0b7bb;
+  }
+  footer ul .last{
+    padding-right: 15px;
+  }
+  footer ul li:last-child {
+    border-right: 0;
+  }
+  .kf {
+    width: 90px;
+    height: 80px;
+    position: absolute;
+    top: 14px;
+    left: 46px;
+    display: none;
+  }
+  .kf .ic {
+    width: 61px;
+    height: 50px;
+    background: url(http://fps-pro.ws.126.net/fps-pro/temp/fb04c3bb25c4641457acb76a0c0087d3/kf.gif);
+  }
+  .kf .t {
+    font-size: 20px;
+    color: #ea3847;
+    margin-left: -9px;
+    line-height: 1.5;
+  }
+  .gw-box {
+    display: none;
+    position: relative;
+  }
+  .gw-box .gw-part {
+    display: block;
+  }
+  .gw .kf {
+    left: 36px;
+  }
+  .gw-part {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 14px;
+    left: 138px;
+    line-height: 1.2;
+    display: none;
+    font-size: 20px;
+    color: #ea3847;
+  }
+  .gw-part i {
+    width: 41px;
+    height: 47px;
+    display: block;
+    margin: 0 auto;
+    background: url(http://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/images/gw_icon.png);
+    margin-bottom: 6px;
+  }
+  .dialog-gw {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    display: none;    
+  }
+  .dialog-gw .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .dialog-gw .box {
+    background: url('http://fps-pro.ws.126.net/fps-pro/temp/9863590d0a7919f00e02fd7ad427a63a/img.png');
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -350px 0 0 -230px;
+    width: 460px;
+    height: 566px;
+  }
+  .dialog-gw img {
+    position: absolute;
+    left: 105px;
+    top: 119px;
+  }
+  .dialog-gw .close {
+    background: url(https://fps-pro.ws.126.net/fps-pro/frontends/house_special_2020/zhiyeRank/images/close.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    top: 50%;
+    margin-top: 280px;
+  }
+</style>
+<script type="text/javascript">
+  (function(){
+    //小程序这个模块不要
+    if(isWeChatApplet()){
+      document.getElementById("endFooter").getElementsByClassName("clearfix")[0].style.display = "none";
+      return false;
+    }
+    var protocol = window.location.protocol
+    var randomTime = (new Date).getTime()
+        var callName = null,
+            head = document.getElementsByTagName("head")[0],
+            script = document.createElement("script")
+
+        callName = 'jsonp' + randomTime
+        script.src = protocol + '//xf.house.163.com/bj/api/citylist?callback=' + callName
+        window[callName] = function(res){
+            try{
+                //delete window[callName]
+            }
+            catch(e) {
+                console.log(e)
+            }
+            var ename = ''
+            //res.errorMsg = errorMsg[res.resultcode]
+            if(res) {
+              for(var x in res) {
+                for(var i = 0;i < res[x].length;i++) {
+                  if(res[x][i].ename === M_LP_INIT_DATA.city) {
+                    document.getElementById("footList").innerHTML = res[x][i].name + '房产'
+                  }
+                }
+              }
+
+            }
+            else {
+                document.getElementById("footList").innerHTML = '北京房产'
+            }
+        }
+        head.appendChild(script)
+
+        document.getElementById("footCity").href = '/' + M_LP_INIT_DATA.city + '/lpkmobile/index.html#/index?refresh=true'
+        document.getElementById("footList").href = '/' + M_LP_INIT_DATA.city + '/lpkmobile/index.html#/index.html#/list'
+        document.getElementById("curLp").href = '//m.house.163.com/' + M_LP_INIT_DATA.city + '/' + M_LP_INIT_DATA.productid + '.html'
+        document.getElementById("footPcUrl").href = '//' + M_LP_INIT_DATA.city + '.house.163.com/';
+        document.getElementById("curLp").innerHTML = M_LP_INIT_DATA.productname
+  })()
+</script>
+<!-- 开盘变价弹框inc/changePriceDialog.html begin 为了降低请求，直接放页面上 end-->
+<!-- foot.html end -->
+
+<!-- footPhone.html begin -->
+<div id="tgEnroll">
+  <!--首页有 分享小图标class hasShare -->
+  <!-- 这里的css有个小心机：为了保证body高度不变，footphotobox默认是absolute，不是reletive，这样滚动到底部就不会有闪动的效果 -->
+  <div class="float footphotobox" id="float">
+    <div class="center">
+      <!-- <a class="endShare" href="javascript:void(0)" id="endShare"></a> -->
+<!--      <a class="phone1 commonBg" id="bottomCommonBg" href="javascript:void(0)" @click="makeCall" data-tel="4008-163-163转47625">咨询售楼处</a><a class="car" href="javascript:void(0)"  id="bottomCar">免费看房</a>-->
+      <div class="kf">
+        <div class="ic"></div>
+        <div class="t">在线客服</div>
+      </div>
+      <div class="gw-box" id="gwBtn"><wx-open-launch-weapp
+        id="launch-btn"
+        username="gh_4ebe63c24da8"
+        path="pages/index/index"
+      >
+        <template>
+          <style>
+            .gw-part {
+              width: 80px;
+              height: 80px;
+              line-height: 1.2;
+              font-size: 20px;
+              color: #ea3847;
+              display: block;
+              padding: 14px 0 0 138px;
+            }
+            .gw-part i {
+              width: 41px;
+              height: 47px;
+              display: block;
+              margin: 0 auto;
+              background: url(http://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/images/gw_icon.png);
+              margin-bottom: 6px;
+            }
+          </style>
+          <div class="gw-part">
+            <i></i>
+            <span>顾问入驻</span>
+          </div>
+        </template>
+      </wx-open-launch-weapp></div>
+      <div class="gw-part" id="gwEwm">
+        <i></i>
+        <span>顾问入驻</span>
+      </div><!---->
+      <a class="phone1 commonBg module_tel" id="bottomCommonBg" href="javascript:void(0)"  data-tel="4008-163-163转47625">咨询电话</a><a class="car" href="javascript:void(0)"  id="bottomCar">免费看房</a>
+    </div>
+  </div>
+  <div class="dialog2" id="enroll2">
+    <p class="title">预约看房服务</p>
+    <div class="line"></div>
+    <p class="tips">网易客服人员将在出发前与您电话联系<br/>确认报名</p>
+    <ul class="enroll-list">
+      <li style="margin-top: 20px;">
+        <input type="text" name="name" class="" placeholder="请输入姓名" id="enroll2_name" value="" />
+        <input type="number" name="tel_number" class="" placeholder="请输入手机号" id="enroll2_tel" value="" />
+      </li>
+      <li class="error"><div class="hint"><i></i><span>请输入正确的手机号</span></div></li>
+    </ul>
+    <div class="submit">确认</div>
+    <i class="close"></i>
+  </div>
+  <div class="dialog2" id="enroll2Ok">
+    <p class="title">报名成功</p>
+    <!-- <i class="hor"></i> -->
+    <!-- <p>报名成功！</p> -->
+    <p class="content">您的约车信息已提交，客服会在1-3个工作日与您联系核对用车信息，请保持手机通畅。</p>
+
+    <div class="submit">我知道了</div>
+    <!-- <i class="close"></i> -->
+  </div>
+  <div class="mask"></div>
+<!--   Android 显示的打电话浮层-->
+<!--  <div class="android_w">-->
+<!--    <div class="an_bg">-->
+<!--      <div class="an_tip">接通后，需再转拨分机号</div>-->
+<!--      <div class="an_num" id="an_num">4008-163-163转47625</div>-->
+<!--      <div class="an_btn_w"><a class="an_call_btn" id="an_call_btn" href="tel:4008163163">立即拨打</a></div>-->
+<!--    </div>-->
+<!--    <div class="bg" @click="hideMask"></div>-->
+<!--  </div>-->
+</div>
+<div class="dialog-gw" id="dialogGW">  
+  <div class="box"><img class="top" src="http://fps-pro.ws.126.net/fps-pro/temp/4c8ba97cfe7ce7fe058cc331c3344c8b/top.png" alt="" /><img width="252" class="img" data-src="http://fps-pro.ws.126.net/fps-pro/temp/b506b6fd1d67393711322450429d3f1f/zhiye.png" alt=""></div>
+  <div class="close" id="dialogGWClose"></div>
+</div>
+<style>
+.footphotobox .center{
+  width: 750px;
+  height: 110px;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.float.forx{
+  height: 160px;
+}
+.footphotobox.forx{
+  position: absolute;
+  bottom: -160px;
+  height: 160px;
+}
+.footphotobox.forx .center{
+  top: 4px;
+}
+.mr20{margin-right:20px}.pr{position:relative}#tgEnroll .dialog{padding-bottom:33px}.footphotobox{position:absolute; bottom: -110px; height: 110px;}.footphotobox.float{position:fixed;bottom:0;left:0;width:100%;background:#fff;line-height:70px;box-shadow:0 -3px 6px rgba(0,0,0,0.1);z-index:9}.footphotobox a{width:240px;height:70px;line-height:70px;text-align:center;font-size:28px;color:#fff;background-image:url('https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/images/common_sprite.png?hehe=1666');background-repeat:no-repeat;display:inline-block;top:20px;position:absolute;left:0}.footphotobox .endShare{width:47px;height:48px;background-position:-120px -415px;left:55px;top:30px;display:none}.hasShare .endShare{display:block}.footphotobox .phone1{background-position:0 -636px;left:94px}.hasShare .phone1{left:160px}.footphotobox a.car{background-position:0 -743px;left:415px}.footphotobox a.car{left:456px}.dialog .btn{width:100%;border:0;background:#ff133f;border-radius:5px;box-shadow:0 5px 5px #ff133f;color:#fff;text-align:center;line-height:66px;font-size:24px;display:block}.dialog .btn.disabled{background:#fafafa;color:#ccc;box-shadow:0 5px 5px #eee}.dialog{position:fixed;width:600px;left:50%;margin-left:-300px;text-align:center;z-index:100;top:50%}.dialog .dtitle{width:100%;height:110px;line-height:110px;color:#333;font-size:38px}.dialog .content{background:#fff;padding:0 60px 50px 60px}.dialog .content .house-list{padding-top:50px;border-top:1px solid #e0e0e0}.dialog .content .house-list>li{position:relative;margin-bottom:30px}.dialog .content .enroll-list>li{margin-bottom:30px;clear:both;overflow:hidden}.dialog .content .select,.dialog .content .in{width:100%;background:#fafafa;border-radius:5px;height:70px;border:0;position:relative;font-size:24px;color:#999;text-align:center;float:left}.dialog .content .select.build_name,.dialog .content .in.build_name{display:none}.dialog .content .time{float:left}.dialog .content .in{text-align:left;padding-left:20px;width:460px}.dialog .content .calender{width:26px;height:29px;position:absolute;right:2px;top:50%;margin-top:-14px;}.dialog .content .short{width:210px}.dialog .content .agree{text-align:center;font-size:26px;color:#999}.dialog .content .agree .checkbox{display:inline-block;cursor:pointer;vertical-align:middle;margin-right:5px;position:relative}.dialog .content .agree .checkbox .checkbox-bg{display:block;width:22px;height:22px;background-position:-352px -35px;margin:0}.dialog .content .agree .checkbox .checkbox-agree{position:absolute;left:0;top:0;opacity:0;width:100%;height:100%}.dialog .content .agree .checkbox .checkbox-agree:checked+i{background-position:-330px -35px}.dialog .content .agree label{display:inline-block;vertical-align:middle}.dialog .content .agree label span{cursor:pointer}.dialog .content .agree label span:hover{text-decoration:underline}.dialog .content .select-list{position:fixed;left:0;bottom:0;border-bottom:1px solid #ccc;background:#fff;width:100%;max-height:284px;overflow-y:auto;display:none}.dialog .content .select-list li{border:1px solid #ccc;border-bottom:0}.dialog .content .name{position:relative}.dialog .content .arrow{background-position:-250px 0;width:18px;height:10px;position:absolute;right:20px;top:50%;margin-top:-5px}.dialog .content .btn{margin-top:74px}.dialog .content .delete{background-position:-250px -25px;width:18px;height:18px;position:absolute;right:20px;top:50%;margin-top:-9px;display:none}.dialog .content .txt{font-size:28px;margin-bottom:40px}.dialog .content .txt span{font-weight:bold;margin-left:10px}.dialog .close{width:40px;height:40px;position:absolute}.dialog .down{font-size:26px;color:#999;position:absolute;left:0;width:100%;bottom:-235px}.dialog .down .text{clear:both;overflow:hidden;margin-bottom:25px}.dialog .down .text li{float:left;width:25%;border-bottom:1px solid #999;margin-left:-1px;border-right:1px solid #999;padding-bottom:20px}.dialog .down .text li:last-child{margin-left:0;border-right:0}.dialog .down .text li span{color:#fff}#tgEnroll .mask{background:rgba(0,0,0,0.8);position:fixed;width:100%;height:100%;top:0;left:0;z-index:9999;display:none}.dialog2{width:420px;background:#fff;position:fixed;left:50%;margin-left:-260px;font-size:24px;color:#666;border-radius:5px;padding:0 50px;text-align:center;top:50%;padding-bottom:125px;margin-top:-270px;z-index:10000;display:none} #enroll2{margin-top: -200px;} .dialog2 li{position:relative}.dialog2 p{padding:14px 0 30px 0;line-height:30px;color:#999}.dialog2 p.tips{line-height:32px}.dialog2 p.title{color:#666}.dialog2 .line{width:140px;height:2px;background-color:#f5f5f5;margin:14px auto 10px}.dialog2 .title{font-size:36px;padding-top:40px;padding-bottom:0}.dialog2 .hor{width:140px;height:2px;background:#fafafa;position:absolute;left:50%;margin-left:-70px;top:103px}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#999}input:-moz-placeholder,textarea:-moz-placeholder{color:#999}
+.dialog2 input{height:72px;width:420px;border:0;background:#fafafa;color:#666;font-size:26px;margin-bottom:12px;text-align:center;padding: 0;}.dialog2 input:.dialog2 .hint{margin-top:20px;font-size:26px;color:#999}.dialog2 .hint span{vertical-align:middle;display:inline-block}.enroll-list .error{display:none}
+.gw.hasShare .phone1 {
+  left: 239px;
+}
+.gw.footphotobox a.car {
+  left: 491px;
+}
+#enroll2Ok .title {
+    line-height: 40px;
+    font-size: 36px;
+    padding-top: 75px;
+}
+#enroll2Ok p.content {
+    line-height: 32px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.dialog2 .hint i {
+  vertical-align: middle;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABCCAYAAADjVADoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA4hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo3Y2YyNDc4YS0zMjMzLTQ0MTAtYTE1NS02MTBkMGFhYjI1YmEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTZCQUFBNzZBNkI2MTFFOEFFRDJGNjI3NzZFOUJFRkEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTZCQUFBNzVBNkI2MTFFOEFFRDJGNjI3NzZFOUJFRkEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoTWFjaW50b3NoKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOmYwNGMzYTY0LTYzNmYtNDllZi1iOWVlLTZmZGYyZDZmNDNkOSIgc3RSZWY6ZG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOmFhYzg5ZWVhLWNiOTEtMTE3Yi05MGYxLWMzNTdjY2U5YzU2NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pqfa4IoAAAYvSURBVHja7Jx5bFRVFMZPx9altIpxw6UVwdRWA1SMomgwgBIFI1ZF45IoStTEClFQjImK/mHEYqLUrYkxxQiiGJaqgLGKGCJiiBWXikgQxIhLDUprXZpYv8/3vebRTDsznbfNxJP8kmbSd98739x73zn33DsFDQ0NFoINA2PAKFABhoKjwWGgRP/TAX4DP4NdYCvYAjaBHUE/YGFA7SbABHAVuBgcDN4HX4DXwDbwgxxv1zWlEmaIxKoEV4KF4E+wBrwK3gX/xF2IE0AtuBa0gZfB0+BT0J3i2nbxHdjs+bwAjAQXgvnqSYvV7m4/vzk/bDh4Xl35QDAFjAZ1+qw7i7a71cYCcAaYDIrAJ7rn8DgIwfH9mMbxHnXpu8BnAQ5ntj1b9/oefCiRSqISokZj/lCN5/vBLxae8V4PgCqJwGe5PMw54hBQD8aD68AGi9Y4F90GzgONGjp3gD+C7BHl4AMwCJweAxG8tkHz0iA9Y3lQQlSDjWAJuAbss/jZPj3bEolR7ffQOBO8AWaBpRZ/q9Or9S1wqSbzrIUYAdaCm8FKyx1bqkBsNZio1+2AhWCA9KZ6Qi6J4NpKzRlNYKyCtYyFKAavg2fBS5a7xii0TL6cCzoznSwZ4+8Ej1ru23z5Up/pW6NG42p6luFxXIw+3KREsCZdIUrUG24Ev1r+2F75tDBZOJ5MiAfBOrDe8s/Wy7d5qSbLkzUcTrP8tTmgFTwHtvclxL16S/yYaetdXV2ReFVUVJTpJT+BZ+TrjGRDo0wTyROW//akfC1LJkStsrdsU+kWhePFAThQrLY/9iGFb5TP+wnB/nUD8GMllws0UxTVFfsswkq1vceH9hrkc5FXCMYM35izqJqtccH1HXPWGP0SwxWBbTaDaT60uU0+T/AKcYU5q8t+WKcyPr/E6C3C1L7C5AHYMn1xPUJMUnJlMROD16wKSARTZjrJFYLFlwPMKahYjMRwRbggIBFMPtP3YRSCFaiNAb2mBipGGCK4Rt/HUIjqVIsWIYsRpggm30dSiFPAlwEHMOmKEbYI7vCoSii62hVCNJdKjChEMK1TlFOII3wKULIRIyoR3ABwSKFy8/YQ43xXjCaPGAURiUBjCaCEQpSGLIRXDDdGsIhEoHFfRmnC/jdW7/9OqDeUhnzz3nNCs/5eFVDW2p/R946E2zUiFGGqiEqM/+bIhHLzYyMUoVNEJcaR1IBCsEZ4YoQieCfQKMSg77sTysurIhYhSjHo+1YK0WIZlM8DFCEqMbhRbQuFYMn8nJiIEIUYLA5vohDczMl9i5UxESFMMegzy4E73ICKGyqmxEiEsMSYLN97luqWm9bufBKhycfcIUgxpsn3HiF4k5PM2buYrXEReKLPuUNvMZb50GaFfG72CsF63YvgVh9uwL3UqwNIoFwxVvsUAN4CFsn3/Wqf9Vq2esSyq3aNDjhr9WMu4xrMdG/Y4M0+GWGuMGe/VL7bTPnas6m9dzWc24S4t/kpc6rGadsAqtJRGXf33w7O9n7Yez2C+wUazdnkna+2QHPDdu+HyXbVzTNnVXucOYdN8sno0/hkuVWij6WrmeoZg/NIhMHqCbPkY0ohTBPJe+AFcxZWc90K5Ms6N4BKVwgaN1GwLjo3D4SYK19q+/qHwhTv7MuUnfI1szhHReCZkjvBWf0FeKn2Yu8EF4G3we+We/ux+UVyTxhL//1W89LZnd+iLI3JzkHglRwRgQkVN5deIh8sWyFoHymRYpzPkzF1MRdhjuYDPnNrOhdkUuBp1XuYZzp5nrM0hgLwmXh653pwfroiZCoE7VuFpm3qbuNiFizxmXiobaxlWOEfSMnvL3NO0d2tNwnT92Mizh0W6VnuMeekUcbpfza1zxUKVZmcfQ4eVnoblvFeD5lz3rNNz7J8oI1lWwTu0MTEVfDjzKmRPG7OObCgbITuwXsdr2EwO1nYHKYQ3qx1hhY6uvR22SyR/Fgdr5SzbHON7lGte37thwN+/1oAI1Duer/PnB2tVyvJKdA6R6syW/dnE/ZqPHMxg8XYw0WFuvqpmpy55L5WbefEzya4xgd1y/2mOJ8OjZI4Q8FR5pwrL9E33CFh2hXRfqUxzwkw8B/S+FeAAQDmKqqgPVRblQAAAABJRU5ErkJggg==) no-repeat;
+  width: 26px;
+  height: 26px;
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-right: 10px;
+}
+.dialog2 .submit {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  color: #fff;
+  background: #ff133f;
+  font-size: 28px;
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.dialog2 .close {
+  background: url(https://fps-pro.ws.126.net/fps-beta/frontends/lpk_touch/v16/images/close.png?hehe=16668) no-repeat;
+  width: 66px;
+  height: 66px;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -33px;
+  bottom: -106px;
+}
+.dialog2 .house-list {
+  position: absolute;
+  left: 0;
+  top: 72px;
+  background: #fff;
+  width: 100%;
+  z-index: 3;
+}
+.dialog2 .house-list li {
+  border: 1px solid #eee;
+  border-top: 0;
+  line-height: 75px;
+  padding-left: 20px;
+  text-align: left;
+}
+#enroll2Ok {
+  margin-top: -150px;
+  padding-bottom: 80px;
+}
+/*wzw*/
+/*.android_w {*/
+/*  position: fixed;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  left: 0;*/
+/*  top: 0;*/
+/*  z-index: 10;*/
+/*  display: none;*/
+/*}*/
+/*.an_bg {*/
+/*  font-size: 24px;*/
+/*  height: 200px;*/
+/*  background: rgba(255, 255, 255, 0.9);*/
+/*  text-align: center;*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  bottom: 0;*/
+/*  width: 100%;*/
+/*  z-index: 2;*/
+/*}*/
+/*.android_w .bg {*/
+/*  background: rgba(0, 0, 0, 0.4);*/
+/*  position: absolute;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*  left: 0;*/
+/*  top: 0;*/
+/*  z-index: 1;*/
+/*}*/
+/*.an_tip {*/
+/*  color: #666;*/
+/*  padding-top: 30px;*/
+/*}*/
+/*.an_num {*/
+/*  color: #ff133f;*/
+/*}*/
+/*.an_btn_w {*/
+/*  padding-top: 5px;*/
+/*}*/
+/*.an_call_btn {*/
+/*  display: inline-block;*/
+/*  width: 200px;*/
+/*  height: 55px;*/
+/*  line-height: 55px;*/
+/*  background: #ff133f;*/
+/*  color: #FFF;*/
+/*  border-radius: 28px;*/
+/*}*/
+
+</style>
+<script>
+  (function (w, d, n, a, j) {
+    w[n] = w[n] || function () {
+      (w[n].a = w[n].a || []).push(arguments);
+    };
+    j = d.createElement('script');
+    j.async = true;
+    j.src ='https://qiyukf.com/script/f15321eb4440a6759bd3b930e4aefc21.js?hidden=true&subdomain=1';
+    d.body.appendChild(j);
+  })(window, document, 'ysf');
+</script>
+<script type="text/javascript">
+  // 检测是否是在网易新闻客户端下运行的
+  function isNetEaseApp() {
+    //return true;
+    var ua = window.navigator.userAgent;
+    if(/netease_news/gi.test(ua) || /NewsApp/gi.test(ua)){
+      return true;
+    }
+    return false;
+  }
+  // wzw
+  // document.getElementById("an_num").innerHTML = M_LP_INIT_DATA.lpTel + (M_LP_INIT_DATA.fenjiTel ? "转" + M_LP_INIT_DATA.fenjiTel : "");
+  // document.getElementById("an_call_btn").href ="tel:" + M_LP_INIT_DATA.lpTel;
+  if(isIndexDetail){
+    if( isIphoneX() ){
+      document.getElementById("float").setAttribute("class", "float hasShare footphotobox forx");
+      document.getElementById("endFooter").setAttribute("class", "forx");
+
+    }else{
+      document.getElementById("float").setAttribute("class", "float hasShare footphotobox");
+    }
+
+  }
+  if(M_LP_INIT_DATA && M_LP_INIT_DATA.city && M_LP_INIT_DATA.city === 'gz') {
+    var className = document.getElementById("float").getAttribute("class")
+    //document.getElementById("float").setAttribute("class", className + " gw");
+  }
+  if(document.getElementById("endShare")) {
+    document.getElementById("endShare").onclick = function(){
+      if(isNetEaseApp()){
+        window.location.href = "share://";
+      }else{
+        document.getElementById("share").style.display = 'block';
+      }
+    }
+  }
+  
+</script>
+<script>
+// 检测是否是在微信端下运行的
+function isWeiXin(){
+    var ua = window.navigator.userAgent.toLowerCase();
+    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+
+
+function initMini (callback) {
+    //alert(0)
+    $.ajax({
+        url: 'https://game.house.163.com/web/weixin/wx1f343894d9cce45d/init',
+        type: 'GET',
+        dataType: 'jsonp',
+        data: {
+            redirect_uri: encodeURIComponent(location.href)
+        },
+        success: function(ret) {
+            //alert(1)
+            console.log(ret);
+            wx.config({
+                debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印
+                appId: 'wx1f343894d9cce45d', // 必填，公众号的唯一标识
+                timestamp: ret.timestamp, // 必填，生成签名的时间戳
+                nonceStr: ret.nonceStr, // 必填，生成签名的随机串
+                signature: ret.signature,// 必填，签名
+                jsApiList: ['onMenuShareTimeline', 'onMenuShareAppMessage','updateAppMessageShareData','updateTimelineShareData'], // 必填，需要使用的JS接口列表
+                openTagList: ['wx-open-launch-app', 'wx-open-launch-weapp'] // 可选，需要使用的开放标签列表，例如['wx-open-launch-app']
+            });
+            wx.ready(function () {
+                //alert(2)
+                var btn = document.getElementById('launch-btn');
+                document.getElementById("gwBtn").style.display = "block"
+                callback && callback()
+                
+                //alert(3)
+            });
+        }
+    });
+}
+</script>
+<!--<script type="text/javascript" src="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/js/footphone.js"></script>-->
+<script type="text/javascript" src="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/js/footphone.js"></script>
+
+
+
+
+<!-- footPhone.html 为了降低请求，直接放页面上 end -->
+<!-- <script src="https://img2.cache.netease.com/f2e/house/house_special/js/h5share_fixed.1044939.min.js"></script> -->
+<script src="https://static.ws.126.net/163/frontend/libs/newsapp-share/latest/newsapp-share.min.js"></script>
+<!-- 新版埋点 begin -->
+<script type="text/javascript" src="//static.ws.126.net/163/activity/tools/newsapp-api/1.7.1/newsapp-api.min.js"></script>
+<script id="_nfe_sps" src="//163h5.nos-jd.163yun.com/h5/libs/sps.js?ca=click-b1s-b3s-b5s-scroll" async="async" type="text/javascript"></script>
+<!-- 新版埋点 end -->
+
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=d58L5kdvOvtabbGx6odBhmu0wMQ2qRG6"></script>
+<script type="text/javascript" src="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/js/map.js"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+
+<!--章鱼代码 begin-->
+<noscript>
+    <img src="//163.wrating.com/a.gif?c=860010-0502010100" width="1" height="1" />
+</noscript>
+<!-- HubbleAnalysis begin -->
+<!-- <script src="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/js/HubbleAnalysis.js"></script> -->
+<script src="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/js/hubbleLink.js"></script>
+<script type="text/javascript">
+//DATracker.init('waphome', {track_links_timeout: 5000})
+DATracker.track('waphome');
+</script>
+<script type="text/javascript" src="https://fps-pro.ws.126.net/fps-pro/frontends/lpk_touch/v177/js/index.js"></script>
+<!-- HubbleAnalysis end -->
+<script type="text/javascript" src="https://fps-pro.ws.126.net/fps-pro/frontends/house_special_2019/phone/js/main.js?v=3"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c9cd37afb684946ad211ac414c8da03f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type='text/javascript'>
+  (function(w, d, s, n) {
+  var f = d.getElementsByTagName(s)[0],k = d.createElement(s); k.async = true;
+  k.src = '//static.ws.126.net/163/frontend/antnest/'+n+'.js';
+  f.parentNode.insertBefore(k, f);
+  })(window, document, 'script','NTM-9X2F9177-22');
+  </script>
+
+
+</body>
+</html>

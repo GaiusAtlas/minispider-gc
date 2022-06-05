@@ -1,0 +1,3501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>沪深行情_网易财经</title>
+    <meta name="author" content="网易财经" />
+    <meta name="Copyright" content="Netease" />
+    <meta name="keywords" content="沪深A股,上证指数,000001,深证成指,399001,沪深300,399300,股票行情,股票大盘,领涨行业,领跌行业,领涨板块,领跌板块,股票涨幅榜,股票跌幅榜" />
+    <meta name="description" content="网易财经行情中心为您提供全天候的沪深股市、香港股市、美国股市股票报价，基金、外汇、期货行情走势，以及相关资金流向、行业概念板块排行、股票排行、大盘分析、证券要闻等证券交易信息，同时还提供自选股管理工具，包括沪深自选、港股自选、美股自选和基金自选，方便您快速查看和管理个人的投资组合。最新最快最及时的股市资讯，网易财经旗下股票行情中心精心打造" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta http-equiv="Content-Language" content="zh-CN"/>
+    
+<!--  -->
+<link href="https://img1.cache.netease.com/f2e/finance/backend_project/quotes_index_2014/css/money.Sv5WebmvGoGH.3.css" rel="stylesheet" type="text/css" />
+<script src="https://img1.cache.netease.com/cnews/js/ntes_jslib_1.x.js" type="text/javascript" charset="gb2312"></script>
+<script src="https://img1.cache.netease.com/f2e/lib/js/ne.js"></script>
+
+<link rel="stylesheet" href="https://img2.cache.netease.com/f2e/finance/backend_project/quotes_index_2014/app/dist/css/main.1196318.css" />
+
+</head>
+<body class="large page_hs">
+
+<h1 class="main-title">网易行情中心 沪深行情</h1>
+<script _keep="true" src="https://urswebzj.nosdn.127.net/webzj_cdn101/message.js" type="text/javascript"></script>
+<div class="ntes_nav_wrap" id="js_N_NTES_wrap">
+    <div class="ntes-nav" id="js_N_nav">
+        <div class="ntes-nav-main clearfix">
+            <div class="c-fl">
+                <div class="ntes_cnav_logo">
+                    <a class="ntes_cnav_logo_money" href="http://money.163.com/">网易财经</a>
+                </div>
+                <div class="ntes_cnav_channel">
+                    <span>行情中心</span>
+                </div>
+                <div class="ntes_cnav_link" id="js_N_nav_left">
+                    <ul>
+                        <li>
+                            资讯频道：<a href="http://money.163.com/" target="_blank">网易财经</a>
+                        </li>
+                        <li>
+                            <a href="http://money.163.com/stock/" target="_blank">股票</a>
+                            <a href="http://money.163.com/ipo/" target="_blank">新股</a>
+                            <a href="http://money.163.com/chinext" target="_blank">创业板</a>
+                            <a href="http://money.163.com/fund/">基金</a>
+                        </li>
+                        <!--
+                        <li>
+                            <a href="http://money.163.com/hkstock" target="_blank">港股</a>
+                            <a href="http://money.163.com/usstock" target="_blank">美股</a>
+                        </li>
+                        <li>
+                            <a href="http://money.163.com/futures" target="_blank">期货</a>
+                            <a href="http://money.163.com/forex/" target="_blank">外汇</a>
+                        </li>
+			-->
+                    </ul>
+                </div>
+            </div>
+            <!-- mail无用，但不能删 -->
+            <div id="js_N_navMailMsg" style="display:none;width:1px;height:1px;overflow:hidden;line-height:400px;float:left;">
+                <div id="js_N_navMailMsgNum">
+                    <!-- 解决导航头公共头js没有邮箱id报错，需有该id -->
+                </div>
+                <a href="javascript:;" id="js_mail_url">进入邮箱</a>
+            </div>
+
+            <div class="c-fr">
+              <div class="c-fl" id="js_N_navLoginBefore">
+                <div id="js_N_navHighlight" class="js_loginframe ntes-nav-login ntes-nav-login-normal">
+                  <a href="http://reg.163.com/" class="ntes-nav-login-title" id="js_N_nav_login_title">登录</a>
+                  <div class="ntes-nav-loginframe-pop" id="js_N_login_wrap">
+                    <!--加载登陆组件-->
+                  </div>
+                </div>
+                <div class="js_N_navSelect ntes-nav-select ntes-nav-select-wide  JS_NTES_LOG_FE c-fl">
+                  <a class="ntes-nav-select-title ntes-nav-select-title-register" href="https://mail.163.com/register/index.htm?from=163navi&regPage=163">注册免费邮箱
+                    <em class="ntes-nav-select-arr"></em>
+                  </a>
+                  <div class="ntes-nav-select-pop">
+                    <ul class="ntes-nav-select-list clearfix" style="width:210px;">
+                      <li>
+                        <a href="https://reg1.vip.163.com/newReg1/reg?from=new_topnav&utm_source=new_topnav">
+                          <span style="width:190px;">注册VIP邮箱（特权邮箱，付费）</span>
+                        </a>
+                      </li>
+                      <li class="last JS_NTES_LOG_FE">
+                        <a href="http://mail.163.com/client/dl.html?from=mail46">
+                          <span style="width:190px;">免费下载网易官方手机邮箱应用</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="c-fl" id="js_N_navLoginAfter" style="display:none">
+                <div id="js_N_logined_warp" class="js_N_navSelect ntes-nav-select ntes-nav-logined JS_NTES_LOG_FE">
+                  <span class="ntes-nav-select-title ntes-nav-logined-userinfo">
+                    <span id="js_N_navUsername" class="ntes-nav-logined-username"></span>
+                    <em class="ntes-nav-select-arr"></em>
+                  </span>
+                  <div id="js_login_suggest_wrap" class="ntes-nav-select-pop">
+                    <ul id="js_logined_suggest" class="ntes-nav-select-list clearfix"></ul>
+                  </div>
+                </div>
+                <a class="ntes-nav-entry-wide c-fl" target="_self" id="js_N_navLogout">安全退出</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//static.ws.126.net/163/f2e/commonnav2019/js/commonnav_headjs-125e1cbda2.js"></script>
+
+
+<!-- 顶部导航 -->
+<div class="nav nav-top-bar">
+    <div class="container">
+        <ul class="nav-inner">
+            <li id="link_hs">
+                <a href="http://quotes.money.163.com/stock">沪深行情</a>
+            </li>
+            <!--<li>
+                <a href="http://stock.163.com/" target="_blank">股市直播</a>
+            </li>-->
+<!--
+            <li id="link_hk">
+                <a href="http://quotes.money.163.com/hkstock" target="_blank">港股行情</a>
+            </li>
+-->
+<!--
+            <li id="link_us">
+                <a href="http://quotes.money.163.com/usstock" target="_blank">美股行情</a>
+            </li>
+-->
+            <li>
+                <a href="http://quotes.money.163.com/#FN" target="_blank">基金行情</a>
+            </li>
+            <li id="link_bond">
+                <a href="http://quotes.money.163.com/bond" target="_blank">债券行情</a>
+            </li>
+            <!--<li>
+                <a href="http://quotes.money.163.com/#FU" target="_blank">期货行情</a>
+            </li>-->
+<!--
+            <li>
+                <a href="http://quotes.money.163.com/#FX" target="_blank">外汇行情</a>
+            </li>
+-->
+            <!--<li>
+                <div class="divider"></div>
+            </li>
+            <li class="last">
+                <a href="http://i.money.163.com/" target="_blank">我的投资</a>
+            </li>-->
+            <!-- <li>
+                <div class="divider"></div>
+            </li>
+            <li class="finance_app_link">
+                <span class="finance_app_icon"></span>
+                <a href="http://i.money.163.com/" target="_blank">网易财经客户端</a>
+                <span class="new_icon">NEW!</span>
+            </li> -->
+        </ul>
+    </div>
+</div>
+
+
+<div class="quotes_index_2014_wrap container">
+
+    <!-- 边栏导航 -->
+    <div class="nav nav-side-bar side-bar-hidden">
+<table>
+<tbody>
+<tr>
+<td>
+    <!-- <iframe class="expert_iframe" src="http://money.163.com/special/quotes_center_expert_list/" frameborder="0"></iframe> -->
+    <ul class="nav-inner nav-tabs-hover" data-target="#sidebar-nav-tabs" id="sidebar-nav">
+        <li class="active current">
+            <a class="mini-hide ne-blue-dark none-tab" href="">沪深行情</a>
+        </li>
+        <li>
+            <a class="ne-green mini" target="_blank"
+               href="http://quotes.money.163.com/old/#query=todayRank">涨跌排行</a>
+        </li>
+        <li>
+            <a class="ne-green mini" href="">分类市场</a>
+        </li>
+        <!--<li>-->
+            <!--<a class="ne-green none-tab" target="_blank"-->
+               <!--href="http://quotes.money.163.com/data/ipo/shangshi.html?sort=faxingri&order=desc&">次新股</a>-->
+        <!--</li>-->
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a class="ne-blue" href="">行业板块</a>
+        </li>
+        <li>
+            <a class="ne-blue" href="">概念板块</a>
+        </li>
+        <li>
+            <a class="ne-blue" href="">地域板块</a>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li>
+            <a class="ne-orange mini" href="">沪深指数</a>
+        </li>
+        <li>
+            <a class="ne-orange mini" href="">交易提示</a>
+        </li>
+    </ul>
+    <a class="back_to_old" href="http://quotes.money.163.com/old" target="_blank">返回旧版</a>
+</td>
+<td class="tab-content nav-panel ne-blue baseline" id="sidebar-nav-tabs">
+
+<ul class="side-bar-content-list">
+<!--涨跌排行-->
+<li class="tab-panel panel">
+    <ul>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="沪深A股">沪深A股</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="沪深B股">沪深B股</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=EQA_EXCHANGE_CNSESH&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="沪市A股">沪市A股</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=EQB_EXCHANGE_CNSESH&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="沪市B股">沪市B股</a>
+        </li>
+	 <li>
+            <a href="http://quotes.money.163.com/old/#query=SBA_EXCHANGE_STAS00&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="北交所">北交所</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="科创板">科创板</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=EQA_EXCHANGE_CNSESZ&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="深市A股">深市A股</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=EQB_EXCHANGE_CNSESZ&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="深市B股">深市B股</a>
+        </li>
+        <!-- <li>
+            <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="中小板">中小板</a>
+        </li>-->
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank" title="创业板">创业板</a>
+        </li>
+    </ul>
+</li>
+
+<!-- 分类市场 -->
+<li class="tab-panel panel">
+
+    <div class="panel-body">
+        <ul>
+            <li>
+              <a target="_blank" href="http://quotes.money.163.com/old/#query=SHARE_STOCK_true">
+                沪股通
+              </a>
+            </li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=ab&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                A+B股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=ah&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                A+H股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=EQA_PRICE_RNG_L&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                高价股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=EQA_PRICE_RNG_M&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                中价股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=EQA_PRICE_RNG_S&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                低价股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=SCSTC27_RNG_L&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                大盘股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=SCSTC27_RNG_M&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                中盘股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=SCSTC27_RNG_S&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                小盘股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=IPO_DATE_gt&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                次新股</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=NODEAL_FXJS&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                风险警示</a></li>
+            <li><a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=NODEAL_TSZL&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                退市整理</a></li>
+        </ul>
+    </div>
+</li>
+<!--行业版块-->
+<li class="tab-panel panel">
+
+    <div class="col-main">
+        <div class="col-main-wrap">
+
+            <div class="panel-head">
+                <div class="nav form-select">
+                    <span class="select-title">主要行业</span>
+
+                   
+                    <ul class="nav-tabs select-body"
+                        data-target="#block-tabs">
+                        <li class="active">
+                            <a href="#block-tabs">主要行业</a>
+                        </li>
+                        <li>
+                            <a href="#block-tabs">证监会行业</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+                <!--<div class="search-bar">-->
+                <!--<input type="text" placeholder="搜索行业"/>-->
+                <!--</div>-->
+
+                <hr/>
+
+            </div>
+
+            <div class="panel-body industry-panel-body">
+
+                <div class="tab-content" id="block-tabs">
+
+                    <div class="tab-panel active">
+                        <!-- 主要行业（新） -->
+
+                        <ul class="ne-template sidebar_hangye_module"
+                            data-hash="RANK_SC_PLATE_HANGYE_ALL">
+
+                            <li>
+                                <a target="_blank"
+                                   href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+                                   class="cookie-recent-plate" data-plate-name="{NAME}" data-plate-id="{PLATE_ID}">
+                                    {NAME}
+                                    <span class="{CLS}">
+                                        <span class="icon icon-nav-up-down"></span>
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-panel panel-list">
+                        <!-- 证监会行业（新）-->
+
+                        <dl>
+                            <dt> 农林牧渔</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="农业" data-plate-id="hy001001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy001001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">农业</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="林业" data-plate-id="hy001002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy001002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">林业</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="畜牧业" data-plate-id="hy001003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy001003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">畜牧业</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="渔业" data-plate-id="hy001004"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy001004&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">渔业</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="农业服务" data-plate-id="hy001005"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy001005&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">农业服务</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 采矿业</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="煤炭采选" data-plate-id="hy002001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy002001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">煤炭采选</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="油气开采" data-plate-id="hy002002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy002002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">油气开采</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="黑色金属采选" data-plate-id="hy002003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy002003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">黑色金属采选</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="有色金属采选" data-plate-id="hy002004"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy002004&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">有色金属采选</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="开采辅助" data-plate-id="hy002005"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy002005&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">开采辅助</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 制造业</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="粮食加工" data-plate-id="hy003001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">粮食加工</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="食品制造" data-plate-id="hy003002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">食品制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="茶酒饮料" data-plate-id="hy003003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">茶酒饮料</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="纺织业" data-plate-id="hy003004"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003004&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">纺织业</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="服装制造" data-plate-id="hy003005"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003005&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">服装制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="皮毛制鞋" data-plate-id="hy003006"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003006&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">皮毛制鞋</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="木材加工" data-plate-id="hy003007"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003007&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">木材加工</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="家具制造" data-plate-id="hy003008"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003008&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">家具制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="造纸" data-plate-id="hy003009"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003009&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">造纸</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="印刷" data-plate-id="hy003010"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003010&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">印刷</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="传媒艺术" data-plate-id="hy003011"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003011&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">传媒艺术</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="石油加工" data-plate-id="hy003012"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003012&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">石油加工</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="化学制品" data-plate-id="hy003013"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003013&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">化学制品</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="医药制造" data-plate-id="hy003014"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003014&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">医药制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="化纤制造" data-plate-id="hy003015"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003015&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">化纤制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="橡胶塑料" data-plate-id="hy003016"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003016&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">橡胶塑料</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="非金属制品" data-plate-id="hy003017"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003017&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">非金属制品</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="黑色金属" data-plate-id="hy003018"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003018&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">黑色金属</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="有色金属" data-plate-id="hy003019"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003019&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">有色金属</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="金属制品" data-plate-id="hy003020"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003020&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">金属制品</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="通用设备制造" data-plate-id="hy003021"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003021&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">通用设备制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="专用设备制造" data-plate-id="hy003022"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003022&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">专用设备制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="汽车制造" data-plate-id="hy003023"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003023&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">汽车制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="交运设备" data-plate-id="hy003024"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003024&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">交运设备</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="电器制造" data-plate-id="hy003025"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003025&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">电器制造</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="通信设备" data-plate-id="hy003026"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003026&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">通信设备</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="仪器仪表" data-plate-id="hy003027"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003027&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">仪器仪表</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="其他制造业" data-plate-id="hy003028"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003028&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">其他制造业</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="废品利用" data-plate-id="hy003029"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy003029&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">废品利用</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 水电燃气</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="电力热力" data-plate-id="hy004001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy004001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">电力热力</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="燃气" data-plate-id="hy004002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy004002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">燃气</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="自来水" data-plate-id="hy004003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy004003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">自来水</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 建筑业</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="房屋建筑业" data-plate-id="hy005001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy005001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">房屋建筑业</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="土木工程" data-plate-id="hy005002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy005002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">土木工程</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="建筑安装" data-plate-id="hy005003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy005003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">建筑安装</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="建筑装饰" data-plate-id="hy005004"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy005004&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">建筑装饰</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 批发零售</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="批发" data-plate-id="hy006001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy006001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">批发</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="零售" data-plate-id="hy006002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy006002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">零售</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 交通物流</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="铁路运输" data-plate-id="hy007001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy007001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">铁路运输</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="道路运输" data-plate-id="hy007002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy007002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">道路运输</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="水上运输" data-plate-id="hy007003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy007003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">水上运输</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="管道运输业 " data-plate-id="hy007005"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy007005&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">管道运输业 </a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="航空运输" data-plate-id="hy007004"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy007004&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">航空运输</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="港口物流" data-plate-id="hy007006"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy007006&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">港口物流</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="仓储业" data-plate-id="hy007007"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy007007&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">仓储业</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 餐饮酒店</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="酒店" data-plate-id="hy008001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy008001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">酒店</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="餐饮" data-plate-id="hy008002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy008002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">餐饮</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 信息技术</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="广电卫星" data-plate-id="hy009001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy009001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">广电卫星</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="互联网" data-plate-id="hy009002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy009002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">互联网</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="软件信息" data-plate-id="hy009003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy009003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">软件信息</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 金融业</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="银行" data-plate-id="hy010001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy010001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">银行</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="证券" data-plate-id="hy010002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy010002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">证券</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="保险" data-plate-id="hy010003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy010003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">保险</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="其他金融" data-plate-id="hy010004"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy010004&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">其他金融</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 房地产业</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="房地产业" data-plate-id="hy011001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy011001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">房地产业</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 租赁和商务</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="租赁" data-plate-id="hy012001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy012001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">租赁</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="商务服务" data-plate-id="hy012002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy012002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">商务服务</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 科研技术</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="科研" data-plate-id="hy013001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy013001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">科研</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="专利服务" data-plate-id="hy013002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy013002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">专利服务</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 旅游环境</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="环保" data-plate-id="hy014001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy014001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">环保</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="旅游" data-plate-id="hy014002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy014002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">旅游</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 教育</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="教育" data-plate-id="hy015001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy015001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">教育</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 卫生</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="卫生" data-plate-id="hy016001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy016001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">卫生</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 出版传媒</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="新闻出版" data-plate-id="hy017001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy017001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">新闻出版</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="影视制作" data-plate-id="hy017002"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy017002&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">影视制作</a>
+                                    </li>
+                                    <li><a class="cookie-recent-plate" data-plate-name="文化艺术" data-plate-id="hy017003"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy017003&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">文化艺术</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt> 综合</dt>
+                            <dd>
+                                <ul>
+                                    <li><a class="cookie-recent-plate" data-plate-name="综合" data-plate-id="hy018001"
+                                           target="_blank"
+                                           href="http://quotes.money.163.com/old/#query=hy018001&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">综合</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-sub">
+        <div class="sub-list" id="nav-sub-up">
+            <div class="caption">
+                领涨行业
+            </div>
+            <div class="content">
+                <ul class="ne-template"
+                    data-hash="RANK_SC_PLATE_HANGYE_UP"
+                    data-count="4"
+                    data-hide="#nav-sub-up">
+                    <li>
+                        <p>
+                            <span class="stock-up">{$INDEX}</span>
+                            <a target="_blank" title="{NAME}"
+                               href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                                {NAME}
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sub-list" id="nav-sub-down">
+            <div class="caption">
+                领跌行业
+            </div>
+            <div class="content">
+                <ul class="ne-template"
+                    data-hash="RANK_SC_PLATE_HANGYE_DOWN"
+                    data-count="4"
+                    data-hide="#nav-sub-down">
+                    <li>
+                        <p>
+                            <span class="stock-down">{$INDEX}</span>
+                            <a target="_blank" title="{NAME}"
+                               href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+                               class="cookie-recent-plate" data-plate-name="{NAME}" data-plate-id="{PLATE_ID}">
+                                {NAME}
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr/>
+
+        <div class="sub-list">
+            <div class="caption">
+                我常点击
+            </div>
+            <div class="content">
+                <ul id="my-recent-stock-list">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</li>
+<!-- 概念板块 -->
+<li class="tab-panel panel panel-blank-head">
+
+
+    <!--<div class="panel-head">-->
+
+    <!--<div class="search-bar">-->
+    <!--<input type="text" placeholder="搜索概念"/>-->
+    <!--</div>-->
+
+    <!--</div>-->
+
+    <div class="panel-body">
+        <ul class="ne-template sidebar_concept_module"
+            data-hash="RANK_SC_PLATE_GAINIAN_ALL">
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    {NAME}
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+</li>
+<!--地域版块-->
+<li class="tab-panel panel panel-blank-head panel-blank-large">
+    <!-- 地域板块 -->
+
+    <div class="panel-body">
+        <ul class = 'region_ul_list'>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy001000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    北京</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy002000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    天津</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy003000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    河北</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy004000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    山西</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy005000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    内蒙古</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy006000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    辽宁</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy007000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    吉林</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy008000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    黑龙江</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy009000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    上海</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy010000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    江苏</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy011000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    浙江</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy012000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    安徽</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy013000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    福建</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy014000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    江西</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy015000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    山东</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy016000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    河南</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy017000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    湖北</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy018000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    湖南</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy019000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    广东</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy020000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    广西</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy021000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    海南</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy022000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    四川</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy023000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    贵州</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy024000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    云南</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy025000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    西藏</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy026000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    重庆</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy027000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    陕西</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy028000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    甘肃</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy029000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    青海</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy030000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    宁夏</a>
+            </li>
+            <li>
+                <a target="_blank"
+                   href="http://quotes.money.163.com/old/#query=dy031000&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    新疆</a>
+            </li>
+
+        </ul>
+    </div>
+
+</li>
+<!-- 沪深指数 -->
+<li class="tab-panel panel">
+
+    <ul>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=main" target="_blank" title="主要指数">主要指数</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=sh" target="_blank" title="沪市指数">沪市指数</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=sz" target="_blank" title="深市指数">深市指数</a>
+        </li>
+    </ul>
+</li>
+<!-- 交易提示 -->
+<li class="tab-panel panel" style="top:162px">
+    <ul>
+        <li>
+            <a href="http://quotes.money.163.com/data/ipo/shangshi.html" target="_blank">新股上市</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=GGDQ&DataType=gsgg&sort=PUBLISHDATE&order=desc&count=25&page=0" target="_blank">公司公告</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=TFPTS&DataType=tpts&sort=NTRAD4&order=desc&count=25&page=0" target="_blank">停牌提示</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=XSGJJ&DataType=xsgjj&sort=SSTMHDLIST5&order=asc&count=25&page=0" target="_blank">限售解禁</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=FH&DataType=fh&sort=DECLAREDATE&order=desc&count=25&page=0" target="_blank">分红送股</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=ZQRZ&DataType=zqrz&sort=BONDDT19&order=DESC&count=25&page=0" target="_blank">债券发行</a>
+        </li>
+        <li>
+            <a href="http://quotes.money.163.com/old/#query=PG&DataType=pg&sort=DECLAREDATE&order=desc&count=25&page=0" target="_blank">增发配股</a>
+        </li>
+    </ul>
+</li>
+
+</ul>
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+    <div class="quotes_index_2014_content">
+
+        <!-- 头屏 -->
+        <div class="main-area">
+
+    <div class="status-bar">
+        <div class="status-bar-content">
+            <div class="status-flag" data-type="hs"></div>
+            <div class="status-afternoon"></div>
+            <div class="status-before"></div>
+            <div class="status-morning"></div>
+            <div class="flag-tooltip">
+                <div class="arrow"></div>
+                <div class="arrow arrow-border"></div>
+                <div class="flag-tooltip-body"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="thumbnails thumbnail-point fetch-content" data-default-gap="5">
+
+        <div class="thumbnail ne-template fetch-el" data-hash="0000001" data-count="1">
+            <div class="head">
+                <h2 class="title">
+                    <a href="http://quotes.money.163.com/{code}.html" target="_blank">
+                        {name}
+                    </a>
+                </h2>
+
+                <div class="point-info {CLS}">
+
+                    <div class="price">
+                        {price}
+                        <span class="icon icon-point-up-down"></span>
+                    </div>
+
+                    <div class="percent">
+                        <span class="text-left">{updown}</span>
+                        <span class="text-center">{percent}</span>
+                        <span class="turnover text-right">{turnover}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <a href="http://quotes.money.163.com/{code}.html" target="_blank">
+                    <img src="http://img1.money.126.net/chart/hs/time/210x140/0000001.png?{$VERSION}" alt="name"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="thumbnail ne-template fetch-el" data-hash="1399001" data-count="1">
+            <div class="head">
+                <h2 class="title">
+                    <a href="http://quotes.money.163.com/{code}.html" target="_blank">
+                        {name}
+                    </a>
+                </h2>
+
+                <div class="point-info {CLS}">
+
+                    <div class="price">
+                        {price}
+                        <span class="icon icon-point-up-down"></span>
+                    </div>
+
+                    <div class="percent">
+                        <span class="text-left">{updown}</span>
+                        <span class="text-center">{percent}</span>
+                        <span class="turnover text-right">{turnover}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <a href="http://quotes.money.163.com/{code}.html" target="_blank">
+                    <img src="http://img1.money.126.net/chart/hs/time/210x140/1399001.png?{$VERSION}" alt="name"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="thumbnail ne-template fetch-el" data-hash="1399300" data-count="1">
+            <div class="head">
+                <h2 class="title">
+                    <a href="http://quotes.money.163.com/{code}.html" target="_blank">
+                        {name}
+                    </a>
+                </h2>
+
+                <div class="point-info {CLS}">
+
+                    <div class="price">
+                        {price}
+                        <span class="icon icon-point-up-down"></span>
+                    </div>
+
+                    <div class="percent">
+                        <span class="text-left">{updown}</span>
+                        <span class="text-center">{percent}</span>
+                        <span class="turnover text-right">{turnover}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <a href="http://quotes.money.163.com/{code}.html" target="_blank">
+                    <img src="http://img1.money.126.net/chart/hs/time/210x140/1399300.png?{$VERSION}" alt="name"/>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="point-up-down clearfix fetch-content" data-default-gap="5">
+
+        <div class="item ne-template fetch-el"
+             data-hash="HSRANK_COUNT_SHA"
+                >
+            <ul>
+                <li class="text-left stock-up">涨：{up}</li>
+                <li class="text-center">平：{equal}</li>
+                <li class="text-right stock-down">跌：{down}</li>
+            </ul>
+        </div>
+
+        <div class="item ne-template fetch-el"
+             data-hash="HSRANK_COUNT_SZA"
+                >
+            <ul>
+                <li class="text-left stock-up">涨：{up}</li>
+                <li class="text-center">平：{equal}</li>
+                <li class="text-right stock-down">跌：{down}</li>
+            </ul>
+        </div>
+
+        <div class="item ne-template fetch-el"
+             data-hash="HSRANK_COUNT_SH3"
+                >
+            <ul>
+                <li class="text-left stock-up">涨：{up}</li>
+                <li class="text-center">平：{equal}</li>
+                <li class="text-right stock-down">跌：{down}</li>
+            </ul>
+        </div>
+
+    </div>
+  <!--
+    <script>
+        window.danmakuinfo = {
+            code: "0000001",
+            name: "上证指数"
+        }
+    </script>
+    <div class="chart_hidden">
+        <div id="chat"></div>
+        <script id="chatScript"
+                src="http://data.chat.126.net/chat.js?target=chat&skin=default&topicid=kchartdanmaku0000001"></script>
+    </div>
+
+    <div class="danmaku_view">
+        <p class="danmaku_item" id="danmaku_item_temp"></p>
+    </div>
+    <div class="danmaku_ctrl">
+
+        <div>弹幕</div>
+        <div class="danmaku_power on">
+            <div class="danmaku_power_btn"></div>
+        </div>
+        <input class="chat_msg" type="text" placeholder="发送弹幕，嗨起来~！"/>
+        <button class="chat_btn">吐槽</button>
+    </div>
+-->
+    <div class="market-info clearfix">
+        <div class="stock-alerts ne-scroll">
+
+            <div class="title">
+                <a href="http://money.163.com/stock/" target="_blank">
+                    盘面快讯：
+                </a>
+            </div>
+
+            <div class="content">
+
+                <ul class="ne-template scroll-content"
+                    data-url="http://money.163.com/special/00254038/quotes-pmkx-json.js"
+                    data-fn="_ntes_news_callback" data-count="15">
+                    <li>
+                        {content}
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="market-radar ne-scroll">
+
+            <div class="title">
+                <div class="pull-right form-select ele_hide">
+                    <span class="select-title">大买单</span>
+
+                    <ul class="nav-tabs-radar select-body" data-target="#market-radar-content">
+                        <li><a href="#market-radar-content">大买单</a></li>
+                        <li><a href="#market-radar-content">大卖单</a></li>
+                        <li><a href="#market-radar-content">涨停</a></li>
+                        <li><a href="#market-radar-content">跌停</a></li>
+                        <li><a href="#market-radar-content">竞价放量</a></li>
+                    </ul>
+                </div>
+                <a target="_blank" href="http://quotes.money.163.com/#query=radar">
+                    市场雷达
+                </a>
+            </div>
+
+            <div class="tab-content" id="market-radar">
+                <div class="radar-scroll-wrapper ne-template-loading">
+                    <div class="radar-scroll-content" id="market-radar-content">
+                        <div class="tab-panel active">
+                            <!-- 大买单 -->
+                            <table>
+                                <tbody class="radar-template"
+                                       data-url="http://quotes.money.163.com/hs/service/marketradar_ajax.php?host=http%3A%2F%2Fquotes.money.163.com%2Fhs%2Fservice%2Fmarketradar_ajax.php&page=0&query=&types=&count=15&type=query&order=desc">
+                                <tr>
+                                    <td class="time">{TIME}</td>
+                                    <td class="text-left">
+                                        <a href="http://quotes.money.163.com/{CODE}.html#3a55"
+                                           target="_blank">{NAME}</a>
+                                    </td>
+                                    <td class='radar-tmpl-type' title="{TITLE}">{TYPE}</td>
+                                    <td>{NUMBER}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-panel">
+                            <!-- 大卖单 -->
+                            <table>
+                                <tbody class="radar-template"
+                                       data-url="http://quotes.money.163.com/hs/service/marketradar_ajax.php?host=http%3A%2F%2Fquotes.money.163.com%2Fhs%2Fservice%2Fmarketradar_ajax.php&page=0&query=&types=SELL&count=28&type=query&order=desc">
+                                <tr>
+                                    <td class="time">{TIME}</td>
+                                    <td class="text-left">
+                                        <a href="http://quotes.money.163.com/{CODE}.html#3a55">{NAME}</a>
+                                    </td>
+                                    <td class="stock-down" title="{TITLE}">{TYPE}</td>
+                                    <td>{NUMBER}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-panel">
+                            <!-- 涨停 -->
+                            <table>
+                                <tbody class="radar-template"
+                                       data-url="http://quotes.money.163.com/hs/service/marketradar_ajax.php?host=http%3A%2F%2Fquotes.money.163.com%2Fhs%2Fservice%2Fmarketradar_ajax.php&page=0&query=&types=LIMIT_UP&count=28&type=query&order=desc">
+                                <tr>
+                                    <td class="time">{TIME}</td>
+                                    <td class="text-left">
+                                        <a href="http://quotes.money.163.com/{CODE}.html#3a55">{NAME}</a>
+                                    </td>
+                                    <td class="stock-up" title="{TITLE}">{TYPE}</td>
+                                    <td class="stock-up">{NUMBER}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-panel">
+                            <!-- 跌停 -->
+                            <table>
+                                <tbody class="radar-template"
+                                       data-url="http://quotes.money.163.com/hs/service/marketradar_ajax.php?host=http%3A%2F%2Fquotes.money.163.com%2Fhs%2Fservice%2Fmarketradar_ajax.php&page=0&query=&types=LIMIT_DOWN&count=28&type=query&order=desc">
+                                <tr>
+                                    <td class="time">{TIME}</td>
+                                    <td class="text-left">
+                                        <a href="http://quotes.money.163.com/{CODE}.html#3a55">{NAME}</a>
+                                    </td>
+                                    <td class="stock-down" title="{TITLE}">{TYPE}</td>
+                                    <td class="stock-down">{NUMBER}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-panel">
+                            <!-- 竞价放量 -->
+                            <table>
+                                <tbody class="radar-template"
+                                       data-url="http://quotes.money.163.com/hs/service/marketradar_ajax.php?host=http%3A%2F%2Fquotes.money.163.com%2Fhs%2Fservice%2Fmarketradar_ajax.php&page=0&query=&types=JHJJFL&count=28&type=query&order=desc">
+                                <tr>
+                                    <td class="time">{TIME}</td>
+                                    <td class="text-left">
+                                        <a href="http://quotes.money.163.com/{CODE}.html#3a55">{NAME}</a>
+                                    </td>
+                                    <td class="stock-up" title="{TITLE}">{TYPE}</td>
+                                    <td>{NUMBER}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+        <!--股票搜索通栏-->
+        
+<div class="full_personal_stock_search">
+
+    <div class="us_stock_search2 clearfix" id="us_stock_search2">
+        <form action="javascript:void(0);">
+            <div class="search_box_wrap">
+                <input type="text" placeholder="输入代码/简称/拼音" id="us_stock_search_input2"/>
+                <button type="button" title="搜索" id="us_stock_search_submit2">股票查询</button>  
+            </div>
+        </form>
+    </div>
+    
+     <ul class="full_stock_info_list">
+        <li><a href="http://quotes.money.163.com/old/#query=CDW&DataType=continuousDown&table=stockstats&sort=CONTINUOUS_UPDOWN.DAYS&order=desc&count=25&page=0" target="_blank">连续下跌股票</a></li>
+        <li><a href="http://quotes.money.163.com/old/#query=MRLHB&DataType=lhb&sort=TDATE&order=desc&count=150&page=0&" target="_blank">龙虎榜</a></li>
+        <li><a href="http://quotes.money.163.com/data/margintrade.html" target="_blank">融资融券</a></li>
+        <li><a href="http://quotes.money.163.com/old/#query=IPO_DATE_gt&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0&" target="_blank">次新股行情</a></li>
+        <li><a href="http://quotes.money.163.com/data/caibao/yjyg_00.html" target="_blank">财报大全</a></li>
+    </ul>
+  <!--  <a class="hello_stock_post" href="http://quotes.money.163.com/money/hellostock.html" title="你好a股" target="_blank"></a>  -->
+</div>
+
+        <!-- 板块涨跌区域 -->
+        <ul class="nav nav-tabs nav-tab-large" id="block-up-down" data-target="#block-up-down-content">
+
+    <li class="active">
+        <a href="http://quotes.money.163.com/old/#query=leadIndustry&DataType=industryPlate&sort=PERCENT&order=desc&count=25&page=0&$3xb01" target="_blank">行业板块涨跌</a>
+    </li>
+    <li>
+        <a href="http://quotes.money.163.com/old/#query=leadNotation&DataType=notationPlate&sort=PERCENT&order=desc&count=25&page=0" target="_blank">概念板块涨跌</a>
+    </li>
+    <li>
+        <a href="http://quotes.money.163.com/old/#query=leadRegion&DataType=regionPlate&sort=PERCENT&order=desc&count=25&page=0" target="_blank">地域板块涨跌</a>
+    </li>
+</ul>
+<div class="tab-content us_change_top" id="block-up-down-content">
+    <ul>
+        <li class="tab-panel active">
+            <h2 class="title stock-up" id="hangye-up">
+                <a href="http://quotes.money.163.com/old/#query=leadIndustry&DataType=industryPlate&sort=PERCENT&order=desc&count=25&page=0"
+                   target="_blank"
+                   class="read-more">
+                    领涨行业
+                </a>
+            </h2>
+
+            <ul class="thumbnails thumbnail-up stock-up ne-template"
+                data-hash="RANK_SC_PLATE_HANGYE_UP"
+                data-count="5|10"
+                data-hide="#hangye-up">
+                <li>
+                    <a target="_blank"
+                       title="{NAME}"
+                       href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+                       class="cookie-recent-plate" data-plate-name="{NAME}" data-plate-id="{PLATE_ID}">
+                    <div class="head">
+                            {NAME}
+                    </div>
+                    <div class="body">{PERCENT}</div>
+                    <div class="foot">
+                        <span class="stock-up">{UPNUM}</span>
+                        <span class="stock-flat">{FLAT}</span>
+                        <span class="stock-down">{DOWNNUM}</span>
+                    </div>
+                    </a>
+                    <a target="_blank" href="http://quotes.money.163.com/{MAXPERCENTSTOCK.CODE}.html">
+                    <div class = 'stock_present'>
+                        <span class="stock_present_name">{MAXPERCENTSTOCK.NAME}</span>
+                        <span class="stock_present_price">{MAXPERCENTSTOCK.PRICE}</span>
+                        <span class="stock_present_percent">{MAXPERCENTSTOCK.PERCENT}</span>
+                    </div>
+                        </a>
+                </li>
+            </ul>
+
+            <h2 class="title stock-down" id="hangye-down">
+                <a href="http://quotes.money.163.com/old/#query=leadIndustry&DataType=industryPlate&sort=PERCENT&order=desc&count=25&page=0&$3xb01"
+                   target="_blank"
+                   class="read-more">
+                    领跌行业
+                </a>
+            </h2>
+
+            <ul class="thumbnails thumbnail-down ne-template stock-down"
+                data-hash="RANK_SC_PLATE_HANGYE_DOWN"
+                data-count="5|10"
+                data-hide="#hangye-down">
+                <li>
+                    <a target="_blank"
+                       title="{NAME}"
+                       href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+                       class="cookie-recent-plate" data-plate-name="{NAME}" data-plate-id="{PLATE_ID}">
+
+                    <div class="head">
+                        {NAME}
+                    </div>
+                    <div class="body">{PERCENT}</div>
+                    <div class="foot">
+                        <span class="stock-up">{UPNUM}</span>
+                        <span class="stock-flat">{FLAT}</span>
+                        <span class="stock-down">{DOWNNUM}</span>
+                    </div>
+                    </a>
+                    <a target="_blank" href="http://quotes.money.163.com/{MINPERCENTSTOCK.CODE}.html">
+                    <div class = 'stock_present'>
+                        <span class="stock_present_name">{MINPERCENTSTOCK.NAME}</span>
+                        <span class="stock_present_price">{MINPERCENTSTOCK.PRICE}</span>
+                        <span class="stock_present_percent">{MINPERCENTSTOCK.PERCENT}</span>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+
+        </li>
+
+        <li class="tab-panel">
+            <h2 class="title stock-up" id="gainian-up">
+                <a href="http://quotes.money.163.com/old/#query=leadNotation&DataType=notationPlate&sort=PERCENT&order=desc&count=25&page=0"
+                   target="_blank"
+                   class="read-more">
+                    领涨概念
+                </a>
+            </h2>
+
+            <ul class="thumbnails thumbnail-up stock-up ne-template stock-up"
+                data-hash="RANK_SC_PLATE_GAINIAN_UP"
+                data-count="5|10"
+                data-hide="#gainian-up">
+                <li>
+                    <a target="_blank"
+                       title="{NAME}"
+                       href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    <div class="head">
+                        {NAME}
+                    </div>
+                    <div class="body">{PERCENT}</div>
+                    <div class="foot">
+                        <span class="stock-up">{UPNUM}</span>
+                        <span class="stock-flat">{FLAT}</span>
+                        <span class="stock-down">{DOWNNUM}</span>
+                    </div>
+                    </a>
+                    <a target="_blank" href="http://quotes.money.163.com/{MAXPERCENTSTOCK.CODE}.html">
+                    <div class = 'stock_present'>
+                        <span class="stock_present_name">{MAXPERCENTSTOCK.NAME}</span>
+                        <span class="stock_present_price">{MAXPERCENTSTOCK.PRICE}</span>
+                        <span class="stock_present_percent">{MAXPERCENTSTOCK.PERCENT}</span>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+
+            <h2 class="title stock-down" id="gainian-down">
+                <a href="http://quotes.money.163.com/old/#query=leadNotation&DataType=notationPlate&sort=PERCENT&order=desc&count=25&page=0"
+                   target="_blank"
+                   class="read-more">
+                    领跌概念
+                </a>
+            </h2>
+
+            <ul class="thumbnails thumbnail-down ne-template stock-down"
+                data-hash="RANK_SC_PLATE_GAINIAN_DOWN"
+                data-count="5|10"
+                data-hide="#gainian-up">
+                <li>
+                    <a target="_blank"
+                       title="{NAME}"
+                       href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    <div class="head">
+                        {NAME}
+                    </div>
+                    <div class="body">{PERCENT}</div>
+                    <div class="foot">
+                        <span class="stock-up">{UPNUM}</span>
+                        <span class="stock-flat">{FLAT}</span>
+                        <span class="stock-down">{DOWNNUM}</span>
+                    </div>
+                    </a>
+                    <a target="_blank" href="http://quotes.money.163.com/{MINPERCENTSTOCK.CODE}.html">
+                    <div class = 'stock_present'>
+                        <span class="stock_present_name">{MINPERCENTSTOCK.NAME}</span>
+                        <span class="stock_present_price">{MINPERCENTSTOCK.PRICE}</span>
+                        <span class="stock_present_percent">{MINPERCENTSTOCK.PERCENT}</span>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="tab-panel">
+            <h2 class="title stock-up" id="diyu-up">
+                <a href="http://quotes.money.163.com/old/#query=leadRegion&DataType=regionPlate&sort=PERCENT&order=desc&count=25&page=0"
+                   target="_blank"
+                   class="read-more">
+                    领涨地域
+                </a>
+            </h2>
+
+            <ul class="thumbnails thumbnail-up stock-up ne-template stock-up"
+                data-hash="RANK_SC_PLATE_DIYU_UP"
+                data-count="5|10"
+                data-hide="#diyu-up">
+                <li>
+                    <a target="_blank"
+                       title="{NAME}"
+                       href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    <div class="head">
+                        {NAME}
+                    </div>
+                    <div class="body">{PERCENT}</div>
+                    <div class="foot">
+                        <span class="stock-up">{UPNUM}</span>
+                        <span class="stock-flat">{FLAT}</span>
+                        <span class="stock-down">{DOWNNUM}</span>
+                    </div>
+                    </a>
+                    <a target="_blank" href="http://quotes.money.163.com/{MAXPERCENTSTOCK.CODE}.html">
+                    <div class = 'stock_present'>
+                        <span class="stock_present_name">{MAXPERCENTSTOCK.NAME}</span>
+                        <span class="stock_present_price">{MAXPERCENTSTOCK.PRICE}</span>
+                        <span class="stock_present_percent">{MAXPERCENTSTOCK.PERCENT}</span>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+
+            <h2 class="title stock-down" id="diyu-down">
+                <a href="http://quotes.money.163.com/old/#query=leadRegion&DataType=regionPlate&sort=PERCENT&order=desc&count=25&page=0"
+                   target="_blank"
+                   class="read-more">
+                    领跌地域
+                </a>
+            </h2>
+
+            <ul class="thumbnails thumbnail-down ne-template stock-down"
+                data-hash="RANK_SC_PLATE_DIYU_DOWN"
+                data-count="5|10"
+                data-hide="#diyu-down">
+                <li>
+                    <a target="_blank"
+                       title="{NAME}"
+                       href="http://quotes.money.163.com/old/#query={PLATE_ID}&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0">
+                    <div class="head">
+                        {NAME}
+                    </div>
+                    <div class="body">{PERCENT}</div>
+                    <div class="foot">
+                        <span class="stock-up">{UPNUM}</span>
+                        <span class="stock-flat">{FLAT}</span>
+                        <span class="stock-down">{DOWNNUM}</span>
+                    </div>
+                    </a>
+                    <a target="_blank" href="http://quotes.money.163.com/{MINPERCENTSTOCK.CODE}.html">
+                    <div class = 'stock_present'>
+                        <span class="stock_present_name">{MINPERCENTSTOCK.NAME}</span>
+                        <span class="stock_present_price">{MINPERCENTSTOCK.PRICE}</span>
+                        <span class="stock_present_percent">{MINPERCENTSTOCK.PERCENT}</span>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+        <!-- 我的自选 -->
+        <div class="personal_stock_trigger">
+    <a href="#personal_stock" class="btn_trigger"></a>
+</div>
+<div class="personal_stock" id="personal_stock">
+    <div class="us_stock_search clearfix" id="us_stock_search">
+
+        <form action="javascript:void(0);">
+
+            <input type="text" placeholder="输入代码/简称/拼音" id="us_stock_search_input" />
+
+            <button type="button" title="搜索" id="us_stock_search_submit">股票查询</button>
+
+        </form>
+
+    </div>
+    <div class="my_stock">
+        <div class="title">
+            <a href="http://i.money.163.com/hs/position/all.html" class="pull_right" target="_blank">更多</a>
+            <blockquote>
+                我的自选
+            </blockquote>
+        </div>
+        <div id="my_stock">
+            <table>
+                <thead>
+                <tr>
+                    <th>
+                        股票名称
+                    </th>
+                    <th>
+                        最新价
+                    </th>
+                    <th>
+                        涨跌幅
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        --
+                    </td>
+                    <td class="stock_up">
+                        --
+                    </td>
+                    <td class="stock_up">
+                        --
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        --
+                    </td>
+                    <td class="stock_up">
+                        --
+                    </td>
+                    <td class="stock_up">
+                        --
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        --
+                    </td>
+                    <td class="stock_up">
+                        --
+                    </td>
+                    <td class="stock_up">
+                        --
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        --
+                    </td>
+                    <td class="stock_up">
+                        --
+                    </td>
+                    <td class="stock_up">
+                        --
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="promotion-window">
+        <iframe src="http://money.163.com/special/ad_guess_btn2/" frameborder="0"></iframe>
+    </div> 
+    
+    <div class="recently_visit" id="recently_visit">
+        <div class="title">
+            <blockquote>
+                最近访问
+            </blockquote>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th>
+                    股票名称
+                </th>
+                <th>
+                    最新价
+                </th>
+                <th>
+                    涨跌幅
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+    </div>
+</div>
+<div class="content-dark">
+
+    <div class="quotes_index_2014_wrap container">
+        <div class="quotes_index_2014_content">
+            <!-- 涨跌列表区域 -->
+            <ul class="nav nav-tabs nav-tab-large" id="list-up-down" data-target="#list-up-down-content">
+    <li class="active"> <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0" target="_blank">A股涨跌</a> </li>
+    <li> <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0" target="_blank">科创板</a> </li>
+    <!-- <li> <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0" target="_blank">中小板涨跌</a> </li>-->
+    <li> <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0" target="_blank">创业板涨跌</a> </li>
+    <li> <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0" target="_blank">B股涨跌</a> </li>
+</ul>
+<div class="tab-content" id="list-up-down-content">
+<ul>
+
+<!--A股涨跌   排行 -->
+<li class="tab-panel active clearfix">
+
+<!--涨幅排行-->
+
+<div class="table-panel table-panel-alignment fetch-content
+		  pull-left table-panel-alignment-border table-panel-border" data-default-gap="30">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+           target="_blank"> 涨幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <div id="list-up-rank">
+            <table>
+                <thead>
+                <tr>
+                    <th class="text-left">排名</th>
+                    <th class="text-left">股票名称</th>
+                    <th class="text-right">最新价</th>
+                    <th class="text-right">涨跌额</th>
+                    <th class="text-right ">涨跌幅</th>
+                </tr>
+                </thead>
+                <tbody class="ne-template fetch-el" data-hash="RANK_AUP" data-count="6">
+                <tr>
+                    <td class="table-index">{$INDEX}</td>
+                    <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                    </td>
+                    <td class="text-right {CLS}">{price}</td>
+                    <td class="text-right {CLS}">{updown}</td>
+                    <td class="text-right {CLS}">{percent}</td>
+                </tr>
+                </tbody>
+            </table>
+
+    </div>
+</div>
+
+<!--5分钟涨幅排行-->
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=FIVE_MINUTE&order=desc&count=24&page=0"
+           target="_blank"> 5分钟涨幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">当日涨幅</th>
+            <th class="text-right">5分钟涨幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template fetch-el" data-hash="RANK_A5MINUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+            </td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{updown}</td>
+            <td class="text-right {CLS}">{fiveminute}</td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<hr class="divider"/>
+
+<!--跌幅排行-->
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border fetch-content" data-default-gap="30">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=PERCENT&order=asc&count=24&page=0"
+           target="_blank" target="_blank"> 跌幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <div id="list-down-rank">
+            <table>
+                <thead>
+                <tr>
+                    <th class="text-left">排名</th>
+                    <th class="text-left">股票名称</th>
+                    <th class="text-right">最新价</th>
+                    <th class="text-right">涨跌额</th>
+                    <th class="text-right ">涨跌幅</th>
+                </tr>
+                </thead>
+                <tbody class="ne-template fetch-el" data-hash="RANK_ADOWN" data-count="6">
+                <tr>
+                    <td class="table-index">{$INDEX}</td>
+                    <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                    </td>
+                    <td class="text-right {CLS}">{price}</td>
+                    <td class="text-right {CLS}">{updown}</td>
+                    <td class="text-right {CLS}">{percent}</td>
+                </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
+
+
+<!--5分钟跌幅排行-->
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=FIVE_MINUTE&order=asc&count=24&page=0"
+           target="_blank"> 5分钟跌幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">当日跌幅</th>
+            <th class="text-right ">5分钟跌幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template fetch-el" data-hash="RANK_A5MINDOWN" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+            </td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{updown}</td>
+            <td class="text-right {CLS}">{fiveminute}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<!--成交额排行-->
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=TURNOVER&order=desc&count=24&page=0"
+           target="_blank"> 成交额排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">成交额&nbsp;&nbsp;(元)</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_ATURNOVERUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{turnover}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--换手率排行-->
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=HS&order=desc&count=24&page=0"
+           target="_blank"> 换手率排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">换手率</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_AHSUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{hs}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<!--量比排行-->
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=LB&order=desc&count=24&page=0"
+           target="_blank"> 量比排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">量比</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_AVOLUMECHGUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{lb}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<!--振幅排行-->
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA&DataType=HS_RANK&sort=ZF&order=desc&count=24&page=0"
+           target="_blank"> 振幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">振幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_AZFUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{zf}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</li>
+
+<!--科创板涨跌   排行 -->
+<li class="tab-panel clearfix ">
+    <div class="table-panel table-panel-alignment pull-left fetch-content table-panel
+              table-panel-alignment-border table-panel-border" data-default-gap="30">
+        <div class="caption">
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+               target="_blank"> 涨幅排行 <span class="icon icon-read-more"></span> </a>
+        </div>
+        <div id="list-kcb-up-rank">
+    
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="text-left">排名</th>
+                        <th class="text-left">股票名称</th>
+                        <th class="text-right">最新价</th>
+                        <th class="text-right">涨跌额</th>
+                        <th class="text-right ">涨跌幅</th>
+                    </tr>
+                    </thead>
+                    <tbody class="ne-template fetch-el real-time-up" data-hash="RANK_KCBUP" data-count="6">
+                    <tr>
+                        <td class="table-index">{$INDEX}</td>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                        </td>
+                        <td class="text-right {CLS}">{price}</td>
+                        <td class="text-right {CLS}">{updown}</td>
+                        <td class="text-right {CLS}">{percent}</td>
+                    </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+    
+    <div class="table-panel table-panel-alignment pull-right">
+        <div class="caption">
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=FIVE_MINUTE&order=desc&count=24&page=0"
+               target="_blank"> 5分钟涨幅排行 <span class="icon icon-read-more"></span> </a>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th class="text-left">排名</th>
+                <th class="text-left">股票名称</th>
+                <th class="text-right">最新价</th>
+                <th class="text-right">当日涨幅</th>
+                <th class="text-right ">5分钟涨幅</th>
+            </tr>
+            </thead>
+            <tbody class="ne-template" data-hash="RANK_KCB5MINUP" data-count="6">
+            <tr>
+                <td class="table-index">{$INDEX}</td>
+                <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                </td>
+                <td class="text-right {CLS}">{price}</td>
+                <td class="text-right {CLS}">{updown}</td>
+                <td class="text-right {CLS}">{fiveminute}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <hr class="divider"/>
+    
+    <div class="table-panel table-panel-alignment pull-left fetch-content table-panel-alignment-border table-panel-border" data-default-gap="30">
+        <div class="caption">
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=asc&count=24&page=0"
+               target="_blank"> 跌幅排行 <span class="icon icon-read-more"></span> </a>
+        </div>
+        <div id="list-kcb-down-rank">
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="text-left">排名</th>
+                        <th class="text-left">股票名称</th>
+                        <th class="text-right">最新价</th>
+                        <th class="text-right">涨跌额</th>
+                        <th class="text-right ">涨跌幅</th>
+                    </tr>
+                    </thead>
+                    <tbody class="ne-template fetch-el" data-hash="RANK_KCBDOWN" data-count="6">
+                    <tr>
+                        <td class="table-index">{$INDEX}</td>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                        </td>
+                        <td class="text-right {CLS}">{price}</td>
+                        <td class="text-right {CLS}">{updown}</td>
+                        <td class="text-right {CLS}">{percent}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+    
+    <div class="table-panel table-panel-alignment pull-right">
+        <div class="caption">
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=FIVE_MINUTE&order=asc&count=24&page=0"
+               target="_blank"> 5分钟跌幅排行 <span class="icon icon-read-more"></span> </a>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th class="text-left">排名</th>
+                <th class="text-left">股票名称</th>
+                <th class="text-right">最新价</th>
+                <th class="text-right">当日跌幅</th>
+                <th class="text-right ">5分钟跌幅</th>
+            </tr>
+            </thead>
+            <tbody class="ne-template fetch-el" data-hash="RANK_KCB5MINDOWN" data-count="6">
+            <tr>
+                <td class="table-index">{$INDEX}</td>
+                <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                </td>
+                <td class="text-right {CLS}">{price}</td>
+                <td class="text-right {CLS}">{updown}</td>
+                <td class="text-right {CLS}">{fiveminute}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <hr class="divider"/>
+    
+    <div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border">
+        <div class="caption">
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=TURNOVER&order=desc&count=24&page=0"
+               target="_blank"> 成交额排行 <span class="icon icon-read-more"></span> </a>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th class="text-left">排名</th>
+                <th class="text-left">股票名称</th>
+                <th class="text-right">最新价</th>
+                <th class="text-right">涨跌幅</th>
+                <th class="text-right ">成交额&nbsp;&nbsp;(元)</th>
+            </tr>
+            </thead>
+            <tbody class="ne-template" data-hash="RANK_KCBCJL" data-count="6">
+            <tr>
+                <td class="table-index">{$INDEX}</td>
+                <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+                <td class="text-right {CLS}">{price}</td>
+                <td class="text-right {CLS}">{percent}</td>
+                <td class="text-right">{turnover}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="table-panel table-panel-alignment pull-right">
+        <div class="caption">
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=HS&order=desc&count=24&page=0"
+               target="_blank"> 换手率排行 <span class="icon icon-read-more"></span> </a>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th class="text-left">排名</th>
+                <th class="text-left">股票名称</th>
+                <th class="text-right">最新价</th>
+                <th class="text-right">涨跌幅</th>
+                <th class="text-right ">换手率</th>
+            </tr>
+            </thead>
+            <tbody class="ne-template" data-hash="RANK_KCBHS" data-count="6">
+            <tr>
+                <td class="table-index">{$INDEX}</td>
+                <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+                <td class="text-right {CLS}">{price}</td>
+                <td class="text-right {CLS}">{percent}</td>
+                <td class="text-right">{hs}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <hr class="divider"/>
+    
+    <div class="table-panel table-panel-alignment pull-left table-panel table-panel-alignment-border table-panel-border">
+        <div class="caption">
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=LB&order=desc&count=24&page=0"
+               target="_blank"> 量比排行 <span class="icon icon-read-more"></span> </a>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th class="text-left">排名</th>
+                <th class="text-left">股票名称</th>
+                <th class="text-right">最新价</th>
+                <th class="text-right">涨跌幅</th>
+                <th class="text-right ">量比</th>
+            </tr>
+            </thead>
+            <tbody class="ne-template" data-hash="RANK_KCBLB" data-count="6">
+            <tr>
+                <td class="table-index">{$INDEX}</td>
+                <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+                <td class="text-right {CLS}">{price}</td>
+                <td class="text-right {CLS}">{percent}</td>
+                <td class="text-right">{lb}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="table-panel table-panel-alignment pull-right">
+        <div class="caption">
+            <a href="http://quotes.money.163.com/old/#query=EQA_KSH_true_NODEAL_false&DataType=HS_RANK&sort=ZF&order=desc&count=24&page=0"
+               target="_blank"> 振幅排行 <span class="icon icon-read-more"></span> </a>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th class="text-left">排名</th>
+                <th class="text-left">股票名称</th>
+                <th class="text-right">最新价</th>
+                <th class="text-right">涨跌幅</th>
+                <th class="text-right ">振幅</th>
+            </tr>
+            </thead>
+            <tbody class="ne-template" data-hash="RANK_KCBZF" data-count="6">
+            <tr>
+                <td class="table-index">{$INDEX}</td>
+                <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+                <td class="text-right {CLS}">{price}</td>
+                <td class="text-right {CLS}">{percent}</td>
+                <td class="text-right">{zf}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>    
+</li>
+
+<!--中小板涨跌   排行 -->
+<li class="tab-panel clearfix ">
+<div class="table-panel table-panel-alignment pull-left fetch-content table-panel
+		  table-panel-alignment-border table-panel-border" data-default-gap="30">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+           target="_blank"> 涨幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <div id="list-zxb-up-rank">
+            <table>
+                <thead>
+                <tr>
+                    <th class="text-left">排名</th>
+                    <th class="text-left">股票名称</th>
+                    <th class="text-right">最新价</th>
+                    <th class="text-right">涨跌额</th>
+                    <th class="text-right ">涨跌幅</th>
+                </tr>
+                </thead>
+                <tbody class="ne-template fetch-el" data-hash="RANK_ZXBUP" data-count="6">
+                <tr>
+                    <td class="table-index">{$INDEX}</td>
+                    <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                    </td>
+                    <td class="text-right {CLS}">{price}</td>
+                    <td class="text-right {CLS}">{updown}</td>
+                    <td class="text-right {CLS}">{percent}</td>
+                </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=FIVE_MINUTE&order=desc&count=24&page=0"
+           target="_blank"> 5分钟涨幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">当日涨幅</th>
+            <th class="text-right ">5分钟涨幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template fetch-el" data-hash="RANK_ZXB5MINUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+            </td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{updown}</td>
+            <td class="text-right {CLS}">{fiveminute}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left fetch-content table-panel-alignment-border table-panel-border" data-default-gap="30">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=asc&count=24&page=0"
+           target="_blank"> 跌幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <div id="list-zxb-down-rank">
+
+            <table>
+                <thead>
+                <tr>
+                    <th class="text-left">排名</th>
+                    <th class="text-left">股票名称</th>
+                    <th class="text-right">最新价</th>
+                    <th class="text-right">涨跌额</th>
+                    <th class="text-right ">涨跌幅</th>
+                </tr>
+                </thead>
+                <tbody class="ne-template fetch-el" data-hash="RANK_ZXBDOWN" data-count="6">
+                <tr>
+                    <td class="table-index">{$INDEX}</td>
+                    <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                    </td>
+                    <td class="text-right {CLS}">{price}</td>
+                    <td class="text-right {CLS}">{updown}</td>
+                    <td class="text-right {CLS}">{percent}</td>
+                </tr>
+                </tbody>
+            </table>
+
+    </div>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=FIVE_MINUTE&order=asc&count=24&page=0"
+           target="_blank"> 5分钟跌幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">当日跌幅</th>
+            <th class="text-right ">5分钟跌幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template fetch-el" data-hash="RANK_ZXB5MINDOWN" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+            </td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{updown}</td>
+            <td class="text-right {CLS}">{fiveminute}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=TURNOVER&order=desc&count=24&page=0"
+           target="_blank"> 成交额排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">成交额&nbsp;&nbsp;(元)</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_ZXBCJL" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{turnover}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=HS&order=desc&count=24&page=0"
+           target="_blank"> 换手率排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">换手率</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_ZXBHS" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{hs}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=LB&order=desc&count=24&page=0"
+           target="_blank"> 量比排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">量比</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_ZXBLB" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{lb}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_SME_true_NODEAL_false&DataType=HS_RANK&sort=ZF&order=desc&count=24&page=0"
+           target="_blank"> 振幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">振幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_ZXBZF" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{zf}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</li>
+
+<!--创业板涨跌   排行 -->
+<li class="tab-panel clearfix ">
+<div class="table-panel table-panel-alignment pull-left fetch-content table-panel
+		  table-panel-alignment-border table-panel-border" data-default-gap="30">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+           target="_blank"> 涨幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <div id="list-cyb-up-rank">
+
+            <table>
+                <thead>
+                <tr>
+                    <th class="text-left">排名</th>
+                    <th class="text-left">股票名称</th>
+                    <th class="text-right">最新价</th>
+                    <th class="text-right">涨跌额</th>
+                    <th class="text-right ">涨跌幅</th>
+                </tr>
+                </thead>
+                <tbody class="ne-template fetch-el real-time-up" data-hash="RANK_CYBUP" data-count="6">
+                <tr>
+                    <td class="table-index">{$INDEX}</td>
+                    <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                    </td>
+                    <td class="text-right {CLS}">{price}</td>
+                    <td class="text-right {CLS}">{updown}</td>
+                    <td class="text-right {CLS}">{percent}</td>
+                </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=FIVE_MINUTE&order=desc&count=24&page=0"
+           target="_blank"> 5分钟涨幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">当日涨幅</th>
+            <th class="text-right ">5分钟涨幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_CYB5MINUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+            </td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{updown}</td>
+            <td class="text-right {CLS}">{fiveminute}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left fetch-content table-panel-alignment-border table-panel-border" data-default-gap="30">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=PERCENT&order=asc&count=24&page=0"
+           target="_blank"> 跌幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <div id="list-cyb-down-rank">
+            <table>
+                <thead>
+                <tr>
+                    <th class="text-left">排名</th>
+                    <th class="text-left">股票名称</th>
+                    <th class="text-right">最新价</th>
+                    <th class="text-right">涨跌额</th>
+                    <th class="text-right ">涨跌幅</th>
+                </tr>
+                </thead>
+                <tbody class="ne-template fetch-el" data-hash="RANK_CYBDOWN" data-count="6">
+                <tr>
+                    <td class="table-index">{$INDEX}</td>
+                    <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                    </td>
+                    <td class="text-right {CLS}">{price}</td>
+                    <td class="text-right {CLS}">{updown}</td>
+                    <td class="text-right {CLS}">{percent}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=FIVE_MINUTE&order=asc&count=24&page=0"
+           target="_blank"> 5分钟跌幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">当日跌幅</th>
+            <th class="text-right ">5分钟跌幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template fetch-el" data-hash="RANK_CYB5MINDOWN" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+            </td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{updown}</td>
+            <td class="text-right {CLS}">{fiveminute}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=TURNOVER&order=desc&count=24&page=0"
+           target="_blank"> 成交额排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">成交额&nbsp;&nbsp;(元)</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_CYBCJL" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{turnover}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=HS&order=desc&count=24&page=0"
+           target="_blank"> 换手率排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">换手率</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_CYBHS" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{hs}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left table-panel table-panel-alignment-border table-panel-border">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=LB&order=desc&count=24&page=0"
+           target="_blank"> 量比排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">量比</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_CYBLB" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{lb}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQA_GEM_true_NODEAL_false&DataType=HS_RANK&sort=ZF&order=desc&count=24&page=0"
+           target="_blank"> 振幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">振幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_CYBZF" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{zf}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</li>
+
+<!--B股涨跌   排行 -->
+<li class="tab-panel clearfix">
+<div class="table-panel table-panel-alignment pull-left fetch-content table-panel
+		  table-panel-alignment-border table-panel-border" data-default-gap="30">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=PERCENT&order=desc&count=24&page=0"
+           target="_blank"> 涨幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <div id="list-b-up-rank">
+
+            <table>
+                <thead>
+                <tr>
+                    <th class="text-left">排名</th>
+                    <th class="text-left">股票名称</th>
+                    <th class="text-right">最新价</th>
+                    <th class="text-right">涨跌额</th>
+                    <th class="text-right ">涨跌幅</th>
+                </tr>
+                </thead>
+                <tbody class="ne-template fetch-el" data-hash="RANK_BUP" data-count="6">
+                <tr>
+                    <td class="table-index">{$INDEX}</td>
+                    <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                    </td>
+                    <td class="text-right {CLS}">{price}</td>
+                    <td class="text-right {CLS}">{updown}</td>
+                    <td class="text-right {CLS}">{percent}</td>
+                </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=FIVE_MINUTE&order=desc&count=24&page=0"
+           target="_blank"> 5分钟涨幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">当日涨幅</th>
+            <th class="text-right ">5分钟涨幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template fetch-el" data-hash="RANK_B5MINUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+            </td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{updown}</td>
+            <td class="text-right {CLS}">{fiveminute}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border fetch-content" data-default-gap="30">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=PERCENT&order=asc&count=24&page=0"
+           target="_blank"> 跌幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <div id="list-b-down-rank">
+            <table>
+                <thead>
+                <tr>
+                    <th class="text-left">排名</th>
+                    <th class="text-left">股票名称</th>
+                    <th class="text-right">最新价</th>
+                    <th class="text-right">涨跌额</th>
+                    <th class="text-right ">涨跌幅</th>
+                </tr>
+                </thead>
+                <tbody class="ne-template fetch-el" data-hash="RANK_BDOWN" data-count="6">
+                <tr>
+                    <td class="table-index">{$INDEX}</td>
+                    <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+                    </td>
+                    <td class="text-right {CLS}">{price}</td>
+                    <td class="text-right {CLS}">{updown}</td>
+                    <td class="text-right {CLS}">{percent}</td>
+                </tr>
+                </tbody>
+            </table>
+    </div>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=FIVE_MINUTE&order=asc&count=24&page=0"
+           target="_blank"> 5分钟跌幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">当日跌幅</th>
+            <th class="text-right ">5分钟跌幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template fetch-el" data-hash="RANK_B5MINDOWN" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a>
+            </td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{updown}</td>
+            <td class="text-right {CLS}">{fiveminute}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=TURNOVER&order=desc&count=24&page=0"
+           target="_blank"> 成交额排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">成交额&nbsp;&nbsp;(元)</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_BTURNOVERUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{turnover}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=HS&order=desc&count=24&page=0"
+           target="_blank"> 换手率排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">换手率</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_BHSUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{hs}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr class="divider"/>
+
+<div class="table-panel table-panel-alignment pull-left table-panel-alignment-border table-panel-border">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=LB&order=desc&count=24&page=0"
+           target="_blank"> 量比排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">量比</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_BVOLUMECHGUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{lb}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="table-panel table-panel-alignment pull-right">
+    <div class="caption">
+        <a href="http://quotes.money.163.com/old/#query=EQB&DataType=HS_RANK&sort=ZF&order=desc&count=24&page=0"
+           target="_blank"> 振幅排行 <span class="icon icon-read-more"></span> </a>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th class="text-left">排名</th>
+            <th class="text-left">股票名称</th>
+            <th class="text-right">最新价</th>
+            <th class="text-right">涨跌幅</th>
+            <th class="text-right ">振幅</th>
+        </tr>
+        </thead>
+        <tbody class="ne-template" data-hash="RANK_BZFUP" data-count="6">
+        <tr>
+            <td class="table-index">{$INDEX}</td>
+            <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{code}.html">{name}</a></td>
+            <td class="text-right {CLS}">{price}</td>
+            <td class="text-right {CLS}">{percent}</td>
+            <td class="text-right">{zf}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</li>
+</ul>
+</div>
+
+
+            <!-- 公告区域-->
+            <ul class="nav nav-tabs nav-tab-large" id="list-info" data-target="#list-info-content">
+    <li class="active">
+        <a href="http://quotes.money.163.com/#query=TFPTS&DataType=tpts&sort=NTRAD4&order=desc&count=25&page=0" target="_blank">停牌提示</a>
+    </li>
+    <li>
+        <a href="http://quotes.money.163.com/data/ipo/shengou.html" target="_blank">新股申购</a>
+    </li>
+    <li>
+        <a href="http://quotes.money.163.com/#query=XSGJJ&DataType=xsgjj&sort=SSTMHDLIST5&order=asc&count=25&page=0" target="_blank">限售解禁</a>
+    </li>
+    <li>
+        <a href="http://quotes.money.163.com/#query=FH&DataType=fh&sort=DECLAREDATE&order=desc&count=25&page=0" target="_blank">分红送股</a>
+    </li>
+    <li>
+        <a href="http://quotes.money.163.com/#query=GGDQ&DataType=gsgg&sort=PUBLISHDATE&order=desc&count=25&page=0" target="_blank">今日公告</a>
+    </li>
+
+
+</ul>
+<div class="tab-content" id="list-info-content">
+    <ul>
+
+        <li class="tab-panel active">
+            <div class="table-panel table-panel-block">
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="text-left">代码</th>
+                        <th class="text-left">名称</th>
+                       <!-- <th>日期</th>  -->
+                        <th>停牌日期</th>
+                        <th class="text-left">停牌原因</th>
+                     <!--   <th class="text-right">复牌日期</th>  -->
+                    </tr>
+                    </thead>
+                    <tbody class="ne-template"
+                           data-hash="TING_PAI_TI_SHI_RANK"
+                           data-count="5">
+                    <tr>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SYMBOL}</a></td>
+                        <td class="text-left">
+                            <a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SNAME}</a>
+                        </td>
+                    <!--    <td>{GONG_GAO_RI_QI}</td>  -->
+                        <td>{TING_PAI_RI_QI}</td>
+                        <td class="text-left">
+                            <span title="{XIANG_XI}">{YUAN_YIN}</span>
+                        </td>
+                    <!--    <td class="text-right">{FU_PAI_RI_QI}</td>  -->
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li class="tab-panel">
+            <div class="table-panel table-panel-block">
+
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="text-left">代码</th>
+                        <th class="text-left">名称</th>
+                        <th class="text-right">网上发行日</th>
+                        <th>上市日</th>
+                        <th class="text-right">发行价</th>
+                        <th class="text-right">
+                            发行量（万股）
+                        </th>
+                        <th class="text-right">募集金额
+                        </th>
+                        <th class="text-right">市盈率</th>
+                    </tr>
+                    </thead>
+                    <tbody class="ne-template"
+                           data-hash="XIN_GU_SHANG_SHI_RANK"
+                           data-count="5">
+                    <tr>
+                        <td class="text-left">
+                            <a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SYMBOL}</a>
+                        </td>
+                        <td class="text-left">
+                            <a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SNAME}</a>
+                        </td>
+                        <td class="text-right">{WANG_SHANG_FA_XING_RI}</td>
+                        <td>{SHANG_SHI_RI}</td>
+                        <td class="text-right">{FA_XING_JIA}</td>
+                        <td class="text-right">{FA_XING_LIANG}</td>
+                        <td class="text-right">{MU_ZI_ZONG_E}</td>
+                        <td class="text-right">{SHI_YING_LV}</td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </li>
+
+        <li class="tab-panel">
+            <div class="table-panel table-panel-block">
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="text-left">代码</th>
+                        <th class="text-left">名称</th>
+                        <th>解禁日</th>
+                        <th class="text-right">解禁数(万股)</th>
+                        <th class="text-right">占流通股本比例</th>
+                        <th class="text-right">剩余未解禁(万股)</th>
+                        <th class="text-right">详细</th>
+                    </tr>
+                    </thead>
+                    <tbody class="ne-template"
+                           data-hash="XIAN_SHOU_JIE_JIN_RANK"
+                           data-count="5">
+                    <tr>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SYMBOL}</a></td>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SNAME}</a></td>
+                        <td>{YU_JI_SHANG_SHI_RI}</td>
+                        <td class="text-right">{JIE_JIN_GU_SHU}</td>
+                        <td class="text-right">{ZHAN_BI}</td>
+                        <td class="text-right">{SHENG_YU_WEI_JIE_JIN}</td>
+                        <td class="text-right">
+                            <a href="http://quotes.money.163.com/marketdata/limitsalepershare_{SYMBOL}.html" target="_blank">>>></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </li>
+        <li class="tab-panel">
+            <div class="table-panel table-panel-block">
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="text-left">代码</th>
+                        <th class="text-left">名称</th>
+                        <th>分红年度</th>
+                        <th>分红方案</th>
+                        <th>公告日期</th>
+                        <th class="text-right">详细</th>
+                    </tr>
+                    </thead>
+                    <tbody class="ne-template" data-hash="FEN_HONG_SONG_GU_RANK" data-count="5">
+                    <tr>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SYMBOL}</a></td>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SNAME}</a></td>
+                        <td>{FEN_HONG_NIAN_DU}</td>
+                        <td>{PAI_XI}</td>
+                        <td>{DECLAREDATE}</td>
+                        <td class="text-right">
+                            <a target="_blank" href="http://quotes.money.163.com/f10/fhpg_{SYMBOL}.html">>>></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </li>
+        <li class="tab-panel">
+            <div class="table-panel table-panel-block notice_list">
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="text-left">代码</th>
+                        <th class="text-left">名称</th>
+                        <th>日期</th>
+                        <th class="text-left notice-item">公告标题</th>
+                    </tr>
+                    </thead>
+                    <tbody class="ne-template" data-hash="RANK_SC_GONG_GAO"
+                           data-count="5">
+                    <tr>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SYMBOL}</a></td>
+                        <td class="text-left"><a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SNAME}</a></td>
+                        <td>{PUBLISHDATE}</td>
+                        <td class="text-left">
+                            <span class="notice-item">
+                                <a target="_blank" href="http://quotes.money.163.com/f10/ggmx_{SYMBOL}_{ANNOUNMTID}.html">
+                                    {ANNOUNMT2}
+                                </a>
+                            </span>
+                        </td>
+
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- <ul class="ne-template"
+                    data-hash="RANK_SC_GONG_GAO"
+                    data-count="6">
+                    <li class="clearfix">
+                        <div class="col-main">
+                            <div class="col-main-wrap">
+                                <a target="_blank" href="http://quotes.money.163.com/f10/ggmx_{SYMBOL}_{ANNOUNMTID}.html">
+                                    {ANNOUNMT2}
+                                </a>
+                            </div>
+                        </div>
+                        <span class="col-sub">
+                            <a target="_blank" href="http://quotes.money.163.com/{CODE}.html">{SNAME}</a>
+                        </span>
+                        <span class="col-extra">{PUBLISHDATE}</span>
+                    </li>
+                </ul> -->
+            </div>
+        </li>
+    </ul>
+</div>
+
+            <!-- 底部链接 -->
+            <div class="clearfix link-area">
+    <div class="table-panel pull-left">
+        <div class="title-large">
+            <span>市场看点</span>
+        </div>
+
+        <table>
+            <tbody>
+            <tr>
+                <td><i class="icon icon-share"></i></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=STDP&DataType=strongWeakDaPan&sort=STRONG_WEAK_TO_DAPAN.PERCENT_IN_5DAYS&order=desc&count=25&page=0">强于大盘</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=CDW&DataType=continuousDown&table=stockstats&sort=CONTINUOUS_UPDOWN.DAYS&order=desc&count=25&page=0">连续下跌</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=RH&DataType=recentHigh&sort=PRICE&order=DESC&count=25&page=0">近期新高</a></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=WTDP&DataType=strongWeakDaPan&sort=STRONG_WEAK_TO_DAPAN.PERCENT_IN_5DAYS&order=ASC&count=25&page=0">弱于大盘</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=CUP&DataType=continuousUp&table=stockstats&sort=CONTINUOUS_UPDOWN.DAYS&order=desc&count=25&page=0">连续上涨</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=RL&DataType=recentLow&sort=PRICE&order=ASC&count=25&page=0">近期新低</a></td>
+            </tr>
+            <tr><td colspan="4">&nbsp;</td></tr>
+            <tr>
+                <td><i class="icon icon-histogram"></i></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=VUP&DataType=turnoverUpDown&sort=LB&order=desc&count=25&page=0">成交骤增</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=radar&DataType=realtimeRadar&sort=DATE&order=desc&count=25&page=0&$3xa02">市场雷达</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=VDW&DataType=turnoverUpDown&sort=LB&order=asc&count=25&page=0">成交骤减</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=RTDD&DataType=realtimeDaDan&sort=DATE&order=desc&count=25&page=0&$3xa01">实时大单</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr><td colspan="4">&nbsp;</td></tr>
+            <tr>
+                <td><i class="icon icon-up"></i></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=ab&DataType=realtimeAB&sort=AB.A_PERCENT&order=desc&count=25&page=0">AB股比价</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=todayRank&$3xa03">每日阶段涨跌幅</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=ah&DataType=realtimeAH&sort=AH.A_PERCENT&order=desc&count=25&page=0">AH股比价</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=longRank&DataType=longTermRank&sort=PERCENT&order=desc&count=25&page=0&$3xa04">长期阶段涨跌幅</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table-panel pull-right">
+        <div class="title-large">
+            <span>大盘数据</span>
+        </div>
+
+        <table>
+            <tbody>
+            <tr>
+                <td><i class="icon icon-list"></i></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=MRLHB&DataType=lhb&sort=TDATE&order=desc&count=150&page=0&$3xa05">龙虎榜</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=NBJY&DataType=nbjy&sort=REPORTDATE&order=DESC&count=25&page=0&$3xa07">内部交易</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=DZJY&DataType=dzjy&sort=PUBLISHDATE&order=desc&count=25&page=0">大宗交易</a></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><a target="_blank" href="http://quotes.money.163.com/data/margintrade.html#3xh03">融资融券</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/hs/marketdata/hybjsyl.html#3xb04">行业平均市盈率</a></td>
+                <td></td>
+            </tr>
+            <tr><td colspan="4">&nbsp;</td></tr>
+            <tr>
+                <td><i class="icon icon-package"></i></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=JJCGPH&DataType=jjcgph&sort=SHULIANG&order=desc&count=25&page=0">基金持股</a></td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=GDRSBH&DataType=gdrs&sort=RJGS22&order=desc&count=25&page=0">股东人数</a></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td><a target="_blank" href="http://quotes.money.163.com/#query=CBSD&DataType=cwsd&sort=MFRATIO28&order=desc&count=25&page=0">公司财报</a></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+    
+
+<div class="N-nav-bottom">
+    <div class="N-nav-bottom-main">
+    	<div class="ntes_foot_link">
+	<span class="N-nav-bottom-copyright"><span class="N-nav-bottom-copyright-icon">&copy;</span> 1997-2017 网易公司版权所有</span>
+	<a href="http://corp.163.com/">About NetEase</a> |
+	<a href="http://gb.corp.163.com/gb/about/overview.html">公司简介</a> |
+	<a href="http://gb.corp.163.com/gb/contactus.html">联系方法</a> |
+	<a href="http://corp.163.com/gb/job/job.html">招聘信息</a> |
+	<a href="http://help.163.com/ ">客户服务</a> |
+	<a href="http://gb.corp.163.com/gb/legal.html">隐私政策</a> |
+	<a href="http://emarketing.163.com/">广告服务</a> |
+	<a href="http://sitemap.163.com/">网站地图</a> |
+	<a href="http://www.163.com/special/0077450P/feedback_window.html" class="ne_foot_feedback_link">意见反馈</a> |
+	<a href="http://jubao.aq.163.com/">不良信息举报</a>
+</div>
+    </div>
+    	<style>
+	.N-nav-bottom-sub{width: 960px; margin:0 auto; position: relative; height: 0px; z-index: 1000; }
+	.ne_foot_feedback_box{width: 360px; height: 270px; position: absolute; z-index: 9999; bottom: 34px; right: 0; display: none; }
+	.ne_foot_feedback_box .feedback_close{width: 11px; height: 11px; background: url(http://img1.cache.netease.com/f2e/www/feedback/images/box_close.png) no-repeat; position: absolute; right: 8px; top: 7px; font-size: 0; overflow: hidden; text-indent: -9990em; }
+	.ne_foot_feedback_box .feedback_cor{width: 19px; height: 13px; background: url(http://img1.cache.netease.com/f2e/www/feedback/images/box_cor.png) no-repeat; position: absolute; left: 236px; top: 250px; }
+	.ne_foot_feedback_box .feedback_box{border:1px solid #cdcdcd; background: #fff; width: 358px; height: 250px; overflow: hidden; }
+	.ne_foot_feedback_box .feedback_box iframe{display: block; border: 0; width: 100%; height: 250px; overflow: hidden; }
+	</style>
+	<div class="N-nav-bottom-sub" id="N-nav-bottom-sub"></div>
+	<script>
+	(function(){
+		if(!window.NTES) return;
+		function showFeedbackBox(x,y){
+			var footmainNd = NTES('.N-nav-bottom-main')[0];
+			var feedbacklinkNd = NTES('.ne_foot_feedback_link')[0];
+			if(!footmainNd){
+				window.open(feedbacklinkNd.href);
+				return;
+			};
+			var x = x;
+			var y = y;
+			if(x){
+				NTES(".ne_foot_feedback_box")[0].style.top = x +"px";
+			}else{
+				x = feedbacklinkNd.offsetLeft - footmainNd.offsetLeft + (feedbacklinkNd.offsetWidth/2) - 246;
+				if(NTES.browser.msie && (parseInt(NTES.browser.version) == 7 ||parseInt(NTES.browser.version) == 6)){
+					x = feedbacklinkNd.offsetLeft + (feedbacklinkNd.offsetWidth/2) - 246;
+				}
+				NTES(".ne_foot_feedback_box")[0].style.left = x +"px";
+			}
+			if(y){
+				NTES(".ne_foot_feedback_box")[0].style.top = y +"px";
+			}
+			NTES(".ne_foot_feedback_box")[0].style.display = "block";
+		}
+		function bindFeedbackBoxClose(){
+			NTES(".ne_foot_feedback_box .feedback_close").addEvent("click",function(){
+				NTES(".ne_foot_feedback_box")[0].style.display = "none";
+				return false;
+			});
+		}
+		NTES(".ne_foot_feedback_link").addEvent("click",function(){
+			if(NTES("#ne_foot_feedback_box")){
+				showFeedbackBox();
+			}else{
+				var boxNd = document.createElement("div");
+				boxNd.className = "ne_foot_feedback_box";
+				boxNd.id = "ne_foot_feedback_box";
+				boxNd.innerHTML =
+						'<a href="javascript:;" target="_self" class="feedback_close">关闭</a> ' +
+						'<span class="feedback_cor">' +
+						'</span>' +
+						' <div class="feedback_box">' +
+						' <iframe src="http://money.163.com/special/quotes_suggest/?1471229584660" frameborder="0" witdh="100%" height="290" scrolling="no">' +
+						'</iframe>' +
+						' </div>';
+				document.getElementById('N-nav-bottom-sub').appendChild(boxNd);
+				window.setTimeout(function(){
+					showFeedbackBox();
+					bindFeedbackBoxClose();
+				},500);
+			}
+			return false;
+		});
+	})();
+	</script>
+
+
+<script type='text/javascript'>
+    (function(w, d, s, n) {
+        var f = d.getElementsByTagName(s)[0],k = d.createElement(s); k.async = true;
+        k.src = '//static.ws.126.net/163/frontend/antnest/'+n+'.js';
+        f.parentNode.insertBefore(k, f);
+    })(window, document, 'script','NTM-KFGT6I8U-47');
+</script>
+
+</div>
+
+</div>
+
+<style type="text/css">
+.ntes-nav-wza,.ntes-nav-wza-show{float: left;padding-left: 3px;margin-left: 2px;position: relative;}
+.ntes-nav-wza{display: none;}
+.ntes-nav-wza-show{display: block;}
+/*.ntes-nav-wza:before{background: url(https://static.ws.126.net/163/f2e/www/index20170701/images/shilaohua_v2.png) -1px 0px;width: 14px;height: 12px;content: "";position: absolute;left: 2px;top: 16px;}*/
+</style>
+<a class="ntes-nav-wza" target="_self" href="javascript:void(0)" id="cniil_wza">进入关怀模式</a>
+<script type="text/javascript">
+    (function(){
+        function wzaInit(){
+            var wza_link = document.getElementById("cniil_wza");
+            var nav_left = document.getElementById("js_N_nav_left");
+            var ua = navigator.userAgent.toLowerCase();
+            if(!/ipad/i.test(ua) && wza_link && nav_left){
+                nav_left.appendChild(wza_link);
+                wza_link.className = "ntes-nav-wza-show";
+            }
+            wza_link.onclick = function () {
+                if(!window.ntm || !window.ntm.projectId)return;
+                var param = {
+                    "val_act": "wzanavclick",
+                    "projectid": window.ntm.projectId
+                }
+                window.NTESAntAnalysis.sendData(param); 
+            }
+            if ( window.addEventListener ) {
+                window.addEventListener("load", function(){wzaReport();}, false);
+            } else if ( window.attachEvent ) {
+                window.attachEvent("onload", function(){wzaReport();});
+            }
+        }
+         
+        function wzaReport(){
+            setTimeout(function(){
+                if(!window.ntm || !window.ntm.projectId || document.getElementsByTagName('body')[0].className.indexOf("ariabodytopfiexed") < 0)return;
+                var param = {
+                    "val_act": "wza-default-open",
+                    "projectid": window.ntm.projectId
+                }
+                window.NTESAntAnalysis.sendData(param);
+            },3000);
+        }
+        wzaInit();
+    })();
+</script>
+<script type="text/javascript" src="https://static.ws.126.net/163/f2e/common/wza/aria.js?appid=a6655141bab6921b58446b4b806b9fbf&v=3" charset="utf-8"></script>
+
+<script src="https://static.ws.126.net/163/f2e/finance/quotes_index_2014/js/quotes_index_20211115.js"></script>
+
+<!-- STAT NetEase Devilfish 2006 -->
+<script type="text/javascript" src="//analytics.163.com/ntes.js"></script>
+<script type="text/javascript">
+    _ntes_nacc = "stock"; //站点ID。
+    neteaseTracker();
+</script>
+
+<!-- big data statistics -->
+<!-- big data analysis -->
+<script src="https://static.ws.126.net/163/f2e/finance/quotes_index_2014/js/analysis.350ctAoOoFtN.5.20200113.js"></script>
+
+
+
+<!--广告投放-->
+<script language="javascript" src="http://money.163.com/special/00252Q97/hangqing16.js"></script>
+
+</body>
+</html>

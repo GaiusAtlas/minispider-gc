@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国扫黄打非网-网上举报</title>
+<link href="../newshdf/css/style.css" rel="stylesheet" type="text/css" />
+<script src="../newshdf/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="../newshdf/js/time.js"></script>
+<script language="javascript" type="text/javascript" src="../newshdf/js/public.js"></script>
+<script language="javascript" type="text/javascript" src="../newshdf/js/ss.js"></script>
+<!--[if IE 6]>
+<script src="../newshdf/js/ie6PNG.js" type="text/javascript"></script>
+<script type="text/javascript">DD_belatedPNG.fix('*');</script>
+<![endif]-->
+</head>
+<body>
+<div class="nmHeader">
+<div class="nmTop">
+<span class="nmtop_s1"><script charset="utf-8" src="/shdf/js/show_date.js" type="text/javascript"></script></span>
+<span class="nmtop_s2">www.shdf.gov.cn</span>
+</div>
+<div class="nmBan">
+  <img src="/shdf/newshdf/images/nm_img1.jpg" width="986" height="200" />
+  <div class="nmBan_ser">
+<form id="form_{StyleID}" method="get" action="/shdf/utils/search2.html" target="_blank">
+<select class="mc1_sel" name="type" id="type">
+<option value="Title">标题</option>
+<option value="Content">内容</option>
+</select>
+<input class="mc1_int" name="word" />
+<INPUT type="button" class="mc1Submit"  onclick="document.getElementById('form_{StyleID}').submit();return false;" value=" " />
+</form>
+  </div>
+</div>
+</div>
+<div class="navBox">
+ <ul>
+
+    <li><a class="nav_a1" style="width: 53px;" href="/shdf/"><img class="block" src="/shdf/newshdf/images/mt0.png" width="35" height="17" style="margin: 0 auto; margin-top: 11px;" /><img class="hidden" src="/shdf/newshdf/images/mt0a.png" width="35" height="17" style="margin: 0 auto; margin-top: 11px;" /></a></li>
+    
+
+   
+  
+  
+  
+  <li><a class="nav_a1"><img class="block" src="/shdf/newshdf/images/mt1.png" width="71" height="17" /><img class="hidden" src="/shdf/newshdf/images/mt1a.png" width="71" height="17" /></a>
+  <div class="submenu">
+        
+         <a href="/shdf/channels/700.html" class="cor_bs">组织机构</a> 
+         | 
+         <a href="/shdf/channels/703.html" class="cor_bs">政策法规</a> 
+         | 
+         <a href="/shdf/channels/709.html" class="cor_bs">网站公告</a> 
+        
+    
+   </div>
+  </li>  
+   
+  
+  
+  <li><a class="nav_a1"><img class="block" src="/shdf/newshdf/images/mt2.png" width="71" height="17" /><img class="hidden" src="/shdf/newshdf/images/mt2a.png" width="71" height="17" /></a>
+  <div class="submenu" style="width: 490px;">
+        
+         <a href="/shdf/channels/767.html" class="cor_bs">工作要闻</a> 
+         | 
+         <a href="/shdf/channels/768.html" class="cor_bs">图片新闻</a> 
+         | 
+         <a href="/shdf/channels/711.html" class="cor_bs">在线视频</a> 
+        
+    
+   </div>
+  </li>  
+  
+  
+  
+  <li><a class="nav_a1"><img class="block" src="/shdf/newshdf/images/mt3.png" width="71" height="17" /><img class="hidden" src="/shdf/newshdf/images/mt3a.png" width="71" height="17" /></a>
+  <div class="submenu">
+        
+         <a href="/shdf/channels/11421.html" class="cor_bs">部署推进</a> 
+         | 
+         <a href="/shdf/channels/11419.html" class="cor_bs">案件查办</a> 
+         | 
+         <a href="/shdf/channels/771.html" class="cor_bs">市场监管</a> 
+         | 
+         <a href="/shdf/channels/713.html" class="cor_bs">专项行动</a> 
+         | 
+         <a href="/shdf/channels/11422.html" class="cor_bs">进基层</a> 
+         | 
+         <a href="/shdf/channels/773.html" class="cor_bs">经验交流</a> 
+         | 
+         <a href="/shdf/channels/714.html" class="cor_bs">表彰奖励</a> 
+         | 
+         <a href="/shdf/channels/774.html" class="cor_bs">地方工作</a> 
+         | 
+         <a href="/shdf/channels/715.html" class="cor_bs">专题推荐</a> 
+        
+    
+   </div>
+  </li>  
+   
+  
+  
+  <li class="nav_cut"><a class="nav_a1 nav_cuta1"><img class="block" src="/shdf/newshdf/images/mt4.png" width="71" height="17" /><img class="hidden" src="/shdf/newshdf/images/mt4a.png" width="71" height="17" /></a>
+  <div class="submenu" style="width: 490px;">
+        
+         <a href="/shdf/channels/740.html" class="cor_bs cor_cutbs">网上举报</a> 
+         | 
+         <a href="/shdf/channels/743.html" class="cor_bs">在线查询</a> 
+         | 
+         <a href="/shdf/channels/747.html" class="cor_bs">曝 光 台</a> 
+        
+    
+   </div>
+  </li>  
+  
+  
+	
+    
+    
+    <li><a href="/shdf/contents/749/236131.html" class="nav_a1"><img class="block" src="/shdf/newshdf/images/mt5.png" width="71" height="17" /><img class="hidden" src="/shdf/newshdf/images/mt5a.png" width="71" height="17" /></a></li>
+    
+    
+  
+  
+ 
+ </ul>
+</div>
+
+<div class="m2bmBg" style=" margin-top:10px;"><img src="/shdf/newshdf/images/sh_bmbgtop.png" width="994" height="10" /></div>
+
+<div class="main2">
+<div class="m2pos">您当前的位置：
+
+
+<a href="/shdf">首页</a> &gt;&gt; 公众服务 &gt;&gt; 网上举报
+
+
+
+
+
+
+</div>
+<div class="m2itm">网上举报</div>
+<!--<div class="m2jb_t">网上举报</div>-->
+<iframe src="/utils/wsjb.html" frameborder="0" width="940" height="800"></iframe>
+<!--<div class="m2jb_p">
+<p style="text-indent:32px;">感谢您对“扫黄打非、新闻出版、版权”工作的关心和支持，欢迎您利用本栏目举报与图书、报纸、期刊、音像、电子、网络等出版物有关的违法违规行为，我们将对您的举报加以认真的研究和处理。</p><p style="text-indent:32px;">如有可能，请留下您的姓名及联系方式，以便我们在必要时及时与您取得联系。对您所提供的下列情况，我们将严格保密，未经您本人同意，不得公开。</p><p><br /></p>
+</div>
+<div class="m2jb_ul">
+<ul>
+
+ <li>
+ <a href="http://www.gapp.gov.cn/govinteract/1077.shtml" class="sh_ico1 fl"> </a>
+ <a href="http://www.gapp.gov.cn/govinteract/1077.shtml" class="m2jb_a1">非法出版活动举报</a>
+ </li>
+
+ <li>
+ <a href="http://www.gapp.gov.cn/govinteract/1078.shtml" class="sh_ico2 fl"> </a>
+ <a href="http://www.gapp.gov.cn/govinteract/1078.shtml" class="m2jb_a1">互联网和手机媒体<br />淫秽色情信息举报</a>
+ </li>
+
+</ul>
+<div class="clear"></div>
+</div>-->
+<div class="clear"></div>
+</div>
+<div class="m2bmBg"><img src="../newshdf/images/sh_bmbg.png" width="994" height="9" /></div>
+<div class="footer" style="width:400px;">
+<div style="float:left; width:80px;">
+<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/33/000/0000/60556751/CA330000000605567510002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e4d8bc1534ec97fdb9a130482fce6978";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</div>
+<div style="float:left; width:300px; text-align:center;">
+全国"扫黄打非"工作小组办公室 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;主办<br />
+中宣部机关服务中心（信息中心） &nbsp; &nbsp;承办<br />
+地址：北京市西城区宣武门外大街40号 &nbsp; 邮编：100052<br />
+<a href="https://beian.miit.gov.cn" target="_blank">京ICP备19010669号-4</a> &nbsp; 京公网安备110102003518
+</div>
+</div>
+</body>
+</html>
+
+
+<!-- T_网上举报3.html(栏目模板) -->

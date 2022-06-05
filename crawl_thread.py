@@ -12,8 +12,9 @@ import const
 
 class Crawler(threading.Thread):
     '''
-    params: input_url_queue ,url from a queue to crawl
-            Res_Table,put result to a queue which can be get by DownloadThread
+    crawl webpage 
+    if depth < max_depth from configuration , update url to download, download itself
+    if depth == max_depth ,just download
     '''
     def __init__(self, input_queue, conf, name):
         threading.Thread.__init__(self)
@@ -44,8 +45,10 @@ class Crawler(threading.Thread):
                     url_update = url_parse.update_Url() 
                     if url_update == const.ERROR:
                         self.spider_log.error("{} Update failure".format(url_to_process.url))
-                        break
-                    self.input_queue.put_url_list_o(url_update)             
+                    elif url_update == const.EMPTY:
+                        self.spider_log.warning("{} Update List has nothing".format(url_to_process.url))
+                    else:
+                        self.input_queue.put_url_list_o(url_update)             
                 elif url_to_process.depth == self.max_depth:
                     ret_d = url_parse.download_content()
                 else:
@@ -74,7 +77,6 @@ def initCrawlThread(conf,input_queue):
 
         print thread_name, 'start '
     input_queue.join()
-    res_queue.join()
 
 
 if __name__=='__main__':
@@ -83,7 +85,6 @@ if __name__=='__main__':
     url_ori = url_load.get_first_url(CONF)
     input_queue = URL_List.URL_queue()
     input_queue.put_url_list_o(url_ori)
-    res_queue = URL_List.URL_queue()
 
     initCrawlThread(CONF, input_queue)
     input_queue.join()

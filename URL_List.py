@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-构建队列，主要用于放置待分析url
+set up a queue to crawl content
 '''
 import Queue
 import threading

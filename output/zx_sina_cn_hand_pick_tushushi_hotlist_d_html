@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script>window.firstTime = new Date().getTime();</script>
+		<meta charset="utf-8">
+		<title>图数室</title>
+		<meta name="keywords" content="图数室" />
+		<meta name="description" content="新浪新闻出品，数据可视化原创栏目，用数据，看懂世界！" />
+				<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+				<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+		<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"/>
+		<meta http-equiv="Pragma" content="no-cache"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="referrer" content="always"/>
+		<meta name="robots" content="index, follow"/>
+		<meta name="googlebot" content="index, follow"/>
+		<meta name="author" content="sina_mobile"/>
+
+		<meta property="og:type" content="subject">
+		<meta property="og:title" content="图数室">
+		<meta property="og:description" content="新浪新闻出品，数据可视化原创栏目，用数据，看懂世界！">
+		<meta property="og:url" content="https://zx.sina.cn/hand_pick/tushushi/hotlist.d.html">
+		<meta property="article:author" content="手机新浪网">
+
+		<link rel="shortcut icon" type="image/x-icon" href="https://mjs.sinaimg.cn/wap/module/base/img/favicon.ico"/>
+		<meta name="robots" content="index, follow" />
+		<meta name="router-uri" content="sinanews://sina.cn/hybrid/hybrid.pg?newsId=HB-1-snhy/columnPage-rank-column:265056&dataid=wpcomos:188888" />
+		<meta name="googlebot" content="index, follow" />
+		<link rel="apple-touch-icon-precomposed" href="https://mjs.sinaimg.cn/wap/online/public/images/addToHome/news_114x114_v1.png" />
+		<link rel="apple-touch-icon-precomposed" href="https://mjs.sinaimg.cn/wap/online/public/images/addToHome/news_57x57_v1.png" />
+		<script type="text/javascript">!function(l,r,f){function o(){var o=100,n=750,t=r.documentElement.clientWidth||l.innerWidth,e=f.max(f.min(t,480),320),i=50;e<=320&&(i=f.floor(e/n*o*.99)),320<e&&e<=362&&(i=f.floor(e/n*o*1)),362<e&&e<=375&&(i=f.floor(e/n*o*1)),375<e&&(i=f.floor(e/n*o*.97)),r.querySelector("html").style.fontSize=i+"px"}o(),l.onresize=function(){o()}}(window,document,Math)</script>
+
+		<script type="text/javascript">
+			//公共全局配置文件
+			var globalConfig = {
+				startTime: new Date().getTime(),
+				isLogin: false,
+				userInfo: 0
+			}
+			window.SM = {"status":{"from_cache":false,"timer":0.048630952835083,"h":false},"data":{"meta":{"feedListApi":"https:\/\/uifs.sina.cn\/api\/flow?_ukey=interface-wap_hq_channel_feed_list","url":"https:\/\/zx.sina.cn\/hand_pick\/tushushi\/hotlist.d.html","name":"\u56fe\u6570\u5ba4","intro":"\u65b0\u6d6a\u65b0\u95fb\u51fa\u54c1\uff0c\u6570\u636e\u53ef\u89c6\u5316\u539f\u521b\u680f\u76ee\uff0c\u7528\u6570\u636e\uff0c\u770b\u61c2\u4e16\u754c\uff01","logopic":"https:\/\/tvax1.sinaimg.cn\/crop.0.0.512.512.180\/0062m1k9ly8gh7vh1kl9rj30e80e8wer.jpg","verticalPic":"http:\/\/n.sinaimg.cn\/default\/transform\/574\/w246h328\/20220418\/cff7-5fa4d208622d90775bdcf97c4cb50c0a.png","bgpic":"https:\/\/n.sinaimg.cn\/default\/288\/w750h338\/20200730\/3758-iwxpesy1965764.png","seoTitle":"\u56fe\u6570\u5ba4","seoDescription":"\u65b0\u6d6a\u65b0\u95fb\u51fa\u54c1\uff0c\u6570\u636e\u53ef\u89c6\u5316\u539f\u521b\u680f\u76ee\uff0c\u7528\u6570\u636e\uff0c\u770b\u61c2\u4e16\u754c\uff01","seoKeywords":"\u56fe\u6570\u5ba4","colid":"rankcol_column:265056","shareTitle":"\u65b0\u6d6a\u7cbe\u9009||\u56fe\u6570\u5ba4","shareDescription":"\u65b0\u6d6a\u65b0\u95fb\u51fa\u54c1\uff0c\u6570\u636e\u53ef\u89c6\u5316\u539f\u521b\u680f\u76ee\uff0c\u7528\u6570\u636e\uff0c\u770b\u61c2\u4e16\u754c\uff01","sharePic":"https:\/\/tvax1.sinaimg.cn\/crop.0.0.512.512.180\/0062m1k9ly8gh7vh1kl9rj30e80e8wer.jpg","shareInfo":{"title":"\u56fe\u6570\u5ba4","customTitle":"\u56fe\u6570\u5ba4|\u65b0\u6d6a\u65b0\u95fb\u51fa\u54c1\uff0c\u6570\u636e\u53ef\u89c6\u5316\u539f\u521b\u680f\u76ee\uff0c\u7528\u6570\u636e\uff0c\u770b\u61c2\u4e16\u754c\uff01","link":"https:\/\/zx.sina.cn\/hand_pick\/tushushi\/hotlist.d.html","pic":"https:\/\/tvax1.sinaimg.cn\/crop.0.0.512.512.180\/0062m1k9ly8gh7vh1kl9rj30e80e8wer.jpg","intro":"\u65b0\u6d6a\u65b0\u95fb\u51fa\u54c1\uff0c\u6570\u636e\u53ef\u89c6\u5316\u539f\u521b\u680f\u76ee\uff0c\u7528\u6570\u636e\uff0c\u770b\u61c2\u4e16\u754c\uff01"},"firstPageSize":5,"pageSize":5,"pageMaxNum":1,"newsId":"HB-1-snhy\/columnPage-rank-column:265056","dataid":"wpcomos:188888","routeUri":"sinanews:\/\/sina.cn\/hybrid\/hybrid.pg?newsId=HB-1-snhy\/columnPage-rank-column:265056&dataid=wpcomos:188888","followNum":11521,"showPlayer":1},"components":[{"type":"wap_hq_chan_theme_feed","meta":{"id":"_conf_2|wap_hq_chan_theme_feed|http:\/\/zx.sina.cn\/hand_pick\/tushushi\/hotlist.d.html","pageMaxNum":30,"title":"","firstPageSize":5,"pageSize":5},"data":[{"url":"https:\/\/card.weibo.com\/article\/m\/show\/id\/2309404775500496371722","title":"\u3010\u56fe\u6570\u8bf4\u660e\u4e66\u3011\u5f53\u4ee3\u7236\u6bcd\u517b\u5a03\u89c2\u5ff5\u9762\u9762\u89c2","commentid":"","newsId":"","actionType":1,"routeUri":"sinanews:\/\/sina.cn\/webbrowser\/detail.pg?link=https%3A%2F%2Fcard.weibo.com%2Farticle%2Fm%2Fshow%2Fid%2F2309404775500496371722&dataid=tt:2309404775500496371722&pkey=default","media":"\u56fe\u6570\u5ba4","docType":"h5","date":"","showTimeStr":"","dataid":"tt:2309404775500496371722","expId":"########newsId=&dataid=tt%3A2309404775500496371722########","layout":"bpic","pics":["http:\/\/n.sinaimg.cn\/sjzx\/310\/w710h400\/20220601\/18f9-920794bb635dd801132e355413ffcbc8.png"]},{"url":"https:\/\/k.sina.cn\/article_2699180811_a0e23b0b001011p2m.html?from=edu","title":"\u3010No.081\u30112022\u5e74\u9ad8\u6821\u5927\u5b66\u751f\u6bd5\u4e1a\u62e9\u4e1a\u6001\u5ea6\u8c03\u67e5\u62a5\u544a","commentid":"mp:2699180811-a0e23b0b001011p2m:0","newsId":"2699180811-a0e23b0b001011p2m-cms-mp","actionType":2,"routeUri":"sinanews:\/\/sina.cn\/article\/detail.pg?newsId=2699180811-a0e23b0b001011p2m-cms-mp&dataid=comos:mizmscu3664639&pkey=default","media":"\u56fe\u6570\u5ba4","docType":"normal","date":"2022-05-27 11:36:28","showTimeStr":"05\u670827\u65e5","dataid":"comos:mizmscu3664639","expId":"########newsId=2699180811-a0e23b0b001011p2m-cms-mp&dataid=comos%3Amizmscu3664639########","layout":"pic","pics":["http:\/\/n.sinaimg.cn\/default\/266\/w640h426\/20220527\/363b-e7710d781f96af38fabfcf1abc79bc38.png"]},{"url":"https:\/\/card.weibo.com\/article\/m\/show\/id\/2309404771172192748476","title":"\u3010No.080\u301100\u540e\u604b\u7231\u72b6\u6001\u9762\u9762\u89c2","commentid":"","newsId":"","actionType":1,"routeUri":"sinanews:\/\/sina.cn\/webbrowser\/detail.pg?link=https%3A%2F%2Fcard.weibo.com%2Farticle%2Fm%2Fshow%2Fid%2F2309404771172192748476&dataid=tt:2309404771172192748476&pkey=default","media":"\u56fe\u6570\u5ba4","docType":"h5","date":"","showTimeStr":"","dataid":"tt:2309404771172192748476","expId":"########newsId=&dataid=tt%3A2309404771172192748476########","layout":"pic","pics":["http:\/\/n.sinaimg.cn\/sjzx\/266\/w640h426\/20220525\/5605-2fd092b19654ec04852dad595034bdb0.png"]},{"url":"https:\/\/k.sina.cn\/article_2699180811_a0e23b0b001011kwk.html?from=edu","title":"\u3010No.079\u3011\u6570\u636e\u63ed\u79d8\u9ad8\u6821\u6bd5\u4e1a\u751f\u5c31\u4e1a\u8d28\u91cf\u62a5\u544a","commentid":"mp:2699180811-a0e23b0b001011kwk:0","newsId":"2699180811-a0e23b0b001011kwk-cms-mp","actionType":2,"routeUri":"sinanews:\/\/sina.cn\/article\/detail.pg?newsId=2699180811-a0e23b0b001011kwk-cms-mp&dataid=comos:mcwiwst8413214&pkey=default","media":"\u56fe\u6570\u5ba4","docType":"normal","date":"2022-05-20 08:29:41","showTimeStr":"05\u670820\u65e5","dataid":"comos:mcwiwst8413214","expId":"########newsId=2699180811-a0e23b0b001011kwk-cms-mp&dataid=comos%3Amcwiwst8413214########","layout":"pic","pics":["http:\/\/n.sinaimg.cn\/default\/266\/w640h426\/20220520\/ecd1-f089679930924c52118dcdac055ae0d0.png"]},{"url":"https:\/\/card.weibo.com\/article\/m\/show\/id\/2309404770919649247727","title":"\u3010No.078\u3011\u300c\u53cc\u82af\u300d\u4f1a\u6210\u4e3a\u884c\u4e1a\u6807\u914d\u5417\uff1f","commentid":"","newsId":"","actionType":1,"routeUri":"sinanews:\/\/sina.cn\/webbrowser\/detail.pg?link=https%3A%2F%2Fcard.weibo.com%2Farticle%2Fm%2Fshow%2Fid%2F2309404770919649247727&dataid=tt:2309404770919649247727&pkey=default","media":"\u56fe\u6570\u5ba4","docType":"h5","date":"","showTimeStr":"","dataid":"tt:2309404770919649247727","expId":"########newsId=&dataid=tt%3A2309404770919649247727########","layout":"pic","pics":["http:\/\/n.sinaimg.cn\/sjzx\/266\/w640h426\/20220525\/8724-e6f4a660bf210e79b57f48a7817672e4.png"]}]}]}}
+		</script>
+		<link href="//mjs.sinaimg.cn/wap/project/snhy/1.6.79/columnPage/static/css/columnPage.min.css" rel="stylesheet">
+		<script>if(/sinanews/.test(window.navigator.userAgent.toLowerCase())){var _script=document.createElement("script");_script.src="//mjs.sinaimg.cn/umd/hb-direct/1.1.4/index.min.js",document.head.append(_script)}</script>
+	<meta name="sudameta" content="dataid:wpcomos:188888" /></head>
+
+	<body>
+				<main class="page_main">
+									<div id="app"></div>
+					</main>
+		<script src="https://mjs.sinaimg.cn/wap/module/login/201706071125/outlogin_layer_mobile.min.js"></script><script src="https://mjs.sinaimg.cn/wap/module/base/js/zepto.min.js"></script><script src="https://mjs.sinaimg.cn/wap/online/public/wapLogin/wapLogin_main.js"></script><script src="https://mjs.sinaimg.cn/wap/public/suda/201704271600/suda_log.min.js"></script><script src="//mjs.sinaimg.cn//wap/project/snhy/1.6.79/columnPage/static/js/columnPage.min.js"></script>
+		<script>
+			var _wxShareConfig = {
+				title: "新浪精选||图数室", // 分享标题
+				desc: "新浪新闻出品，数据可视化原创栏目，用数据，看懂世界！", // 分享描述
+				link: window.location.href, // 分享链接
+				imgUrl: "https://tvax1.sinaimg.cn/crop.0.0.512.512.180/0062m1k9ly8gh7vh1kl9rj30e80e8wer.jpg", // 分享图标
+				type: '', // 分享类型,music、video或link，不填默认为link
+				dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+			}
+		</script>
+		<script src="//mjs.sinaimg.cn/wap/online/public/share/shareWx_main.js"></script>
+	<script src="https://pluto.sina.cn/gk/match?id=1"></script></body>
+</html>
+
+
+
+

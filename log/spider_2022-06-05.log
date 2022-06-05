@@ -1,1 +1,1013 @@
-2022-06-05 00:47:58,572 - INFO - here - log.py
+2022-06-05 12:37:50,290 - DEBUG - Put url https://www.163.com depth 0 in queue. - log.py
+2022-06-05 12:37:50,291 - DEBUG - Put url https://www.sina.com.cn depth 0 in queue. - log.py
+2022-06-05 12:37:50,291 - INFO - Thread Spider_No_0 get https://www.163.com, depth:0 - log.py
+2022-06-05 12:37:50,291 - INFO - Spider_No_0 Start working. - log.py
+2022-06-05 12:37:50,293 - INFO - Spider_No_1 Start working. - log.py
+2022-06-05 12:37:50,293 - INFO - Thread Spider_No_1 get https://www.sina.com.cn, depth:0 - log.py
+2022-06-05 12:37:50,296 - INFO - Spider_No_2 Start working. - log.py
+2022-06-05 12:37:50,296 - INFO - Spider_No_3 Start working. - log.py
+2022-06-05 12:37:50,296 - INFO - Spider_No_4 Start working. - log.py
+2022-06-05 12:37:50,296 - INFO - Spider_No_5 Start working. - log.py
+2022-06-05 12:37:50,297 - INFO - Spider_No_6 Start working. - log.py
+2022-06-05 12:37:50,297 - INFO - Spider_No_7 Start working. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://so.sina.cn/palmnews/web-sinanews-app-download.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://www.12377.cn/node_548446.htm depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://news.sina.com.cn/pc/2014-10-30/326/3095.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://auto.sina.com.cn/newcar/index.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-5_8-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-8_11-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-11_15-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-15_20-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-20_25-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-25_35-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-35_50-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-2-0-0-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-3-0-0-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-4-0-0-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-5-0-0-0-0-0-0-9-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547968.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547998.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547997.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547979.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547977.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547974.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,263 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149821.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149820.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url http://blog.sina.com.cn/s/blog_4b2cb00e0102ytki.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url http://slide.news.sina.com.cn/slide_1_86058_547961.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url http://slide.sports.sina.com.cn/k/slide_2_786_278885.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013217.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547952.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6143252.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506737.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6569650.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6572127.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-04/detail-imizirau6569712.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5113714.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5111707.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013587.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4528142.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4570623.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-03-21/detail-imcwipih9778642.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0293986.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5448874.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0279557.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464732.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464678.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5473985.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5470368.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4592015.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4582829.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6028435.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4586634.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,264 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6030506.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032022.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6031314.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032830.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6034121.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4591475.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url https://video.sina.com.cn/p/astro/2020-11-10/detail-iiznezxs1122425.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url https://video.sina.com.cn/p/astro/2020-11-30/detail-iiznctke4028473.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-04/detail-imizmscu5111078.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.sports.sina.com.cn/g_pl/slide_2_730_278881.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-27/detail-imizirau5097292.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-26/detail-imizirau4876241.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst7086683.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwipii9442591.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst6982213.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370701.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370714.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370710.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.ent.sina.com.cn/tv/slide_4_86512_370694.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370692.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370702.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370695.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,265 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370696.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370686.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.ent.sina.com.cn/h/slide_4_86512_370693.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.ent.sina.com.cn/star/h/slide_4_86512_370691.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370689.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370703.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370685.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370697.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506527.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-05-31/detail-imizirau5792647.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6151934.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4697957.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://finance.sina.cn/money/lcmj/MonthlyBankingChart02.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.news.sina.com.cn/slide_1_86058_547338.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.sports.sina.com.cn/o/slide_2_730_278073.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.mil.news.sina.com.cn/l/slide_8_199_126262.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.news.sina.com.cn/slide_1_86058_547341.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.sports.sina.com.cn/o/slide_2_730_278072.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.tech.sina.com.cn/d/slide_5_453_149736.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://db.auto.sina.com.cn/photo/c100637-1-1-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.news.sina.com.cn/slide_1_86058_547334.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.mil.news.sina.com.cn/k/slide_8_193_125877.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.mil.news.sina.com.cn/l/slide_8_87721_125868.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.mil.news.sina.com.cn/k/slide_8_193_125825.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.tech.sina.com.cn/d/slide_5_453_149787.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://zx.sina.cn/hand_pick/tushushi/hotlist.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://gongyi.sina.com.cn/gyzx/ngo.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://gongyi.sina.com.cn/gyzx.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://sinanews.sina.cn/native_page/quanzi_673999918657114113.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://sinanews.sina.cn/native_page/quanzi_647555197236281345.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://sinanews.sina.cn/native_page/quanzi_645761253557342209.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://sinanews.sina.cn/native_page/quanzi_647551876714856449.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149822.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149541.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://video.sina.com.cn/p/fashion/fas/doc/2018-04-04/171268135609.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizmscu2648676.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://video.sina.com.cn/p/fashion/2022-05-23/detail-imizirau4330658.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://sz.jiaju.sina.com.cn/5897273467530979887/2022/0121/6890226435508996378.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://jiaju.sina.cn/zixun/list/6934771738308051855.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://jiaju.sina.cn/zixun/list/6933335353432801809.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.baby.sina.com.cn/mxx/slide_10_846_774770.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.baby.sina.com.cn/mxx/slide_10_846_774768.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.baby.sina.com.cn/mxx/slide_10_846_774767.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.baby.sina.com.cn/mxx/slide_10_846_774766.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://baby.sina.com.cn/news/list.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizirau4049006.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url https://video.sina.com.cn/p/fashion/2022-05-30/detail-imizmscu4135017.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149263.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,266 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149265.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149221.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149220.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.sports.sina.com.cn/golf/slide_2_754_277537.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_2_116832.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9409.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9412.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9408.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9306.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9394.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9399.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9407.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9359.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117504.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_1_117528.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117443.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117389.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_108_2_117535.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117495.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9400.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9388.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_100_2_117491.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_100_2_117466.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117508.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_100_2_117525.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117435.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_1_117432.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117526.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url https://med.sina.com/article_detail_102_2_117518.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776663.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776638.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776604.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_775948.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_775966.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776161.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_775292.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776578.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,267 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776648.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776637.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_775733.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url http://slide.fo.sina.com.cn/slide_65_67296_776352.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url http://slide.astro.sina.com.cn/cartoon/slide_52_42283_123551.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url https://video.sina.com.cn/p/astro/2022-04-30/detail-imcwiwst5107161.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url https://video.sina.com.cn/p/astro/2022-04-29/detail-imcwiwst4782791.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url http://astro.sina.com.cn/hdrl/index.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url https://video.sina.com.cn/p/astro/2022-03-31/detail-imcwipii2924778.d.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url http://blog.sina.com.cn/s/blog_6431df490102z20e.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url http://city.sina.com.cn/city/Declaration.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url https://www.sina.com.cn/contactus.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url http://www.shdf.gov.cn/shdf/channels/740.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Put url https://corp.sina.com.cn/chn/sina_priv.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,268 - DEBUG - Thread Spider_No_1 download https://www.sina.com.cn success, depth 0 - log.py
+2022-06-05 12:37:56,329 - INFO - Thread Spider_No_4 get https://so.sina.cn/palmnews/web-sinanews-app-download.d.html, depth:1 - log.py
+2022-06-05 12:37:56,329 - INFO - Thread Spider_No_3 get https://www.12377.cn/node_548446.htm, depth:1 - log.py
+2022-06-05 12:37:56,330 - INFO - Thread Spider_No_7 get https://news.sina.com.cn/pc/2014-10-30/326/3095.html, depth:1 - log.py
+2022-06-05 12:37:56,330 - INFO - Thread Spider_No_5 get https://auto.sina.com.cn/newcar/index.d.html, depth:1 - log.py
+2022-06-05 12:37:56,331 - INFO - Thread Spider_No_6 get https://db.auto.sina.com.cn/list-0-0-8_11-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:37:56,331 - INFO - Thread Spider_No_2 get https://db.auto.sina.com.cn/list-0-0-5_8-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url https://daxue.163.com/offline/download.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url https://corp.163.com/gb/legal.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url https://money.163.com/20/0820/20/FKGICO4200259D61.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://product.auto.163.com/compare_both/index.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url https://hongcai.163.com/expert.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://quotes.money.163.com/1399300.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/BYNN.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/CKLH.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/0TCJ.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url https://xf.house.163.com/bj/CNBP.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url https://xf.house.163.com/bj/CQIQ.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url https://m.house.163.com/bj/CPKU.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/0RCS.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/BTcI.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/CLUL.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/CBGQ.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/CDWB.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url https://xf.house.163.com/bj/CPcH.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/CNRM.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,371 - DEBUG - Put url http://xf.house.163.com/bj/BTEE.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BRHb.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BbNB.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0RVD.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BPVJ.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BeYb.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BeRR.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BdLE.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/CLQO.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0DdO.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0Qec.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BcMB.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BRHS.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BbMC.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BLcX.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BfUc.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BPdX.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0QFB.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BXec.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-788-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0RcB.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BTVe.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BReT.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BaEb.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BTeb.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BOAE.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BfEL.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BfNT.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BaJM.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0ECS.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BfLY.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/CNBP.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BSQE.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BaOR.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0Qac.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BfYT.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BPOf.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0QJL.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0QTG.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0RCF.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/41-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-1-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BNUO.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0DTB.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0DID.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0SOD.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/0SBU.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/BRfW.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-10-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-9-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-4-0-0-0-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-3-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-9-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-17-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-6-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-8-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-15-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-19-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-21-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-15-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://xf.house.163.com/bj/search/0-0-5-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url http://data.house.163.com/{cityCode}/index.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url https://www.163.com/dy/article/H913GDHU0512D3VJ.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url https://www.163.com/dy/article/H912O8VI055271I2.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,372 - DEBUG - Put url https://www.163.com/dy/article/H9129RT105534R8V.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://www.163.com/dy/article/H8VBT87F0514R9NP.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://www.163.com/dy/article/H8U64PDL0514R9NP.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://www.163.com/dy/article/H8UK6G0B0512D3VJ.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://www.163.com/dy/article/H8SI7J8B05199DKK.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://www.163.com/dy/article/H8SFAA9R0515UK8P.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://www.163.com/dy/article/H8RISCDR0550HXM1.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://www.163.com/dy/article/H8QA37RT0519875F.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url http://quotes.money.163.com/usstock/NTES.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url http://www.bjjubao.org/index.htm depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url http://www.163.com/special/00774IMC/verify_page_v13.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://corp.163.com/gb/about/overview.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://corp.163.com/gb/contactus.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Put url https://corp.163.com/gb/job/job.html depth 1 in queue. - log.py
+2022-06-05 12:37:56,373 - DEBUG - Thread Spider_No_0 download https://www.163.com success, depth 0 - log.py
+2022-06-05 12:37:56,638 - DEBUG - Thread Spider_No_3 download https://www.12377.cn/node_548446.htm success, depth 1 - log.py
+2022-06-05 12:37:56,660 - DEBUG - Thread Spider_No_4 download https://so.sina.cn/palmnews/web-sinanews-app-download.d.html success, depth 1 - log.py
+2022-06-05 12:37:57,273 - INFO - Thread Spider_No_1 get https://db.auto.sina.com.cn/list-0-0-11_15-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:37:57,378 - INFO - Thread Spider_No_0 get https://db.auto.sina.com.cn/list-0-0-15_20-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:37:57,643 - INFO - Thread Spider_No_3 get https://db.auto.sina.com.cn/list-0-0-20_25-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:37:57,665 - INFO - Thread Spider_No_4 get https://db.auto.sina.com.cn/list-0-0-25_35-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:37:58,871 - DEBUG - Thread Spider_No_7 download https://news.sina.com.cn/pc/2014-10-30/326/3095.html success, depth 1 - log.py
+2022-06-05 12:37:59,489 - DEBUG - Thread Spider_No_5 download https://auto.sina.com.cn/newcar/index.d.html success, depth 1 - log.py
+2022-06-05 12:37:59,879 - INFO - Thread Spider_No_7 get https://db.auto.sina.com.cn/list-0-0-35_50-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:38:00,494 - INFO - Thread Spider_No_5 get https://db.auto.sina.com.cn/list-2-0-0-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:38:17,295 - DEBUG - Thread Spider_No_2 download https://db.auto.sina.com.cn/list-0-0-5_8-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:17,694 - DEBUG - Thread Spider_No_6 download https://db.auto.sina.com.cn/list-0-0-8_11-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:18,303 - INFO - Thread Spider_No_2 get https://db.auto.sina.com.cn/list-3-0-0-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:38:18,579 - DEBUG - Thread Spider_No_1 download https://db.auto.sina.com.cn/list-0-0-11_15-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:18,697 - INFO - Thread Spider_No_6 get https://db.auto.sina.com.cn/list-4-0-0-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:38:18,795 - DEBUG - Thread Spider_No_0 download https://db.auto.sina.com.cn/list-0-0-15_20-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:19,365 - DEBUG - Thread Spider_No_3 download https://db.auto.sina.com.cn/list-0-0-20_25-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:19,542 - DEBUG - Thread Spider_No_4 download https://db.auto.sina.com.cn/list-0-0-25_35-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:19,586 - INFO - Thread Spider_No_1 get https://db.auto.sina.com.cn/list-0-5-0-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 12:38:19,800 - INFO - Thread Spider_No_0 get https://slide.news.sina.com.cn/slide_1_86058_547968.html, depth:1 - log.py
+2022-06-05 12:38:20,292 - DEBUG - Thread Spider_No_7 download https://db.auto.sina.com.cn/list-0-0-35_50-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:20,375 - INFO - Thread Spider_No_3 get https://slide.news.sina.com.cn/slide_1_86058_547998.html, depth:1 - log.py
+2022-06-05 12:38:20,547 - INFO - Thread Spider_No_4 get https://slide.news.sina.com.cn/slide_1_86058_547997.html, depth:1 - log.py
+2022-06-05 12:38:21,297 - INFO - Thread Spider_No_7 get https://slide.news.sina.com.cn/slide_1_86058_547979.html, depth:1 - log.py
+2022-06-05 12:38:22,272 - DEBUG - Thread Spider_No_5 download https://db.auto.sina.com.cn/list-2-0-0-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:23,277 - INFO - Thread Spider_No_5 get https://slide.news.sina.com.cn/slide_1_86058_547977.html, depth:1 - log.py
+2022-06-05 12:38:25,312 - DEBUG - Thread Spider_No_0 download https://slide.news.sina.com.cn/slide_1_86058_547968.html success, depth 1 - log.py
+2022-06-05 12:38:26,317 - INFO - Thread Spider_No_0 get https://slide.news.sina.com.cn/slide_1_86058_547974.html, depth:1 - log.py
+2022-06-05 12:38:26,924 - DEBUG - Thread Spider_No_7 download https://slide.news.sina.com.cn/slide_1_86058_547979.html success, depth 1 - log.py
+2022-06-05 12:38:27,122 - DEBUG - Thread Spider_No_4 download https://slide.news.sina.com.cn/slide_1_86058_547997.html success, depth 1 - log.py
+2022-06-05 12:38:27,128 - DEBUG - Thread Spider_No_3 download https://slide.news.sina.com.cn/slide_1_86058_547998.html success, depth 1 - log.py
+2022-06-05 12:38:27,932 - INFO - Thread Spider_No_7 get http://slide.fashion.sina.com.cn/slide_24_84625_149821.html, depth:1 - log.py
+2022-06-05 12:38:28,129 - INFO - Thread Spider_No_4 get http://slide.fashion.sina.com.cn/slide_24_84625_149820.html, depth:1 - log.py
+2022-06-05 12:38:28,136 - INFO - Thread Spider_No_3 get http://blog.sina.com.cn/s/blog_4b2cb00e0102ytki.html, depth:1 - log.py
+2022-06-05 12:38:29,001 - DEBUG - Thread Spider_No_5 download https://slide.news.sina.com.cn/slide_1_86058_547977.html success, depth 1 - log.py
+2022-06-05 12:38:29,621 - DEBUG - Thread Spider_No_3 download http://blog.sina.com.cn/s/blog_4b2cb00e0102ytki.html success, depth 1 - log.py
+2022-06-05 12:38:30,007 - INFO - Thread Spider_No_5 get http://slide.news.sina.com.cn/slide_1_86058_547961.html, depth:1 - log.py
+2022-06-05 12:38:30,628 - INFO - Thread Spider_No_3 get http://slide.sports.sina.com.cn/k/slide_2_786_278885.html, depth:1 - log.py
+2022-06-05 12:38:31,835 - DEBUG - Thread Spider_No_0 download https://slide.news.sina.com.cn/slide_1_86058_547974.html success, depth 1 - log.py
+2022-06-05 12:38:32,857 - INFO - Thread Spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013217.d.html, depth:1 - log.py
+2022-06-05 12:38:34,006 - DEBUG - Thread Spider_No_7 download http://slide.fashion.sina.com.cn/slide_24_84625_149821.html success, depth 1 - log.py
+2022-06-05 12:38:34,016 - DEBUG - Thread Spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013217.d.html success, depth 1 - log.py
+2022-06-05 12:38:34,391 - DEBUG - Thread Spider_No_4 download http://slide.fashion.sina.com.cn/slide_24_84625_149820.html success, depth 1 - log.py
+2022-06-05 12:38:35,014 - INFO - Thread Spider_No_7 get https://slide.news.sina.com.cn/slide_1_86058_547952.html, depth:1 - log.py
+2022-06-05 12:38:35,022 - INFO - Thread Spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6143252.d.html, depth:1 - log.py
+2022-06-05 12:38:35,121 - DEBUG - Thread Spider_No_5 download http://slide.news.sina.com.cn/slide_1_86058_547961.html success, depth 1 - log.py
+2022-06-05 12:38:35,398 - INFO - Thread Spider_No_4 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506737.d.html, depth:1 - log.py
+2022-06-05 12:38:35,607 - DEBUG - Thread Spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6143252.d.html success, depth 1 - log.py
+2022-06-05 12:38:36,129 - INFO - Thread Spider_No_5 get https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6569650.d.html, depth:1 - log.py
+2022-06-05 12:38:36,173 - DEBUG - Thread Spider_No_4 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506737.d.html success, depth 1 - log.py
+2022-06-05 12:38:36,612 - INFO - Thread Spider_No_0 get https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6572127.d.html, depth:1 - log.py
+2022-06-05 12:38:36,627 - DEBUG - Thread Spider_No_3 download http://slide.sports.sina.com.cn/k/slide_2_786_278885.html success, depth 1 - log.py
+2022-06-05 12:38:36,804 - DEBUG - Thread Spider_No_5 download https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6569650.d.html success, depth 1 - log.py
+2022-06-05 12:38:37,182 - INFO - Thread Spider_No_4 get https://video.sina.com.cn/p/news/2022-06-04/detail-imizirau6569712.d.html, depth:1 - log.py
+2022-06-05 12:38:37,282 - DEBUG - Thread Spider_No_0 download https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6572127.d.html success, depth 1 - log.py
+2022-06-05 12:38:37,358 - DEBUG - Thread Spider_No_2 download https://db.auto.sina.com.cn/list-3-0-0-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:37,633 - INFO - Thread Spider_No_3 get https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5113714.d.html, depth:1 - log.py
+2022-06-05 12:38:37,781 - DEBUG - Thread Spider_No_4 download https://video.sina.com.cn/p/news/2022-06-04/detail-imizirau6569712.d.html success, depth 1 - log.py
+2022-06-05 12:38:37,810 - INFO - Thread Spider_No_5 get https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5111707.d.html, depth:1 - log.py
+2022-06-05 12:38:38,236 - DEBUG - Thread Spider_No_3 download https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5113714.d.html success, depth 1 - log.py
+2022-06-05 12:38:38,286 - INFO - Thread Spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013587.d.html, depth:1 - log.py
+2022-06-05 12:38:38,363 - INFO - Thread Spider_No_2 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4528142.d.html, depth:1 - log.py
+2022-06-05 12:38:38,401 - DEBUG - Thread Spider_No_5 download https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5111707.d.html success, depth 1 - log.py
+2022-06-05 12:38:38,423 - DEBUG - Thread Spider_No_7 download https://slide.news.sina.com.cn/slide_1_86058_547952.html success, depth 1 - log.py
+2022-06-05 12:38:38,462 - DEBUG - Thread Spider_No_6 download https://db.auto.sina.com.cn/list-4-0-0-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:38,463 - DEBUG - Thread Spider_No_1 download https://db.auto.sina.com.cn/list-0-5-0-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 12:38:38,695 - DEBUG - Thread Spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013587.d.html success, depth 1 - log.py
+2022-06-05 12:38:38,715 - DEBUG - Thread Spider_No_2 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4528142.d.html success, depth 1 - log.py
+2022-06-05 12:38:38,786 - INFO - Thread Spider_No_4 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4570623.d.html, depth:1 - log.py
+2022-06-05 12:38:39,157 - DEBUG - Thread Spider_No_4 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4570623.d.html success, depth 1 - log.py
+2022-06-05 12:38:39,241 - INFO - Thread Spider_No_3 get https://video.sina.com.cn/p/news/2022-03-21/detail-imcwipih9778642.d.html, depth:1 - log.py
+2022-06-05 12:38:39,403 - INFO - Thread Spider_No_5 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0293986.d.html, depth:1 - log.py
+2022-06-05 12:38:39,428 - INFO - Thread Spider_No_7 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5448874.d.html, depth:1 - log.py
+2022-06-05 12:38:39,467 - INFO - Thread Spider_No_6 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0279557.d.html, depth:1 - log.py
+2022-06-05 12:38:39,468 - INFO - Thread Spider_No_1 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464732.d.html, depth:1 - log.py
+2022-06-05 12:38:39,608 - DEBUG - Thread Spider_No_3 download https://video.sina.com.cn/p/news/2022-03-21/detail-imcwipih9778642.d.html success, depth 1 - log.py
+2022-06-05 12:38:39,701 - INFO - Thread Spider_No_0 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464678.d.html, depth:1 - log.py
+2022-06-05 12:38:39,720 - INFO - Thread Spider_No_2 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5473985.d.html, depth:1 - log.py
+2022-06-05 12:38:39,956 - DEBUG - Thread Spider_No_5 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0293986.d.html success, depth 1 - log.py
+2022-06-05 12:38:40,007 - DEBUG - Thread Spider_No_1 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464732.d.html success, depth 1 - log.py
+2022-06-05 12:38:40,035 - DEBUG - Thread Spider_No_7 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5448874.d.html success, depth 1 - log.py
+2022-06-05 12:38:40,055 - DEBUG - Thread Spider_No_6 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0279557.d.html success, depth 1 - log.py
+2022-06-05 12:38:40,141 - DEBUG - Thread Spider_No_0 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464678.d.html success, depth 1 - log.py
+2022-06-05 12:38:40,144 - DEBUG - Thread Spider_No_2 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5473985.d.html success, depth 1 - log.py
+2022-06-05 12:38:40,162 - INFO - Thread Spider_No_4 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5470368.d.html, depth:1 - log.py
+2022-06-05 12:38:40,496 - DEBUG - Thread Spider_No_4 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5470368.d.html success, depth 1 - log.py
+2022-06-05 12:38:40,613 - INFO - Thread Spider_No_3 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4592015.d.html, depth:1 - log.py
+2022-06-05 12:38:40,961 - INFO - Thread Spider_No_5 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4582829.d.html, depth:1 - log.py
+2022-06-05 12:38:40,982 - DEBUG - Thread Spider_No_3 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4592015.d.html success, depth 1 - log.py
+2022-06-05 12:38:41,012 - INFO - Thread Spider_No_1 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6028435.d.html, depth:1 - log.py
+2022-06-05 12:38:41,042 - INFO - Thread Spider_No_7 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4586634.d.html, depth:1 - log.py
+2022-06-05 12:38:41,060 - INFO - Thread Spider_No_6 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6030506.d.html, depth:1 - log.py
+2022-06-05 12:38:41,146 - INFO - Thread Spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032022.d.html, depth:1 - log.py
+2022-06-05 12:38:41,149 - INFO - Thread Spider_No_2 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6031314.d.html, depth:1 - log.py
+2022-06-05 12:38:41,393 - DEBUG - Thread Spider_No_1 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6028435.d.html success, depth 1 - log.py
+2022-06-05 12:38:41,501 - INFO - Thread Spider_No_4 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032830.d.html, depth:1 - log.py
+2022-06-05 12:38:41,570 - DEBUG - Thread Spider_No_6 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6030506.d.html success, depth 1 - log.py
+2022-06-05 12:38:41,587 - DEBUG - Thread Spider_No_7 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4586634.d.html success, depth 1 - log.py
+2022-06-05 12:38:41,595 - DEBUG - Thread Spider_No_5 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4582829.d.html success, depth 1 - log.py
+2022-06-05 12:38:41,658 - DEBUG - Thread Spider_No_2 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6031314.d.html success, depth 1 - log.py
+2022-06-05 12:38:41,658 - DEBUG - Thread Spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032022.d.html success, depth 1 - log.py
+2022-06-05 12:38:41,802 - DEBUG - Thread Spider_No_4 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032830.d.html success, depth 1 - log.py
+2022-06-05 12:38:41,987 - INFO - Thread Spider_No_3 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6034121.d.html, depth:1 - log.py
+2022-06-05 12:38:42,244 - DEBUG - Thread Spider_No_3 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6034121.d.html success, depth 1 - log.py
+2022-06-05 12:38:42,398 - INFO - Thread Spider_No_1 get https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4591475.d.html, depth:1 - log.py
+2022-06-05 12:38:42,575 - INFO - Thread Spider_No_6 get https://video.sina.com.cn/p/astro/2020-11-10/detail-iiznezxs1122425.d.html, depth:1 - log.py
+2022-06-05 12:38:42,589 - INFO - Thread Spider_No_7 get https://video.sina.com.cn/p/astro/2020-11-30/detail-iiznctke4028473.d.html, depth:1 - log.py
+2022-06-05 12:38:42,600 - INFO - Thread Spider_No_5 get https://video.sina.com.cn/p/news/2022-06-04/detail-imizmscu5111078.d.html, depth:1 - log.py
+2022-06-05 12:38:42,663 - INFO - Thread Spider_No_2 get http://slide.sports.sina.com.cn/g_pl/slide_2_730_278881.html, depth:1 - log.py
+2022-06-05 12:38:42,663 - INFO - Thread Spider_No_0 get http://video.sina.com.cn/p/sports/2022-05-27/detail-imizirau5097292.d.html, depth:1 - log.py
+2022-06-05 12:38:42,808 - INFO - Thread Spider_No_4 get http://video.sina.com.cn/p/sports/2022-05-26/detail-imizirau4876241.d.html, depth:1 - log.py
+2022-06-05 12:38:43,251 - INFO - Thread Spider_No_3 get http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst7086683.d.html, depth:1 - log.py
+2022-06-05 12:38:43,269 - DEBUG - Thread Spider_No_6 download https://video.sina.com.cn/p/astro/2020-11-10/detail-iiznezxs1122425.d.html success, depth 1 - log.py
+2022-06-05 12:38:43,305 - DEBUG - Thread Spider_No_7 download https://video.sina.com.cn/p/astro/2020-11-30/detail-iiznctke4028473.d.html success, depth 1 - log.py
+2022-06-05 12:38:43,349 - DEBUG - Thread Spider_No_0 download http://video.sina.com.cn/p/sports/2022-05-27/detail-imizirau5097292.d.html success, depth 1 - log.py
+2022-06-05 12:38:43,368 - DEBUG - Thread Spider_No_1 download https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4591475.d.html success, depth 1 - log.py
+2022-06-05 12:38:43,392 - DEBUG - Thread Spider_No_5 download https://video.sina.com.cn/p/news/2022-06-04/detail-imizmscu5111078.d.html success, depth 1 - log.py
+2022-06-05 12:38:43,392 - DEBUG - Thread Spider_No_4 download http://video.sina.com.cn/p/sports/2022-05-26/detail-imizirau4876241.d.html success, depth 1 - log.py
+2022-06-05 12:38:43,540 - DEBUG - Thread Spider_No_3 download http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst7086683.d.html success, depth 1 - log.py
+2022-06-05 12:38:43,891 - DEBUG - Thread Spider_No_2 download http://slide.sports.sina.com.cn/g_pl/slide_2_730_278881.html success, depth 1 - log.py
+2022-06-05 12:38:44,275 - INFO - Thread Spider_No_6 get http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwipii9442591.d.html, depth:1 - log.py
+2022-06-05 12:38:44,310 - INFO - Thread Spider_No_7 get http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst6982213.d.html, depth:1 - log.py
+2022-06-05 12:38:44,355 - INFO - Thread Spider_No_0 get http://slide.ent.sina.com.cn/star/slide_4_86512_370701.html, depth:1 - log.py
+2022-06-05 12:38:44,374 - INFO - Thread Spider_No_1 get http://slide.ent.sina.com.cn/star/slide_4_86512_370714.html, depth:1 - log.py
+2022-06-05 12:38:44,397 - INFO - Thread Spider_No_5 get http://slide.ent.sina.com.cn/star/slide_4_86512_370710.html, depth:1 - log.py
+2022-06-05 12:38:44,402 - INFO - Thread Spider_No_4 get http://slide.ent.sina.com.cn/tv/slide_4_86512_370694.html, depth:1 - log.py
+2022-06-05 12:38:44,554 - INFO - Thread Spider_No_3 get http://slide.ent.sina.com.cn/star/slide_4_86512_370692.html, depth:1 - log.py
+2022-06-05 12:38:44,742 - DEBUG - Thread Spider_No_7 download http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst6982213.d.html success, depth 1 - log.py
+2022-06-05 12:38:44,890 - DEBUG - Thread Spider_No_6 download http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwipii9442591.d.html success, depth 1 - log.py
+2022-06-05 12:38:44,896 - INFO - Thread Spider_No_2 get http://slide.ent.sina.com.cn/star/slide_4_86512_370702.html, depth:1 - log.py
+2022-06-05 12:38:45,749 - INFO - Thread Spider_No_7 get http://slide.ent.sina.com.cn/star/slide_4_86512_370695.html, depth:1 - log.py
+2022-06-05 12:38:45,895 - INFO - Thread Spider_No_6 get http://slide.ent.sina.com.cn/star/slide_4_86512_370696.html, depth:1 - log.py
+2022-06-05 12:38:50,172 - DEBUG - Thread Spider_No_1 download http://slide.ent.sina.com.cn/star/slide_4_86512_370714.html success, depth 1 - log.py
+2022-06-05 12:38:50,365 - DEBUG - Thread Spider_No_4 download http://slide.ent.sina.com.cn/tv/slide_4_86512_370694.html success, depth 1 - log.py
+2022-06-05 12:38:50,587 - DEBUG - Thread Spider_No_3 download http://slide.ent.sina.com.cn/star/slide_4_86512_370692.html success, depth 1 - log.py
+2022-06-05 12:38:50,704 - DEBUG - Thread Spider_No_0 download http://slide.ent.sina.com.cn/star/slide_4_86512_370701.html success, depth 1 - log.py
+2022-06-05 12:38:50,956 - DEBUG - Thread Spider_No_5 download http://slide.ent.sina.com.cn/star/slide_4_86512_370710.html success, depth 1 - log.py
+2022-06-05 12:38:51,072 - DEBUG - Thread Spider_No_2 download http://slide.ent.sina.com.cn/star/slide_4_86512_370702.html success, depth 1 - log.py
+2022-06-05 12:38:51,177 - INFO - Thread Spider_No_1 get http://slide.ent.sina.com.cn/star/slide_4_86512_370686.html, depth:1 - log.py
+2022-06-05 12:38:51,210 - DEBUG - Thread Spider_No_7 download http://slide.ent.sina.com.cn/star/slide_4_86512_370695.html success, depth 1 - log.py
+2022-06-05 12:38:51,230 - DEBUG - Thread Spider_No_6 download http://slide.ent.sina.com.cn/star/slide_4_86512_370696.html success, depth 1 - log.py
+2022-06-05 12:38:51,379 - INFO - Thread Spider_No_4 get http://slide.ent.sina.com.cn/h/slide_4_86512_370693.html, depth:1 - log.py
+2022-06-05 12:38:51,594 - INFO - Thread Spider_No_3 get http://slide.ent.sina.com.cn/star/h/slide_4_86512_370691.html, depth:1 - log.py
+2022-06-05 12:38:51,710 - INFO - Thread Spider_No_0 get http://slide.ent.sina.com.cn/star/slide_4_86512_370689.html, depth:1 - log.py
+2022-06-05 12:38:51,962 - INFO - Thread Spider_No_5 get http://slide.ent.sina.com.cn/star/slide_4_86512_370703.html, depth:1 - log.py
+2022-06-05 12:38:52,080 - INFO - Thread Spider_No_2 get http://slide.ent.sina.com.cn/star/slide_4_86512_370685.html, depth:1 - log.py
+2022-06-05 12:38:52,216 - INFO - Thread Spider_No_7 get http://slide.ent.sina.com.cn/star/slide_4_86512_370697.html, depth:1 - log.py
+2022-06-05 12:38:52,236 - INFO - Thread Spider_No_6 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506527.d.html, depth:1 - log.py
+2022-06-05 12:38:53,319 - DEBUG - Thread Spider_No_6 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506527.d.html success, depth 1 - log.py
+2022-06-05 12:38:53,472 - DEBUG - Thread Spider_No_1 download http://slide.ent.sina.com.cn/star/slide_4_86512_370686.html success, depth 1 - log.py
+2022-06-05 12:38:54,324 - INFO - Thread Spider_No_6 get https://video.sina.com.cn/p/ent/2022-05-31/detail-imizirau5792647.d.html, depth:1 - log.py
+2022-06-05 12:38:54,477 - INFO - Thread Spider_No_1 get https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6151934.d.html, depth:1 - log.py
+2022-06-05 12:38:55,599 - DEBUG - Thread Spider_No_6 download https://video.sina.com.cn/p/ent/2022-05-31/detail-imizirau5792647.d.html success, depth 1 - log.py
+2022-06-05 12:38:55,651 - DEBUG - Thread Spider_No_1 download https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6151934.d.html success, depth 1 - log.py
+2022-06-05 12:38:56,609 - INFO - Thread Spider_No_6 get https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4697957.d.html, depth:1 - log.py
+2022-06-05 12:38:56,656 - INFO - Thread Spider_No_1 get https://finance.sina.cn/money/lcmj/MonthlyBankingChart02.d.html, depth:1 - log.py
+2022-06-05 12:38:56,760 - DEBUG - Thread Spider_No_4 download http://slide.ent.sina.com.cn/h/slide_4_86512_370693.html success, depth 1 - log.py
+2022-06-05 12:38:56,776 - DEBUG - Thread Spider_No_3 download http://slide.ent.sina.com.cn/star/h/slide_4_86512_370691.html success, depth 1 - log.py
+2022-06-05 12:38:56,912 - DEBUG - Thread Spider_No_0 download http://slide.ent.sina.com.cn/star/slide_4_86512_370689.html success, depth 1 - log.py
+2022-06-05 12:38:57,104 - DEBUG - Thread Spider_No_1 download https://finance.sina.cn/money/lcmj/MonthlyBankingChart02.d.html success, depth 1 - log.py
+2022-06-05 12:38:57,293 - DEBUG - Thread Spider_No_6 download https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4697957.d.html success, depth 1 - log.py
+2022-06-05 12:38:57,364 - DEBUG - Thread Spider_No_2 download http://slide.ent.sina.com.cn/star/slide_4_86512_370685.html success, depth 1 - log.py
+2022-06-05 12:38:57,417 - DEBUG - Thread Spider_No_5 download http://slide.ent.sina.com.cn/star/slide_4_86512_370703.html success, depth 1 - log.py
+2022-06-05 12:38:57,417 - DEBUG - Thread Spider_No_7 download http://slide.ent.sina.com.cn/star/slide_4_86512_370697.html success, depth 1 - log.py
+2022-06-05 12:38:57,765 - INFO - Thread Spider_No_4 get http://slide.news.sina.com.cn/slide_1_86058_547338.html, depth:1 - log.py
+2022-06-05 12:38:57,781 - INFO - Thread Spider_No_3 get http://slide.sports.sina.com.cn/o/slide_2_730_278073.html, depth:1 - log.py
+2022-06-05 12:38:57,919 - INFO - Thread Spider_No_0 get http://slide.mil.news.sina.com.cn/l/slide_8_199_126262.html, depth:1 - log.py
+2022-06-05 12:38:58,109 - INFO - Thread Spider_No_1 get http://slide.news.sina.com.cn/slide_1_86058_547341.html, depth:1 - log.py
+2022-06-05 12:38:58,298 - INFO - Thread Spider_No_6 get http://slide.sports.sina.com.cn/o/slide_2_730_278072.html, depth:1 - log.py
+2022-06-05 12:38:58,369 - INFO - Thread Spider_No_2 get http://slide.tech.sina.com.cn/d/slide_5_453_149736.html, depth:1 - log.py
+2022-06-05 12:38:58,422 - INFO - Thread Spider_No_5 get https://db.auto.sina.com.cn/photo/c100637-1-1-0-0-0.html, depth:1 - log.py
+2022-06-05 12:38:58,423 - INFO - Thread Spider_No_7 get http://slide.news.sina.com.cn/slide_1_86058_547334.html, depth:1 - log.py
+2022-06-05 12:38:59,738 - DEBUG - Thread Spider_No_3 download http://slide.sports.sina.com.cn/o/slide_2_730_278073.html success, depth 1 - log.py
+2022-06-05 12:39:00,743 - INFO - Thread Spider_No_3 get http://slide.mil.news.sina.com.cn/k/slide_8_193_125877.html, depth:1 - log.py
+2022-06-05 12:39:01,389 - DEBUG - Thread Spider_No_5 download https://db.auto.sina.com.cn/photo/c100637-1-1-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:02,394 - INFO - Thread Spider_No_5 get http://slide.mil.news.sina.com.cn/l/slide_8_87721_125868.html, depth:1 - log.py
+2022-06-05 12:39:03,968 - DEBUG - Thread Spider_No_1 download http://slide.news.sina.com.cn/slide_1_86058_547341.html success, depth 1 - log.py
+2022-06-05 12:39:04,244 - DEBUG - Thread Spider_No_2 download http://slide.tech.sina.com.cn/d/slide_5_453_149736.html success, depth 1 - log.py
+2022-06-05 12:39:04,266 - DEBUG - Thread Spider_No_4 download http://slide.news.sina.com.cn/slide_1_86058_547338.html success, depth 1 - log.py
+2022-06-05 12:39:04,293 - DEBUG - Thread Spider_No_0 download http://slide.mil.news.sina.com.cn/l/slide_8_199_126262.html success, depth 1 - log.py
+2022-06-05 12:39:04,429 - DEBUG - Thread Spider_No_7 download http://slide.news.sina.com.cn/slide_1_86058_547334.html success, depth 1 - log.py
+2022-06-05 12:39:04,619 - DEBUG - Thread Spider_No_6 download http://slide.sports.sina.com.cn/o/slide_2_730_278072.html success, depth 1 - log.py
+2022-06-05 12:39:04,976 - INFO - Thread Spider_No_1 get http://slide.mil.news.sina.com.cn/k/slide_8_193_125825.html, depth:1 - log.py
+2022-06-05 12:39:05,247 - INFO - Thread Spider_No_2 get http://slide.tech.sina.com.cn/d/slide_5_453_149787.html, depth:1 - log.py
+2022-06-05 12:39:05,272 - INFO - Thread Spider_No_4 get https://zx.sina.cn/hand_pick/tushushi/hotlist.d.html, depth:1 - log.py
+2022-06-05 12:39:05,298 - INFO - Thread Spider_No_0 get https://gongyi.sina.com.cn/gyzx/ngo.html, depth:1 - log.py
+2022-06-05 12:39:05,435 - INFO - Thread Spider_No_7 get https://gongyi.sina.com.cn/gyzx.html, depth:1 - log.py
+2022-06-05 12:39:05,564 - DEBUG - Thread Spider_No_4 download https://zx.sina.cn/hand_pick/tushushi/hotlist.d.html success, depth 1 - log.py
+2022-06-05 12:39:05,626 - INFO - Thread Spider_No_6 get https://sinanews.sina.cn/native_page/quanzi_673999918657114113.html, depth:1 - log.py
+2022-06-05 12:39:05,953 - DEBUG - Thread Spider_No_6 download https://sinanews.sina.cn/native_page/quanzi_673999918657114113.html success, depth 1 - log.py
+2022-06-05 12:39:06,153 - DEBUG - Thread Spider_No_3 download http://slide.mil.news.sina.com.cn/k/slide_8_193_125877.html success, depth 1 - log.py
+2022-06-05 12:39:06,246 - DEBUG - Thread Spider_No_0 download https://gongyi.sina.com.cn/gyzx/ngo.html success, depth 1 - log.py
+2022-06-05 12:39:06,570 - INFO - Thread Spider_No_4 get https://sinanews.sina.cn/native_page/quanzi_647555197236281345.html, depth:1 - log.py
+2022-06-05 12:39:06,817 - DEBUG - Thread Spider_No_4 download https://sinanews.sina.cn/native_page/quanzi_647555197236281345.html success, depth 1 - log.py
+2022-06-05 12:39:06,938 - DEBUG - Thread Spider_No_5 download http://slide.mil.news.sina.com.cn/l/slide_8_87721_125868.html success, depth 1 - log.py
+2022-06-05 12:39:06,958 - INFO - Thread Spider_No_6 get https://sinanews.sina.cn/native_page/quanzi_645761253557342209.html, depth:1 - log.py
+2022-06-05 12:39:07,157 - INFO - Thread Spider_No_3 get https://sinanews.sina.cn/native_page/quanzi_647551876714856449.html, depth:1 - log.py
+2022-06-05 12:39:07,185 - DEBUG - Thread Spider_No_6 download https://sinanews.sina.cn/native_page/quanzi_645761253557342209.html success, depth 1 - log.py
+2022-06-05 12:39:07,252 - INFO - Thread Spider_No_0 get http://slide.fashion.sina.com.cn/slide_24_84625_149822.html, depth:1 - log.py
+2022-06-05 12:39:07,403 - DEBUG - Thread Spider_No_3 download https://sinanews.sina.cn/native_page/quanzi_647551876714856449.html success, depth 1 - log.py
+2022-06-05 12:39:07,823 - INFO - Thread Spider_No_4 get http://slide.fashion.sina.com.cn/slide_24_84625_149541.html, depth:1 - log.py
+2022-06-05 12:39:07,938 - DEBUG - Thread Spider_No_7 download https://gongyi.sina.com.cn/gyzx.html success, depth 1 - log.py
+2022-06-05 12:39:07,943 - INFO - Thread Spider_No_5 get http://video.sina.com.cn/p/fashion/fas/doc/2018-04-04/171268135609.html, depth:1 - log.py
+2022-06-05 12:39:08,190 - INFO - Thread Spider_No_6 get https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizmscu2648676.d.html, depth:1 - log.py
+2022-06-05 12:39:08,410 - INFO - Thread Spider_No_3 get https://video.sina.com.cn/p/fashion/2022-05-23/detail-imizirau4330658.d.html, depth:1 - log.py
+2022-06-05 12:39:08,479 - DEBUG - Thread Spider_No_5 download http://video.sina.com.cn/p/fashion/fas/doc/2018-04-04/171268135609.html success, depth 1 - log.py
+2022-06-05 12:39:08,639 - DEBUG - Thread Spider_No_2 download http://slide.tech.sina.com.cn/d/slide_5_453_149787.html success, depth 1 - log.py
+2022-06-05 12:39:08,731 - DEBUG - Thread Spider_No_1 download http://slide.mil.news.sina.com.cn/k/slide_8_193_125825.html success, depth 1 - log.py
+2022-06-05 12:39:08,848 - DEBUG - Thread Spider_No_6 download https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizmscu2648676.d.html success, depth 1 - log.py
+2022-06-05 12:39:08,944 - INFO - Thread Spider_No_7 get http://sz.jiaju.sina.com.cn/5897273467530979887/2022/0121/6890226435508996378.html, depth:1 - log.py
+2022-06-05 12:39:09,085 - DEBUG - Thread Spider_No_3 download https://video.sina.com.cn/p/fashion/2022-05-23/detail-imizirau4330658.d.html success, depth 1 - log.py
+2022-06-05 12:39:09,200 - DEBUG - Thread Spider_No_7 download http://sz.jiaju.sina.com.cn/5897273467530979887/2022/0121/6890226435508996378.html success, depth 1 - log.py
+2022-06-05 12:39:09,485 - INFO - Thread Spider_No_5 get https://jiaju.sina.cn/zixun/list/6934771738308051855.html, depth:1 - log.py
+2022-06-05 12:39:09,646 - INFO - Thread Spider_No_2 get https://jiaju.sina.cn/zixun/list/6933335353432801809.html, depth:1 - log.py
+2022-06-05 12:39:09,738 - INFO - Thread Spider_No_1 get http://slide.baby.sina.com.cn/mxx/slide_10_846_774770.html, depth:1 - log.py
+2022-06-05 12:39:09,854 - INFO - Thread Spider_No_6 get http://slide.baby.sina.com.cn/mxx/slide_10_846_774768.html, depth:1 - log.py
+2022-06-05 12:39:09,897 - DEBUG - Thread Spider_No_5 download https://jiaju.sina.cn/zixun/list/6934771738308051855.html success, depth 1 - log.py
+2022-06-05 12:39:09,938 - DEBUG - Thread Spider_No_2 download https://jiaju.sina.cn/zixun/list/6933335353432801809.html success, depth 1 - log.py
+2022-06-05 12:39:10,087 - INFO - Thread Spider_No_3 get http://slide.baby.sina.com.cn/mxx/slide_10_846_774767.html, depth:1 - log.py
+2022-06-05 12:39:10,206 - INFO - Thread Spider_No_7 get http://slide.baby.sina.com.cn/mxx/slide_10_846_774766.html, depth:1 - log.py
+2022-06-05 12:39:10,327 - DEBUG - Thread Spider_No_0 download http://slide.fashion.sina.com.cn/slide_24_84625_149822.html success, depth 1 - log.py
+2022-06-05 12:39:10,730 - DEBUG - Thread Spider_No_4 download http://slide.fashion.sina.com.cn/slide_24_84625_149541.html success, depth 1 - log.py
+2022-06-05 12:39:10,904 - INFO - Thread Spider_No_5 get http://baby.sina.com.cn/news/list.html, depth:1 - log.py
+2022-06-05 12:39:10,940 - INFO - Thread Spider_No_2 get https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizirau4049006.d.html, depth:1 - log.py
+2022-06-05 12:39:11,331 - INFO - Thread Spider_No_0 get https://video.sina.com.cn/p/fashion/2022-05-30/detail-imizmscu4135017.d.html, depth:1 - log.py
+2022-06-05 12:39:11,713 - DEBUG - Thread Spider_No_2 download https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizirau4049006.d.html success, depth 1 - log.py
+2022-06-05 12:39:11,737 - INFO - Thread Spider_No_4 get http://slide.fashion.sina.com.cn/slide_24_84625_149263.html, depth:1 - log.py
+2022-06-05 12:39:12,009 - DEBUG - Thread Spider_No_0 download https://video.sina.com.cn/p/fashion/2022-05-30/detail-imizmscu4135017.d.html success, depth 1 - log.py
+2022-06-05 12:39:12,131 - DEBUG - Thread Spider_No_5 download http://baby.sina.com.cn/news/list.html success, depth 1 - log.py
+2022-06-05 12:39:12,720 - INFO - Thread Spider_No_2 get http://slide.fashion.sina.com.cn/slide_24_84625_149265.html, depth:1 - log.py
+2022-06-05 12:39:12,846 - DEBUG - Thread Spider_No_7 download http://slide.baby.sina.com.cn/mxx/slide_10_846_774766.html success, depth 1 - log.py
+2022-06-05 12:39:13,015 - INFO - Thread Spider_No_0 get http://slide.fashion.sina.com.cn/slide_24_84625_149221.html, depth:1 - log.py
+2022-06-05 12:39:13,140 - INFO - Thread Spider_No_5 get http://slide.fashion.sina.com.cn/slide_24_84625_149220.html, depth:1 - log.py
+2022-06-05 12:39:13,851 - INFO - Thread Spider_No_7 get http://slide.sports.sina.com.cn/golf/slide_2_754_277537.html, depth:1 - log.py
+2022-06-05 12:39:14,287 - DEBUG - Thread Spider_No_6 download http://slide.baby.sina.com.cn/mxx/slide_10_846_774768.html success, depth 1 - log.py
+2022-06-05 12:39:14,776 - DEBUG - Thread Spider_No_1 download http://slide.baby.sina.com.cn/mxx/slide_10_846_774770.html success, depth 1 - log.py
+2022-06-05 12:39:15,292 - INFO - Thread Spider_No_6 get https://med.sina.com/article_detail_103_2_116832.html, depth:1 - log.py
+2022-06-05 12:39:15,619 - DEBUG - Thread Spider_No_3 download http://slide.baby.sina.com.cn/mxx/slide_10_846_774767.html success, depth 1 - log.py
+2022-06-05 12:39:15,785 - INFO - Thread Spider_No_1 get https://med.sina.com/health/article_detail_100_1_9409.html, depth:1 - log.py
+2022-06-05 12:39:16,247 - DEBUG - Thread Spider_No_6 download https://med.sina.com/article_detail_103_2_116832.html success, depth 1 - log.py
+2022-06-05 12:39:16,539 - DEBUG - Thread Spider_No_1 download https://med.sina.com/health/article_detail_100_1_9409.html success, depth 1 - log.py
+2022-06-05 12:39:16,625 - INFO - Thread Spider_No_3 get https://med.sina.com/health/article_detail_100_1_9412.html, depth:1 - log.py
+2022-06-05 12:39:17,021 - DEBUG - Thread Spider_No_4 download http://slide.fashion.sina.com.cn/slide_24_84625_149263.html success, depth 1 - log.py
+2022-06-05 12:39:17,245 - DEBUG - Thread Spider_No_3 download https://med.sina.com/health/article_detail_100_1_9412.html success, depth 1 - log.py
+2022-06-05 12:39:17,253 - INFO - Thread Spider_No_6 get https://med.sina.com/health/article_detail_100_1_9408.html, depth:1 - log.py
+2022-06-05 12:39:17,540 - INFO - Thread Spider_No_1 get https://med.sina.com/health/article_detail_100_1_9306.html, depth:1 - log.py
+2022-06-05 12:39:17,879 - DEBUG - Thread Spider_No_6 download https://med.sina.com/health/article_detail_100_1_9408.html success, depth 1 - log.py
+2022-06-05 12:39:18,026 - INFO - Thread Spider_No_4 get https://med.sina.com/health/article_detail_100_1_9394.html, depth:1 - log.py
+2022-06-05 12:39:18,155 - DEBUG - Thread Spider_No_2 download http://slide.fashion.sina.com.cn/slide_24_84625_149265.html success, depth 1 - log.py
+2022-06-05 12:39:18,194 - DEBUG - Thread Spider_No_1 download https://med.sina.com/health/article_detail_100_1_9306.html success, depth 1 - log.py
+2022-06-05 12:39:18,214 - DEBUG - Thread Spider_No_0 download http://slide.fashion.sina.com.cn/slide_24_84625_149221.html success, depth 1 - log.py
+2022-06-05 12:39:18,250 - INFO - Thread Spider_No_3 get https://med.sina.com/health/article_detail_100_1_9399.html, depth:1 - log.py
+2022-06-05 12:39:18,274 - DEBUG - Thread Spider_No_5 download http://slide.fashion.sina.com.cn/slide_24_84625_149220.html success, depth 1 - log.py
+2022-06-05 12:39:18,316 - DEBUG - Thread Spider_No_7 download http://slide.sports.sina.com.cn/golf/slide_2_754_277537.html success, depth 1 - log.py
+2022-06-05 12:39:18,475 - DEBUG - Thread Spider_No_4 download https://med.sina.com/health/article_detail_100_1_9394.html success, depth 1 - log.py
+2022-06-05 12:39:18,650 - DEBUG - Thread Spider_No_3 download https://med.sina.com/health/article_detail_100_1_9399.html success, depth 1 - log.py
+2022-06-05 12:39:18,881 - INFO - Thread Spider_No_6 get https://med.sina.com/health/article_detail_100_1_9407.html, depth:1 - log.py
+2022-06-05 12:39:19,162 - INFO - Thread Spider_No_2 get https://med.sina.com/health/article_detail_100_1_9359.html, depth:1 - log.py
+2022-06-05 12:39:19,183 - DEBUG - Thread Spider_No_6 download https://med.sina.com/health/article_detail_100_1_9407.html success, depth 1 - log.py
+2022-06-05 12:39:19,199 - INFO - Thread Spider_No_1 get https://med.sina.com/article_detail_103_2_117504.html, depth:1 - log.py
+2022-06-05 12:39:19,219 - INFO - Thread Spider_No_0 get https://med.sina.com/article_detail_103_1_117528.html, depth:1 - log.py
+2022-06-05 12:39:19,280 - INFO - Thread Spider_No_5 get https://med.sina.com/article_detail_103_2_117443.html, depth:1 - log.py
+2022-06-05 12:39:19,321 - INFO - Thread Spider_No_7 get https://med.sina.com/article_detail_103_2_117389.html, depth:1 - log.py
+2022-06-05 12:39:19,391 - DEBUG - Thread Spider_No_2 download https://med.sina.com/health/article_detail_100_1_9359.html success, depth 1 - log.py
+2022-06-05 12:39:19,449 - DEBUG - Thread Spider_No_0 download https://med.sina.com/article_detail_103_1_117528.html success, depth 1 - log.py
+2022-06-05 12:39:19,480 - INFO - Thread Spider_No_4 get https://med.sina.com/article_detail_108_2_117535.html, depth:1 - log.py
+2022-06-05 12:39:19,548 - DEBUG - Thread Spider_No_5 download https://med.sina.com/article_detail_103_2_117443.html success, depth 1 - log.py
+2022-06-05 12:39:19,577 - DEBUG - Thread Spider_No_7 download https://med.sina.com/article_detail_103_2_117389.html success, depth 1 - log.py
+2022-06-05 12:39:19,633 - DEBUG - Thread Spider_No_1 download https://med.sina.com/article_detail_103_2_117504.html success, depth 1 - log.py
+2022-06-05 12:39:19,656 - INFO - Thread Spider_No_3 get https://med.sina.com/article_detail_103_2_117495.html, depth:1 - log.py
+2022-06-05 12:39:19,914 - DEBUG - Thread Spider_No_4 download https://med.sina.com/article_detail_108_2_117535.html success, depth 1 - log.py
+2022-06-05 12:39:20,023 - DEBUG - Thread Spider_No_3 download https://med.sina.com/article_detail_103_2_117495.html success, depth 1 - log.py
+2022-06-05 12:39:20,188 - INFO - Thread Spider_No_6 get https://med.sina.com/health/article_detail_100_1_9400.html, depth:1 - log.py
+2022-06-05 12:39:20,396 - INFO - Thread Spider_No_2 get https://med.sina.com/health/article_detail_100_1_9388.html, depth:1 - log.py
+2022-06-05 12:39:20,454 - INFO - Thread Spider_No_0 get https://med.sina.com/article_detail_100_2_117491.html, depth:1 - log.py
+2022-06-05 12:39:20,548 - DEBUG - Thread Spider_No_6 download https://med.sina.com/health/article_detail_100_1_9400.html success, depth 1 - log.py
+2022-06-05 12:39:20,553 - INFO - Thread Spider_No_5 get https://med.sina.com/article_detail_100_2_117466.html, depth:1 - log.py
+2022-06-05 12:39:20,582 - INFO - Thread Spider_No_7 get https://med.sina.com/article_detail_103_2_117508.html, depth:1 - log.py
+2022-06-05 12:39:20,638 - INFO - Thread Spider_No_1 get https://med.sina.com/article_detail_100_2_117525.html, depth:1 - log.py
+2022-06-05 12:39:20,729 - DEBUG - Thread Spider_No_2 download https://med.sina.com/health/article_detail_100_1_9388.html success, depth 1 - log.py
+2022-06-05 12:39:20,854 - DEBUG - Thread Spider_No_7 download https://med.sina.com/article_detail_103_2_117508.html success, depth 1 - log.py
+2022-06-05 12:39:20,919 - INFO - Thread Spider_No_4 get https://med.sina.com/article_detail_103_2_117435.html, depth:1 - log.py
+2022-06-05 12:39:20,966 - DEBUG - Thread Spider_No_5 download https://med.sina.com/article_detail_100_2_117466.html success, depth 1 - log.py
+2022-06-05 12:39:20,988 - DEBUG - Thread Spider_No_0 download https://med.sina.com/article_detail_100_2_117491.html success, depth 1 - log.py
+2022-06-05 12:39:21,004 - DEBUG - Thread Spider_No_1 download https://med.sina.com/article_detail_100_2_117525.html success, depth 1 - log.py
+2022-06-05 12:39:21,028 - INFO - Thread Spider_No_3 get https://med.sina.com/article_detail_103_1_117432.html, depth:1 - log.py
+2022-06-05 12:39:21,155 - DEBUG - Thread Spider_No_4 download https://med.sina.com/article_detail_103_2_117435.html success, depth 1 - log.py
+2022-06-05 12:39:21,402 - DEBUG - Thread Spider_No_3 download https://med.sina.com/article_detail_103_1_117432.html success, depth 1 - log.py
+2022-06-05 12:39:21,551 - INFO - Thread Spider_No_6 get https://med.sina.com/article_detail_103_2_117526.html, depth:1 - log.py
+2022-06-05 12:39:21,731 - INFO - Thread Spider_No_2 get https://med.sina.com/article_detail_102_2_117518.html, depth:1 - log.py
+2022-06-05 12:39:21,828 - DEBUG - Thread Spider_No_6 download https://med.sina.com/article_detail_103_2_117526.html success, depth 1 - log.py
+2022-06-05 12:39:21,857 - INFO - Thread Spider_No_7 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776663.html, depth:1 - log.py
+2022-06-05 12:39:21,973 - INFO - Thread Spider_No_5 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776638.html, depth:1 - log.py
+2022-06-05 12:39:21,997 - INFO - Thread Spider_No_0 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776604.html, depth:1 - log.py
+2022-06-05 12:39:22,007 - INFO - Thread Spider_No_1 get http://slide.fo.sina.com.cn/wh/slide_65_67296_775948.html, depth:1 - log.py
+2022-06-05 12:39:22,157 - INFO - Thread Spider_No_4 get http://slide.fo.sina.com.cn/wh/slide_65_67296_775966.html, depth:1 - log.py
+2022-06-05 12:39:22,406 - INFO - Thread Spider_No_3 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776161.html, depth:1 - log.py
+2022-06-05 12:39:22,839 - INFO - Thread Spider_No_6 get http://slide.fo.sina.com.cn/wh/slide_65_67296_775292.html, depth:1 - log.py
+2022-06-05 12:39:24,718 - DEBUG - Thread Spider_No_5 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776638.html success, depth 1 - log.py
+2022-06-05 12:39:25,342 - DEBUG - Thread Spider_No_1 download http://slide.fo.sina.com.cn/wh/slide_65_67296_775948.html success, depth 1 - log.py
+2022-06-05 12:39:25,540 - DEBUG - Thread Spider_No_2 download https://med.sina.com/article_detail_102_2_117518.html success, depth 1 - log.py
+2022-06-05 12:39:25,724 - INFO - Thread Spider_No_5 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776578.html, depth:1 - log.py
+2022-06-05 12:39:25,986 - DEBUG - Thread Spider_No_6 download http://slide.fo.sina.com.cn/wh/slide_65_67296_775292.html success, depth 1 - log.py
+2022-06-05 12:39:26,348 - INFO - Thread Spider_No_1 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776648.html, depth:1 - log.py
+2022-06-05 12:39:26,537 - DEBUG - Thread Spider_No_7 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776663.html success, depth 1 - log.py
+2022-06-05 12:39:26,545 - INFO - Thread Spider_No_2 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776637.html, depth:1 - log.py
+2022-06-05 12:39:26,994 - INFO - Thread Spider_No_6 get http://slide.fo.sina.com.cn/wh/slide_65_67296_775733.html, depth:1 - log.py
+2022-06-05 12:39:27,231 - DEBUG - Thread Spider_No_0 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776604.html success, depth 1 - log.py
+2022-06-05 12:39:27,540 - INFO - Thread Spider_No_7 get http://slide.fo.sina.com.cn/slide_65_67296_776352.html, depth:1 - log.py
+2022-06-05 12:39:27,852 - DEBUG - Thread Spider_No_3 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776161.html success, depth 1 - log.py
+2022-06-05 12:39:28,237 - INFO - Thread Spider_No_0 get http://slide.astro.sina.com.cn/cartoon/slide_52_42283_123551.html, depth:1 - log.py
+2022-06-05 12:39:28,857 - INFO - Thread Spider_No_3 get https://video.sina.com.cn/p/astro/2022-04-30/detail-imcwiwst5107161.d.html, depth:1 - log.py
+2022-06-05 12:39:29,907 - DEBUG - Thread Spider_No_3 download https://video.sina.com.cn/p/astro/2022-04-30/detail-imcwiwst5107161.d.html success, depth 1 - log.py
+2022-06-05 12:39:30,703 - DEBUG - Thread Spider_No_4 download http://slide.fo.sina.com.cn/wh/slide_65_67296_775966.html success, depth 1 - log.py
+2022-06-05 12:39:30,913 - INFO - Thread Spider_No_3 get https://video.sina.com.cn/p/astro/2022-04-29/detail-imcwiwst4782791.d.html, depth:1 - log.py
+2022-06-05 12:39:31,655 - DEBUG - Thread Spider_No_5 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776578.html success, depth 1 - log.py
+2022-06-05 12:39:31,707 - INFO - Thread Spider_No_4 get http://astro.sina.com.cn/hdrl/index.d.html, depth:1 - log.py
+2022-06-05 12:39:31,870 - DEBUG - Thread Spider_No_3 download https://video.sina.com.cn/p/astro/2022-04-29/detail-imcwiwst4782791.d.html success, depth 1 - log.py
+2022-06-05 12:39:32,282 - DEBUG - Thread Spider_No_1 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776648.html success, depth 1 - log.py
+2022-06-05 12:39:32,624 - DEBUG - Thread Spider_No_7 download http://slide.fo.sina.com.cn/slide_65_67296_776352.html success, depth 1 - log.py
+2022-06-05 12:39:32,659 - INFO - Thread Spider_No_5 get https://video.sina.com.cn/p/astro/2022-03-31/detail-imcwipii2924778.d.html, depth:1 - log.py
+2022-06-05 12:39:32,764 - DEBUG - Thread Spider_No_6 download http://slide.fo.sina.com.cn/wh/slide_65_67296_775733.html success, depth 1 - log.py
+2022-06-05 12:39:32,876 - INFO - Thread Spider_No_3 get http://blog.sina.com.cn/s/blog_6431df490102z20e.html, depth:1 - log.py
+2022-06-05 12:39:33,171 - DEBUG - Thread Spider_No_3 download http://blog.sina.com.cn/s/blog_6431df490102z20e.html success, depth 1 - log.py
+2022-06-05 12:39:33,280 - DEBUG - Thread Spider_No_2 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776637.html success, depth 1 - log.py
+2022-06-05 12:39:33,287 - INFO - Thread Spider_No_1 get http://city.sina.com.cn/city/Declaration.html, depth:1 - log.py
+2022-06-05 12:39:33,298 - DEBUG - Thread Spider_No_5 download https://video.sina.com.cn/p/astro/2022-03-31/detail-imcwipii2924778.d.html success, depth 1 - log.py
+2022-06-05 12:39:33,399 - DEBUG - Thread Spider_No_4 download http://astro.sina.com.cn/hdrl/index.d.html success, depth 1 - log.py
+2022-06-05 12:39:33,559 - DEBUG - Thread Spider_No_0 download http://slide.astro.sina.com.cn/cartoon/slide_52_42283_123551.html success, depth 1 - log.py
+2022-06-05 12:39:33,588 - DEBUG - Thread Spider_No_1 download http://city.sina.com.cn/city/Declaration.html success, depth 1 - log.py
+2022-06-05 12:39:33,629 - INFO - Thread Spider_No_7 get https://www.sina.com.cn/contactus.html, depth:1 - log.py
+2022-06-05 12:39:33,770 - INFO - Thread Spider_No_6 get http://www.shdf.gov.cn/shdf/channels/740.html, depth:1 - log.py
+2022-06-05 12:39:33,835 - DEBUG - Thread Spider_No_7 download https://www.sina.com.cn/contactus.html success, depth 1 - log.py
+2022-06-05 12:39:34,012 - DEBUG - Thread Spider_No_6 download http://www.shdf.gov.cn/shdf/channels/740.html success, depth 1 - log.py
+2022-06-05 12:39:34,177 - INFO - Thread Spider_No_3 get https://corp.sina.com.cn/chn/sina_priv.html, depth:1 - log.py
+2022-06-05 12:39:34,285 - INFO - Thread Spider_No_2 get https://daxue.163.com/offline/download.html, depth:1 - log.py
+2022-06-05 12:39:34,300 - INFO - Thread Spider_No_5 get https://corp.163.com/gb/legal.html, depth:1 - log.py
+2022-06-05 12:39:34,404 - INFO - Thread Spider_No_4 get https://money.163.com/20/0820/20/FKGICO4200259D61.html, depth:1 - log.py
+2022-06-05 12:39:34,478 - DEBUG - Thread Spider_No_2 download https://daxue.163.com/offline/download.html success, depth 1 - log.py
+2022-06-05 12:39:34,564 - INFO - Thread Spider_No_0 get http://product.auto.163.com/compare_both/index.html, depth:1 - log.py
+2022-06-05 12:39:34,590 - INFO - Thread Spider_No_1 get https://hongcai.163.com/expert.html, depth:1 - log.py
+2022-06-05 12:39:34,699 - DEBUG - Thread Spider_No_3 download https://corp.sina.com.cn/chn/sina_priv.html success, depth 1 - log.py
+2022-06-05 12:39:34,840 - INFO - Thread Spider_No_7 get http://quotes.money.163.com/1399300.html, depth:1 - log.py
+2022-06-05 12:39:35,017 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/BYNN.html, depth:1 - log.py
+2022-06-05 12:39:35,242 - DEBUG - Thread Spider_No_1 download https://hongcai.163.com/expert.html success, depth 1 - log.py
+2022-06-05 12:39:35,491 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/CKLH.html, depth:1 - log.py
+2022-06-05 12:39:35,704 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/0TCJ.html, depth:1 - log.py
+2022-06-05 12:39:35,792 - DEBUG - Thread Spider_No_5 download https://corp.163.com/gb/legal.html success, depth 1 - log.py
+2022-06-05 12:39:36,148 - DEBUG - Thread Spider_No_7 download http://quotes.money.163.com/1399300.html success, depth 1 - log.py
+2022-06-05 12:39:36,249 - INFO - Thread Spider_No_1 get https://xf.house.163.com/bj/CNBP.html, depth:1 - log.py
+2022-06-05 12:39:36,343 - DEBUG - Thread Spider_No_0 download http://product.auto.163.com/compare_both/index.html success, depth 1 - log.py
+2022-06-05 12:39:36,797 - INFO - Thread Spider_No_5 get https://xf.house.163.com/bj/CQIQ.html, depth:1 - log.py
+2022-06-05 12:39:36,864 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/BYNN.html success, depth 1 - log.py
+2022-06-05 12:39:37,082 - DEBUG - Thread Spider_No_4 download https://money.163.com/20/0820/20/FKGICO4200259D61.html success, depth 1 - log.py
+2022-06-05 12:39:37,085 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/CKLH.html success, depth 1 - log.py
+2022-06-05 12:39:37,155 - INFO - Thread Spider_No_7 get https://m.house.163.com/bj/CPKU.html, depth:1 - log.py
+2022-06-05 12:39:37,237 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/0TCJ.html success, depth 1 - log.py
+2022-06-05 12:39:37,348 - INFO - Thread Spider_No_0 get http://xf.house.163.com/bj/0RCS.html, depth:1 - log.py
+2022-06-05 12:39:37,556 - DEBUG - Thread Spider_No_0 download http://xf.house.163.com/bj/0RCS.html success, depth 1 - log.py
+2022-06-05 12:39:37,731 - DEBUG - Thread Spider_No_1 download https://xf.house.163.com/bj/CNBP.html success, depth 1 - log.py
+2022-06-05 12:39:37,827 - DEBUG - Thread Spider_No_5 download https://xf.house.163.com/bj/CQIQ.html success, depth 1 - log.py
+2022-06-05 12:39:37,867 - DEBUG - Thread Spider_No_7 download https://m.house.163.com/bj/CPKU.html success, depth 1 - log.py
+2022-06-05 12:39:37,869 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/BTcI.html, depth:1 - log.py
+2022-06-05 12:39:38,088 - INFO - Thread Spider_No_4 get http://xf.house.163.com/bj/CLUL.html, depth:1 - log.py
+2022-06-05 12:39:38,089 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/CBGQ.html, depth:1 - log.py
+2022-06-05 12:39:38,214 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/CBGQ.html success, depth 1 - log.py
+2022-06-05 12:39:38,242 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/CDWB.html, depth:1 - log.py
+2022-06-05 12:39:38,369 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/CDWB.html success, depth 1 - log.py
+2022-06-05 12:39:38,565 - INFO - Thread Spider_No_0 get https://xf.house.163.com/bj/CPcH.html, depth:1 - log.py
+2022-06-05 12:39:38,740 - INFO - Thread Spider_No_1 get http://xf.house.163.com/bj/CNRM.html, depth:1 - log.py
+2022-06-05 12:39:38,833 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/BTcI.html success, depth 1 - log.py
+2022-06-05 12:39:38,833 - INFO - Thread Spider_No_5 get http://xf.house.163.com/bj/BTEE.html, depth:1 - log.py
+2022-06-05 12:39:38,872 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/BRHb.html, depth:1 - log.py
+2022-06-05 12:39:39,035 - DEBUG - Thread Spider_No_5 download http://xf.house.163.com/bj/BTEE.html success, depth 1 - log.py
+2022-06-05 12:39:39,077 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/BRHb.html success, depth 1 - log.py
+2022-06-05 12:39:39,217 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/BbNB.html, depth:1 - log.py
+2022-06-05 12:39:39,375 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/0RVD.html, depth:1 - log.py
+2022-06-05 12:39:39,636 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/BbNB.html success, depth 1 - log.py
+2022-06-05 12:39:39,683 - DEBUG - Thread Spider_No_1 download http://xf.house.163.com/bj/CNRM.html success, depth 1 - log.py
+2022-06-05 12:39:39,697 - DEBUG - Thread Spider_No_0 download https://xf.house.163.com/bj/CPcH.html success, depth 1 - log.py
+2022-06-05 12:39:39,792 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/0RVD.html success, depth 1 - log.py
+2022-06-05 12:39:39,841 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/BPVJ.html, depth:1 - log.py
+2022-06-05 12:39:39,942 - DEBUG - Thread Spider_No_4 download http://xf.house.163.com/bj/CLUL.html success, depth 1 - log.py
+2022-06-05 12:39:40,033 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/BPVJ.html success, depth 1 - log.py
+2022-06-05 12:39:40,041 - INFO - Thread Spider_No_5 get http://xf.house.163.com/bj/BeYb.html, depth:1 - log.py
+2022-06-05 12:39:40,082 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/BeRR.html, depth:1 - log.py
+2022-06-05 12:39:40,365 - DEBUG - Thread Spider_No_5 download http://xf.house.163.com/bj/BeYb.html success, depth 1 - log.py
+2022-06-05 12:39:40,392 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/BeRR.html success, depth 1 - log.py
+2022-06-05 12:39:40,642 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/BdLE.html, depth:1 - log.py
+2022-06-05 12:39:40,688 - INFO - Thread Spider_No_1 get http://xf.house.163.com/bj/CLQO.html, depth:1 - log.py
+2022-06-05 12:39:40,702 - INFO - Thread Spider_No_0 get http://xf.house.163.com/bj/0DdO.html, depth:1 - log.py
+2022-06-05 12:39:40,784 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/BdLE.html success, depth 1 - log.py
+2022-06-05 12:39:40,797 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/0Qec.html, depth:1 - log.py
+2022-06-05 12:39:40,860 - DEBUG - Thread Spider_No_0 download http://xf.house.163.com/bj/0DdO.html success, depth 1 - log.py
+2022-06-05 12:39:40,860 - DEBUG - Thread Spider_No_1 download http://xf.house.163.com/bj/CLQO.html success, depth 1 - log.py
+2022-06-05 12:39:40,918 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/0Qec.html success, depth 1 - log.py
+2022-06-05 12:39:40,947 - INFO - Thread Spider_No_4 get http://xf.house.163.com/bj/BcMB.html, depth:1 - log.py
+2022-06-05 12:39:41,039 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/BRHS.html, depth:1 - log.py
+2022-06-05 12:39:41,161 - DEBUG - Thread Spider_No_4 download http://xf.house.163.com/bj/BcMB.html success, depth 1 - log.py
+2022-06-05 12:39:41,371 - INFO - Thread Spider_No_5 get http://xf.house.163.com/bj/BbMC.html, depth:1 - log.py
+2022-06-05 12:39:41,376 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/BRHS.html success, depth 1 - log.py
+2022-06-05 12:39:41,392 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/BLcX.html, depth:1 - log.py
+2022-06-05 12:39:41,687 - DEBUG - Thread Spider_No_5 download http://xf.house.163.com/bj/BbMC.html success, depth 1 - log.py
+2022-06-05 12:39:41,690 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/BLcX.html success, depth 1 - log.py
+2022-06-05 12:39:41,789 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/BfUc.html, depth:1 - log.py
+2022-06-05 12:39:41,864 - INFO - Thread Spider_No_1 get http://xf.house.163.com/bj/BPdX.html, depth:1 - log.py
+2022-06-05 12:39:41,864 - INFO - Thread Spider_No_0 get http://xf.house.163.com/bj/0QFB.html, depth:1 - log.py
+2022-06-05 12:39:41,921 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/BXec.html, depth:1 - log.py
+2022-06-05 12:39:41,962 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/BfUc.html success, depth 1 - log.py
+2022-06-05 12:39:42,114 - DEBUG - Thread Spider_No_1 download http://xf.house.163.com/bj/BPdX.html success, depth 1 - log.py
+2022-06-05 12:39:42,120 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/BXec.html success, depth 1 - log.py
+2022-06-05 12:39:42,140 - DEBUG - Thread Spider_No_0 download http://xf.house.163.com/bj/0QFB.html success, depth 1 - log.py
+2022-06-05 12:39:42,165 - INFO - Thread Spider_No_4 get http://xf.house.163.com/bj/search/0-0-0-0-0-788-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:42,384 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/0RcB.html, depth:1 - log.py
+2022-06-05 12:39:42,459 - DEBUG - Thread Spider_No_4 download http://xf.house.163.com/bj/search/0-0-0-0-0-788-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:42,584 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/0RcB.html success, depth 1 - log.py
+2022-06-05 12:39:42,690 - INFO - Thread Spider_No_5 get http://xf.house.163.com/bj/BTVe.html, depth:1 - log.py
+2022-06-05 12:39:42,693 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/BReT.html, depth:1 - log.py
+2022-06-05 12:39:42,820 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/BReT.html success, depth 1 - log.py
+2022-06-05 12:39:42,968 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/BaEb.html, depth:1 - log.py
+2022-06-05 12:39:43,119 - INFO - Thread Spider_No_1 get http://xf.house.163.com/bj/BTeb.html, depth:1 - log.py
+2022-06-05 12:39:43,128 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/BaEb.html success, depth 1 - log.py
+2022-06-05 12:39:43,136 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/BOAE.html, depth:1 - log.py
+2022-06-05 12:39:43,145 - INFO - Thread Spider_No_0 get http://xf.house.163.com/bj/BfEL.html, depth:1 - log.py
+2022-06-05 12:39:43,462 - INFO - Thread Spider_No_4 get http://xf.house.163.com/bj/BfNT.html, depth:1 - log.py
+2022-06-05 12:39:43,589 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/BaJM.html, depth:1 - log.py
+2022-06-05 12:39:43,597 - DEBUG - Thread Spider_No_5 download http://xf.house.163.com/bj/BTVe.html success, depth 1 - log.py
+2022-06-05 12:39:43,824 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/0ECS.html, depth:1 - log.py
+2022-06-05 12:39:44,065 - DEBUG - Thread Spider_No_1 download http://xf.house.163.com/bj/BTeb.html success, depth 1 - log.py
+2022-06-05 12:39:44,128 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/BaJM.html success, depth 1 - log.py
+2022-06-05 12:39:44,134 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/BfLY.html, depth:1 - log.py
+2022-06-05 12:39:44,603 - INFO - Thread Spider_No_5 get http://xf.house.163.com/bj/CNBP.html, depth:1 - log.py
+2022-06-05 12:39:44,806 - DEBUG - Thread Spider_No_4 download http://xf.house.163.com/bj/BfNT.html success, depth 1 - log.py
+2022-06-05 12:39:44,954 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/BOAE.html success, depth 1 - log.py
+2022-06-05 12:39:45,071 - INFO - Thread Spider_No_1 get http://xf.house.163.com/bj/BSQE.html, depth:1 - log.py
+2022-06-05 12:39:45,130 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/BaOR.html, depth:1 - log.py
+2022-06-05 12:39:45,150 - DEBUG - Thread Spider_No_0 download http://xf.house.163.com/bj/BfEL.html success, depth 1 - log.py
+2022-06-05 12:39:45,314 - DEBUG - Thread Spider_No_1 download http://xf.house.163.com/bj/BSQE.html success, depth 1 - log.py
+2022-06-05 12:39:45,503 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/BfLY.html success, depth 1 - log.py
+2022-06-05 12:39:45,803 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/0ECS.html success, depth 1 - log.py
+2022-06-05 12:39:45,811 - INFO - Thread Spider_No_4 get http://xf.house.163.com/bj/0Qac.html, depth:1 - log.py
+2022-06-05 12:39:45,928 - DEBUG - Thread Spider_No_5 download http://xf.house.163.com/bj/CNBP.html success, depth 1 - log.py
+2022-06-05 12:39:45,955 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/BfYT.html, depth:1 - log.py
+2022-06-05 12:39:46,077 - DEBUG - Thread Spider_No_4 download http://xf.house.163.com/bj/0Qac.html success, depth 1 - log.py
+2022-06-05 12:39:46,155 - INFO - Thread Spider_No_0 get http://xf.house.163.com/bj/BPOf.html, depth:1 - log.py
+2022-06-05 12:39:46,159 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/BaOR.html success, depth 1 - log.py
+2022-06-05 12:39:46,189 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/BfYT.html success, depth 1 - log.py
+2022-06-05 12:39:46,332 - INFO - Thread Spider_No_1 get http://xf.house.163.com/bj/0QJL.html, depth:1 - log.py
+2022-06-05 12:39:46,371 - DEBUG - Thread Spider_No_0 download http://xf.house.163.com/bj/BPOf.html success, depth 1 - log.py
+2022-06-05 12:39:46,507 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/0QTG.html, depth:1 - log.py
+2022-06-05 12:39:46,734 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/0QTG.html success, depth 1 - log.py
+2022-06-05 12:39:46,807 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/0RCF.html, depth:1 - log.py
+2022-06-05 12:39:46,895 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/0RCF.html success, depth 1 - log.py
+2022-06-05 12:39:46,936 - INFO - Thread Spider_No_5 get http://xf.house.163.com/bj/search/41-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-1-0.html, depth:1 - log.py
+2022-06-05 12:39:47,054 - DEBUG - Thread Spider_No_1 download http://xf.house.163.com/bj/0QJL.html success, depth 1 - log.py
+2022-06-05 12:39:47,082 - INFO - Thread Spider_No_4 get http://xf.house.163.com/bj/BNUO.html, depth:1 - log.py
+2022-06-05 12:39:47,164 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/0DTB.html, depth:1 - log.py
+2022-06-05 12:39:47,191 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/0DID.html, depth:1 - log.py
+2022-06-05 12:39:47,203 - DEBUG - Thread Spider_No_4 download http://xf.house.163.com/bj/BNUO.html success, depth 1 - log.py
+2022-06-05 12:39:47,334 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/0DTB.html success, depth 1 - log.py
+2022-06-05 12:39:47,384 - INFO - Thread Spider_No_0 get http://xf.house.163.com/bj/0SOD.html, depth:1 - log.py
+2022-06-05 12:39:47,424 - DEBUG - Thread Spider_No_5 download http://xf.house.163.com/bj/search/41-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-1-0.html success, depth 1 - log.py
+2022-06-05 12:39:47,739 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/0SBU.html, depth:1 - log.py
+2022-06-05 12:39:47,896 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/0SBU.html success, depth 1 - log.py
+2022-06-05 12:39:47,902 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/BRfW.html, depth:1 - log.py
+2022-06-05 12:39:48,032 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/BRfW.html success, depth 1 - log.py
+2022-06-05 12:39:48,059 - INFO - Thread Spider_No_1 get http://xf.house.163.com/bj/search/0-0-10-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:48,210 - INFO - Thread Spider_No_4 get http://xf.house.163.com/bj/search/0-0-9-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:48,340 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/search/0-0-0-4-0-0-0-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html, depth:1 - log.py
+2022-06-05 12:39:48,429 - INFO - Thread Spider_No_5 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-3-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html, depth:1 - log.py
+2022-06-05 12:39:48,753 - DEBUG - Thread Spider_No_1 download http://xf.house.163.com/bj/search/0-0-10-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:48,902 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-9-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:49,037 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:49,059 - DEBUG - Thread Spider_No_0 download http://xf.house.163.com/bj/0SOD.html success, depth 1 - log.py
+2022-06-05 12:39:49,492 - DEBUG - Thread Spider_No_4 download http://xf.house.163.com/bj/search/0-0-9-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:49,727 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/search/0-0-0-4-0-0-0-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html success, depth 1 - log.py
+2022-06-05 12:39:49,758 - INFO - Thread Spider_No_1 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-17-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:49,824 - DEBUG - Thread Spider_No_5 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-3-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html success, depth 1 - log.py
+2022-06-05 12:39:49,879 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/0DID.html success, depth 1 - log.py
+2022-06-05 12:39:49,967 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-9-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:49,976 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:50,065 - INFO - Thread Spider_No_0 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-6-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:50,498 - INFO - Thread Spider_No_4 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-8-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:50,498 - DEBUG - Thread Spider_No_1 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-17-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:50,537 - DEBUG - Thread Spider_No_0 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-6-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:50,733 - INFO - Thread Spider_No_6 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-15-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:50,829 - INFO - Thread Spider_No_5 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-19-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:50,880 - INFO - Thread Spider_No_3 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-21-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:50,972 - INFO - Thread Spider_No_2 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-15-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:50,981 - INFO - Thread Spider_No_7 get http://xf.house.163.com/bj/search/0-0-5-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 12:39:51,455 - DEBUG - Thread Spider_No_6 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-15-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:51,504 - INFO - Thread Spider_No_1 get http://data.house.163.com/{cityCode}/index.html, depth:1 - log.py
+2022-06-05 12:39:51,542 - INFO - Thread Spider_No_0 get https://www.163.com/dy/article/H913GDHU0512D3VJ.html, depth:1 - log.py
+2022-06-05 12:39:51,762 - DEBUG - Thread Spider_No_1 download http://data.house.163.com/{cityCode}/index.html success, depth 1 - log.py
+2022-06-05 12:39:51,808 - DEBUG - Thread Spider_No_4 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-8-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:51,868 - DEBUG - Thread Spider_No_5 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-19-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:51,916 - DEBUG - Thread Spider_No_3 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-21-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:52,141 - DEBUG - Thread Spider_No_2 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-15-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:52,208 - DEBUG - Thread Spider_No_7 download http://xf.house.163.com/bj/search/0-0-5-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 12:39:52,399 - DEBUG - Thread Spider_No_0 download https://www.163.com/dy/article/H913GDHU0512D3VJ.html success, depth 1 - log.py
+2022-06-05 12:39:52,457 - INFO - Thread Spider_No_6 get https://www.163.com/dy/article/H912O8VI055271I2.html, depth:1 - log.py
+2022-06-05 12:39:52,765 - INFO - Thread Spider_No_1 get https://www.163.com/dy/article/H9129RT105534R8V.html, depth:1 - log.py
+2022-06-05 12:39:52,814 - INFO - Thread Spider_No_4 get https://www.163.com/dy/article/H8VBT87F0514R9NP.html, depth:1 - log.py
+2022-06-05 12:39:52,873 - INFO - Thread Spider_No_5 get https://www.163.com/dy/article/H8U64PDL0514R9NP.html, depth:1 - log.py
+2022-06-05 12:39:52,922 - INFO - Thread Spider_No_3 get https://www.163.com/dy/article/H8UK6G0B0512D3VJ.html, depth:1 - log.py
+2022-06-05 12:39:53,146 - INFO - Thread Spider_No_2 get https://www.163.com/dy/article/H8SI7J8B05199DKK.html, depth:1 - log.py
+2022-06-05 12:39:53,214 - INFO - Thread Spider_No_7 get https://www.163.com/dy/article/H8SFAA9R0515UK8P.html, depth:1 - log.py
+2022-06-05 12:39:53,408 - INFO - Thread Spider_No_0 get https://www.163.com/dy/article/H8RISCDR0550HXM1.html, depth:1 - log.py
+2022-06-05 12:39:55,977 - DEBUG - Thread Spider_No_1 download https://www.163.com/dy/article/H9129RT105534R8V.html success, depth 1 - log.py
+2022-06-05 12:39:56,063 - DEBUG - Thread Spider_No_6 download https://www.163.com/dy/article/H912O8VI055271I2.html success, depth 1 - log.py
+2022-06-05 12:39:56,436 - DEBUG - Thread Spider_No_4 download https://www.163.com/dy/article/H8VBT87F0514R9NP.html success, depth 1 - log.py
+2022-06-05 12:39:56,455 - DEBUG - Thread Spider_No_5 download https://www.163.com/dy/article/H8U64PDL0514R9NP.html success, depth 1 - log.py
+2022-06-05 12:39:56,479 - DEBUG - Thread Spider_No_3 download https://www.163.com/dy/article/H8UK6G0B0512D3VJ.html success, depth 1 - log.py
+2022-06-05 12:39:56,556 - DEBUG - Thread Spider_No_7 download https://www.163.com/dy/article/H8SFAA9R0515UK8P.html success, depth 1 - log.py
+2022-06-05 12:39:56,630 - DEBUG - Thread Spider_No_0 download https://www.163.com/dy/article/H8RISCDR0550HXM1.html success, depth 1 - log.py
+2022-06-05 12:39:56,630 - DEBUG - Thread Spider_No_2 download https://www.163.com/dy/article/H8SI7J8B05199DKK.html success, depth 1 - log.py
+2022-06-05 12:39:56,982 - INFO - Thread Spider_No_1 get https://www.163.com/dy/article/H8QA37RT0519875F.html, depth:1 - log.py
+2022-06-05 12:39:57,064 - INFO - Thread Spider_No_6 get http://quotes.money.163.com/usstock/NTES.html, depth:1 - log.py
+2022-06-05 12:39:57,443 - INFO - Thread Spider_No_4 get http://www.bjjubao.org/index.htm, depth:1 - log.py
+2022-06-05 12:39:57,456 - INFO - Thread Spider_No_5 get http://www.163.com/special/00774IMC/verify_page_v13.html, depth:1 - log.py
+2022-06-05 12:39:57,484 - INFO - Thread Spider_No_3 get https://corp.163.com/gb/about/overview.html, depth:1 - log.py
+2022-06-05 12:39:57,562 - INFO - Thread Spider_No_7 get https://corp.163.com/gb/contactus.html, depth:1 - log.py
+2022-06-05 12:39:57,583 - DEBUG - Thread Spider_No_5 download http://www.163.com/special/00774IMC/verify_page_v13.html success, depth 1 - log.py
+2022-06-05 12:39:57,637 - INFO - Thread Spider_No_0 get https://corp.163.com/gb/job/job.html, depth:1 - log.py
+2022-06-05 12:39:57,656 - DEBUG - Thread Spider_No_4 download http://www.bjjubao.org/index.htm success, depth 1 - log.py
+2022-06-05 12:39:57,784 - DEBUG - Thread Spider_No_0 download https://corp.163.com/gb/job/job.html success, depth 1 - log.py
+2022-06-05 12:39:58,222 - DEBUG - Thread Spider_No_3 download https://corp.163.com/gb/about/overview.html success, depth 1 - log.py
+2022-06-05 12:39:58,600 - DEBUG - Thread Spider_No_6 download http://quotes.money.163.com/usstock/NTES.html success, depth 1 - log.py
+2022-06-05 12:39:58,606 - DEBUG - Thread Spider_No_7 download https://corp.163.com/gb/contactus.html success, depth 1 - log.py
+2022-06-05 12:39:58,644 - DEBUG - Thread Spider_No_1 download https://www.163.com/dy/article/H8QA37RT0519875F.html success, depth 1 - log.py
+2022-06-05 12:44:51,187 - DEBUG - Put url https://www.163.com depth 0 in queue.
+2022-06-05 12:44:51,187 - DEBUG - Put url https://www.sina.com.cn depth 0 in queue.
+2022-06-05 12:44:51,187 - INFO - Thread Spider_No_0 get https://www.163.com, depth:0
+2022-06-05 12:44:51,187 - INFO - Spider_No_0 Start working.
+2022-06-05 12:44:51,188 - INFO - Spider_No_1 Start working.
+2022-06-05 12:44:51,189 - INFO - Thread Spider_No_1 get https://www.sina.com.cn, depth:0
+2022-06-05 12:44:51,189 - INFO - Spider_No_2 Start working.
+2022-06-05 12:44:51,193 - INFO - Spider_No_3 Start working.
+2022-06-05 12:44:51,193 - INFO - Spider_No_4 Start working.
+2022-06-05 12:44:51,193 - INFO - Spider_No_5 Start working.
+2022-06-05 12:44:51,193 - INFO - Spider_No_6 Start working.
+2022-06-05 12:44:51,193 - INFO - Spider_No_7 Start working.
+2022-06-05 12:44:56,133 - DEBUG - Put url https://so.sina.cn/palmnews/web-sinanews-app-download.d.html depth 1 in queue.
+2022-06-05 12:44:56,133 - DEBUG - Put url https://www.12377.cn/node_548446.htm depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://news.sina.com.cn/pc/2014-10-30/326/3095.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://auto.sina.com.cn/newcar/index.d.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-5_8-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-8_11-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-11_15-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-15_20-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-20_25-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-25_35-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-0-35_50-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-2-0-0-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-3-0-0-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,134 - DEBUG - Put url https://db.auto.sina.com.cn/list-4-0-0-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,135 - DEBUG - Put url https://db.auto.sina.com.cn/list-0-5-0-0-0-0-0-0-9-0-1.html depth 1 in queue.
+2022-06-05 12:44:56,135 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547968.html depth 1 in queue.
+2022-06-05 12:44:56,135 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547998.html depth 1 in queue.
+2022-06-05 12:44:56,135 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547997.html depth 1 in queue.
+2022-06-05 12:44:56,135 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547979.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547977.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547974.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149821.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149820.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url http://blog.sina.com.cn/s/blog_4b2cb00e0102ytki.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url http://slide.news.sina.com.cn/slide_1_86058_547961.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url http://slide.sports.sina.com.cn/k/slide_2_786_278885.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013217.d.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url https://slide.news.sina.com.cn/slide_1_86058_547952.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6143252.d.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506737.d.html depth 1 in queue.
+2022-06-05 12:44:56,136 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6569650.d.html depth 1 in queue.
+2022-06-05 12:44:56,137 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6572127.d.html depth 1 in queue.
+2022-06-05 12:44:56,138 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-04/detail-imizirau6569712.d.html depth 1 in queue.
+2022-06-05 12:44:56,138 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5113714.d.html depth 1 in queue.
+2022-06-05 12:44:56,138 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5111707.d.html depth 1 in queue.
+2022-06-05 12:44:56,138 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013587.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4528142.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4570623.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-03-21/detail-imcwipih9778642.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0293986.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5448874.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0279557.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464732.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464678.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5473985.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5470368.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4592015.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4582829.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6028435.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4586634.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6030506.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032022.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6031314.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032830.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6034121.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4591475.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/astro/2020-11-10/detail-iiznezxs1122425.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/astro/2020-11-30/detail-iiznctke4028473.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url https://video.sina.com.cn/p/news/2022-06-04/detail-imizmscu5111078.d.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url http://slide.sports.sina.com.cn/g_pl/slide_2_730_278881.html depth 1 in queue.
+2022-06-05 12:44:56,139 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-27/detail-imizirau5097292.d.html depth 1 in queue.
+2022-06-05 12:44:56,140 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-26/detail-imizirau4876241.d.html depth 1 in queue.
+2022-06-05 12:44:56,140 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst7086683.d.html depth 1 in queue.
+2022-06-05 12:44:56,140 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwipii9442591.d.html depth 1 in queue.
+2022-06-05 12:44:56,140 - DEBUG - Put url http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst6982213.d.html depth 1 in queue.
+2022-06-05 12:44:56,140 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370701.html depth 1 in queue.
+2022-06-05 12:44:56,140 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370714.html depth 1 in queue.
+2022-06-05 12:44:56,140 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370710.html depth 1 in queue.
+2022-06-05 12:44:56,140 - DEBUG - Put url http://slide.ent.sina.com.cn/tv/slide_4_86512_370694.html depth 1 in queue.
+2022-06-05 12:44:56,141 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370692.html depth 1 in queue.
+2022-06-05 12:44:56,141 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370702.html depth 1 in queue.
+2022-06-05 12:44:56,141 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370695.html depth 1 in queue.
+2022-06-05 12:44:56,142 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370696.html depth 1 in queue.
+2022-06-05 12:44:56,142 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370686.html depth 1 in queue.
+2022-06-05 12:44:56,142 - DEBUG - Put url http://slide.ent.sina.com.cn/h/slide_4_86512_370693.html depth 1 in queue.
+2022-06-05 12:44:56,142 - DEBUG - Put url http://slide.ent.sina.com.cn/star/h/slide_4_86512_370691.html depth 1 in queue.
+2022-06-05 12:44:56,142 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370689.html depth 1 in queue.
+2022-06-05 12:44:56,142 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370703.html depth 1 in queue.
+2022-06-05 12:44:56,142 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370685.html depth 1 in queue.
+2022-06-05 12:44:56,142 - DEBUG - Put url http://slide.ent.sina.com.cn/star/slide_4_86512_370697.html depth 1 in queue.
+2022-06-05 12:44:56,143 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506527.d.html depth 1 in queue.
+2022-06-05 12:44:56,143 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-05-31/detail-imizirau5792647.d.html depth 1 in queue.
+2022-06-05 12:44:56,143 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6151934.d.html depth 1 in queue.
+2022-06-05 12:44:56,143 - DEBUG - Put url https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4697957.d.html depth 1 in queue.
+2022-06-05 12:44:56,144 - DEBUG - Put url https://finance.sina.cn/money/lcmj/MonthlyBankingChart02.d.html depth 1 in queue.
+2022-06-05 12:44:56,144 - DEBUG - Put url http://slide.news.sina.com.cn/slide_1_86058_547338.html depth 1 in queue.
+2022-06-05 12:44:56,147 - DEBUG - Put url http://slide.sports.sina.com.cn/o/slide_2_730_278073.html depth 1 in queue.
+2022-06-05 12:44:56,147 - DEBUG - Put url http://slide.mil.news.sina.com.cn/l/slide_8_199_126262.html depth 1 in queue.
+2022-06-05 12:44:56,148 - DEBUG - Put url http://slide.news.sina.com.cn/slide_1_86058_547341.html depth 1 in queue.
+2022-06-05 12:44:56,148 - DEBUG - Put url http://slide.sports.sina.com.cn/o/slide_2_730_278072.html depth 1 in queue.
+2022-06-05 12:44:56,148 - DEBUG - Put url http://slide.tech.sina.com.cn/d/slide_5_453_149736.html depth 1 in queue.
+2022-06-05 12:44:56,149 - DEBUG - Put url https://db.auto.sina.com.cn/photo/c100637-1-1-0-0-0.html depth 1 in queue.
+2022-06-05 12:44:56,150 - DEBUG - Put url http://slide.news.sina.com.cn/slide_1_86058_547334.html depth 1 in queue.
+2022-06-05 12:44:56,150 - DEBUG - Put url http://slide.mil.news.sina.com.cn/k/slide_8_193_125877.html depth 1 in queue.
+2022-06-05 12:44:56,150 - DEBUG - Put url http://slide.mil.news.sina.com.cn/l/slide_8_87721_125868.html depth 1 in queue.
+2022-06-05 12:44:56,150 - DEBUG - Put url http://slide.mil.news.sina.com.cn/k/slide_8_193_125825.html depth 1 in queue.
+2022-06-05 12:44:56,151 - DEBUG - Put url http://slide.tech.sina.com.cn/d/slide_5_453_149787.html depth 1 in queue.
+2022-06-05 12:44:56,152 - DEBUG - Put url https://zx.sina.cn/hand_pick/tushushi/hotlist.d.html depth 1 in queue.
+2022-06-05 12:44:56,153 - DEBUG - Put url https://gongyi.sina.com.cn/gyzx/ngo.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://gongyi.sina.com.cn/gyzx.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://sinanews.sina.cn/native_page/quanzi_673999918657114113.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://sinanews.sina.cn/native_page/quanzi_647555197236281345.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://sinanews.sina.cn/native_page/quanzi_645761253557342209.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://sinanews.sina.cn/native_page/quanzi_647551876714856449.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149822.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149541.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url http://video.sina.com.cn/p/fashion/fas/doc/2018-04-04/171268135609.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizmscu2648676.d.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://video.sina.com.cn/p/fashion/2022-05-23/detail-imizirau4330658.d.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url http://sz.jiaju.sina.com.cn/5897273467530979887/2022/0121/6890226435508996378.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://jiaju.sina.cn/zixun/list/6934771738308051855.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url https://jiaju.sina.cn/zixun/list/6933335353432801809.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url http://slide.baby.sina.com.cn/mxx/slide_10_846_774770.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url http://slide.baby.sina.com.cn/mxx/slide_10_846_774768.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url http://slide.baby.sina.com.cn/mxx/slide_10_846_774767.html depth 1 in queue.
+2022-06-05 12:44:56,154 - DEBUG - Put url http://slide.baby.sina.com.cn/mxx/slide_10_846_774766.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url http://baby.sina.com.cn/news/list.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizirau4049006.d.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://video.sina.com.cn/p/fashion/2022-05-30/detail-imizmscu4135017.d.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149263.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149265.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149221.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url http://slide.fashion.sina.com.cn/slide_24_84625_149220.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url http://slide.sports.sina.com.cn/golf/slide_2_754_277537.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/article_detail_103_2_116832.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9409.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9412.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9408.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9306.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9394.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9399.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9407.html depth 1 in queue.
+2022-06-05 12:44:56,155 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9359.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117504.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_103_1_117528.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117443.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117389.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_108_2_117535.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117495.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9400.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/health/article_detail_100_1_9388.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_100_2_117491.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_100_2_117466.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117508.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_100_2_117525.html depth 1 in queue.
+2022-06-05 12:44:56,156 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117435.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url https://med.sina.com/article_detail_103_1_117432.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url https://med.sina.com/article_detail_103_2_117526.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url https://med.sina.com/article_detail_102_2_117518.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776663.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776638.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776604.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_775948.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_775966.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776161.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_775292.html depth 1 in queue.
+2022-06-05 12:44:56,157 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776578.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776648.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_776637.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url http://slide.fo.sina.com.cn/wh/slide_65_67296_775733.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url http://slide.fo.sina.com.cn/slide_65_67296_776352.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url http://slide.astro.sina.com.cn/cartoon/slide_52_42283_123551.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url https://video.sina.com.cn/p/astro/2022-04-30/detail-imcwiwst5107161.d.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url https://video.sina.com.cn/p/astro/2022-04-29/detail-imcwiwst4782791.d.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url http://astro.sina.com.cn/hdrl/index.d.html depth 1 in queue.
+2022-06-05 12:44:56,158 - DEBUG - Put url https://video.sina.com.cn/p/astro/2022-03-31/detail-imcwipii2924778.d.html depth 1 in queue.
+2022-06-05 12:44:56,159 - DEBUG - Put url http://blog.sina.com.cn/s/blog_6431df490102z20e.html depth 1 in queue.
+2022-06-05 12:44:56,159 - DEBUG - Put url http://city.sina.com.cn/city/Declaration.html depth 1 in queue.
+2022-06-05 12:44:56,159 - DEBUG - Put url https://www.sina.com.cn/contactus.html depth 1 in queue.
+2022-06-05 12:44:56,159 - DEBUG - Put url http://www.shdf.gov.cn/shdf/channels/740.html depth 1 in queue.
+2022-06-05 12:44:56,159 - DEBUG - Put url https://corp.sina.com.cn/chn/sina_priv.html depth 1 in queue.
+2022-06-05 12:44:56,159 - DEBUG - Thread Spider_No_1 download https://www.sina.com.cn success, depth 0
+2022-06-05 12:44:56,214 - INFO - Thread Spider_No_2 get https://so.sina.cn/palmnews/web-sinanews-app-download.d.html, depth:1
+2022-06-05 12:44:56,214 - INFO - Thread Spider_No_7 get https://news.sina.com.cn/pc/2014-10-30/326/3095.html, depth:1
+2022-06-05 12:44:56,214 - INFO - Thread Spider_No_4 get https://www.12377.cn/node_548446.htm, depth:1
+2022-06-05 12:44:56,215 - INFO - Thread Spider_No_5 get https://auto.sina.com.cn/newcar/index.d.html, depth:1
+2022-06-05 12:44:56,215 - INFO - Thread Spider_No_3 get https://db.auto.sina.com.cn/list-0-0-5_8-0-0-0-0-0-9-0-1.html, depth:1
+2022-06-05 12:44:56,216 - INFO - Thread Spider_No_6 get https://db.auto.sina.com.cn/list-0-0-8_11-0-0-0-0-0-9-0-1.html, depth:1
+2022-06-05 12:44:56,482 - DEBUG - Thread Spider_No_2 download https://so.sina.cn/palmnews/web-sinanews-app-download.d.html success, depth 1
+2022-06-05 12:44:56,605 - DEBUG - Thread Spider_No_4 download https://www.12377.cn/node_548446.htm success, depth 1
+2022-06-05 12:44:57,164 - INFO - Thread Spider_No_1 get https://db.auto.sina.com.cn/list-0-0-11_15-0-0-0-0-0-9-0-1.html, depth:1
+2022-06-05 12:44:57,489 - INFO - Thread Spider_No_2 get https://db.auto.sina.com.cn/list-0-0-15_20-0-0-0-0-0-9-0-1.html, depth:1
+2022-06-05 12:44:57,610 - INFO - Thread Spider_No_4 get https://db.auto.sina.com.cn/list-0-0-20_25-0-0-0-0-0-9-0-1.html, depth:1

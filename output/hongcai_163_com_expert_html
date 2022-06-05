@@ -1,0 +1,431 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>篮球专家-足球专家-网易红彩-足彩篮彩竞彩专家比分预测彩票平台</title>
+    <meta name="keywords" content="网易,网易红彩,红彩,彩票,彩票推荐,彩票专家,足彩,篮彩,专家,英超,NBA,中超,CBA,篮球,足球,张路,于嘉,范志毅" />
+    <meta name="description" content="网易红彩，让你的竞彩一触即发！足彩篮彩竞彩专家比分预测彩票平台" />
+    <base target="_blank">
+    <script type="text/javascript" src="https://urswebzj.nosdn.127.net/webzj_cdn101/message.js"></script>
+<link rel="shortcut icon" href="https://img1.cache.netease.com/f2e/products/relottery/platform/favicon.ico" />
+<link href="https://static.ws.126.net/163/relottery/frontend-pc-bowlder/collect/head~7a1d5a0dade0.css" rel="stylesheet"  />
+</head>
+<body>
+    <!--头部导航 begin-->
+    <div ne-module="/frontend-pc-bowlder/modules/header/header.js" ne-state="curNav:expert">
+<!--头部导航 begin-->
+<div class="header-area" ne-if="!neteaseMedia">
+    <div class="b-logo" id="js_N_nav_left">
+        <a ne-href="{{_host + '/'}}" href="/" target="_self">
+            <img  src="https://img1.cache.netease.com/f2e/products/relottery/platform/images/logo.svg" onerror="javascript:this.src='https://img1.cache.netease.com/f2e/products/relottery/platform/images/logo.png'" alt="网易红彩">
+        </a>
+        <a class="ntes-nav-wza" target="_self" href="javascript:void(0)" id="cniil_wza">进入关怀模式</a>
+    </div>
+    <div class="b-login">
+        <div class="login-before" ne-hide="{{isLogin === 'userlogin'}}">
+            <span class="login-btn" ne-click="login()">登录</span>
+            <span class="midline"></span>
+            <span class="login-btn" ne-click="register()">注册</span>
+        </div>
+        <div class="login-after" ne-show="{{isLogin === 'userlogin'}}">
+            <div class="userinfo">
+                <div class="userhead">
+                    <img  ne-src="{{userInfo.avatar?'https://nimg.ws.126.net/?url='+userInfo.avatar+'&thumbnail=24x24&quality=75&type=jpg':'https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_24.png'}}"  onerror="javascript:this.src='https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_24.png';">
+                    <div class="nicknameFirst" ne-if="{{!userInfo.avatar}}" ne-html="{{userInfo.nickname.split('')[0]}}"></div>
+                </div>
+                <span class="username" ne-html="{{userInfo.nickname}}"></span>
+                <span class="arrowdown"></span>
+                <div class="couponNewIcon" ne-show="{{newUserPionter}}">券</div>
+                <div class="orderPointer" ne-show="{{orderRedPointer}}"></div>
+            </div>
+            <div class="useroperate">
+                <span class="arrowtop"></span>
+                <ul class="operatelist">
+                    <li class="operateitem"><div class="redpointer" ne-show="{{newUserPionter}}"></div><a ne-href="{{_host + '/user.html#coupon'}}" href="/user.html#coupon" target="_self">我的优惠券</a></li>
+                    <li class="operateitem"><div class="redpointer" ne-show="{{orderRedPointer}}"></div><a ne-href="{{_host + '/user.html#order'}}" href="/user.html#order" target="_self">我的订单</a></li>
+                    <li class="operateitem"><a ne-href="{{_host + '/user.html#favorite'}}" href="/user.html#favorite" target="_self">我的收藏</a></li>
+                    <li class="operateitem"><a ne-href="{{_host + '/modifyinfo.html'}}" href="/modifyinfo.html" target="_self">个人设置</a></li>
+                    <li class="operateitem last"><a ne-href="{{loginedOutUrl}}" href="" target="_self">账号退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="m-nav">
+        <ul class="menu-list">
+            <li class="menuitem" ne-class="{{state.curNav === 'index'?'current':''}}">
+                <a ne-href="{{_host + '/'}}" href="/" target="_self">首页</a>
+                <span class="midline"></span>
+            </li>
+            <li class="menuitem" ne-class="{{state.curNav === 'lotterylive'?'current':''}}">
+                <a ne-href="{{_host + '/lotterylive.html'}}" href="/lotterylive.html" target="_self">福彩直播</a>
+                <span class="midline"></span>
+            </li>
+            <li class="menuitem" ne-class="{{state.curNav === 'expert'?'current':''}}">
+                <a ne-href="{{_host + '/expert.html'}}" href="/expert.html" target="_self">专家<div ne-show="expertRedPointer" class="redpointer"></div></a>
+                <span class="midline"></span>
+            </li>
+            <li class="menuitem" ne-class="{{state.curNav === 'match'?'current':''}}">
+                <a ne-href="{{_host + '/match.html'}}" href="/match.html" target="_self">赛事<div ne-show="matchRedPointer" class="redpointer"></div></a>
+                <span class="midline"></span>
+            </li>
+            <li class="menuitem" ne-class="{{state.curNav === 'pay'?'current':''}}">
+                <a ne-href="{{_host + '/recharge.html'}}" href="/recharge.html" target="_self">充值中心</a>
+                <span class="midline"></span>
+            </li>
+            <li class="menuitem" ne-class="{{state.curNav === 'download'?'current':''}}">
+                <a ne-href="{{_host + '/html/downloadapp.html'}}" href="/html/downloadapp.html" target="_blank">下载APP</a>
+                <span class="midline"></span>
+            </li>
+            <li class="menuitem" ne-class="{{state.curNav === 'about'?'current':''}}">
+                <a ne-href="{{_host + '/about.html'}}" href="/about.html" target="_blank">关于</a>
+                <span class="midline"></span>
+            </li>
+            <li class="menuitem msg-center" ne-class="{{state.curNav === 'message'?'current':''}}" ne-mouseenter="getUnreadMessageList()" ne-show="{{isLogin === 'userlogin'}}">
+                <div class="msg-bell"><span class="msg-num" ne-show="{{unreadCount > 0}}">{{unreadCount > 99 ? '99+' : unreadCount}}</span></div>
+                <div class="msg-list">
+                    <div class="m-arrow"></div>
+                    <div class="m-item" ne-if="{{unreadCount > 0}}" ne-repeat="item in unreadList" ne-click="readMsg(item, __i)">
+                        <p class="time">{{item.msgTime}}</p>
+                        <p class="cnt" ne-html="{{'【'+ item.msgTypeName +'】' + (item.msgTitle || item.template || item.msgAbstract)}}"></p>
+                    </div>
+                    <div class="no-new-msg" ne-if="{{unreadCount <= 0}}">没有新消息</div>
+                    <a ne-href="{{_host + '/messagecenter.html'}}" target="_self" class="m-msg-center">进入消息中心   &gt;</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--头部导航 end-->
+<!--登录弹窗 begin-->
+<div class="loginframe-pop" ne-class="{{showlogin?'show':''}}">
+    <div class="loginframe_cover" ne-click="closeLoginPop()"></div>
+    <div class="loginframe_main" ne-class="{{addScale?'scale100':''}}">
+        <div class="close" ne-click="closeLoginPop()"></div>
+        <div class="logintip">
+            <li ne-class="{{loginType===2? 'check':''}}" ne-click="changeLoginType(2)">手机号登录</li>
+            <li ne-class="{{loginType===1? 'check':''}}" ne-click="changeLoginType(1)">邮箱登录</li>
+        </div>
+        <div id="urs-login-block" class="urs-block" ne-class="{{loginType===1?'show':''}}"></div>
+        <div id="urs-phone-block" class="urs-block" ne-class="{{loginType===2?'show':''}}"></div>
+        <div class="agreement" ne-if="!neteaseMedia">
+            <span class="icon" ne-class="{{loginAgreement?'check':''}}" ne-click="loginAgreementClick()"></span>
+            <span>登录或注册即表示同意</span><a ne-href="{{_host + '/serviceagreement.html'}}" href="/serviceagreement.html">《红彩服务条款》</a><span>和</span><a ne-href="{{_host + '/privacypolicy.html'}}" href="/privacypolicy.html">《红彩隐私政策》</a>
+        </div>
+    </div>
+</div>
+<!--登录弹窗 end-->
+<!--新人优惠券弹窗 有手机号 begin-->
+<div class="coupon-pop" ne-role="getCoupon">
+    <div class="main">
+        <div class="bg"></div>
+        <div class="title">您收到一个优惠大礼包</div>
+        <div class="subtitle">可用于购买专家方案时使用</div>
+        <div class="btn" ne-click="getCoupon()"><span>立即领取</span></div>
+        <div class="close" ne-click="closeCouponPop()"></div>
+    </div>
+</div>
+<!--新人优惠券弹窗 end-->
+<!--新人优惠券弹窗 没有手机号 begin-->
+<div class="coupon-pop" ne-role="getCouponBindPhone">
+    <div class="main noPhone">
+        <!-- <div class="bg"></div>
+        <div class="title">您收到一个优惠大礼包</div>
+        <div class="subtitle">可用于购买专家方案时使用</div> -->
+        <div class="form">
+            <div class="line phone" id="phoneErr">
+                <input type="text" maxlength="11" data-check="phone" onblur="this.placeholder='请输入手机号'" onfocus="this.placeholder=''" ne-model="phoneNumber" placeholder="请输入手机号">
+                <div class="err-info">{{phoneErrText}}</div>
+            </div>
+            <div class="line" id="codeErr">
+                <input type="text" maxlength="6" data-check="code" ne-model="codeNumber" placeholder="请输入验证码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入验证码'"><div class="code" ne-class="{{sixtySeconds?'s60':''}}" ne-click="getCode()" ne-html="{{sixtySecondsText}}"></div>
+                <div class="err-info">{{codeErrText}}</div>
+            </div>
+        </div>
+        <div class="btn" ne-click="getCouponBindPhone()"><span>绑定</span></div>
+        <div class="close" ne-click="closeCouponPop()"></div>
+    </div>
+</div>
+<!--新人优惠券弹窗 end-->
+<div class="coupon-pop" ne-role="couponClose">
+    <div class="autoDisappear">
+        <div class="icon"></div>
+        <div class="title">未领取优惠券</div>
+        <div class="subtitle">可稍后在【我的优惠券里】领取优惠大礼包</div>
+    </div>
+</div>
+<div class="coupon-pop" ne-role="couponSuccess">
+    <div class="autoDisappear success">
+        <div class="icon"></div>
+        <div class="title">领取成功</div>
+        <div class="subtitle">可以在【我的优惠券】里查看</div>
+    </div>
+</div>
+<!-- 解绑提示框 -->
+<div class="unbind-pop coupon-pop" ne-role="unbindPop">
+    <div class="autoDisappear main content">
+        <div class="text" ne-html="{{unBindText}}"></div>
+        <div class="close" ne-click="closeUnbindPop()"></div>
+        <div class="footer">
+            <div class="confirm" ne-click="closeUnbindPop()">知道了</div>  
+        </div>
+    </div>
+</div></div>
+    <!--头部导航 end-->
+    <div class="content" ne-module="/frontend-pc-bowlder/modules/expert/expert.js">
+        <!--右侧导航 begin-->
+        <div class="side" ne-show="{{sideshow}}">
+            <div class="expert_sketch">
+                <img  src="https://static.ws.126.net/163/relottery/frontend-pc-bowlder/images/expert_sketch.jpg?1234" alt="">
+                <span>专家</span>
+            </div>
+            <div class="nav_item" ne-class="{{state.tabIndex==0?'current':''}}" ne-click="changeNav(0)"><div class="icon"></div><span>我关注的专家</span><span ne-show="expertRedPointer" class="redpointer"></span></div>
+            <div class="nav_item" ne-class="{{state.tabIndex==1?'current':''}}" ne-click="changeNav(1)"><div class="icon"></div><span>足球专家</span></div>
+            <div class="nav_item" ne-class="{{state.tabIndex==2?'current':''}}" ne-click="changeNav(2)"><div class="icon"></div><span>篮球专家</span></div>
+            <div class="copyright"><span class="copyright-icon">&copy;</span> 1997-2022 网易公司版权所有</div>
+        </div>
+        <!--右侧导航 end-->
+        <!--居中部分 begin-->
+        <div class="content_center" ne-class="{{((state.tabIndex==0||popularityList.length<1 || earningRateList.length<1)&&windowWidth<1516)||(state.tabIndex!=0&&(popularityList.length>0 || earningRateList.length>0) && windowWidth<1728)?'windows_s':''}} {{state.tabIndex!=0&&(popularityList.length>0 || earningRateList.length>0) && windowWidth>1418?'w1056':''}}">
+            <!-- 此处放置我关注的专家列表 -->
+            <div ne-show="{{!state.isLogin && state.tabIndex==0}}" class="not_allowed">
+                <p>你没有权限访问这个页面，请<a href="javascript:;" ne-click="showLoginPop()">登录后重试</a></p>
+            </div>
+            <div ne-show="{{state.isLogin && state.tabIndex==0}}" ne-id="{{followModule}}" ne-role="follow_expert" class="fixfollow"></div>
+            <div class="b-recommendtitle" ne-show="{{state.tabIndex==0&&expertList.length > 0}}">
+                <p class="recommendtitle">推荐专家</p>
+                <span class="decorateline"></span>
+            </div>
+            <div class="expertlist" ne-class="{{state.tabIndex!=0 && (popularityList.length>0 || earningRateList.length>0) ?'rankShow':''}}">
+                <div class="list-row">
+                    <span ne-show="{{state.tabIndex==1}}">足球专家</span>
+                    <span ne-show="{{state.tabIndex==2}}">篮球专家</span>
+                </div>
+                <ul>
+                    <div class="card_list">
+                        <li class="card_item" ne-repeat="item in recommendList.slice(0, state.tabIndex!==0&&(popularityList.length>0||earningRateList.length>0)&&windowWidth<1418 ? 9 : 8)">
+                            <div class="pic">
+                                <a href="javascript:;" ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}">
+                                    <img  ne-src="{{item.avatar?item.avatar+'?imageView&thumbnail=60y60&quality=85':'https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_60.png'}}" onerror="javascript:this.src='https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_60.png';">
+                                    <div class="nicknameFirst" ne-if="{{!item.avatar}}" ne-html="{{item.nickname.split('')[0]}}"></div>
+                                </a>
+                            </div>
+                            <h3><a ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}" title="{{item.safeNickname}}">{{item.nickname}}</a></h3>
+                            <div class="slogan"><span ne-if="{{state.tabIndex===0}}" ne-class="icon {{item.cid===1?'':'basketball'}}"></span>{{item.slogan}}</div>
+                            <div class="introduction" ne-if="{{state.tabIndex===0 && __i<4}}">{{item.desc}}</div>
+                            <div class="hit_rate" ne-if="{{state.tabIndex!=0 || __i>3}}">命中<em>{{item.hitRate}}</em><i>%</i></div>
+                            <div class="labels" ne-if="{{state.tabIndex!=0}}">
+                                <span class="red" ne-show="{{item.maxWin>1}}">{{item.maxWin}}连红</span>
+                                <span class="blue" ne-show="item.bestWin">{{item.bestWin}}</span>
+                            </div>
+                            <div class="card_bottom">
+                                <div class="threadCount" ne-if="{{item.threadCount>0}}">
+                                    <a ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}"><span>{{item.threadCount}}个方案数</span><div class="countIcon"></div></a>
+                                </div>
+                                <div class="followbtn" ne-class="{{'expertfollow'+__i}} {{item.hasFollowed?'_up':'_down'}}">
+                                    <div class="follow" ne-click="follow(item.userId,__i)" ne-html="{{item.followLoad?'关注中...':'+关注'}}"></div>
+                                    <div class="unfollow" ne-click="unfollow(item.userId,__i)">
+                                        <span class="nohover" ne-html="{{item.followLoad?'取消中...':'已关注'}}"></span>
+                                        <span class="ishover" ne-html="{{item.followLoad?'取消中...':'取消关注'}}"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="b-recommendtitle" ne-show="{{state.tabIndex!==0 && expertList.length > 0}}">
+                        <p class="recommendtitle">全部专家</p>
+                        <span class="decorateline"></span>
+                    </div>
+                    <div class="card_list">
+                        <li class="card_item" ne-repeat="item in expertList">
+                            <div class="pic">
+                                <a href="javascript:;" ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}">
+                                    <img  ne-src="{{item.avatar?item.avatar+'?imageView&thumbnail=60y60&quality=85':'https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_60.png'}}" onerror="javascript:this.src='https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_60.png';">
+                                    <div class="nicknameFirst" ne-if="{{!item.avatar}}" ne-html="{{item.nickname.split('')[0]}}"></div>
+                                </a>
+                            </div>
+                            <h3><a ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}" title="{{item.safeNickname}}">{{item.nickname}}</a></h3>
+                            <div class="slogan"><span ne-if="{{state.tabIndex===0}}" ne-class="icon {{item.cid===1?'':'basketball'}}"></span>{{item.slogan}}</div>
+                            <div class="introduction" ne-if="{{state.tabIndex===0 && __i<4}}">{{item.desc}}</div>
+                            <div class="hit_rate" ne-if="{{state.tabIndex!=0 || __i>3}}">命中<em>{{item.hitRate}}</em><i>%</i></div>
+                            <div class="labels" ne-if="{{state.tabIndex!=0}}">
+                                <span class="red" ne-show="{{item.maxWin>1}}">{{item.maxWin}}连红</span>
+                                <span class="blue" ne-show="item.bestWin">{{item.bestWin}}</span>
+                            </div>
+                            <div class="card_bottom">
+                                <div class="threadCount" ne-if="{{item.threadCount>0}}">
+                                    <a ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}"><span>{{item.threadCount}}个方案数</span><div class="countIcon"></div></a>
+                                </div>
+                                <div class="followbtn" ne-class="{{'expertfollowall'+__i}} {{item.hasFollowed?'_up':'_down'}}">
+                                    <div class="follow" ne-click="follow(item.userId)" ne-html="{{item.followLoad?'关注中...':'+关注'}}"></div>
+                                    <div class="unfollow" ne-click="unfollow(item.userId)">
+                                        <span class="nohover" ne-html="{{item.followLoad?'取消中...':'已关注'}}"></span>
+                                        <span class="ishover" ne-html="{{item.followLoad?'取消中...':'取消关注'}}"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="no-more" ne-show="state.tabIndex !== 0 && !isLoading">没有更多了</div>
+                    <div class="loadingContent" ne-show="isLoading"><div class="loading">加载中...</div></div>
+                </ul>
+                <div class="rankList first" ne-show="{{state.tabIndex!=0 && earningRateList.length>0}}">
+                    <div class="rank-row">
+                        <span>周盈利率排行榜</span>
+                    </div>
+                    <div class="rankItem" ne-repeat="item in earningRateList">
+                        <div class="rankIcon" ne-class="{{__i<3?'icon'+__i:''}}">{{__i+1}}</div>
+                        <div class="avatar">
+                            <a ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}" title="{{item.nickname}}">
+                                <img  src=""ne-src="{{item.avatar?item.avatar+'?imageView&thumbnail=35y35&quality=85':'https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_60.png'}}" onerror="javascript:this.src='https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_60.png';" alt="{{item.nickname}}">
+                                <div class="nicknameFirst" ne-if="{{!item.avatar}}" ne-html="{{item.nickname.split('')[0]}}"></div>
+                            </a>
+                        </div>
+                        <div class="expertInfo">
+                            <h3><a ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}" title="{{item.nickname}}">{{item.nickname}}</a></h3>
+                            <span>平均赔率: {{item.avgOdds > 0 ? item.avgOdds : '暂无'}}</span>
+                        </div>
+                        <div class="values"><div class="valuesIcon"></div><span>{{item.earningRate}}%</span></div>
+                    </div>
+                </div>
+                <div class="rankList" ne-show="{{state.tabIndex!=0 && popularityList.length>0}}">
+                    <div class="rank-row">
+                        <span>周人气榜</span>
+                    </div>
+                    <div class="rankItem" ne-repeat="item in popularityList">
+                        <div class="rankIcon" ne-class="{{__i<3?'icon'+__i:''}}">{{__i+1}}</div>
+                        <div class="avatar">
+                            <a ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}" title="{{item.nickname}}">
+                                <img  src=""ne-src="{{item.avatar?item.avatar+'?imageView&thumbnail=35y35&quality=85':'https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_60.png'}}" onerror="javascript:this.src='https://img1.cache.netease.com/f2e/products/relottery/platform/images/avatar_60.png';" alt="{{item.nickname}}">
+                                <div class="nicknameFirst" ne-if="{{!item.avatar}}" ne-html="{{item.nickname.split('')[0]}}"></div>
+                            </a>
+                        </div>
+                        <div class="expertInfo">
+                            <h3><a ne-href="{{neteaseMediaPath}}/expertpage.html?expertId={{item.userId}}" title="{{item.nickname}}">{{item.nickname}}</a></h3>
+                            <span>新增粉丝: {{item.newlyFollowerNum > 0 ? item.newlyFollowerNum : '暂无'}}</span>
+                        </div>
+                        <div class="values"><div class="valuesIcon"></div><span>{{item.popularity}}</span></div>
+                    </div>
+                </div>
+            </div>
+            <!--右侧 意见反馈+返回顶部 begin-->
+            <div ne-module="/frontend-pc-bowlder/modules/fixed_mod/fixed_mod.js">
+<div class="fixed_right" ne-class="{{fixed_pos?'fixed_pos':''}}">
+    <a ne-href="{{neteaseMediaPath}}/match.html?nav=3" ne-if="state.show">
+        <div class="sfc">
+            <div class="vol" ne-html="state.degree?'第'+state.degree+'期':'第2017001期'"></div>
+            <div class="num">14场比赛</div>
+            <div class="threadNum">{{state.threadNum}}个方案<span class="triangle"></span></div>
+        </div>
+    </a>
+    <div class="appqrcode">
+        <div class="pic">
+        </div>
+    </div>
+    <div class="feadback" ne-click="editSuggestion()"></div>
+    <div class="scrollTop" ne-show="myState.showScroll" ne-class="{{myState.showScroll?'scroll_fixed':''}}" ne-click="scrollTop()"></div>
+</div></div>
+            <!--右侧 意见反馈+返回顶部 end-->
+        </div>
+        <!--居中部分 end-->
+    </div>
+    <div style="display: none" ne-module="/frontend-pc-bowlder/modules/footer/footer.html">
+<div class="footer-area"><span class="copyright-icon">&copy;</span> 1997-2022 网易公司版权所有</div>
+</div>
+    <!-- 弹框模块begin -->
+    <div ne-show="isShow" ne-id="commonModal" class="m-modal" ne-module="/frontend-pc-bowlder/modules/modal/modal.js">
+<div ne-show="modalOptions.backdrop" class="backdrop" id="backdrop"></div>
+<div ne-class="common-modal {{modalOptions.type=='autodispear'?'autodispear':''}} {{modalOptions.type=='confirm'||modalOptions.type=='notice'?'confirm':''}} {{modalOptions.type=='prompt'?'prompt':''}} {{modalOptions.type=='statement'?'statement':''}} {{modalOptions.type=='pay'?'pay':''}} {{modalOptions.type=='wechatpay'?'wechatpay':''}}" id="modals_box">
+    <div ne-show="modalOptions.type=='autodispear'" class="main">
+        <div class="modal-body">
+            <div ne-class="statusicon {{modalOptions.success?'success':'fail'}}"></div>
+            <p class="bodytitle" ne-html="modalOptions.bodyTitle"></p>
+            <p class="bodycontent" ne-html="modalOptions.bodyContent"></p>
+        </div>
+    </div>
+    <div ne-show="modalOptions.type=='confirm' || modalOptions.type=='notice'" class="confirm">
+        <div class="modal-body">
+            <p class="bodytitle" ne-html="modalOptions.bodyTitle"></p>
+            <p class="bodycontent" ne-html="modalOptions.bodyContent"></p>
+        </div>
+    </div>
+    <div ne-show="modalOptions.type=='prompt'" class="modalmain">
+        <div ne-show="modalOptions.headerTitle" class="modal-header">
+            <h3>{{modalOptions.headerTitle}}</h3>
+        </div>
+        <form id="form_7559" name="form_7559" class="common_form" action="https://hongcai.163.com/activeapi/service/form/v1/7559/submit?_charset=UTF-8&_decode=UTF-8" method="POST" target="hiddenIframe">
+            <iframe  id="hiddenIframe" name="hiddenIframe" width="0" height="0" style="display:none" frameborder="0" src=""></iframe>
+            <input name="_success" type="hidden" id="hiddeninfo_success">
+            <input name="_fail" type="hidden" id="hiddeninfo_fail">
+            <textarea id="form_7559_feedback" class="common_form_desc form_7559_feedback" name="feedback"  placeholder="请告诉我们您的问题和建议"></textarea>
+            <div class="form_common_form_btns">
+                <input type="button" class="form_btn-cancel" value="取消" id="btn-cancel">
+                <input type="submit" class="common_form_submit form_btn-sure" value="提交">
+            </div>
+        </form>
+    </div>
+
+    <div ne-show="modalOptions.type=='pay'" class="modalmain">
+        <div class="modal-body">
+            <div class="pay-success">
+                <p class="paytip">支付成功请点击</p>
+                <span class="btn btn-sure" ne-show="modalOptions.actionButtonText" ne-click="ok();">已完成付款</span>
+            </div>
+            <div class="pay-fail">
+                <p class="paytip">遇到问题请点击</p>
+                <span type="button" class="btn btn-cancel" ne-show="modalOptions.closeButtonText" ne-click="close()">重新支付</span>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <p class="paytip">
+                如有疑问，请联系客服电话:010-82558914 &nbsp; 邮箱:xuening@corp.netease.com  
+            </p>
+        </div>
+    </div>
+
+    <div ne-show="modalOptions.type=='wechatpay'" class="modalmain">
+        <div class="modal-header">微信支付</div>
+        <div class="modal-body">
+            <p class="bodytitle">请使用微信扫描下方二维码进行支付。</p>
+            <div class="bodycontent">
+                <div ne-role="qrcode" ne-id="qrcode" ne-show="modalOptions.codeurl" class="wechatpay-qrcode"></div>
+            </div>
+        </div>
+    </div>
+
+    <div ne-show="modalOptions.type=='statement'" class="modalmain">
+        <div ne-show="modalOptions.headerTitle" class="modal-header">
+            <h3>{{modalOptions.headerTitle}}</h3>
+        </div>
+        <div class="modal-body">
+            <div class="statement-wrap">
+                <div class="statement-main">
+                    <!-- <p class="bodytitle">免责声明</p> -->
+                    <div class="bodycontent">
+                        <p>风险提示：</p>
+                        <p>购彩仅为娱乐，请量力而行！</p>
+                        <p>本公司已力求本资讯内容的客观、公正，但文中的观点、结论和建议仅供参考，不包含本公司对投注建议的确定性判断。彩民朋友不应将本资讯作为投注决策的唯一参考因素，亦不应认为本资讯可以取代自己的判断。本资讯不构成个人投注建议，也没有考虑到个别客户特殊的投注目标、财务状况或需求。客户应考虑本资讯中的任何意见或建议是否符合其特定状况。彩民朋友在使用本资讯时，应注意甄别、慎重、正确使用本资讯，独立进行投注决策，防止被误导。</p>
+                        <p>负责声明：</p>
+                        <p>本资讯基于独立、客观、公正和审慎的原则制作，信息均来源于公开资料，本公司对这些信息的准确性和完整性不作任何保证。在任何情况下，本资讯中的信息或所表达的意见并不构成对任何人的投注建议，本公司及其雇员不对使用本资讯及其内容所引发的任何直接或间接损失负任何责任。本资讯所载的资料、意见及推测仅反映本公司于发布本资讯当日的判断；在不同时期，本公司可发出与资讯所载资料、意见及推测不一致的其他资讯；本公司不保证本资讯所含信息保持在最新状态。同时，本公司对本资讯所含信息可在不发出通知的情况下作出修改，彩民朋友应当自行关注相应的更新或修改。本资讯版权归本公司所有。本公司保留所有权利。未经本公司事先书面许可，任何机构和个人均不得以任何形式翻版、复制、引用或转载，否则，本公司将保留随时追究其法律责任的权利。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ne-if="modalOptions.type!='autodispear' && modalOptions.type!='pay' && modalOptions.type!='wechatpay' && modalOptions.type!='prompt'" class="modal-footer">
+        <span type="button" class="btn btn-cancel" ne-show="modalOptions.closeButtonText" ne-click="close()">{{modalOptions.closeButtonText}}</span><span class="btn btn-sure" ne-show="modalOptions.actionButtonText" ne-click="ok();">{{modalOptions.actionButtonText}}</span>
+    </div>
+    <span ne-if="modalOptions.type!='autodispear' && modalOptions.type!='pay'" class="modal-closebtn" ne-click="close()"></span>
+</div>
+</div>
+    <!-- 弹框模块 end -->
+    <script src="https://static.ws.126.net/163/relottery/frontend-pc-bowlder/collect/foot~c284da548502.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        (function(w, d, s, n) {
+        var f = d.getElementsByTagName(s)[0],k = d.createElement(s); k.async = true;
+        k.src = '//static.ws.126.net/163/frontend/antnest/'+n+'.js';
+        f.parentNode.insertBefore(k, f);
+        })(window, document, 'script','NTM-H186RVT9-27');
+    </script>
+    <script type="text/javascript" src="https://static.ws.126.net/163/f2e/common/wza/aria.js?appid=a6655141bab6921b58446b4b806b9fbf&v=3" charset="utf-8"></script>
+</body>
+</html>
