@@ -1,0 +1,9 @@
+Exception in thread spider_No_0:
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/Users/tianlintao/PycharmProjects/MiniSpider/crawl_thread.py", line 44, in run
+    self.input_queue.put_url_list_o(url_update)
+  File "/Users/tianlintao/PycharmProjects/MiniSpider/URL_List.py", line 48, in put_url_list_o
+    for url_o in url_list_o:
+TypeError: 'int' object is not iterable

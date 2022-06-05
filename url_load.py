@@ -1,11 +1,6 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
-#########################################################
-#
-# Copyright (c) 2022 Baidu.com, Inc. All Rights Reserved
-#
-#########################################################
 """
 url file load
 """
@@ -13,17 +8,20 @@ url file load
 import re
 import conf_load
 import URL_List
+import const
 
 
 def is_url_valid(add):
     '''
-    判断地址是否符合基本的规则：是否以http或者https开头
+    detect url address start with http/https or not
     :param add:
-    :return:
+    :return: result
     '''
     p = re.compile(r'^https?://\w.+$')
     if p.match(add):
-        return True
+        return const.OK
+    else:
+        return const.ERROR
 
 def get_first_url(conf):
     '''
@@ -53,6 +51,7 @@ if __name__ == '__main__':
 
     # l1 = ['https://www.baidu.com', 'http://www.douban.com']
     CONF = conf_load.GetConf('spider.conf')
+    CONF.conf_init()
     url_ori = get_first_url(CONF)
     for i in url_ori:
         print i.url, i.depth

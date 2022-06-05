@@ -1,166 +1,186 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
+import encodings
 import threading
+import os
 
 import requests
-import urllib2
 from bs4 import BeautifulSoup
 import re
+import urlparse
+import chardet
 
 import URL_List
 import log
+import conf_load
+import const
 
-def changeCoding(req):
-    '''
+class HtmlParseDriver(object):
+    def __init__(self, url_o, conf):
+        self.url = url_o.url
+        self.depth = url_o.depth
+        self.spider_log = log.LogManager()
+        self.timeout = conf.crawl_timeout
+        self.header = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)\
+                    Chrome/79.0.3945.88 Safari/537.36'}
+        self.output_path = conf.output_directory
 
-    :param req:
-    :return: encoding
-    '''
-    if req.encoding == 'ISO-8859-1':
-        # print 'ISO'
-        encodings = requests.utils.get_encodings_from_content(req.text)
-        if encodings:
-            encoding = encodings[0]
+    def log_test(self,):
+        self.spider_log.info("here")
+        
+    def _transcode(self, res):
+        """return utf-8 encoding content for saving
+        """
+        try:
+            content = res.content
+            url_encoding = res.apparent_encoding
+            
+            if res.apparent_encoding == None:
+                url_encoding = res.encoding    
+            elif res.apparent_encoding.lower() == 'gb2312':
+                url_encoding = 'GB18030'  
+            else:
+                pass            
+            content = content.decode(url_encoding).encode('utf-8')
+            return content
+        except UnicodeError as e:
+            self.spider_log.warning('{} trans_code_error- {}:'.format(self.url, e))
+            return const.ERROR
+        except UnicodeEncodeError as e:
+            self.spider_log.warning('{} trans_code_error- {}:'.format(self.url, e))
+            return const.ERROR
+        except UnicodeDecodeError as e:
+            self.spider_log.warning('{} trans_code_error- {}:'.format(self.url, e))
+            return const.ERROR
+        except Exception as e:
+            self.spider_log.warning('{} trans_code_error- {}:'.format(self.url, e))
+            return const.ERROR
+
+    def _sort_name(self,):
+        file_name = str(self.url).split("//")[-1].replace('.','_').replace('/', '_')
+        return file_name
+
+    def _trans_rela_to_abs(self, url):
+        """trans relative url address to absolute type
+        """
+        end = re.compile(r'.*\.(htm|html)$')
+        start = re.compile(r'^(\s*http|\s*https).*')
+        relative_type1 = re.compile(r'^//.*')
+        relative_type2 = re.compile(r'^/\w+.*')
+        
+        if end.match(url):
+            # print 'ori:', url_toget
+            url = url.strip()
+            if start.match(url):
+                url_o = URL_List.URL_O(url, self.depth)
+            if relative_type1.match(url):
+                url = urlparse.urljoin('http:',url)
+                url_o = URL_List.URL_O(url, self.depth)
+            if relative_type2.match(url):
+                url = urlparse.urljoin(self.url, url)
+                url_o = URL_List.URL_O(url, self.depth)
+        return url_o
+
+    def download_content(self,):   
+        try:
+            res = requests.get(self.url, headers=self.header, timeout=self.timeout)
+        except requests.exceptions.ConnectionError as e:
+            self.spider_log.error(r"{} can't connect".format(self.url))
+            return const.ERROR
+        except requests.exceptions.Timeout:
+            self.spider_log.error(r"{} connect timeout".format(self.url))
+            return const.ERROR
+        except Exception as e:
+            self.spider_log.warning('{} download fail - {}:'.format(self.url, e))
+            return const.ERROR
+        urlname = self._sort_name()
+        content = self._transcode(res)
+        if content == const.ERROR:
+            return const.ERROR
+        if not os.path.exists(self.output_path):
+            os.makedirs(self.output_path)
+        download_path = os.path.join(self.output_path, urlname)       
+        if res.status_code == 200:
+            try:
+                with open(download_path, 'w+') as f:  
+                    f.write(content)
+            except IOError as e:
+                self.spider_log.error('Write file error:{}'.format(e))
         else:
-            encoding = req.apparent_encoding
-    else:
-        encoding = req.encoding
-    return encoding
+            self.spider_log.error(r"{} can't reach,res code:{}".format(self.url, res.status_code))
+            return const.ERROR
+        return const.OK
 
-def getpic(url_pic, timeout_conf):
-    '''
-
-    :param url_pic:
-    :return:
-    '''
-    piclist=[]
-    f = None
-    header_to_take = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'}
-    try:
-        f = requests.get(url_pic, headers=header_to_take,timeout=timeout_conf)
-    except requests.exceptions.Timeout:
-        print 'get pic address timeout'
-        # logmanager.logger.error('get pic address{} timeout'.format(url_pic))
-    if f:
-        print(f.status_code)
-
-        f.encoding = changeCoding(f)
-        bs_readf = BeautifulSoup(f.text, 'lxml')
-
-        all_img = bs_readf.find_all('img', {'src':True})
-
-        for i in all_img:
-            url_toget = i.attrs['src']
-            # print 'ori img:', url_toget
-
-            p = re.compile(r'^.*.(jpg|png|jpeg)$')
-            p1 = re.compile(r'^.*./(.*\.)(jpg|png|jpeg)$')
-            pstart = re.compile(r'^(http|https).*$')
-            ptype1 = re.compile(r'^//.*$')
-            ptype2 = re.compile(r'^/\w+.*$')
-            pmatch = p1.match(url_toget)
-
-            if pmatch:
-                pic_name = pmatch.group(1)+pmatch.group(2)
-                if pstart.match(url_toget):
-                    pass
-                    # print 'original:', url_toget
-
-                elif ptype1.match(url_toget):
-                    url_toget = 'http:' + url_toget
-                    # print 'mod+http:' + url_toget
-                elif ptype2.match(url_toget):
-                    url_toget = url_pic + url_toget
-                    # print 'mod+url:' + url_toget
-                else:
-                    pass
-                    # print 'no process' + url_toget
-                if url_toget not in piclist:
-                    piclist.append(url_toget)
-
-                # try:
-                #     with open('./output/{}'.format(pic_name), 'wb') as f:   #这里文件名字要改一下，还要放到按网址建立的文件夹
-                #         f.write(requests.get(url_toget).content)
-                # except IOError as ioe:
-                #     print ('IO wrong')
-
-        return piclist
-
-        # print 'thread',threading.currentThread().name,' webpage {}'.format(url_pic),'get',piclist
-        # return piclist
-
-
-def geturladd(url_to_take, depth, timeout_conf):
-    url_list_o=[]
-    f = None
-    header_to_take = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'}
-    try:
-        f = requests.get(url_to_take.url, headers=header_to_take,timeout=timeout_conf)
-    except requests.exceptions.Timeout:
-        print 'get url add timeout'
-        # logmanager.logger.error('get url addresss {} timeout'.format(url_to_take))
-    if f:
-        print(f.status_code)
-        bs_readf = BeautifulSoup(f.text, 'lxml')
-        # with open('./output/1.html', 'w') as k:
-        #     k.write(requests.get(url_to_take).content)
-        for id, i in enumerate(bs_readf.find_all('a', {"href": True})):
-            # print 'original:', i
+    def update_Url(self,):
+        try:
+            res = requests.get(self.url, headers=self.header, timeout=self.timeout)
+        except requests.exceptions.ConnectionError as e:
+            self.spider_log.error(r"{} can't connect".format(self.url))
+            return const.ERROR
+        except requests.exceptions.Timeout:
+            self.spider_log.error(r"{} connect timeout".format(self.url))
+            return const.ERROR
+        except Exception as e:
+            self.spider_log.warning('{} download fail - {}:'.format(self.url, e))
+            return const.ERROR
+        content = self._transcode(res)
+        
+        if content == const.ERROR:
+            return const.ERROR
+        bs_read = BeautifulSoup(content, 'lxml')
+        url_list_o = []
+        self.depth += 1
+        for id, i in enumerate(bs_read.find_all('a', {"href": True})):
             url_toget = i.attrs['href']
-
-            pstart = re.compile(r'^(\s*http|\s*https).*(\.htm|\.html)$')
-            if pstart.match(url_toget):
+            end = re.compile(r'.*\.(htm|html)$')
+            start = re.compile(r'^(\s*http|\s*https).*')
+            relative_type1 = re.compile(r'^//.*')
+            relative_type2 = re.compile(r'^/\w+.*')
+            
+            if end.match(url_toget):
                 # print 'ori:', url_toget
-                url_o = URL_List.URL_O(url_toget, depth)
-                url_list_o.append(url_o)
+                if start.match(url_toget):
+                    url_o = URL_List.URL_O(url_toget.strip(), self.depth)
+                if relative_type1.match(url_toget):
+                    url_toget = urlparse.urljoin('http:',url_toget)
+                    url_o = URL_List.URL_O(url_toget.strip(), self.depth)
+                if relative_type2.match(url_toget):
+                    url_toget = urlparse.urljoin(self.url, url_toget)
+                    url_o = URL_List.URL_O(url_toget.strip(), self.depth)
+                url_list_o.append(url_o)               
             else:
                 pass
-            # print 'webpage {}'.format(url_to_take), 'get', url_list_o
+
         return url_list_o
 
-
-def downloadpic(url, timeout_conf):
-    p1 = re.compile(r'^.*./(.*\.)(jpg|png|jpeg)$')
-    pmatch = p1.match(url)
-    pic_name = pmatch.group(1) + pmatch.group(2)
-    pic_data = None
-    header_to_take = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36'}
-
-    try:
-        pic_data = requests.get(url, headers=header_to_take, timeout=timeout_conf).content
-    except requests.exceptions.Timeout:
-        print '超时未下载{}'.format(pic_name)
-        # logmanager.logger.error('超时未下载{}'.format(pic_name))
-    if pic_data:
-        try:
-            with open('./output/{}'.format(pic_name), 'wb') as f:  # 这里文件名字要改一下，还要放到按网址建立的文件夹
-                f.write(pic_data)
-        except IOError as ioe:
-            print ('IO wrong')
-
-
 if __name__ == '__main__':
-    url = 'https://docs.python-requests.org/en/latest/'
     url1 = 'http://www.baidu.com'
     urls = 'https://www.sina.com.cn'
     urlw = 'https://www.163.com'
     urld = 'https://www.douban.com'
     urlm = 'https://movie.douban.com/subject/35242938/'
     urly = 'http://sports.sina.com.cn/g/premierleague/index.shtml'
-    # geturl(url1)
-    getpic(urly)
-    # geturl_demo(urly)
-    # geturladd(urly,0)
-    # req = requests.get(urly)
-    # print (changeCoding(req))
+    urlg = "https://www.ip138.com/post/"
+    urln = "http://www.asgasdfasdf.com"
+    urlt = 'https:/twitter.com'
+    urle = "http://xf.house.163.com/bj/0RCF.html"
+    urln2 = 'https://slide.news.sina.com.cn/slide_1_86058_547923.html'
+    urln3 = 'https://fashion.sina.com.cn/s/ac/2022-06-02/0607/doc-imizirau6027564.shtml'
+    urln4 = 'http://slide.baby.sina.com.cn/mxx/slide_10_846_774766.html '
+    urln5 = "http://xf.house.163.com/bj/0RCF.html"
 
-
-    # uo = geturladd(urlw, 0)
-    # # print uo
-    # for i in uo:
-    #     print i.url, 'depth:',i.depth
-    # downloadpic('https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2678037153.jpg')
+    conf = conf_load.GetConf('spider.conf', 'spider')
+    conf.conf_init()
+    url_o = URL_List.URL_O(urln5, 0)
+    k = HtmlParseDriver(url_o, conf)
+    #k.download_content()
+    url_o = URL_List.URL_O(urly, 0)
+    #list = geturladd(url_o)
+    #for i in list:
+        #print i.url
+    #k.update_Url()
+    k.download_content()
+    k.log_test()
+    
 

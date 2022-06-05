@@ -8,67 +8,69 @@ import conf_load
 import url_load
 import html_parse
 import log
+import const
 
-class CrawlThreadManager(threading.Thread):
+class Crawler(threading.Thread):
     '''
     params: input_url_queue ,url from a queue to crawl
             Res_Table,put result to a queue which can be get by DownloadThread
     '''
-    def __init__(self, input_url_queue, res_url_queue, conf,name):
+    def __init__(self, input_queue, conf, name):
         threading.Thread.__init__(self)
+        self.spider_log = log.LogManager()
         self.name = name
-        self.input_url_queue = input_url_queue  #get url from url_table(queue)
-        self.url_list_o = []          #get new url from url queue ,wait for another crawl process
-        self.res_list = []           #put download url in ,wait for download
-        self.res_url_queue = res_url_queue
-        self.max_depth = conf.max_depth
-        self.crawl_interval = conf.crawl_interval
-        self.crawl_timeout = conf.crawl_timeout
-        self.thread_count = conf.thread_count
-        self.daemon = True            #will be terminated by ctrl+C
+        self.conf = conf
+        self.input_queue = input_queue  #get url from Url_List(queue)
+        self.max_depth = self.conf.max_depth
+        self.crawl_interval = self.conf.crawl_interval
+        self.crawl_timeout = self.conf.crawl_timeout
+        #self.thread_count = conf.thread_count
+        self.daemon = True            
 
     def run(self):
-        while 1:
-            url_to_process = self.input_url_queue.get()
-            res_to_process = None
+        while True:
+            #get url to process
+            url_to_process = self.input_queue.get()
+            url_update = []
+            if url_to_process != const.EMPTY:
+                self.spider_log.info("Thread {} get {}, depth:{}".format(self.name, \
+                        url_to_process.url, url_to_process.depth), display=True)            
+                url_parse = html_parse.HtmlParseDriver(url_to_process, self.conf)
+                ret_d = const.INITIAL
+                ret_update = const.INITIAL
 
-            if url_to_process:
-                print 'thread{}'.format(threading.currentThread().name), 'get', url_to_process.url, 'depth:', url_to_process.depth
-            else:
-                res_to_process = self.res_url_queue.get()
-
-            if url_to_process:
                 if url_to_process.depth < self.max_depth:
-                    self.res_list = html_parse.getpic(url_to_process.url,self.crawl_timeout)
-                    self.url_list_o = html_parse.geturladd(url_to_process, url_to_process.depth+1,self.crawl_timeout)
-
-                    self.input_url_queue.put_url_list_o(self.url_list_o)
-                    self.res_url_queue.put_res_list(self.res_list)
-
-                    self.input_url_queue.task_done()
+                    ret_d = url_parse.download_content()
+                    url_update = url_parse.update_Url() 
+                    if url_update == const.ERROR:
+                        self.spider_log.error("{} Update failure".format(url_to_process.url))
+                        break
+                    self.input_queue.put_url_list_o(url_update)             
                 elif url_to_process.depth == self.max_depth:
-                    print '**************************max _depth**********************************'
-                    self.res_list = html_parse.getpic(url_to_process.url,self.crawl_timeout)
-                    if self.res_list:
-                        self.res_url_queue.put_res_list(self.res_list)
-
-                    self.input_url_queue.task_done()
+                    ret_d = url_parse.download_content()
                 else:
                     pass
 
-            if res_to_process:
-                print 'thread{}'.format(threading.currentThread().name), 'will download', res_to_process
-                html_parse.downloadpic(res_to_process,self.crawl_timeout)
-                self.res_url_queue.task_done()
+                # Download Result Log
+                if ret_d == const.OK:
+                    self.spider_log.debug("Thread {} download {} success, depth {}"\
+                        .format(self.name, url_to_process.url,url_to_process.depth), display=True)
+                elif ret_d == const.ERROR:
+                    self.spider_log.debug("Thread {} download {} fail, depth {}"\
+                        .format(self.name, url_to_process.url,url_to_process.depth), display=True)
+                else:
+                    pass
+              
+                self.input_queue.task_done()
 
             time.sleep(self.crawl_interval)
 
 
-def initCrawlThread(conf,input_queue,res_queue):
+def initCrawlThread(conf,input_queue):
     for i in range(0, conf.thread_count):
         thread_name = 'spider_No_{}'.format(i)
-        thread1 = CrawlThreadManager(input_queue, res_queue, conf, thread_name)
-        thread1.start()
+        s_thread = Crawler(input_queue, conf, thread_name)
+        s_thread.start()
 
         print thread_name, 'start '
     input_queue.join()
@@ -77,11 +79,11 @@ def initCrawlThread(conf,input_queue,res_queue):
 
 if __name__=='__main__':
     CONF = conf_load.GetConf('spider.conf')
+    CONF.conf_init()
     url_ori = url_load.get_first_url(CONF)
     input_queue = URL_List.URL_queue()
     input_queue.put_url_list_o(url_ori)
     res_queue = URL_List.URL_queue()
 
-    initCrawlThread(CONF, input_queue, res_queue)
-    # input_queue.join()
-    # res_queue.join()
+    initCrawlThread(CONF, input_queue)
+    input_queue.join()

@@ -1,0 +1,561 @@
+2022-06-05 00:42:28,149 - INFO - Thread spider_No_0 get https://www.163.com, depth:0 - log.py
+2022-06-05 00:42:28,149 - INFO - Thread spider_No_1 get https://www.sina.com.cn, depth:0 - log.py
+2022-06-05 00:42:33,056 - INFO - spider_No_1 download https://www.sina.com.cn success, depth 0 - log.py
+2022-06-05 00:42:33,173 - INFO - Thread spider_No_2 get https://so.sina.cn/palmnews/web-sinanews-app-download.d.html, depth:1 - log.py
+2022-06-05 00:42:33,173 - INFO - Thread spider_No_6 get https://www.12377.cn/node_548446.htm, depth:1 - log.py
+2022-06-05 00:42:33,173 - INFO - Thread spider_No_3 get https://news.sina.com.cn/pc/2014-10-30/326/3095.html, depth:1 - log.py
+2022-06-05 00:42:33,174 - INFO - Thread spider_No_5 get https://db.auto.sina.com.cn/list-0-0-5_8-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:33,174 - INFO - Thread spider_No_7 get https://auto.sina.com.cn/newcar/index.d.html, depth:1 - log.py
+2022-06-05 00:42:33,174 - INFO - Thread spider_No_4 get https://db.auto.sina.com.cn/list-0-0-8_11-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:33,617 - INFO - spider_No_6 download https://www.12377.cn/node_548446.htm success, depth 1 - log.py
+2022-06-05 00:42:33,669 - INFO - spider_No_2 download https://so.sina.cn/palmnews/web-sinanews-app-download.d.html success, depth 1 - log.py
+2022-06-05 00:42:34,061 - INFO - Thread spider_No_1 get https://db.auto.sina.com.cn/list-0-0-11_15-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:34,625 - INFO - Thread spider_No_6 get https://db.auto.sina.com.cn/list-0-0-15_20-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:34,674 - INFO - Thread spider_No_2 get https://db.auto.sina.com.cn/list-0-0-20_25-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:36,571 - INFO - spider_No_3 download https://news.sina.com.cn/pc/2014-10-30/326/3095.html success, depth 1 - log.py
+2022-06-05 00:42:36,792 - INFO - spider_No_7 download https://auto.sina.com.cn/newcar/index.d.html success, depth 1 - log.py
+2022-06-05 00:42:37,576 - INFO - Thread spider_No_3 get https://db.auto.sina.com.cn/list-0-0-25_35-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:37,806 - INFO - Thread spider_No_7 get https://db.auto.sina.com.cn/list-0-0-35_50-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:43,199 - INFO - spider_No_0 download https://www.163.com success, depth 0 - log.py
+2022-06-05 00:42:44,207 - INFO - Thread spider_No_0 get https://db.auto.sina.com.cn/list-2-0-0-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:54,415 - INFO - spider_No_4 download https://db.auto.sina.com.cn/list-0-0-8_11-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:42:54,518 - INFO - spider_No_5 download https://db.auto.sina.com.cn/list-0-0-5_8-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:42:54,750 - INFO - spider_No_1 download https://db.auto.sina.com.cn/list-0-0-11_15-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:42:55,419 - INFO - Thread spider_No_4 get https://db.auto.sina.com.cn/list-3-0-0-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:55,466 - INFO - spider_No_6 download https://db.auto.sina.com.cn/list-0-0-15_20-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:42:55,525 - INFO - Thread spider_No_5 get https://db.auto.sina.com.cn/list-4-0-0-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:55,649 - INFO - spider_No_2 download https://db.auto.sina.com.cn/list-0-0-20_25-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:42:55,755 - INFO - Thread spider_No_1 get https://db.auto.sina.com.cn/list-0-5-0-0-0-0-0-0-9-0-1.html, depth:1 - log.py
+2022-06-05 00:42:56,471 - INFO - Thread spider_No_6 get http://k.sina.com.cn/article_1411163204_541ca444020016bdm.html, depth:1 - log.py
+2022-06-05 00:42:56,655 - INFO - Thread spider_No_2 get https://slide.news.sina.com.cn/slide_1_86058_547968.html, depth:1 - log.py
+2022-06-05 00:42:58,115 - INFO - spider_No_6 download http://k.sina.com.cn/article_1411163204_541ca444020016bdm.html success, depth 1 - log.py
+2022-06-05 00:42:58,435 - INFO - spider_No_3 download https://db.auto.sina.com.cn/list-0-0-25_35-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:42:58,813 - INFO - spider_No_7 download https://db.auto.sina.com.cn/list-0-0-35_50-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:42:59,120 - INFO - Thread spider_No_6 get https://slide.news.sina.com.cn/slide_1_86058_547998.html, depth:1 - log.py
+2022-06-05 00:42:59,442 - INFO - Thread spider_No_3 get https://slide.news.sina.com.cn/slide_1_86058_547997.html, depth:1 - log.py
+2022-06-05 00:42:59,819 - INFO - Thread spider_No_7 get https://slide.news.sina.com.cn/slide_1_86058_547979.html, depth:1 - log.py
+2022-06-05 00:43:01,548 - INFO - spider_No_2 download https://slide.news.sina.com.cn/slide_1_86058_547968.html success, depth 1 - log.py
+2022-06-05 00:43:02,556 - INFO - Thread spider_No_2 get https://slide.news.sina.com.cn/slide_1_86058_547977.html, depth:1 - log.py
+2022-06-05 00:43:05,110 - INFO - spider_No_0 download https://db.auto.sina.com.cn/list-2-0-0-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:43:05,602 - INFO - spider_No_6 download https://slide.news.sina.com.cn/slide_1_86058_547998.html success, depth 1 - log.py
+2022-06-05 00:43:05,865 - INFO - spider_No_7 download https://slide.news.sina.com.cn/slide_1_86058_547979.html success, depth 1 - log.py
+2022-06-05 00:43:06,116 - INFO - Thread spider_No_0 get https://slide.news.sina.com.cn/slide_1_86058_547974.html, depth:1 - log.py
+2022-06-05 00:43:06,315 - INFO - spider_No_3 download https://slide.news.sina.com.cn/slide_1_86058_547997.html success, depth 1 - log.py
+2022-06-05 00:43:06,607 - INFO - Thread spider_No_6 get http://slide.fashion.sina.com.cn/slide_24_84625_149821.html, depth:1 - log.py
+2022-06-05 00:43:06,872 - INFO - Thread spider_No_7 get http://slide.fashion.sina.com.cn/slide_24_84625_149820.html, depth:1 - log.py
+2022-06-05 00:43:07,320 - INFO - Thread spider_No_3 get http://blog.sina.com.cn/s/blog_4b2cb00e0102ytki.html, depth:1 - log.py
+2022-06-05 00:43:08,167 - INFO - spider_No_2 download https://slide.news.sina.com.cn/slide_1_86058_547977.html success, depth 1 - log.py
+2022-06-05 00:43:08,575 - INFO - spider_No_3 download http://blog.sina.com.cn/s/blog_4b2cb00e0102ytki.html success, depth 1 - log.py
+2022-06-05 00:43:09,175 - INFO - Thread spider_No_2 get http://slide.news.sina.com.cn/slide_1_86058_547961.html, depth:1 - log.py
+2022-06-05 00:43:09,585 - INFO - Thread spider_No_3 get http://slide.sports.sina.com.cn/k/slide_2_786_278885.html, depth:1 - log.py
+2022-06-05 00:43:11,355 - INFO - spider_No_0 download https://slide.news.sina.com.cn/slide_1_86058_547974.html success, depth 1 - log.py
+2022-06-05 00:43:12,361 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013217.d.html, depth:1 - log.py
+2022-06-05 00:43:13,258 - INFO - spider_No_7 download http://slide.fashion.sina.com.cn/slide_24_84625_149820.html success, depth 1 - log.py
+2022-06-05 00:43:13,429 - INFO - spider_No_6 download http://slide.fashion.sina.com.cn/slide_24_84625_149821.html success, depth 1 - log.py
+2022-06-05 00:43:13,439 - INFO - spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013217.d.html success, depth 1 - log.py
+2022-06-05 00:43:14,247 - INFO - spider_No_2 download http://slide.news.sina.com.cn/slide_1_86058_547961.html success, depth 1 - log.py
+2022-06-05 00:43:14,264 - INFO - Thread spider_No_7 get https://slide.news.sina.com.cn/slide_1_86058_547952.html, depth:1 - log.py
+2022-06-05 00:43:14,435 - INFO - Thread spider_No_6 get https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6143252.d.html, depth:1 - log.py
+2022-06-05 00:43:14,444 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506737.d.html, depth:1 - log.py
+2022-06-05 00:43:15,248 - INFO - spider_No_6 download https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6143252.d.html success, depth 1 - log.py
+2022-06-05 00:43:15,252 - INFO - Thread spider_No_2 get https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6569650.d.html, depth:1 - log.py
+2022-06-05 00:43:15,261 - INFO - spider_No_3 download http://slide.sports.sina.com.cn/k/slide_2_786_278885.html success, depth 1 - log.py
+2022-06-05 00:43:15,268 - INFO - spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506737.d.html success, depth 1 - log.py
+2022-06-05 00:43:15,581 - INFO - spider_No_5 download https://db.auto.sina.com.cn/list-4-0-0-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:43:15,765 - INFO - spider_No_1 download https://db.auto.sina.com.cn/list-0-5-0-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:43:15,869 - INFO - spider_No_2 download https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6569650.d.html success, depth 1 - log.py
+2022-06-05 00:43:16,015 - INFO - spider_No_4 download https://db.auto.sina.com.cn/list-3-0-0-0-0-0-0-0-9-0-1.html success, depth 1 - log.py
+2022-06-05 00:43:16,220 - INFO - spider_No_7 download https://slide.news.sina.com.cn/slide_1_86058_547952.html success, depth 1 - log.py
+2022-06-05 00:43:16,253 - INFO - Thread spider_No_6 get https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6572127.d.html, depth:1 - log.py
+2022-06-05 00:43:16,266 - INFO - Thread spider_No_3 get https://video.sina.com.cn/p/news/2022-06-04/detail-imizirau6569712.d.html, depth:1 - log.py
+2022-06-05 00:43:16,271 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5113714.d.html, depth:1 - log.py
+2022-06-05 00:43:16,588 - INFO - Thread spider_No_5 get https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5111707.d.html, depth:1 - log.py
+2022-06-05 00:43:16,670 - INFO - spider_No_6 download https://video.sina.com.cn/p/news/2022-06-05/detail-imizirau6572127.d.html success, depth 1 - log.py
+2022-06-05 00:43:16,708 - INFO - spider_No_0 download https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5113714.d.html success, depth 1 - log.py
+2022-06-05 00:43:16,720 - INFO - spider_No_3 download https://video.sina.com.cn/p/news/2022-06-04/detail-imizirau6569712.d.html success, depth 1 - log.py
+2022-06-05 00:43:16,770 - INFO - Thread spider_No_1 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013587.d.html, depth:1 - log.py
+2022-06-05 00:43:16,875 - INFO - Thread spider_No_2 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4528142.d.html, depth:1 - log.py
+2022-06-05 00:43:16,894 - INFO - spider_No_5 download https://video.sina.com.cn/p/news/2022-06-05/detail-imizmscu5111707.d.html success, depth 1 - log.py
+2022-06-05 00:43:17,021 - INFO - Thread spider_No_4 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4570623.d.html, depth:1 - log.py
+2022-06-05 00:43:17,225 - INFO - Thread spider_No_7 get https://video.sina.com.cn/p/news/2022-03-21/detail-imcwipih9778642.d.html, depth:1 - log.py
+2022-06-05 00:43:17,225 - INFO - spider_No_2 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4528142.d.html success, depth 1 - log.py
+2022-06-05 00:43:17,233 - INFO - spider_No_1 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6013587.d.html success, depth 1 - log.py
+2022-06-05 00:43:17,328 - INFO - spider_No_4 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4570623.d.html success, depth 1 - log.py
+2022-06-05 00:43:17,451 - INFO - spider_No_7 download https://video.sina.com.cn/p/news/2022-03-21/detail-imcwipih9778642.d.html success, depth 1 - log.py
+2022-06-05 00:43:17,675 - INFO - Thread spider_No_6 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0293986.d.html, depth:1 - log.py
+2022-06-05 00:43:17,717 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5448874.d.html, depth:1 - log.py
+2022-06-05 00:43:17,721 - INFO - Thread spider_No_3 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0279557.d.html, depth:1 - log.py
+2022-06-05 00:43:17,902 - INFO - Thread spider_No_5 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464732.d.html, depth:1 - log.py
+2022-06-05 00:43:18,057 - INFO - spider_No_0 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5448874.d.html success, depth 1 - log.py
+2022-06-05 00:43:18,173 - INFO - spider_No_6 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0293986.d.html success, depth 1 - log.py
+2022-06-05 00:43:18,182 - INFO - spider_No_3 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyamrna0279557.d.html success, depth 1 - log.py
+2022-06-05 00:43:18,214 - INFO - spider_No_5 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464732.d.html success, depth 1 - log.py
+2022-06-05 00:43:18,230 - INFO - Thread spider_No_2 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464678.d.html, depth:1 - log.py
+2022-06-05 00:43:18,238 - INFO - Thread spider_No_1 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5473985.d.html, depth:1 - log.py
+2022-06-05 00:43:18,333 - INFO - Thread spider_No_4 get https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5470368.d.html, depth:1 - log.py
+2022-06-05 00:43:18,457 - INFO - Thread spider_No_7 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4592015.d.html, depth:1 - log.py
+2022-06-05 00:43:18,739 - INFO - spider_No_2 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5464678.d.html success, depth 1 - log.py
+2022-06-05 00:43:18,782 - INFO - spider_No_1 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5473985.d.html success, depth 1 - log.py
+2022-06-05 00:43:18,791 - INFO - spider_No_4 download https://video.sina.com.cn/p/news/2022-02-11/detail-ikyakumy5470368.d.html success, depth 1 - log.py
+2022-06-05 00:43:18,815 - INFO - spider_No_7 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4592015.d.html success, depth 1 - log.py
+2022-06-05 00:43:19,062 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4582829.d.html, depth:1 - log.py
+2022-06-05 00:43:19,179 - INFO - Thread spider_No_6 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6028435.d.html, depth:1 - log.py
+2022-06-05 00:43:19,188 - INFO - Thread spider_No_3 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4586634.d.html, depth:1 - log.py
+2022-06-05 00:43:19,219 - INFO - Thread spider_No_5 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6030506.d.html, depth:1 - log.py
+2022-06-05 00:43:19,626 - INFO - spider_No_6 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6028435.d.html success, depth 1 - log.py
+2022-06-05 00:43:19,635 - INFO - spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4582829.d.html success, depth 1 - log.py
+2022-06-05 00:43:19,677 - INFO - spider_No_3 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4586634.d.html success, depth 1 - log.py
+2022-06-05 00:43:19,691 - INFO - spider_No_5 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6030506.d.html success, depth 1 - log.py
+2022-06-05 00:43:19,746 - INFO - Thread spider_No_2 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032022.d.html, depth:1 - log.py
+2022-06-05 00:43:19,787 - INFO - Thread spider_No_1 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6031314.d.html, depth:1 - log.py
+2022-06-05 00:43:19,796 - INFO - Thread spider_No_4 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032830.d.html, depth:1 - log.py
+2022-06-05 00:43:19,820 - INFO - Thread spider_No_7 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6034121.d.html, depth:1 - log.py
+2022-06-05 00:43:20,056 - INFO - spider_No_2 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032022.d.html success, depth 1 - log.py
+2022-06-05 00:43:20,197 - INFO - spider_No_1 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6031314.d.html success, depth 1 - log.py
+2022-06-05 00:43:20,257 - INFO - spider_No_7 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6034121.d.html success, depth 1 - log.py
+2022-06-05 00:43:20,258 - INFO - spider_No_4 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizirau6032830.d.html success, depth 1 - log.py
+2022-06-05 00:43:20,626 - INFO - Thread spider_No_6 get https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4591475.d.html, depth:1 - log.py
+2022-06-05 00:43:20,641 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/astro/2020-11-10/detail-iiznezxs1122425.d.html, depth:1 - log.py
+2022-06-05 00:43:20,682 - INFO - Thread spider_No_3 get https://video.sina.com.cn/p/astro/2020-11-30/detail-iiznctke4028473.d.html, depth:1 - log.py
+2022-06-05 00:43:20,696 - INFO - Thread spider_No_5 get https://video.sina.com.cn/p/news/2022-06-04/detail-imizirau6551289.d.html, depth:1 - log.py
+2022-06-05 00:43:21,061 - INFO - Thread spider_No_2 get https://video.sina.com.cn/p/news/2022-06-04/detail-imizmscu5086758.d.html, depth:1 - log.py
+2022-06-05 00:43:21,087 - INFO - spider_No_6 download https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4591475.d.html success, depth 1 - log.py
+2022-06-05 00:43:21,161 - INFO - spider_No_3 download https://video.sina.com.cn/p/astro/2020-11-30/detail-iiznctke4028473.d.html success, depth 1 - log.py
+2022-06-05 00:43:21,167 - INFO - spider_No_0 download https://video.sina.com.cn/p/astro/2020-11-10/detail-iiznezxs1122425.d.html success, depth 1 - log.py
+2022-06-05 00:43:21,189 - INFO - spider_No_5 download https://video.sina.com.cn/p/news/2022-06-04/detail-imizirau6551289.d.html success, depth 1 - log.py
+2022-06-05 00:43:21,202 - INFO - Thread spider_No_1 get https://video.sina.com.cn/p/news/2022-06-04/detail-imizmscu5085851.d.html, depth:1 - log.py
+2022-06-05 00:43:21,263 - INFO - Thread spider_No_7 get http://slide.sports.sina.com.cn/g_pl/slide_2_730_278881.html, depth:1 - log.py
+2022-06-05 00:43:21,264 - INFO - Thread spider_No_4 get http://video.sina.com.cn/p/sports/2022-05-27/detail-imizirau5097292.d.html, depth:1 - log.py
+2022-06-05 00:43:21,334 - INFO - spider_No_2 download https://video.sina.com.cn/p/news/2022-06-04/detail-imizmscu5086758.d.html success, depth 1 - log.py
+2022-06-05 00:43:21,692 - INFO - spider_No_1 download https://video.sina.com.cn/p/news/2022-06-04/detail-imizmscu5085851.d.html success, depth 1 - log.py
+2022-06-05 00:43:21,707 - INFO - spider_No_4 download http://video.sina.com.cn/p/sports/2022-05-27/detail-imizirau5097292.d.html success, depth 1 - log.py
+2022-06-05 00:43:22,099 - INFO - Thread spider_No_6 get http://video.sina.com.cn/p/sports/2022-05-26/detail-imizirau4876241.d.html, depth:1 - log.py
+2022-06-05 00:43:22,135 - INFO - spider_No_7 download http://slide.sports.sina.com.cn/g_pl/slide_2_730_278881.html success, depth 1 - log.py
+2022-06-05 00:43:22,166 - INFO - Thread spider_No_3 get http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst7086683.d.html, depth:1 - log.py
+2022-06-05 00:43:22,173 - INFO - Thread spider_No_0 get http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwipii9442591.d.html, depth:1 - log.py
+2022-06-05 00:43:22,194 - INFO - Thread spider_No_5 get http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst6982213.d.html, depth:1 - log.py
+2022-06-05 00:43:22,249 - INFO - spider_No_6 download http://video.sina.com.cn/p/sports/2022-05-26/detail-imizirau4876241.d.html success, depth 1 - log.py
+2022-06-05 00:43:22,307 - INFO - spider_No_3 download http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst7086683.d.html success, depth 1 - log.py
+2022-06-05 00:43:22,339 - INFO - Thread spider_No_2 get http://slide.ent.sina.com.cn/star/slide_4_86512_370701.html, depth:1 - log.py
+2022-06-05 00:43:22,486 - INFO - spider_No_0 download http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwipii9442591.d.html success, depth 1 - log.py
+2022-06-05 00:43:22,508 - INFO - spider_No_5 download http://video.sina.com.cn/p/sports/2022-05-12/detail-imcwiwst6982213.d.html success, depth 1 - log.py
+2022-06-05 00:43:22,708 - INFO - Thread spider_No_1 get http://slide.ent.sina.com.cn/star/slide_4_86512_370690.html, depth:1 - log.py
+2022-06-05 00:43:22,712 - INFO - Thread spider_No_4 get http://slide.ent.sina.com.cn/star/slide_4_86512_370700.html, depth:1 - log.py
+2022-06-05 00:43:23,141 - INFO - Thread spider_No_7 get http://slide.ent.sina.com.cn/tv/slide_4_86512_370694.html, depth:1 - log.py
+2022-06-05 00:43:23,256 - INFO - Thread spider_No_6 get http://slide.ent.sina.com.cn/star/slide_4_86512_370692.html, depth:1 - log.py
+2022-06-05 00:43:23,313 - INFO - Thread spider_No_3 get http://slide.ent.sina.com.cn/star/slide_4_86512_370702.html, depth:1 - log.py
+2022-06-05 00:43:23,488 - INFO - Thread spider_No_0 get http://slide.ent.sina.com.cn/star/slide_4_86512_370695.html, depth:1 - log.py
+2022-06-05 00:43:23,514 - INFO - Thread spider_No_5 get http://slide.ent.sina.com.cn/star/slide_4_86512_370696.html, depth:1 - log.py
+2022-06-05 00:43:24,376 - INFO - spider_No_2 download http://slide.ent.sina.com.cn/star/slide_4_86512_370701.html success, depth 1 - log.py
+2022-06-05 00:43:25,386 - INFO - Thread spider_No_2 get http://slide.ent.sina.com.cn/star/slide_4_86512_370686.html, depth:1 - log.py
+2022-06-05 00:43:27,756 - INFO - spider_No_1 download http://slide.ent.sina.com.cn/star/slide_4_86512_370690.html success, depth 1 - log.py
+2022-06-05 00:43:28,009 - INFO - spider_No_4 download http://slide.ent.sina.com.cn/star/slide_4_86512_370700.html success, depth 1 - log.py
+2022-06-05 00:43:28,762 - INFO - Thread spider_No_1 get http://slide.ent.sina.com.cn/h/slide_4_86512_370693.html, depth:1 - log.py
+2022-06-05 00:43:29,015 - INFO - Thread spider_No_4 get http://slide.ent.sina.com.cn/star/h/slide_4_86512_370691.html, depth:1 - log.py
+2022-06-05 00:43:29,207 - INFO - spider_No_6 download http://slide.ent.sina.com.cn/star/slide_4_86512_370692.html success, depth 1 - log.py
+2022-06-05 00:43:29,282 - INFO - spider_No_3 download http://slide.ent.sina.com.cn/star/slide_4_86512_370702.html success, depth 1 - log.py
+2022-06-05 00:43:29,481 - INFO - spider_No_7 download http://slide.ent.sina.com.cn/tv/slide_4_86512_370694.html success, depth 1 - log.py
+2022-06-05 00:43:29,482 - INFO - spider_No_5 download http://slide.ent.sina.com.cn/star/slide_4_86512_370696.html success, depth 1 - log.py
+2022-06-05 00:43:29,756 - INFO - spider_No_0 download http://slide.ent.sina.com.cn/star/slide_4_86512_370695.html success, depth 1 - log.py
+2022-06-05 00:43:30,214 - INFO - Thread spider_No_6 get http://slide.ent.sina.com.cn/star/slide_4_86512_370689.html, depth:1 - log.py
+2022-06-05 00:43:30,287 - INFO - Thread spider_No_3 get http://slide.ent.sina.com.cn/star/slide_4_86512_370703.html, depth:1 - log.py
+2022-06-05 00:43:30,322 - INFO - spider_No_2 download http://slide.ent.sina.com.cn/star/slide_4_86512_370686.html success, depth 1 - log.py
+2022-06-05 00:43:30,487 - INFO - Thread spider_No_7 get http://slide.ent.sina.com.cn/star/slide_4_86512_370685.html, depth:1 - log.py
+2022-06-05 00:43:30,488 - INFO - Thread spider_No_5 get http://slide.ent.sina.com.cn/star/slide_4_86512_370697.html, depth:1 - log.py
+2022-06-05 00:43:30,762 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506527.d.html, depth:1 - log.py
+2022-06-05 00:43:31,328 - INFO - Thread spider_No_2 get https://video.sina.com.cn/p/ent/2022-05-31/detail-imizirau5792647.d.html, depth:1 - log.py
+2022-06-05 00:43:32,004 - INFO - spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-01/detail-imizmscu4506527.d.html success, depth 1 - log.py
+2022-06-05 00:43:32,305 - INFO - spider_No_2 download https://video.sina.com.cn/p/ent/2022-05-31/detail-imizirau5792647.d.html success, depth 1 - log.py
+2022-06-05 00:43:33,009 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6151934.d.html, depth:1 - log.py
+2022-06-05 00:43:33,311 - INFO - Thread spider_No_2 get https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4697957.d.html, depth:1 - log.py
+2022-06-05 00:43:33,563 - INFO - spider_No_1 download http://slide.ent.sina.com.cn/h/slide_4_86512_370693.html success, depth 1 - log.py
+2022-06-05 00:43:33,774 - INFO - spider_No_4 download http://slide.ent.sina.com.cn/star/h/slide_4_86512_370691.html success, depth 1 - log.py
+2022-06-05 00:43:34,000 - INFO - spider_No_0 download https://video.sina.com.cn/p/ent/2022-06-02/detail-imizirau6151934.d.html success, depth 1 - log.py
+2022-06-05 00:43:34,073 - INFO - spider_No_2 download https://video.sina.com.cn/p/ent/2022-06-02/detail-imizmscu4697957.d.html success, depth 1 - log.py
+2022-06-05 00:43:34,569 - INFO - Thread spider_No_1 get https://finance.sina.cn/money/lcmj/MonthlyBankingChart02.d.html, depth:1 - log.py
+2022-06-05 00:43:34,779 - INFO - Thread spider_No_4 get http://slide.news.sina.com.cn/slide_1_86058_547338.html, depth:1 - log.py
+2022-06-05 00:43:35,005 - INFO - Thread spider_No_0 get http://slide.sports.sina.com.cn/o/slide_2_730_278073.html, depth:1 - log.py
+2022-06-05 00:43:35,077 - INFO - Thread spider_No_2 get http://slide.mil.news.sina.com.cn/l/slide_8_199_126262.html, depth:1 - log.py
+2022-06-05 00:43:35,099 - INFO - spider_No_1 download https://finance.sina.cn/money/lcmj/MonthlyBankingChart02.d.html success, depth 1 - log.py
+2022-06-05 00:43:35,103 - INFO - spider_No_7 download http://slide.ent.sina.com.cn/star/slide_4_86512_370685.html success, depth 1 - log.py
+2022-06-05 00:43:35,151 - INFO - spider_No_6 download http://slide.ent.sina.com.cn/star/slide_4_86512_370689.html success, depth 1 - log.py
+2022-06-05 00:43:35,376 - INFO - spider_No_5 download http://slide.ent.sina.com.cn/star/slide_4_86512_370697.html success, depth 1 - log.py
+2022-06-05 00:43:35,469 - INFO - spider_No_3 download http://slide.ent.sina.com.cn/star/slide_4_86512_370703.html success, depth 1 - log.py
+2022-06-05 00:43:36,105 - INFO - Thread spider_No_7 get http://slide.news.sina.com.cn/slide_1_86058_547341.html, depth:1 - log.py
+2022-06-05 00:43:36,105 - INFO - Thread spider_No_1 get http://slide.sports.sina.com.cn/o/slide_2_730_278072.html, depth:1 - log.py
+2022-06-05 00:43:36,157 - INFO - Thread spider_No_6 get http://slide.tech.sina.com.cn/d/slide_5_453_149736.html, depth:1 - log.py
+2022-06-05 00:43:36,386 - INFO - Thread spider_No_5 get https://db.auto.sina.com.cn/photo/c100637-1-1-0-0-0.html, depth:1 - log.py
+2022-06-05 00:43:36,475 - INFO - Thread spider_No_3 get http://slide.news.sina.com.cn/slide_1_86058_547334.html, depth:1 - log.py
+2022-06-05 00:43:36,623 - INFO - spider_No_0 download http://slide.sports.sina.com.cn/o/slide_2_730_278073.html success, depth 1 - log.py
+2022-06-05 00:43:37,630 - INFO - Thread spider_No_0 get http://slide.mil.news.sina.com.cn/k/slide_8_193_125877.html, depth:1 - log.py
+2022-06-05 00:43:39,638 - INFO - spider_No_4 download http://slide.news.sina.com.cn/slide_1_86058_547338.html success, depth 1 - log.py
+2022-06-05 00:43:39,718 - INFO - spider_No_5 download https://db.auto.sina.com.cn/photo/c100637-1-1-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:43:40,428 - INFO - spider_No_2 download http://slide.mil.news.sina.com.cn/l/slide_8_199_126262.html success, depth 1 - log.py
+2022-06-05 00:43:40,643 - INFO - Thread spider_No_4 get http://slide.mil.news.sina.com.cn/l/slide_8_87721_125868.html, depth:1 - log.py
+2022-06-05 00:43:40,723 - INFO - Thread spider_No_5 get http://slide.mil.news.sina.com.cn/k/slide_8_193_125825.html, depth:1 - log.py
+2022-06-05 00:43:41,433 - INFO - Thread spider_No_2 get http://slide.tech.sina.com.cn/d/slide_5_453_149787.html, depth:1 - log.py
+2022-06-05 00:43:41,954 - INFO - spider_No_6 download http://slide.tech.sina.com.cn/d/slide_5_453_149736.html success, depth 1 - log.py
+2022-06-05 00:43:42,096 - INFO - spider_No_3 download http://slide.news.sina.com.cn/slide_1_86058_547334.html success, depth 1 - log.py
+2022-06-05 00:43:42,213 - INFO - spider_No_7 download http://slide.news.sina.com.cn/slide_1_86058_547341.html success, depth 1 - log.py
+2022-06-05 00:43:42,395 - INFO - spider_No_1 download http://slide.sports.sina.com.cn/o/slide_2_730_278072.html success, depth 1 - log.py
+2022-06-05 00:43:42,959 - INFO - Thread spider_No_6 get https://zx.sina.cn/hand_pick/tushushi/hotlist.d.html, depth:1 - log.py
+2022-06-05 00:43:43,103 - INFO - Thread spider_No_3 get https://gongyi.sina.com.cn/gyzx/ngo.html, depth:1 - log.py
+2022-06-05 00:43:43,220 - INFO - Thread spider_No_7 get https://gongyi.sina.com.cn/gyzx.html, depth:1 - log.py
+2022-06-05 00:43:43,264 - INFO - spider_No_6 download https://zx.sina.cn/hand_pick/tushushi/hotlist.d.html success, depth 1 - log.py
+2022-06-05 00:43:43,400 - INFO - Thread spider_No_1 get https://sinanews.sina.cn/native_page/quanzi_647551876714856449.html, depth:1 - log.py
+2022-06-05 00:43:43,703 - INFO - spider_No_1 download https://sinanews.sina.cn/native_page/quanzi_647551876714856449.html success, depth 1 - log.py
+2022-06-05 00:43:44,051 - INFO - spider_No_0 download http://slide.mil.news.sina.com.cn/k/slide_8_193_125877.html success, depth 1 - log.py
+2022-06-05 00:43:44,272 - INFO - Thread spider_No_6 get https://sinanews.sina.cn/native_page/quanzi_673999918657114113.html, depth:1 - log.py
+2022-06-05 00:43:44,273 - INFO - spider_No_3 download https://gongyi.sina.com.cn/gyzx/ngo.html success, depth 1 - log.py
+2022-06-05 00:43:44,523 - INFO - spider_No_6 download https://sinanews.sina.cn/native_page/quanzi_673999918657114113.html success, depth 1 - log.py
+2022-06-05 00:43:44,708 - INFO - Thread spider_No_1 get https://sinanews.sina.cn/native_page/quanzi_647555197236281345.html, depth:1 - log.py
+2022-06-05 00:43:44,972 - INFO - spider_No_1 download https://sinanews.sina.cn/native_page/quanzi_647555197236281345.html success, depth 1 - log.py
+2022-06-05 00:43:45,057 - INFO - Thread spider_No_0 get https://sinanews.sina.cn/native_page/quanzi_645761253557342209.html, depth:1 - log.py
+2022-06-05 00:43:45,279 - INFO - Thread spider_No_3 get http://slide.fashion.sina.com.cn/slide_24_84625_149822.html, depth:1 - log.py
+2022-06-05 00:43:45,339 - INFO - spider_No_0 download https://sinanews.sina.cn/native_page/quanzi_645761253557342209.html success, depth 1 - log.py
+2022-06-05 00:43:45,426 - INFO - spider_No_5 download http://slide.mil.news.sina.com.cn/k/slide_8_193_125825.html success, depth 1 - log.py
+2022-06-05 00:43:45,528 - INFO - Thread spider_No_6 get http://slide.fashion.sina.com.cn/slide_24_84625_149541.html, depth:1 - log.py
+2022-06-05 00:43:45,568 - INFO - spider_No_2 download http://slide.tech.sina.com.cn/d/slide_5_453_149787.html success, depth 1 - log.py
+2022-06-05 00:43:45,835 - INFO - spider_No_7 download https://gongyi.sina.com.cn/gyzx.html success, depth 1 - log.py
+2022-06-05 00:43:45,944 - INFO - spider_No_4 download http://slide.mil.news.sina.com.cn/l/slide_8_87721_125868.html success, depth 1 - log.py
+2022-06-05 00:43:45,977 - INFO - Thread spider_No_1 get http://video.sina.com.cn/p/fashion/fas/doc/2018-04-04/171268135609.html, depth:1 - log.py
+2022-06-05 00:43:46,348 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizmscu2648676.d.html, depth:1 - log.py
+2022-06-05 00:43:46,368 - INFO - spider_No_1 download http://video.sina.com.cn/p/fashion/fas/doc/2018-04-04/171268135609.html success, depth 1 - log.py
+2022-06-05 00:43:46,431 - INFO - Thread spider_No_5 get https://video.sina.com.cn/p/fashion/2022-05-23/detail-imizirau4330658.d.html, depth:1 - log.py
+2022-06-05 00:43:46,573 - INFO - Thread spider_No_2 get http://sz.jiaju.sina.com.cn/5897273467530979887/2022/0121/6890226435508996378.html, depth:1 - log.py
+2022-06-05 00:43:46,829 - INFO - spider_No_2 download http://sz.jiaju.sina.com.cn/5897273467530979887/2022/0121/6890226435508996378.html success, depth 1 - log.py
+2022-06-05 00:43:46,841 - INFO - Thread spider_No_7 get https://jiaju.sina.cn/zixun/list/6934771738308051855.html, depth:1 - log.py
+2022-06-05 00:43:46,951 - INFO - spider_No_0 download https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizmscu2648676.d.html success, depth 1 - log.py
+2022-06-05 00:43:46,952 - INFO - Thread spider_No_4 get https://jiaju.sina.cn/zixun/list/6933335353432801809.html, depth:1 - log.py
+2022-06-05 00:43:47,062 - INFO - spider_No_5 download https://video.sina.com.cn/p/fashion/2022-05-23/detail-imizirau4330658.d.html success, depth 1 - log.py
+2022-06-05 00:43:47,198 - INFO - spider_No_7 download https://jiaju.sina.cn/zixun/list/6934771738308051855.html success, depth 1 - log.py
+2022-06-05 00:43:47,272 - INFO - spider_No_4 download https://jiaju.sina.cn/zixun/list/6933335353432801809.html success, depth 1 - log.py
+2022-06-05 00:43:47,373 - INFO - Thread spider_No_1 get http://slide.baby.sina.com.cn/mxx/slide_10_846_774770.html, depth:1 - log.py
+2022-06-05 00:43:47,639 - INFO - spider_No_3 download http://slide.fashion.sina.com.cn/slide_24_84625_149822.html success, depth 1 - log.py
+2022-06-05 00:43:47,840 - INFO - Thread spider_No_2 get http://slide.baby.sina.com.cn/mxx/slide_10_846_774768.html, depth:1 - log.py
+2022-06-05 00:43:47,947 - INFO - spider_No_6 download http://slide.fashion.sina.com.cn/slide_24_84625_149541.html success, depth 1 - log.py
+2022-06-05 00:43:47,956 - INFO - Thread spider_No_0 get http://slide.baby.sina.com.cn/mxx/slide_10_846_774767.html, depth:1 - log.py
+2022-06-05 00:43:48,067 - INFO - Thread spider_No_5 get http://slide.baby.sina.com.cn/mxx/slide_10_846_774766.html, depth:1 - log.py
+2022-06-05 00:43:48,203 - INFO - Thread spider_No_7 get http://baby.sina.com.cn/news/list.html, depth:1 - log.py
+2022-06-05 00:43:48,277 - INFO - Thread spider_No_4 get https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizirau4049006.d.html, depth:1 - log.py
+2022-06-05 00:43:48,648 - INFO - Thread spider_No_3 get https://video.sina.com.cn/p/fashion/2022-05-30/detail-imizmscu4135017.d.html, depth:1 - log.py
+2022-06-05 00:43:48,848 - INFO - spider_No_4 download https://video.sina.com.cn/p/fashion/2022-05-21/detail-imizirau4049006.d.html success, depth 1 - log.py
+2022-06-05 00:43:48,954 - INFO - Thread spider_No_6 get http://slide.fashion.sina.com.cn/slide_24_84625_149263.html, depth:1 - log.py
+2022-06-05 00:43:49,305 - INFO - spider_No_7 download http://baby.sina.com.cn/news/list.html success, depth 1 - log.py
+2022-06-05 00:43:49,481 - INFO - spider_No_3 download https://video.sina.com.cn/p/fashion/2022-05-30/detail-imizmscu4135017.d.html success, depth 1 - log.py
+2022-06-05 00:43:49,854 - INFO - Thread spider_No_4 get http://slide.fashion.sina.com.cn/slide_24_84625_149265.html, depth:1 - log.py
+2022-06-05 00:43:50,306 - INFO - Thread spider_No_7 get http://slide.fashion.sina.com.cn/slide_24_84625_149221.html, depth:1 - log.py
+2022-06-05 00:43:50,487 - INFO - Thread spider_No_3 get http://slide.fashion.sina.com.cn/slide_24_84625_149220.html, depth:1 - log.py
+2022-06-05 00:43:51,154 - INFO - spider_No_1 download http://slide.baby.sina.com.cn/mxx/slide_10_846_774770.html success, depth 1 - log.py
+2022-06-05 00:43:51,407 - INFO - spider_No_5 download http://slide.baby.sina.com.cn/mxx/slide_10_846_774766.html success, depth 1 - log.py
+2022-06-05 00:43:52,160 - INFO - Thread spider_No_1 get http://slide.sports.sina.com.cn/golf/slide_2_754_277537.html, depth:1 - log.py
+2022-06-05 00:43:52,412 - INFO - Thread spider_No_5 get https://med.sina.com/article_detail_103_2_116832.html, depth:1 - log.py
+2022-06-05 00:43:53,151 - INFO - spider_No_2 download http://slide.baby.sina.com.cn/mxx/slide_10_846_774768.html success, depth 1 - log.py
+2022-06-05 00:43:53,505 - INFO - spider_No_5 download https://med.sina.com/article_detail_103_2_116832.html success, depth 1 - log.py
+2022-06-05 00:43:54,158 - INFO - Thread spider_No_2 get https://med.sina.com/health/article_detail_100_1_9409.html, depth:1 - log.py
+2022-06-05 00:43:54,185 - INFO - spider_No_0 download http://slide.baby.sina.com.cn/mxx/slide_10_846_774767.html success, depth 1 - log.py
+2022-06-05 00:43:54,511 - INFO - Thread spider_No_5 get https://med.sina.com/health/article_detail_100_1_9412.html, depth:1 - log.py
+2022-06-05 00:43:54,735 - INFO - spider_No_2 download https://med.sina.com/health/article_detail_100_1_9409.html success, depth 1 - log.py
+2022-06-05 00:43:54,801 - INFO - spider_No_6 download http://slide.fashion.sina.com.cn/slide_24_84625_149263.html success, depth 1 - log.py
+2022-06-05 00:43:55,031 - INFO - spider_No_5 download https://med.sina.com/health/article_detail_100_1_9412.html success, depth 1 - log.py
+2022-06-05 00:43:55,191 - INFO - Thread spider_No_0 get https://med.sina.com/health/article_detail_100_1_9408.html, depth:1 - log.py
+2022-06-05 00:43:55,741 - INFO - Thread spider_No_2 get https://med.sina.com/health/article_detail_100_1_9306.html, depth:1 - log.py
+2022-06-05 00:43:55,760 - INFO - spider_No_0 download https://med.sina.com/health/article_detail_100_1_9408.html success, depth 1 - log.py
+2022-06-05 00:43:55,808 - INFO - Thread spider_No_6 get https://med.sina.com/health/article_detail_100_1_9394.html, depth:1 - log.py
+2022-06-05 00:43:55,922 - INFO - spider_No_7 download http://slide.fashion.sina.com.cn/slide_24_84625_149221.html success, depth 1 - log.py
+2022-06-05 00:43:56,008 - INFO - spider_No_4 download http://slide.fashion.sina.com.cn/slide_24_84625_149265.html success, depth 1 - log.py
+2022-06-05 00:43:56,038 - INFO - Thread spider_No_5 get https://med.sina.com/health/article_detail_100_1_9399.html, depth:1 - log.py
+2022-06-05 00:43:56,110 - INFO - spider_No_3 download http://slide.fashion.sina.com.cn/slide_24_84625_149220.html success, depth 1 - log.py
+2022-06-05 00:43:56,238 - INFO - spider_No_2 download https://med.sina.com/health/article_detail_100_1_9306.html success, depth 1 - log.py
+2022-06-05 00:43:56,249 - INFO - spider_No_1 download http://slide.sports.sina.com.cn/golf/slide_2_754_277537.html success, depth 1 - log.py
+2022-06-05 00:43:56,289 - INFO - spider_No_6 download https://med.sina.com/health/article_detail_100_1_9394.html success, depth 1 - log.py
+2022-06-05 00:43:56,462 - INFO - spider_No_5 download https://med.sina.com/health/article_detail_100_1_9399.html success, depth 1 - log.py
+2022-06-05 00:43:56,766 - INFO - Thread spider_No_0 get https://med.sina.com/health/article_detail_100_1_9407.html, depth:1 - log.py
+2022-06-05 00:43:56,928 - INFO - Thread spider_No_7 get https://med.sina.com/health/article_detail_100_1_9359.html, depth:1 - log.py
+2022-06-05 00:43:57,013 - INFO - Thread spider_No_4 get https://med.sina.com/article_detail_103_2_117504.html, depth:1 - log.py
+2022-06-05 00:43:57,111 - INFO - Thread spider_No_3 get https://med.sina.com/article_detail_103_1_117528.html, depth:1 - log.py
+2022-06-05 00:43:57,240 - INFO - Thread spider_No_2 get https://med.sina.com/article_detail_103_2_117443.html, depth:1 - log.py
+2022-06-05 00:43:57,251 - INFO - Thread spider_No_1 get https://med.sina.com/article_detail_103_2_117389.html, depth:1 - log.py
+2022-06-05 00:43:57,290 - INFO - Thread spider_No_6 get https://med.sina.com/article_detail_108_2_117535.html, depth:1 - log.py
+2022-06-05 00:43:57,313 - INFO - spider_No_0 download https://med.sina.com/health/article_detail_100_1_9407.html success, depth 1 - log.py
+2022-06-05 00:43:57,332 - INFO - spider_No_4 download https://med.sina.com/article_detail_103_2_117504.html success, depth 1 - log.py
+2022-06-05 00:43:57,345 - INFO - spider_No_7 download https://med.sina.com/health/article_detail_100_1_9359.html success, depth 1 - log.py
+2022-06-05 00:43:57,467 - INFO - Thread spider_No_5 get https://med.sina.com/article_detail_103_2_117495.html, depth:1 - log.py
+2022-06-05 00:43:57,548 - INFO - spider_No_2 download https://med.sina.com/article_detail_103_2_117443.html success, depth 1 - log.py
+2022-06-05 00:43:57,557 - INFO - spider_No_1 download https://med.sina.com/article_detail_103_2_117389.html success, depth 1 - log.py
+2022-06-05 00:43:57,557 - INFO - spider_No_3 download https://med.sina.com/article_detail_103_1_117528.html success, depth 1 - log.py
+2022-06-05 00:43:57,707 - INFO - spider_No_6 download https://med.sina.com/article_detail_108_2_117535.html success, depth 1 - log.py
+2022-06-05 00:43:57,732 - INFO - spider_No_5 download https://med.sina.com/article_detail_103_2_117495.html success, depth 1 - log.py
+2022-06-05 00:43:58,316 - INFO - Thread spider_No_0 get https://med.sina.com/health/article_detail_100_1_9400.html, depth:1 - log.py
+2022-06-05 00:43:58,334 - INFO - Thread spider_No_4 get https://med.sina.com/health/article_detail_100_1_9388.html, depth:1 - log.py
+2022-06-05 00:43:58,349 - INFO - Thread spider_No_7 get https://med.sina.com/article_detail_100_2_117491.html, depth:1 - log.py
+2022-06-05 00:43:58,553 - INFO - Thread spider_No_2 get https://med.sina.com/article_detail_100_2_117466.html, depth:1 - log.py
+2022-06-05 00:43:58,558 - INFO - Thread spider_No_3 get https://med.sina.com/article_detail_103_2_117508.html, depth:1 - log.py
+2022-06-05 00:43:58,564 - INFO - Thread spider_No_1 get https://med.sina.com/article_detail_100_2_117525.html, depth:1 - log.py
+2022-06-05 00:43:58,702 - INFO - spider_No_4 download https://med.sina.com/health/article_detail_100_1_9388.html success, depth 1 - log.py
+2022-06-05 00:43:58,713 - INFO - Thread spider_No_6 get https://med.sina.com/article_detail_103_2_117435.html, depth:1 - log.py
+2022-06-05 00:43:58,723 - INFO - spider_No_7 download https://med.sina.com/article_detail_100_2_117491.html success, depth 1 - log.py
+2022-06-05 00:43:58,734 - INFO - spider_No_0 download https://med.sina.com/health/article_detail_100_1_9400.html success, depth 1 - log.py
+2022-06-05 00:43:58,735 - INFO - Thread spider_No_5 get https://med.sina.com/article_detail_103_1_117432.html, depth:1 - log.py
+2022-06-05 00:43:58,930 - INFO - spider_No_2 download https://med.sina.com/article_detail_100_2_117466.html success, depth 1 - log.py
+2022-06-05 00:43:58,930 - INFO - spider_No_3 download https://med.sina.com/article_detail_103_2_117508.html success, depth 1 - log.py
+2022-06-05 00:43:58,997 - INFO - spider_No_6 download https://med.sina.com/article_detail_103_2_117435.html success, depth 1 - log.py
+2022-06-05 00:43:58,997 - INFO - spider_No_1 download https://med.sina.com/article_detail_100_2_117525.html success, depth 1 - log.py
+2022-06-05 00:43:59,093 - INFO - spider_No_5 download https://med.sina.com/article_detail_103_1_117432.html success, depth 1 - log.py
+2022-06-05 00:43:59,707 - INFO - Thread spider_No_4 get https://med.sina.com/article_detail_103_2_117526.html, depth:1 - log.py
+2022-06-05 00:43:59,729 - INFO - Thread spider_No_7 get https://med.sina.com/article_detail_102_2_117518.html, depth:1 - log.py
+2022-06-05 00:43:59,739 - INFO - Thread spider_No_0 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776663.html, depth:1 - log.py
+2022-06-05 00:43:59,935 - INFO - Thread spider_No_2 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776638.html, depth:1 - log.py
+2022-06-05 00:43:59,936 - INFO - Thread spider_No_3 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776604.html, depth:1 - log.py
+2022-06-05 00:44:00,002 - INFO - Thread spider_No_6 get http://slide.fo.sina.com.cn/wh/slide_65_67296_775948.html, depth:1 - log.py
+2022-06-05 00:44:00,003 - INFO - Thread spider_No_1 get http://slide.fo.sina.com.cn/wh/slide_65_67296_775966.html, depth:1 - log.py
+2022-06-05 00:44:00,098 - INFO - Thread spider_No_5 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776161.html, depth:1 - log.py
+2022-06-05 00:44:00,121 - INFO - spider_No_4 download https://med.sina.com/article_detail_103_2_117526.html success, depth 1 - log.py
+2022-06-05 00:44:01,130 - INFO - Thread spider_No_4 get http://slide.fo.sina.com.cn/wh/slide_65_67296_775292.html, depth:1 - log.py
+2022-06-05 00:44:02,809 - INFO - spider_No_2 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776638.html success, depth 1 - log.py
+2022-06-05 00:44:03,257 - INFO - spider_No_7 download https://med.sina.com/article_detail_102_2_117518.html success, depth 1 - log.py
+2022-06-05 00:44:03,628 - INFO - spider_No_6 download http://slide.fo.sina.com.cn/wh/slide_65_67296_775948.html success, depth 1 - log.py
+2022-06-05 00:44:03,819 - INFO - Thread spider_No_2 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776578.html, depth:1 - log.py
+2022-06-05 00:44:04,264 - INFO - Thread spider_No_7 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776648.html, depth:1 - log.py
+2022-06-05 00:44:04,333 - INFO - spider_No_4 download http://slide.fo.sina.com.cn/wh/slide_65_67296_775292.html success, depth 1 - log.py
+2022-06-05 00:44:04,633 - INFO - Thread spider_No_6 get http://slide.fo.sina.com.cn/wh/slide_65_67296_776637.html, depth:1 - log.py
+2022-06-05 00:44:05,340 - INFO - Thread spider_No_4 get http://slide.fo.sina.com.cn/wh/slide_65_67296_775733.html, depth:1 - log.py
+2022-06-05 00:44:05,650 - INFO - spider_No_3 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776604.html success, depth 1 - log.py
+2022-06-05 00:44:05,886 - INFO - spider_No_5 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776161.html success, depth 1 - log.py
+2022-06-05 00:44:05,928 - INFO - spider_No_0 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776663.html success, depth 1 - log.py
+2022-06-05 00:44:06,656 - INFO - Thread spider_No_3 get http://slide.fo.sina.com.cn/slide_65_67296_776352.html, depth:1 - log.py
+2022-06-05 00:44:06,894 - INFO - Thread spider_No_5 get http://slide.astro.sina.com.cn/cartoon/slide_52_42283_123551.html, depth:1 - log.py
+2022-06-05 00:44:06,933 - INFO - Thread spider_No_0 get https://video.sina.com.cn/p/astro/2022-04-30/detail-imcwiwst5107161.d.html, depth:1 - log.py
+2022-06-05 00:44:08,083 - INFO - spider_No_1 download http://slide.fo.sina.com.cn/wh/slide_65_67296_775966.html success, depth 1 - log.py
+2022-06-05 00:44:08,141 - INFO - spider_No_0 download https://video.sina.com.cn/p/astro/2022-04-30/detail-imcwiwst5107161.d.html success, depth 1 - log.py
+2022-06-05 00:44:09,089 - INFO - Thread spider_No_1 get https://video.sina.com.cn/p/astro/2022-04-29/detail-imcwiwst4782791.d.html, depth:1 - log.py
+2022-06-05 00:44:09,149 - INFO - Thread spider_No_0 get http://astro.sina.com.cn/hdrl/index.d.html, depth:1 - log.py
+2022-06-05 00:44:09,803 - INFO - spider_No_2 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776578.html success, depth 1 - log.py
+2022-06-05 00:44:10,027 - INFO - spider_No_1 download https://video.sina.com.cn/p/astro/2022-04-29/detail-imcwiwst4782791.d.html success, depth 1 - log.py
+2022-06-05 00:44:10,327 - INFO - spider_No_7 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776648.html success, depth 1 - log.py
+2022-06-05 00:44:10,807 - INFO - Thread spider_No_2 get https://video.sina.com.cn/p/astro/2022-03-31/detail-imcwipii2924778.d.html, depth:1 - log.py
+2022-06-05 00:44:10,849 - INFO - spider_No_4 download http://slide.fo.sina.com.cn/wh/slide_65_67296_775733.html success, depth 1 - log.py
+2022-06-05 00:44:11,032 - INFO - Thread spider_No_1 get http://blog.sina.com.cn/s/blog_6431df490102z20e.html, depth:1 - log.py
+2022-06-05 00:44:11,204 - INFO - spider_No_0 download http://astro.sina.com.cn/hdrl/index.d.html success, depth 1 - log.py
+2022-06-05 00:44:11,333 - INFO - Thread spider_No_7 get http://city.sina.com.cn/city/Declaration.html, depth:1 - log.py
+2022-06-05 00:44:11,344 - INFO - spider_No_1 download http://blog.sina.com.cn/s/blog_6431df490102z20e.html success, depth 1 - log.py
+2022-06-05 00:44:11,380 - INFO - spider_No_6 download http://slide.fo.sina.com.cn/wh/slide_65_67296_776637.html success, depth 1 - log.py
+2022-06-05 00:44:11,399 - INFO - spider_No_3 download http://slide.fo.sina.com.cn/slide_65_67296_776352.html success, depth 1 - log.py
+2022-06-05 00:44:11,401 - INFO - spider_No_2 download https://video.sina.com.cn/p/astro/2022-03-31/detail-imcwipii2924778.d.html success, depth 1 - log.py
+2022-06-05 00:44:11,739 - INFO - spider_No_7 download http://city.sina.com.cn/city/Declaration.html success, depth 1 - log.py
+2022-06-05 00:44:11,761 - INFO - spider_No_5 download http://slide.astro.sina.com.cn/cartoon/slide_52_42283_123551.html success, depth 1 - log.py
+2022-06-05 00:44:11,855 - INFO - Thread spider_No_4 get https://www.sina.com.cn/contactus.html, depth:1 - log.py
+2022-06-05 00:44:12,123 - INFO - spider_No_4 download https://www.sina.com.cn/contactus.html success, depth 1 - log.py
+2022-06-05 00:44:12,210 - INFO - Thread spider_No_0 get http://www.shdf.gov.cn/shdf/channels/740.html, depth:1 - log.py
+2022-06-05 00:44:12,352 - INFO - Thread spider_No_1 get https://corp.sina.com.cn/chn/sina_priv.html, depth:1 - log.py
+2022-06-05 00:44:12,356 - INFO - spider_No_0 download http://www.shdf.gov.cn/shdf/channels/740.html success, depth 1 - log.py
+2022-06-05 00:44:12,385 - INFO - Thread spider_No_6 get https://daxue.163.com/offline/download.html, depth:1 - log.py
+2022-06-05 00:44:12,404 - INFO - Thread spider_No_3 get https://corp.163.com/gb/legal.html, depth:1 - log.py
+2022-06-05 00:44:12,405 - INFO - Thread spider_No_2 get https://money.163.com/20/0820/20/FKGICO4200259D61.html, depth:1 - log.py
+2022-06-05 00:44:12,585 - INFO - spider_No_6 download https://daxue.163.com/offline/download.html success, depth 1 - log.py
+2022-06-05 00:44:12,747 - INFO - Thread spider_No_7 get http://product.auto.163.com/compare_both/index.html, depth:1 - log.py
+2022-06-05 00:44:12,767 - INFO - Thread spider_No_5 get https://hongcai.163.com/expert.html, depth:1 - log.py
+2022-06-05 00:44:13,034 - INFO - spider_No_1 download https://corp.sina.com.cn/chn/sina_priv.html success, depth 1 - log.py
+2022-06-05 00:44:13,128 - INFO - Thread spider_No_4 get http://quotes.money.163.com/1399300.html, depth:1 - log.py
+2022-06-05 00:44:13,362 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/BYNN.html, depth:1 - log.py
+2022-06-05 00:44:13,378 - INFO - spider_No_5 download https://hongcai.163.com/expert.html success, depth 1 - log.py
+2022-06-05 00:44:13,591 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/CKLH.html, depth:1 - log.py
+2022-06-05 00:44:14,018 - INFO - spider_No_3 download https://corp.163.com/gb/legal.html success, depth 1 - log.py
+2022-06-05 00:44:14,036 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/0TCJ.html, depth:1 - log.py
+2022-06-05 00:44:14,383 - INFO - Thread spider_No_5 get https://xf.house.163.com/bj/CNBP.html, depth:1 - log.py
+2022-06-05 00:44:14,455 - INFO - spider_No_7 download http://product.auto.163.com/compare_both/index.html success, depth 1 - log.py
+2022-06-05 00:44:14,513 - INFO - spider_No_4 download http://quotes.money.163.com/1399300.html success, depth 1 - log.py
+2022-06-05 00:44:15,024 - INFO - Thread spider_No_3 get https://xf.house.163.com/bj/CQIQ.html, depth:1 - log.py
+2022-06-05 00:44:15,066 - INFO - spider_No_0 download http://xf.house.163.com/bj/BYNN.html success, depth 1 - log.py
+2022-06-05 00:44:15,136 - INFO - spider_No_2 download https://money.163.com/20/0820/20/FKGICO4200259D61.html success, depth 1 - log.py
+2022-06-05 00:44:15,252 - INFO - spider_No_6 download http://xf.house.163.com/bj/CKLH.html success, depth 1 - log.py
+2022-06-05 00:44:15,440 - INFO - spider_No_1 download http://xf.house.163.com/bj/0TCJ.html success, depth 1 - log.py
+2022-06-05 00:44:15,461 - INFO - Thread spider_No_7 get https://m.house.163.com/bj/CPKU.html, depth:1 - log.py
+2022-06-05 00:44:15,518 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/0RCS.html, depth:1 - log.py
+2022-06-05 00:44:15,714 - INFO - spider_No_4 download http://xf.house.163.com/bj/0RCS.html success, depth 1 - log.py
+2022-06-05 00:44:15,988 - INFO - spider_No_5 download https://xf.house.163.com/bj/CNBP.html success, depth 1 - log.py
+2022-06-05 00:44:16,052 - INFO - spider_No_3 download https://xf.house.163.com/bj/CQIQ.html success, depth 1 - log.py
+2022-06-05 00:44:16,071 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/BTcI.html, depth:1 - log.py
+2022-06-05 00:44:16,124 - INFO - spider_No_7 download https://m.house.163.com/bj/CPKU.html success, depth 1 - log.py
+2022-06-05 00:44:16,141 - INFO - Thread spider_No_2 get http://xf.house.163.com/bj/CLUL.html, depth:1 - log.py
+2022-06-05 00:44:16,258 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/CBGQ.html, depth:1 - log.py
+2022-06-05 00:44:16,445 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/CDWB.html, depth:1 - log.py
+2022-06-05 00:44:16,667 - INFO - spider_No_6 download http://xf.house.163.com/bj/CBGQ.html success, depth 1 - log.py
+2022-06-05 00:44:16,686 - INFO - spider_No_1 download http://xf.house.163.com/bj/CDWB.html success, depth 1 - log.py
+2022-06-05 00:44:16,719 - INFO - Thread spider_No_4 get https://xf.house.163.com/bj/CPcH.html, depth:1 - log.py
+2022-06-05 00:44:16,794 - INFO - spider_No_0 download http://xf.house.163.com/bj/BTcI.html success, depth 1 - log.py
+2022-06-05 00:44:16,838 - INFO - spider_No_2 download http://xf.house.163.com/bj/CLUL.html success, depth 1 - log.py
+2022-06-05 00:44:16,995 - INFO - Thread spider_No_5 get http://xf.house.163.com/bj/CNRM.html, depth:1 - log.py
+2022-06-05 00:44:17,057 - INFO - Thread spider_No_3 get http://xf.house.163.com/bj/BTEE.html, depth:1 - log.py
+2022-06-05 00:44:17,129 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/BRHb.html, depth:1 - log.py
+2022-06-05 00:44:17,204 - INFO - spider_No_3 download http://xf.house.163.com/bj/BTEE.html success, depth 1 - log.py
+2022-06-05 00:44:17,245 - INFO - spider_No_7 download http://xf.house.163.com/bj/BRHb.html success, depth 1 - log.py
+2022-06-05 00:44:17,673 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/BbNB.html, depth:1 - log.py
+2022-06-05 00:44:17,691 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/0RVD.html, depth:1 - log.py
+2022-06-05 00:44:17,800 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/BPVJ.html, depth:1 - log.py
+2022-06-05 00:44:17,841 - INFO - Thread spider_No_2 get http://xf.house.163.com/bj/BeYb.html, depth:1 - log.py
+2022-06-05 00:44:18,211 - INFO - Thread spider_No_3 get http://xf.house.163.com/bj/BeRR.html, depth:1 - log.py
+2022-06-05 00:44:18,251 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/BdLE.html, depth:1 - log.py
+2022-06-05 00:44:18,278 - ERROR - http://xf.house.163.com/bj/0RVD.html can't reach,res code:404 - log.py
+2022-06-05 00:44:18,278 - DEBUG - download http://xf.house.163.com/bj/0RVD.html fail, depth 1 - log.py
+2022-06-05 00:44:18,278 - ERROR - http://xf.house.163.com/bj/BbNB.html can't reach,res code:404 - log.py
+2022-06-05 00:44:18,279 - DEBUG - download http://xf.house.163.com/bj/BbNB.html fail, depth 1 - log.py
+2022-06-05 00:44:18,322 - ERROR - http://xf.house.163.com/bj/BPVJ.html can't reach,res code:404 - log.py
+2022-06-05 00:44:18,322 - DEBUG - download http://xf.house.163.com/bj/BPVJ.html fail, depth 1 - log.py
+2022-06-05 00:44:18,399 - INFO - spider_No_3 download http://xf.house.163.com/bj/BeRR.html success, depth 1 - log.py
+2022-06-05 00:44:18,515 - INFO - spider_No_7 download http://xf.house.163.com/bj/BdLE.html success, depth 1 - log.py
+2022-06-05 00:44:18,587 - INFO - spider_No_4 download https://xf.house.163.com/bj/CPcH.html success, depth 1 - log.py
+2022-06-05 00:44:18,837 - INFO - spider_No_5 download http://xf.house.163.com/bj/CNRM.html success, depth 1 - log.py
+2022-06-05 00:44:18,922 - INFO - spider_No_2 download http://xf.house.163.com/bj/BeYb.html success, depth 1 - log.py
+2022-06-05 00:44:19,283 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/CLQO.html, depth:1 - log.py
+2022-06-05 00:44:19,284 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/0DdO.html, depth:1 - log.py
+2022-06-05 00:44:19,328 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/0Qec.html, depth:1 - log.py
+2022-06-05 00:44:19,405 - INFO - Thread spider_No_3 get http://xf.house.163.com/bj/BcMB.html, depth:1 - log.py
+2022-06-05 00:44:19,491 - INFO - spider_No_6 download http://xf.house.163.com/bj/0DdO.html success, depth 1 - log.py
+2022-06-05 00:44:19,505 - INFO - spider_No_1 download http://xf.house.163.com/bj/CLQO.html success, depth 1 - log.py
+2022-06-05 00:44:19,508 - INFO - spider_No_0 download http://xf.house.163.com/bj/0Qec.html success, depth 1 - log.py
+2022-06-05 00:44:19,520 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/BRHS.html, depth:1 - log.py
+2022-06-05 00:44:19,591 - ERROR - http://xf.house.163.com/bj/BcMB.html can't reach,res code:404 - log.py
+2022-06-05 00:44:19,591 - DEBUG - download http://xf.house.163.com/bj/BcMB.html fail, depth 1 - log.py
+2022-06-05 00:44:19,592 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/BbMC.html, depth:1 - log.py
+2022-06-05 00:44:19,795 - ERROR - http://xf.house.163.com/bj/BbMC.html can't reach,res code:404 - log.py
+2022-06-05 00:44:19,795 - DEBUG - download http://xf.house.163.com/bj/BbMC.html fail, depth 1 - log.py
+2022-06-05 00:44:19,842 - INFO - Thread spider_No_5 get http://xf.house.163.com/bj/BLcX.html, depth:1 - log.py
+2022-06-05 00:44:19,927 - INFO - Thread spider_No_2 get http://xf.house.163.com/bj/BfUc.html, depth:1 - log.py
+2022-06-05 00:44:20,115 - INFO - spider_No_2 download http://xf.house.163.com/bj/BfUc.html success, depth 1 - log.py
+2022-06-05 00:44:20,172 - ERROR - http://xf.house.163.com/bj/BLcX.html can't reach,res code:404 - log.py
+2022-06-05 00:44:20,172 - DEBUG - download http://xf.house.163.com/bj/BLcX.html fail, depth 1 - log.py
+2022-06-05 00:44:20,331 - INFO - spider_No_7 download http://xf.house.163.com/bj/BRHS.html success, depth 1 - log.py
+2022-06-05 00:44:20,496 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/BPdX.html, depth:1 - log.py
+2022-06-05 00:44:20,508 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/0QFB.html, depth:1 - log.py
+2022-06-05 00:44:20,513 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/BXec.html, depth:1 - log.py
+2022-06-05 00:44:20,597 - INFO - Thread spider_No_3 get http://xf.house.163.com/bj/search/0-0-0-0-0-788-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:20,748 - INFO - spider_No_1 download http://xf.house.163.com/bj/0QFB.html success, depth 1 - log.py
+2022-06-05 00:44:20,748 - INFO - spider_No_0 download http://xf.house.163.com/bj/BXec.html success, depth 1 - log.py
+2022-06-05 00:44:20,801 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/0RcB.html, depth:1 - log.py
+2022-06-05 00:44:20,818 - ERROR - http://xf.house.163.com/bj/BPdX.html can't reach,res code:404 - log.py
+2022-06-05 00:44:20,818 - DEBUG - download http://xf.house.163.com/bj/BPdX.html fail, depth 1 - log.py
+2022-06-05 00:44:20,936 - INFO - spider_No_3 download http://xf.house.163.com/bj/search/0-0-0-0-0-788-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:21,010 - ERROR - http://xf.house.163.com/bj/0RcB.html can't reach,res code:404 - log.py
+2022-06-05 00:44:21,011 - DEBUG - download http://xf.house.163.com/bj/0RcB.html fail, depth 1 - log.py
+2022-06-05 00:44:21,120 - INFO - Thread spider_No_2 get http://xf.house.163.com/bj/BTVe.html, depth:1 - log.py
+2022-06-05 00:44:21,177 - INFO - Thread spider_No_5 get http://xf.house.163.com/bj/BReT.html, depth:1 - log.py
+2022-06-05 00:44:21,337 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/BaEb.html, depth:1 - log.py
+2022-06-05 00:44:21,522 - INFO - spider_No_5 download http://xf.house.163.com/bj/BReT.html success, depth 1 - log.py
+2022-06-05 00:44:21,554 - INFO - spider_No_7 download http://xf.house.163.com/bj/BaEb.html success, depth 1 - log.py
+2022-06-05 00:44:21,754 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/BTeb.html, depth:1 - log.py
+2022-06-05 00:44:21,754 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/BOAE.html, depth:1 - log.py
+2022-06-05 00:44:21,756 - INFO - spider_No_2 download http://xf.house.163.com/bj/BTVe.html success, depth 1 - log.py
+2022-06-05 00:44:21,823 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/BfEL.html, depth:1 - log.py
+2022-06-05 00:44:21,936 - INFO - Thread spider_No_3 get http://xf.house.163.com/bj/BfNT.html, depth:1 - log.py
+2022-06-05 00:44:22,016 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/BaJM.html, depth:1 - log.py
+2022-06-05 00:44:22,254 - ERROR - http://xf.house.163.com/bj/BaJM.html can't reach,res code:404 - log.py
+2022-06-05 00:44:22,254 - DEBUG - download http://xf.house.163.com/bj/BaJM.html fail, depth 1 - log.py
+2022-06-05 00:44:22,527 - INFO - Thread spider_No_5 get http://xf.house.163.com/bj/0ECS.html, depth:1 - log.py
+2022-06-05 00:44:22,560 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/BfLY.html, depth:1 - log.py
+2022-06-05 00:44:22,580 - INFO - spider_No_0 download http://xf.house.163.com/bj/BOAE.html success, depth 1 - log.py
+2022-06-05 00:44:22,762 - INFO - Thread spider_No_2 get http://xf.house.163.com/bj/CNBP.html, depth:1 - log.py
+2022-06-05 00:44:23,235 - INFO - spider_No_1 download http://xf.house.163.com/bj/BTeb.html success, depth 1 - log.py
+2022-06-05 00:44:23,259 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/BSQE.html, depth:1 - log.py
+2022-06-05 00:44:23,566 - INFO - spider_No_4 download http://xf.house.163.com/bj/BSQE.html success, depth 1 - log.py
+2022-06-05 00:44:23,586 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/BaOR.html, depth:1 - log.py
+2022-06-05 00:44:23,645 - INFO - spider_No_6 download http://xf.house.163.com/bj/BfEL.html success, depth 1 - log.py
+2022-06-05 00:44:24,242 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/0Qac.html, depth:1 - log.py
+2022-06-05 00:44:24,372 - INFO - spider_No_3 download http://xf.house.163.com/bj/BfNT.html success, depth 1 - log.py
+2022-06-05 00:44:24,373 - INFO - spider_No_2 download http://xf.house.163.com/bj/CNBP.html success, depth 1 - log.py
+2022-06-05 00:44:24,421 - INFO - spider_No_7 download http://xf.house.163.com/bj/BfLY.html success, depth 1 - log.py
+2022-06-05 00:44:24,572 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/BfYT.html, depth:1 - log.py
+2022-06-05 00:44:24,608 - ERROR - http://xf.house.163.com/bj/0Qac.html can't reach,res code:404 - log.py
+2022-06-05 00:44:24,609 - DEBUG - download http://xf.house.163.com/bj/0Qac.html fail, depth 1 - log.py
+2022-06-05 00:44:24,655 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/BPOf.html, depth:1 - log.py
+2022-06-05 00:44:24,712 - INFO - spider_No_5 download http://xf.house.163.com/bj/0ECS.html success, depth 1 - log.py
+2022-06-05 00:44:24,892 - ERROR - http://xf.house.163.com/bj/BfYT.html can't reach,res code:404 - log.py
+2022-06-05 00:44:24,893 - DEBUG - download http://xf.house.163.com/bj/BfYT.html fail, depth 1 - log.py
+2022-06-05 00:44:24,954 - INFO - spider_No_0 download http://xf.house.163.com/bj/BaOR.html success, depth 1 - log.py
+2022-06-05 00:44:24,957 - ERROR - http://xf.house.163.com/bj/BPOf.html can't reach,res code:404 - log.py
+2022-06-05 00:44:24,957 - DEBUG - download http://xf.house.163.com/bj/BPOf.html fail, depth 1 - log.py
+2022-06-05 00:44:25,378 - INFO - Thread spider_No_3 get http://xf.house.163.com/bj/0QJL.html, depth:1 - log.py
+2022-06-05 00:44:25,379 - INFO - Thread spider_No_2 get http://xf.house.163.com/bj/0QTG.html, depth:1 - log.py
+2022-06-05 00:44:25,427 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/0RCF.html, depth:1 - log.py
+2022-06-05 00:44:25,502 - WARNING - http://xf.house.163.com/bj/0RCF.html trans_code_error- 'NoneType' object has no attribute 'lower': - log.py
+2022-06-05 00:44:25,502 - DEBUG - download http://xf.house.163.com/bj/0RCF.html fail, depth 1 - log.py
+2022-06-05 00:44:25,617 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/search/41-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-1-0.html, depth:1 - log.py
+2022-06-05 00:44:25,627 - ERROR - http://xf.house.163.com/bj/0QTG.html can't reach,res code:404 - log.py
+2022-06-05 00:44:25,627 - DEBUG - download http://xf.house.163.com/bj/0QTG.html fail, depth 1 - log.py
+2022-06-05 00:44:25,718 - INFO - Thread spider_No_5 get http://xf.house.163.com/bj/BNUO.html, depth:1 - log.py
+2022-06-05 00:44:25,889 - INFO - spider_No_5 download http://xf.house.163.com/bj/BNUO.html success, depth 1 - log.py
+2022-06-05 00:44:25,898 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/0DTB.html, depth:1 - log.py
+2022-06-05 00:44:25,959 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/0DID.html, depth:1 - log.py
+2022-06-05 00:44:25,959 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/0SOD.html, depth:1 - log.py
+2022-06-05 00:44:26,042 - INFO - spider_No_1 download http://xf.house.163.com/bj/search/41-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-0-0-0-1-0.html success, depth 1 - log.py
+2022-06-05 00:44:26,065 - INFO - spider_No_4 download http://xf.house.163.com/bj/0DTB.html success, depth 1 - log.py
+2022-06-05 00:44:26,507 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/0SBU.html, depth:1 - log.py
+2022-06-05 00:44:26,561 - INFO - spider_No_3 download http://xf.house.163.com/bj/0QJL.html success, depth 1 - log.py
+2022-06-05 00:44:26,577 - INFO - spider_No_0 download http://xf.house.163.com/bj/0DID.html success, depth 1 - log.py
+2022-06-05 00:44:26,632 - INFO - Thread spider_No_2 get http://xf.house.163.com/bj/BRfW.html, depth:1 - log.py
+2022-06-05 00:44:26,672 - INFO - spider_No_7 download http://xf.house.163.com/bj/0SBU.html success, depth 1 - log.py
+2022-06-05 00:44:26,837 - INFO - spider_No_6 download http://xf.house.163.com/bj/0SOD.html success, depth 1 - log.py
+2022-06-05 00:44:26,894 - INFO - Thread spider_No_5 get http://xf.house.163.com/bj/search/0-0-10-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:27,049 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/search/0-0-9-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:27,070 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/search/0-0-0-4-0-0-0-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html, depth:1 - log.py
+2022-06-05 00:44:27,154 - INFO - spider_No_2 download http://xf.house.163.com/bj/BRfW.html success, depth 1 - log.py
+2022-06-05 00:44:27,246 - INFO - spider_No_5 download http://xf.house.163.com/bj/search/0-0-10-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:27,495 - INFO - spider_No_1 download http://xf.house.163.com/bj/search/0-0-9-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:27,566 - INFO - Thread spider_No_3 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-3-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html, depth:1 - log.py
+2022-06-05 00:44:27,585 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-9-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:27,665 - INFO - spider_No_4 download http://xf.house.163.com/bj/search/0-0-0-4-0-0-0-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html success, depth 1 - log.py
+2022-06-05 00:44:27,677 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:27,854 - INFO - Thread spider_No_6 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-17-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:28,073 - INFO - spider_No_0 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-9-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:28,159 - INFO - Thread spider_No_2 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-6-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:28,251 - INFO - Thread spider_No_5 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-8-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:28,312 - INFO - spider_No_7 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-2-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:28,314 - INFO - spider_No_3 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-3-0-0-1-0-0-0-0-0-1-1-0-0-0-1.html success, depth 1 - log.py
+2022-06-05 00:44:28,506 - INFO - Thread spider_No_1 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-15-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:28,674 - INFO - Thread spider_No_4 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-19-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:28,737 - INFO - spider_No_2 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-6-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:28,916 - INFO - spider_No_6 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-17-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:28,998 - INFO - spider_No_5 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-8-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:29,081 - INFO - Thread spider_No_0 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-21-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:29,230 - INFO - spider_No_1 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-15-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:29,257 - INFO - spider_No_4 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-19-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:29,317 - INFO - Thread spider_No_3 get http://xf.house.163.com/bj/search/0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-15-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:29,317 - INFO - Thread spider_No_7 get http://xf.house.163.com/bj/search/0-0-5-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html, depth:1 - log.py
+2022-06-05 00:44:29,379 - INFO - spider_No_0 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-21-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:29,742 - INFO - Thread spider_No_2 get http://data.house.163.com/{cityCode}/index.html, depth:1 - log.py
+2022-06-05 00:44:29,819 - INFO - spider_No_7 download http://xf.house.163.com/bj/search/0-0-5-0-0-0-0-0-0-0-0-0-0-0-0-1-1-0-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:29,835 - INFO - spider_No_3 download http://xf.house.163.com/bj/search/0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-1-15-0-0-0-0.html success, depth 1 - log.py
+2022-06-05 00:44:29,921 - INFO - Thread spider_No_6 get https://www.163.com/dy/article/H8VBT87F0514R9NP.html, depth:1 - log.py
+2022-06-05 00:44:29,992 - ERROR - http://data.house.163.com/{cityCode}/index.html can't reach,res code:404 - log.py
+2022-06-05 00:44:29,993 - DEBUG - download http://data.house.163.com/{cityCode}/index.html fail, depth 1 - log.py
+2022-06-05 00:44:30,003 - INFO - Thread spider_No_5 get https://www.163.com/dy/article/H8U64PDL0514R9NP.html, depth:1 - log.py
+2022-06-05 00:44:30,240 - INFO - Thread spider_No_1 get https://www.163.com/dy/article/H8UK6G0B0512D3VJ.html, depth:1 - log.py
+2022-06-05 00:44:30,264 - INFO - Thread spider_No_4 get https://www.163.com/dy/article/H8SI7J8B05199DKK.html, depth:1 - log.py
+2022-06-05 00:44:30,382 - INFO - Thread spider_No_0 get https://www.163.com/dy/article/H8SFAA9R0515UK8P.html, depth:1 - log.py
+2022-06-05 00:44:30,826 - INFO - Thread spider_No_7 get https://www.163.com/dy/article/H8RISCDR0550HXM1.html, depth:1 - log.py
+2022-06-05 00:44:30,845 - INFO - Thread spider_No_3 get https://www.163.com/dy/article/H8QA37RT0519875F.html, depth:1 - log.py
+2022-06-05 00:44:30,998 - INFO - Thread spider_No_2 get https://www.163.com/dy/article/H8PB473S0534A4SC.html, depth:1 - log.py
+2022-06-05 00:44:32,531 - INFO - spider_No_6 download https://www.163.com/dy/article/H8VBT87F0514R9NP.html success, depth 1 - log.py
+2022-06-05 00:44:32,689 - INFO - spider_No_5 download https://www.163.com/dy/article/H8U64PDL0514R9NP.html success, depth 1 - log.py
+2022-06-05 00:44:33,378 - INFO - spider_No_0 download https://www.163.com/dy/article/H8SFAA9R0515UK8P.html success, depth 1 - log.py
+2022-06-05 00:44:33,512 - INFO - spider_No_4 download https://www.163.com/dy/article/H8SI7J8B05199DKK.html success, depth 1 - log.py
+2022-06-05 00:44:33,519 - INFO - spider_No_1 download https://www.163.com/dy/article/H8UK6G0B0512D3VJ.html success, depth 1 - log.py
+2022-06-05 00:44:33,540 - INFO - Thread spider_No_6 get https://www.163.com/dy/article/H8P5A2SA0519QIKK.html, depth:1 - log.py
+2022-06-05 00:44:33,691 - INFO - spider_No_7 download https://www.163.com/dy/article/H8RISCDR0550HXM1.html success, depth 1 - log.py
+2022-06-05 00:44:33,694 - INFO - Thread spider_No_5 get https://bj.house.163.com/22/0531/15/H8N53OVA000782A4.html, depth:1 - log.py
+2022-06-05 00:44:33,937 - INFO - spider_No_3 download https://www.163.com/dy/article/H8QA37RT0519875F.html success, depth 1 - log.py
+2022-06-05 00:44:34,045 - INFO - spider_No_2 download https://www.163.com/dy/article/H8PB473S0534A4SC.html success, depth 1 - log.py
+2022-06-05 00:44:34,383 - INFO - Thread spider_No_0 get http://quotes.money.163.com/usstock/NTES.html, depth:1 - log.py
+2022-06-05 00:44:34,517 - INFO - Thread spider_No_4 get http://www.bjjubao.org/index.htm, depth:1 - log.py
+2022-06-05 00:44:34,524 - INFO - Thread spider_No_1 get http://www.163.com/special/00774IMC/verify_page_v13.html, depth:1 - log.py
+2022-06-05 00:44:34,662 - INFO - spider_No_1 download http://www.163.com/special/00774IMC/verify_page_v13.html success, depth 1 - log.py
+2022-06-05 00:44:34,697 - INFO - Thread spider_No_7 get https://corp.163.com/gb/about/overview.html, depth:1 - log.py
+2022-06-05 00:44:34,753 - INFO - spider_No_4 download http://www.bjjubao.org/index.htm success, depth 1 - log.py
+2022-06-05 00:44:34,927 - INFO - spider_No_6 download https://www.163.com/dy/article/H8P5A2SA0519QIKK.html success, depth 1 - log.py
+2022-06-05 00:44:34,930 - INFO - spider_No_5 download https://bj.house.163.com/22/0531/15/H8N53OVA000782A4.html success, depth 1 - log.py
+2022-06-05 00:44:34,942 - INFO - Thread spider_No_3 get https://corp.163.com/gb/contactus.html, depth:1 - log.py
+2022-06-05 00:44:35,050 - INFO - Thread spider_No_2 get https://corp.163.com/gb/job/job.html, depth:1 - log.py
+2022-06-05 00:44:35,143 - INFO - spider_No_7 download https://corp.163.com/gb/about/overview.html success, depth 1 - log.py
+2022-06-05 00:44:35,215 - INFO - spider_No_2 download https://corp.163.com/gb/job/job.html success, depth 1 - log.py
+2022-06-05 00:44:35,724 - INFO - spider_No_3 download https://corp.163.com/gb/contactus.html success, depth 1 - log.py
+2022-06-05 00:44:35,737 - INFO - spider_No_0 download http://quotes.money.163.com/usstock/NTES.html success, depth 1 - log.py

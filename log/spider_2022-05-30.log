@@ -1,0 +1,77 @@
+2022-05-30 11:14:55,538 - DEBUG - test - log.py
+2022-05-30 11:14:58,541 - DEBUG - test - log.py
+2022-05-30 11:15:06,267 - DEBUG - test - log.py
+2022-05-30 11:16:37,634 - DEBUG - read conf - conf_load.py
+2022-05-30 11:43:43,520 - INFO - test - log.py
+2022-05-30 11:44:14,596 - INFO - test - log.py
+2022-05-30 13:37:30,333 - INFO - test - log.py
+2022-05-30 13:38:11,064 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:43:26,832 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:43:31,282 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:43:49,333 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:44:40,120 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:44:48,111 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:45:42,389 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:46:19,252 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:46:47,276 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:46:53,810 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:46:53,811 - ERROR - url_list_file option does not exist - log.py
+2022-05-30 13:48:12,909 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:48:32,117 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:48:32,117 - ERROR - option does not exist:No option 'url_list_file---' in section: 'spider' - log.py
+2022-05-30 13:53:21,024 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:53:21,025 - ERROR - No option 'url_list_file---' in section: 'spider' - log.py
+2022-05-30 13:53:44,480 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:53:44,481 - ERROR - No option 'url_list_file---' in section: 'spider' - log.py
+2022-05-30 13:56:02,165 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:56:02,166 - ERROR - No option 'url_list_file---' in section: 'spider' - log.py
+2022-05-30 13:57:11,910 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:57:11,910 - ERROR - No option 'url_list_file---' in section: 'spider' - log.py
+2022-05-30 13:57:17,586 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:57:17,586 - ERROR - No option 'url_list_file---' in section: 'spider' - log.py
+2022-05-30 13:59:05,703 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:59:22,609 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 13:59:30,726 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:01:05,049 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:01:19,604 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:01:39,975 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:02:03,893 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:03:33,143 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:03:37,003 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:04:09,444 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:04:09,445 - ERROR - No option 'url_list_file-' in section: 'spider' - log.py
+2022-05-30 14:05:45,329 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:05:53,805 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:06:02,387 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:06:02,387 - ERROR - No option 'max_depth--' in section: 'spider' - log.py
+2022-05-30 14:06:53,966 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:06:53,967 - ERROR - crawl_depth config is not a number - conf_load.py
+2022-05-30 14:07:08,043 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:07:08,043 - ERROR - No option 'max_depth--' in section: 'spider' - log.py
+2022-05-30 14:08:08,407 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:08:08,407 - ERROR - invalid literal for int() with base 10: 'a' - conf_load.py
+2022-05-30 14:08:25,942 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:08:25,943 - ERROR - invalid literal for int() with base 10: 'a' - conf_load.py
+2022-05-30 14:09:18,411 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:09:18,411 - ERROR - invalid literal for int() with base 10: 'a' - log.py
+2022-05-30 14:13:12,134 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:14:19,784 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:14:27,952 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:14:57,457 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:33:38,804 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:33:51,610 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:50:30,934 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:50:30,934 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:52:37,052 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:52:37,052 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:53:09,232 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 14:53:09,232 - INFO - initial config from conf spider.conf - log.py
+2022-05-30 15:31:53,220 - DEBUG - test - log.py
+2022-05-30 15:46:04,746 - ERROR - config file does not exist./conf/spider22.conf - log.py
+2022-05-30 15:48:53,511 - ERROR - config file does not exist./conf/spider22.conf - log.py
+2022-05-30 15:49:16,224 - ERROR - config file does not exist./conf/spider22.conf - log.py
+2022-05-30 15:49:38,104 - ERROR - Config-file error:error() takes exactly 2 arguments (3 given) - log.py
+2022-05-30 15:49:54,133 - ERROR - config file ./conf/spider22.conf does not exist - log.py
+2022-05-30 15:50:06,551 - ERROR - config file "./conf/spider22.conf" does not exist - log.py
+2022-05-30 15:50:54,256 - ERROR - config file "./conf/spider1.conf" does not exist - log.py
+2022-05-30 15:50:54,256 - ERROR - config file "./conf/spider1.conf" does not exist - log.py
